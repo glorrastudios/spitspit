@@ -1,0 +1,67 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="buttonFuncitons">
+			<method name="TurnSoundOn"/>
+			<method name="TurnSoundOff"/>
+			<method name="loadDifferentScene"/>
+			<method name="closeSettingsCanvas"/>
+			<method name="startGame"/>
+			<method name="closeInfo"/>
+			<method name="openInfo"/>
+			<method name="ShowLeaderboard"/>
+			<method name="TurnEffectOff"/>
+			<method name="close"/>
+			<method name="startGame"/>
+			<method name="openSettingsCanvas"/>
+			<method name="RateApp"/>
+			<method name="closeInfo"/>
+			<method name="TurnEffectOn"/>
+			<method name="setting"/>
+		</type>
+		<type fullname="selection">
+			<method name="turnLeft"/>
+			<method name="trunRight"/>
+			<method name="BuyThousandStars"/>
+			<method name="BuyOneChar"/>
+			<method name="BuyUnlockAllChars"/>
+			<method name="select"/>
+			<method name="RemoveAds"/>
+			<method name="useStarToBuy"/>
+		</type>
+		<type fullname="wholeMap">
+			<method name="TurnEffectOff"/>
+			<method name="TurnSoundOn"/>
+			<method name="TurnEffectOn"/>
+			<method name="open"/>
+			<method name="TurnSoundOff"/>
+			<method name="close"/>
+			<method name="TurnEffectOff"/>
+			<method name="TurnSoundOn"/>
+			<method name="TurnEffectOn"/>
+			<method name="open"/>
+			<method name="TurnSoundOff"/>
+			<method name="close"/>
+		</type>
+		<type fullname="tryads">
+			<method name="showAds"/>
+			<method name="cacheAds"/>
+		</type>
+		<type fullname="button3">
+			<method name="shoot"/>
+			<method name="loadDifferentScene"/>
+			<method name="pause"/>
+			<method name="loadDifferentScene"/>
+			<method name="loadDifferentScene"/>
+			<method name="loadDifferentScene"/>
+			<method name="resume"/>
+			<method name="shoot"/>
+			<method name="loadDifferentScene"/>
+			<method name="loadDifferentScene"/>
+			<method name="pause"/>
+			<method name="loadDifferentScene"/>
+			<method name="loadDifferentScene"/>
+			<method name="loadDifferentScene"/>
+			<method name="resume"/>
+		</type>
+	</assembly>
+</linker>

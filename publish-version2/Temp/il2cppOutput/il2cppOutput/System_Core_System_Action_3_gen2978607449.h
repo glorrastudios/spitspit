@@ -1,0 +1,45 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+
+// Soomla.Store.PurchasableVirtualItem
+struct PurchasableVirtualItem_t2555170966;
+// System.String
+struct String_t;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t2606186806;
+// System.IAsyncResult
+struct IAsyncResult_t537683269;
+// System.AsyncCallback
+struct AsyncCallback_t1363551830;
+// System.Object
+struct Il2CppObject;
+
+#include "mscorlib_System_MulticastDelegate2585444626.h"
+#include "mscorlib_System_Void2779279689.h"
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Action`3<Soomla.Store.PurchasableVirtualItem,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>
+struct  Action_3_t2978607449  : public MulticastDelegate_t2585444626
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

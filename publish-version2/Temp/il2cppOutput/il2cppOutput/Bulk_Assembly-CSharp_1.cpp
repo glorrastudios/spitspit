@@ -1,0 +1,16904 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// JSONObject/AddJSONConents
+struct AddJSONConents_t3346118721;
+// System.Object
+struct Il2CppObject;
+// JSONObject
+struct JSONObject_t1752376903;
+// System.IAsyncResult
+struct IAsyncResult_t537683269;
+// System.AsyncCallback
+struct AsyncCallback_t1363551830;
+// JSONObject/FieldNotFound
+struct FieldNotFound_t2014471017;
+// System.String
+struct String_t;
+// JSONObject/GetFieldResponse
+struct GetFieldResponse_t1656258501;
+// layers
+struct layers_t3185235266;
+// UnityEngine.Collider2D
+struct Collider2D_t1890038195;
+// man
+struct man_t107866;
+// player4
+struct player4_t3801399667;
+// wholeMap
+struct wholeMap_t2327764005;
+// UnityEngine.AudioSource
+struct AudioSource_t3628549054;
+// UnityEngine.SpriteRenderer
+struct SpriteRenderer_t2223784725;
+// System.Collections.IEnumerator
+struct IEnumerator_t287207039;
+// UnityEngine.GameObject
+struct GameObject_t4012695102;
+// UnityEngine.Collision2D
+struct Collision2D_t452810033;
+// items
+struct items_t100526016;
+// man/<flasher>c__IteratorC
+struct U3CflasherU3Ec__IteratorC_t191327567;
+// man/<removeVelocity>c__IteratorA
+struct U3CremoveVelocityU3Ec__IteratorA_t4158298865;
+// man/<waitAndDestory>c__IteratorB
+struct U3CwaitAndDestoryU3Ec__IteratorB_t2161889665;
+// map
+struct map_t107868;
+// MonoPInvokeCallbackAttribute
+struct MonoPInvokeCallbackAttribute_t60011986;
+// System.Type
+struct Type_t;
+// moving
+struct moving_t3226708046;
+// player3
+struct player3_t3801399666;
+// nextScene
+struct nextScene_t1205632345;
+// NullCheckable
+struct NullCheckable_t2664269947;
+// ObjectDictionary
+struct ObjectDictionary_t2756997461;
+// System.Collections.Generic.List`1<UnityEngine.UnityKeyValuePair`2<System.String,System.String>>
+struct List_1_t2132059976;
+// ObjectKvp
+struct ObjectKvp_t514353286;
+// UnityEngine.UnityKeyValuePair`2<System.String,System.String>
+struct UnityKeyValuePair_2_t1335101007;
+// ObjectDictionary/<SetKeyValuePair>c__AnonStorey17
+struct U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577;
+// obstacle
+struct obstacle_t361935503;
+// UnityEngine.Animator
+struct Animator_t792326996;
+// obstacle/<waitAndDestroy>c__IteratorD
+struct U3CwaitAndDestroyU3Ec__IteratorD_t402599005;
+// peopleGenerating
+struct peopleGenerating_t4061532385;
+// peopleGenerating/<newPeople>c__IteratorE
+struct U3CnewPeopleU3Ec__IteratorE_t4244967391;
+// powerEffect
+struct powerEffect_t27170550;
+// powerUps
+struct powerUps_t858548723;
+// tiles
+struct tiles_t110363525;
+// selection
+struct selection_t2579001740;
+// soomlascript
+struct soomlascript_t3105050042;
+// UnityEngine.AudioClip
+struct AudioClip_t3714538611;
+// character
+struct character_t1564195625;
+// selection/<changePoisition>c__Iterator12
+struct U3CchangePoisitionU3Ec__Iterator12_t3659782428;
+// selection/<waitAndRecover>c__Iterator13
+struct U3CwaitAndRecoverU3Ec__Iterator13_t3837339923;
+// shooting
+struct shooting_t3949701987;
+// Soomla.BadgeReward
+struct BadgeReward_t3851063847;
+// Soomla.CoreEvents
+struct CoreEvents_t2723118925;
+// Soomla.Reward
+struct Reward_t1570165988;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t2606186806;
+// Soomla.CoreEvents/Action
+struct Action_t1955883606;
+// Soomla.CoreSettings
+struct CoreSettings_t4288392855;
+// Soomla.CustomEvent
+struct CustomEvent_t3287004958;
+// Soomla.KeyValueStorage
+struct KeyValueStorage_t3102778686;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_t1765447871;
+// Soomla.KeyValueStorageAndroid
+struct KeyValueStorageAndroid_t596220955;
+// Soomla.KeyValueStorageIOS
+struct KeyValueStorageIOS_t560110905;
+// Soomla.KeyValueStorageWP
+struct KeyValueStorageWP_t2912709079;
+// Soomla.MarketItemsRefreshFailedEvent
+struct MarketItemsRefreshFailedEvent_t3126712315;
+// Soomla.RandomReward
+struct RandomReward_t2987995015;
+// System.Collections.Generic.List`1<Soomla.Reward>
+struct List_1_t2367124957;
+// System.Collections.Generic.Dictionary`2<System.String,Soomla.Reward>
+struct Dictionary_2_t3207863892;
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_t2474804324;
+// Soomla.RewardGivenEvent
+struct RewardGivenEvent_t2233781089;
+// UnityEngine.Object
+struct Object_t3878351788;
+struct Object_t3878351788_marshaled_pinvoke;
+// Soomla.RewardStorage
+struct RewardStorage_t2389422529;
+// Soomla.SequenceReward
+struct SequenceReward_t1164674053;
+// Soomla.RewardStorageAndroid
+struct RewardStorageAndroid_t4093838904;
+// Soomla.RewardStorageIOS
+struct RewardStorageIOS_t465018326;
+// Soomla.RewardStorageWP
+struct RewardStorageWP_t277242266;
+// Soomla.RewardTakenEvent
+struct RewardTakenEvent_t3557762135;
+// Soomla.Schedule
+struct Schedule_t2787348556;
+// System.Collections.Generic.List`1<Soomla.Schedule/DateTimeRange>
+struct List_1_t3323622203;
+// Soomla.Schedule/DateTimeRange
+struct DateTimeRange_t2526663234;
+// Soomla.Singletons.BaseBehaviour
+struct BaseBehaviour_t2889047145;
+// UnityEngine.Transform
+struct Transform_t284553113;
+// Soomla.Singletons.CodeGeneratedSingleton
+struct CodeGeneratedSingleton_t1574437830;
+// Soomla.Singletons.SceneSingleton
+struct SceneSingleton_t2607974556;
+// Soomla.Singletons.UnitySingleton
+struct UnitySingleton_t1353646035;
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.MonoBehaviour,System.Action`1<Soomla.Singletons.UnitySingleton>>[]
+struct KeyValuePair_2U5BU5D_t3450430460;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.MonoBehaviour,System.Action`1<Soomla.Singletons.UnitySingleton>>>
+struct IEnumerable_1_t3480507989;
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>[]
+struct KeyValuePair_2U5BU5D_t346249057;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+struct IEnumerable_1_t1890143508;
+// Soomla.SoomlaAndroidUtil
+struct SoomlaAndroidUtil_t128486615;
+// Soomla.SoomlaEditorScript
+struct SoomlaEditorScript_t75812892;
+// Soomla.SoomlaEvent
+struct SoomlaEvent_t2098687264;
+// Soomla.SoomlaManifestTools
+struct SoomlaManifestTools_t2838014578;
+// Soomla.SoomlaPostBuildTools
+struct SoomlaPostBuildTools_t573885585;
+// Soomla.Store.BillingNotSupportedEvent
+struct BillingNotSupportedEvent_t1654379770;
+// Soomla.Store.BillingSupportedEvent
+struct BillingSupportedEvent_t1980952477;
+// Soomla.Store.CurrencyBalanceChangedEvent
+struct CurrencyBalanceChangedEvent_t2496773927;
+// Soomla.Store.VirtualCurrency
+struct VirtualCurrency_t3752897010;
+// Soomla.Store.EquippableVG
+struct EquippableVG_t2375986625;
+// Soomla.Store.EquippableVG/EquippingModel
+struct EquippingModel_t2267691719;
+// Soomla.Store.PurchaseType
+struct PurchaseType_t2779557329;
+// Soomla.Store.Example.Example
+struct Example_t1171912404;
+// Soomla.Store.Example.ExampleEventHandler
+struct ExampleEventHandler_t2092820292;
+// Soomla.Store.PurchasableVirtualItem
+struct PurchasableVirtualItem_t2555170966;
+// Soomla.Store.VirtualGood
+struct VirtualGood_t840235038;
+// Soomla.Store.UpgradeVG
+struct UpgradeVG_t3350816643;
+// Soomla.Store.Example.ExampleWindow
+struct ExampleWindow_t2922717028;
+// Soomla.Store.Example.MuffinRushAssets
+struct MuffinRushAssets_t3830037138;
+// Soomla.Store.VirtualCurrency[]
+struct VirtualCurrencyU5BU5D_t2516616711;
+// Soomla.Store.VirtualGood[]
+struct VirtualGoodU5BU5D_t2990489003;
+// Soomla.Store.VirtualCurrencyPack[]
+struct VirtualCurrencyPackU5BU5D_t4125081802;
+// Soomla.Store.VirtualCategory[]
+struct VirtualCategoryU5BU5D_t2340540102;
+// Soomla.Store.GoodBalanceChangedEvent
+struct GoodBalanceChangedEvent_t296625915;
+// Soomla.Store.GoodEquippedEvent
+struct GoodEquippedEvent_t859823860;
+// Soomla.Store.GoodUnEquippedEvent
+struct GoodUnEquippedEvent_t342443035;
+// Soomla.Store.GoodUpgradeEvent
+struct GoodUpgradeEvent_t1651210545;
+// Soomla.Store.IabServiceStartedEvent
+struct IabServiceStartedEvent_t1913056570;
+// Soomla.Store.IabServiceStoppedEvent
+struct IabServiceStoppedEvent_t100502382;
+// Soomla.Store.InsufficientFundsException
+struct InsufficientFundsException_t2202612346;
+// Soomla.Store.ItemPurchasedEvent
+struct ItemPurchasedEvent_t561905856;
+// Soomla.Store.ItemPurchaseStartedEvent
+struct ItemPurchaseStartedEvent_t2088341475;
+// Soomla.Store.LifetimeVG
+struct LifetimeVG_t1847981616;
+// Soomla.Store.MarketItem
+struct MarketItem_t3274808165;
+// Soomla.Store.MarketItemsRefreshFinishedEvent
+struct MarketItemsRefreshFinishedEvent_t3341666023;
+// System.Collections.Generic.List`1<Soomla.Store.MarketItem>
+struct List_1_t4071767134;
+// Soomla.Store.MarketItemsRefreshStartedEvent
+struct MarketItemsRefreshStartedEvent_t2958701446;
+// Soomla.Store.MarketPurchaseCancelledEvent
+struct MarketPurchaseCancelledEvent_t2862479484;
+// Soomla.Store.MarketPurchaseEvent
+struct MarketPurchaseEvent_t1078547699;
+// Soomla.Store.MarketPurchaseStartedEvent
+struct MarketPurchaseStartedEvent_t970257036;
+// Soomla.Store.MarketRefundEvent
+struct MarketRefundEvent_t3485523420;
+// Soomla.Store.NotEnoughGoodsException
+struct NotEnoughGoodsException_t4079965266;
+// Soomla.Store.PurchaseWithMarket
+struct PurchaseWithMarket_t3391409785;
+// Soomla.Store.PurchaseWithVirtualItem
+struct PurchaseWithVirtualItem_t2966680205;
+// Soomla.Store.VirtualItem
+struct VirtualItem_t840299124;
+// Soomla.Store.PurchaseWithVirtualItem/<Buy>c__AnonStorey19
+struct U3CBuyU3Ec__AnonStorey19_t4123054747;
+// Soomla.Store.RestoreTransactionsFinishedEvent
+struct RestoreTransactionsFinishedEvent_t63445243;
+// Soomla.Store.RestoreTransactionsStartedEvent
+struct RestoreTransactionsStartedEvent_t82005746;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array2840145358.h"
+#include "AssemblyU2DCSharp_JSONObject_AddJSONConents3346118721.h"
+#include "AssemblyU2DCSharp_JSONObject_AddJSONConents3346118721MethodDeclarations.h"
+#include "mscorlib_System_Object837106420.h"
+#include "mscorlib_System_IntPtr676692020.h"
+#include "mscorlib_System_Void2779279689.h"
+#include "AssemblyU2DCSharp_JSONObject1752376903.h"
+#include "mscorlib_System_AsyncCallback1363551830.h"
+#include "AssemblyU2DCSharp_JSONObject_FieldNotFound2014471017.h"
+#include "AssemblyU2DCSharp_JSONObject_FieldNotFound2014471017MethodDeclarations.h"
+#include "mscorlib_System_String968488902.h"
+#include "AssemblyU2DCSharp_JSONObject_GetFieldResponse1656258501.h"
+#include "AssemblyU2DCSharp_JSONObject_GetFieldResponse1656258501MethodDeclarations.h"
+#include "AssemblyU2DCSharp_JSONObject_Type2622298.h"
+#include "AssemblyU2DCSharp_JSONObject_Type2622298MethodDeclarations.h"
+#include "AssemblyU2DCSharp_layers3185235266.h"
+#include "AssemblyU2DCSharp_layers3185235266MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Component2126946602MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform284553113MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform284553113.h"
+#include "UnityEngine_UnityEngine_Collider2D1890038195.h"
+#include "mscorlib_System_String968488902MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object3878351788MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject4012695102MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject4012695102.h"
+#include "mscorlib_System_Boolean211005341.h"
+#include "UnityEngine_UnityEngine_Vector33525329789.h"
+#include "UnityEngine_UnityEngine_Quaternion1891715979.h"
+#include "UnityEngine_UnityEngine_Object3878351788.h"
+#include "AssemblyU2DCSharp_man107866.h"
+#include "AssemblyU2DCSharp_man107866MethodDeclarations.h"
+#include "AssemblyU2DCSharp_player43801399667.h"
+#include "AssemblyU2DCSharp_wholeMap2327764005.h"
+#include "mscorlib_System_Single958209021.h"
+#include "mscorlib_System_Int322847414787.h"
+#include "UnityEngine_UnityEngine_AudioSource3628549054.h"
+#include "UnityEngine_UnityEngine_Component2126946602.h"
+#include "UnityEngine_UnityEngine_Coroutine2246592261.h"
+#include "UnityEngine_UnityEngine_SpriteRenderer2223784725.h"
+#include "AssemblyU2DCSharp_wholeMap2327764005MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Time1525492538MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector33525329789MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen514686775.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen514686775MethodDeclarations.h"
+#include "AssemblyU2DCSharp_man_U3CremoveVelocityU3Ec__Itera4158298865MethodDeclarations.h"
+#include "AssemblyU2DCSharp_man_U3CremoveVelocityU3Ec__Itera4158298865.h"
+#include "UnityEngine_UnityEngine_PlayerPrefs3733964924MethodDeclarations.h"
+#include "mscorlib_System_Int322847414787MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioSource3628549054MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Quaternion1891715979MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text3286458198.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text3286458198MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioClip3714538611.h"
+#include "AssemblyU2DCSharp_man_U3CwaitAndDestoryU3Ec__Itera2161889665MethodDeclarations.h"
+#include "AssemblyU2DCSharp_man_U3CwaitAndDestoryU3Ec__Itera2161889665.h"
+#include "AssemblyU2DCSharp_man_U3CflasherU3Ec__IteratorC191327567MethodDeclarations.h"
+#include "AssemblyU2DCSharp_man_U3CflasherU3Ec__IteratorC191327567.h"
+#include "UnityEngine_UnityEngine_Collision2D452810033.h"
+#include "UnityEngine_UnityEngine_Collision2D452810033MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ContactPoint2D3963746319MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector23525329788MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector23525329788.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "UnityEngine_UnityEngine_ContactPoint2D3963746319.h"
+#include "AssemblyU2DCSharp_items100526016.h"
+#include "mscorlib_System_Object837106420MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds1291133240MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color1588175760MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SpriteRenderer2223784725MethodDeclarations.h"
+#include "mscorlib_System_UInt32985925326.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds1291133240.h"
+#include "UnityEngine_UnityEngine_Color1588175760.h"
+#include "mscorlib_System_NotSupportedException1374155497MethodDeclarations.h"
+#include "mscorlib_System_NotSupportedException1374155497.h"
+#include "AssemblyU2DCSharp_map107868.h"
+#include "AssemblyU2DCSharp_map107868MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Random3963434288MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mathf1597001355MethodDeclarations.h"
+#include "AssemblyU2DCSharp_MonoPInvokeCallbackAttribute60011986.h"
+#include "AssemblyU2DCSharp_MonoPInvokeCallbackAttribute60011986MethodDeclarations.h"
+#include "mscorlib_System_Type2779229935.h"
+#include "mscorlib_System_Attribute498693649MethodDeclarations.h"
+#include "AssemblyU2DCSharp_moving3226708046.h"
+#include "AssemblyU2DCSharp_moving3226708046MethodDeclarations.h"
+#include "AssemblyU2DCSharp_player33801399666.h"
+#include "AssemblyU2DCSharp_nextScene1205632345.h"
+#include "AssemblyU2DCSharp_nextScene1205632345MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SceneManagement_SceneManag1523288937MethodDeclarations.h"
+#include "AssemblyU2DCSharp_NullCheckable2664269947.h"
+#include "AssemblyU2DCSharp_NullCheckable2664269947MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ObjectDictionary2756997461.h"
+#include "AssemblyU2DCSharp_ObjectDictionary2756997461MethodDeclarations.h"
+#include "AssemblyU2DCSharp_UnityEngine_UnityDictionary_1_ge1897667724MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2132059976.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1311312255MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2132059976MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera3692062543MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ObjectKvp514353286.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera3692062543.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1311312255.h"
+#include "AssemblyU2DCSharp_UnityEngine_UnityKeyValuePair_2_1335101007.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat217842968MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat217842968.h"
+#include "AssemblyU2DCSharp_ObjectKvp514353286MethodDeclarations.h"
+#include "AssemblyU2DCSharp_UnityEngine_UnityKeyValuePair_2_1335101007MethodDeclarations.h"
+#include "AssemblyU2DCSharp_UnityEngine_UnityNameValuePair_13857620748MethodDeclarations.h"
+#include "AssemblyU2DCSharp_UnityEngine_UnityNameValuePair_13857620748.h"
+#include "AssemblyU2DCSharp_ObjectDictionary_U3CSetKeyValueP3905732577MethodDeclarations.h"
+#include "mscorlib_System_Predicate_1_gen1085317184MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ObjectDictionary_U3CSetKeyValueP3905732577.h"
+#include "mscorlib_System_Predicate_1_gen1085317184.h"
+#include "AssemblyU2DCSharp_obstacle361935503.h"
+#include "AssemblyU2DCSharp_obstacle361935503MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Animator792326996.h"
+#include "UnityEngine_UnityEngine_Animator792326996MethodDeclarations.h"
+#include "AssemblyU2DCSharp_obstacle_U3CwaitAndDestroyU3Ec__I402599005MethodDeclarations.h"
+#include "AssemblyU2DCSharp_obstacle_U3CwaitAndDestroyU3Ec__I402599005.h"
+#include "AssemblyU2DCSharp_peopleGenerating4061532385.h"
+#include "AssemblyU2DCSharp_peopleGenerating4061532385MethodDeclarations.h"
+#include "AssemblyU2DCSharp_peopleGenerating_U3CnewPeopleU3E4244967391MethodDeclarations.h"
+#include "AssemblyU2DCSharp_peopleGenerating_U3CnewPeopleU3E4244967391.h"
+#include "AssemblyU2DCSharp_player33801399666MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Camera3533968274MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Camera3533968274.h"
+#include "AssemblyU2DCSharp_player43801399667MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Resources1543782994MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Material1886596500MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Debug1588791936MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Sprite4006040370.h"
+#include "UnityEngine_UnityEngine_RuntimeAnimatorController3860414472.h"
+#include "UnityEngine_UnityEngine_Material1886596500.h"
+#include "UnityEngine_UnityEngine_Texture1769722184.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen216530284.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen216530284MethodDeclarations.h"
+#include "AssemblyU2DCSharp_powerEffect27170550.h"
+#include "AssemblyU2DCSharp_powerEffect27170550MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem56787138MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem56787138.h"
+#include "AssemblyU2DCSharp_powerUps858548723.h"
+#include "AssemblyU2DCSharp_powerUps858548723MethodDeclarations.h"
+#include "AssemblyU2DCSharp_tiles110363525.h"
+#include "AssemblyU2DCSharp_selection2579001740.h"
+#include "AssemblyU2DCSharp_selection2579001740MethodDeclarations.h"
+#include "AssemblyU2DCSharp_soomlascript3105050042.h"
+#include "AssemblyU2DCSharp_soomlascript3105050042MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button990034267.h"
+#include "AssemblyU2DCSharp_selection_U3CchangePoisitionU3Ec3659782428MethodDeclarations.h"
+#include "AssemblyU2DCSharp_selection_U3CchangePoisitionU3Ec3659782428.h"
+#include "AssemblyU2DCSharp_selection_U3CwaitAndRecoverU3Ec_3837339923MethodDeclarations.h"
+#include "AssemblyU2DCSharp_selection_U3CwaitAndRecoverU3Ec_3837339923.h"
+#include "AssemblyU2DCSharp_character1564195625MethodDeclarations.h"
+#include "AssemblyU2DCSharp_character1564195625.h"
+#include "UnityEngine_UI_UnityEngine_UI_Selectable3621744255MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Selectable3621744255.h"
+#include "AssemblyU2DCSharp_shooting3949701987.h"
+#include "AssemblyU2DCSharp_shooting3949701987MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_BadgeReward3851063847.h"
+#include "AssemblyU2DCSharp_Soomla_BadgeReward3851063847MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Reward1570165988MethodDeclarations.h"
+#include "AssemblyU2DCSharp_JSONObject1752376903MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Reward1570165988.h"
+#include "AssemblyU2DCSharp_Soomla_CoreEvents2723118925.h"
+#include "AssemblyU2DCSharp_Soomla_CoreEvents2723118925MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Singletons_CodeGeneratedS1574437830MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1718618693MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen229952182MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1718618693.h"
+#include "System_Core_System_Action_2_gen229952182.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2606186806.h"
+#include "AssemblyU2DCSharp_Soomla_Singletons_UnitySingleton1353646035MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaUtils2113407799MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_CoreSettings4288392855MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Singletons_UnitySingleton1353646035.h"
+#include "AssemblyU2DCSharp_Soomla_CoreEvents_Action1955883606.h"
+#include "AssemblyU2DCSharp_Soomla_CoreEvents_Action1955883606MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_CoreSettings4288392855.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaEditorScript75812892MethodDeclarations.h"
+#include "mscorlib_System_Boolean211005341MethodDeclarations.h"
+#include "mscorlib_System_Convert1097883944MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_CustomEvent3287004958.h"
+#include "AssemblyU2DCSharp_Soomla_CustomEvent3287004958MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaEvent2098687264MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_JSONConsts546624013.h"
+#include "AssemblyU2DCSharp_Soomla_JSONConsts546624013MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_KeyValueStorage3102778686.h"
+#include "AssemblyU2DCSharp_Soomla_KeyValueStorage3102778686MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_KeyValueStorageIOS560110905MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_KeyValueStorageIOS560110905.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1765447871.h"
+#include "AssemblyU2DCSharp_Soomla_KeyValueStorageAndroid596220955.h"
+#include "AssemblyU2DCSharp_Soomla_KeyValueStorageAndroid596220955MethodDeclarations.h"
+#include "mscorlib_System_Runtime_InteropServices_Marshal3977632096MethodDeclarations.h"
+#include "mscorlib_System_IntPtr676692020MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1765447871MethodDeclarations.h"
+#include "mscorlib_ArrayTypes.h"
+#include "mscorlib_System_Char2778706699.h"
+#include "AssemblyU2DCSharp_Soomla_KeyValueStorageWP2912709079.h"
+#include "AssemblyU2DCSharp_Soomla_KeyValueStorageWP2912709079MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_MarketItemsRefreshFailedE3126712315.h"
+#include "AssemblyU2DCSharp_Soomla_MarketItemsRefreshFailedE3126712315MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_RandomReward2987995015.h"
+#include "AssemblyU2DCSharp_Soomla_RandomReward2987995015MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2367124957.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2367124957MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2549335872MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat635118864MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2549335872.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat635118864.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat452907949MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat452907949.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaEntity_1_gen1250626721MethodDeclarations.h"
+#include "mscorlib_System_Random922188920MethodDeclarations.h"
+#include "mscorlib_System_Random922188920.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaEntity_1_gen1250626721.h"
+#include "AssemblyU2DCSharp_Soomla_Schedule2787348556MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaExtensions366383960MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Schedule2787348556.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3207863892.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaExtensions366383960.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3207863892MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_RewardStorage2389422529MethodDeclarations.h"
+#include "mscorlib_System_Activator690001546MethodDeclarations.h"
+#include "mscorlib_System_Type2779229935MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Va835033690MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V2974891833MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V2974891833.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Va835033690.h"
+#include "AssemblyU2DCSharp_Soomla_RewardGivenEvent2233781089.h"
+#include "AssemblyU2DCSharp_Soomla_RewardGivenEvent2233781089MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_RewardStorage2389422529.h"
+#include "AssemblyU2DCSharp_Soomla_RewardStorageIOS465018326MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_RewardStorageIOS465018326.h"
+#include "mscorlib_System_DateTime339033936.h"
+#include "AssemblyU2DCSharp_Soomla_SequenceReward1164674053.h"
+#include "AssemblyU2DCSharp_Soomla_RewardStorageAndroid4093838904.h"
+#include "AssemblyU2DCSharp_Soomla_RewardStorageAndroid4093838904MethodDeclarations.h"
+#include "mscorlib_System_Int642847414882.h"
+#include "mscorlib_System_TimeSpan763862892MethodDeclarations.h"
+#include "mscorlib_System_DateTime339033936MethodDeclarations.h"
+#include "mscorlib_System_TimeSpan763862892.h"
+#include "mscorlib_System_Double534516614.h"
+#include "AssemblyU2DCSharp_Soomla_RewardStorageWP277242266.h"
+#include "AssemblyU2DCSharp_Soomla_RewardStorageWP277242266MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_RewardTakenEvent3557762135.h"
+#include "AssemblyU2DCSharp_Soomla_RewardTakenEvent3557762135MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3323622203.h"
+#include "AssemblyU2DCSharp_Soomla_Schedule_Recurrence3771856720.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3323622203MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Schedule_DateTimeRange2526663234MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Schedule_DateTimeRange2526663234.h"
+#include "mscorlib_System_Math2778998461MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera1409405195MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera1409405195.h"
+#include "mscorlib_System_DayOfWeek4050023580.h"
+#include "AssemblyU2DCSharp_Soomla_Schedule_Recurrence3771856720MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_SequenceReward1164674053MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Singletons_BaseBehaviour2889047145.h"
+#include "AssemblyU2DCSharp_Soomla_Singletons_BaseBehaviour2889047145MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Singletons_CodeGeneratedS1574437830.h"
+#include "AssemblyU2DCSharp_Soomla_Singletons_SceneSingleton2607974556.h"
+#include "AssemblyU2DCSharp_Soomla_Singletons_SceneSingleton2607974556MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3466193750MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3232370050MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3466193750.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3232370050.h"
+#include "System_Core_System_Linq_Enumerable4285654829MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_608353633MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1502098740MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_608353633.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1119822335.h"
+#include "System_Core_System_Linq_Enumerable4285654829.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
+#include "mscorlib_System_Action_1_gen1502098740.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1119822335MethodDeclarations.h"
+#include "mscorlib_System_Exception1967233988MethodDeclarations.h"
+#include "mscorlib_System_Reflection_MemberInfo2843033814MethodDeclarations.h"
+#include "mscorlib_System_Reflection_MemberInfo2843033814.h"
+#include "mscorlib_System_Exception1967233988.h"
+#include "mscorlib_System_RuntimeTypeHandle1864875887.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaAndroidUtil128486615.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaAndroidUtil128486615MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaEditorScript75812892.h"
+#include "UnityEngine_UnityEngine_ScriptableObject184905905MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ScriptableObject184905905.h"
+#include "AssemblyU2DCSharp_UnityEngine_UnityDictionary_2_ge4150015661MethodDeclarations.h"
+#include "AssemblyU2DCSharp_UnityEngine_UnityDictionary_2_ge4150015661.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaEvent2098687264.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaManifestTools2838014578.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaManifestTools2838014578MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaPostBuildTools573885585.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaPostBuildTools573885585MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaUtils2113407799.h"
+#include "AssemblyU2DCSharp_Soomla_Store_AndroidJNIHandler3521474922.h"
+#include "AssemblyU2DCSharp_Soomla_Store_AndroidJNIHandler3521474922MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_BillingNotSupported1654379770.h"
+#include "AssemblyU2DCSharp_Soomla_Store_BillingNotSupported1654379770MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_BillingSupportedEve1980952477.h"
+#include "AssemblyU2DCSharp_Soomla_Store_BillingSupportedEve1980952477MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_CurrencyBalanceChan2496773927.h"
+#include "AssemblyU2DCSharp_Soomla_Store_CurrencyBalanceChan2496773927MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualCurrency3752897010.h"
+#include "AssemblyU2DCSharp_Soomla_Store_EquippableVG2375986625.h"
+#include "AssemblyU2DCSharp_Soomla_Store_EquippableVG2375986625MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_EquippableVG_Equipp2267691719.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchaseType2779557329.h"
+#include "AssemblyU2DCSharp_Soomla_Store_LifetimeVG1847981616MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge190145395MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge190145395.h"
+#include "AssemblyU2DCSharp_Soomla_Store_EquippableVG_Equipp2267691719MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_LifetimeVG1847981616.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualGoodsStorage1296446118MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualItem840299124MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreInfo3860026085MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4146198159MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaEntity_1_gen520759857MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1637194007MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4017944295MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_NotEnoughGoodsExcep4079965266MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualCategory3228006111.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4146198159.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualGood840235038.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4017944295.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualItemNotFound2582480248.h"
+#include "mscorlib_System_InvalidCastException922874574.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualItem840299124.h"
+#include "AssemblyU2DCSharp_Soomla_SoomlaEntity_1_gen520759857.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreInfo3860026085.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1637194007.h"
+#include "AssemblyU2DCSharp_Soomla_Store_NotEnoughGoodsExcep4079965266.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_Example1171912404.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_Example1171912404MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_ExampleWind2922717028MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_ExampleEven2092820292.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_ExampleEven2092820292MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen2978607449MethodDeclarations.h"
+#include "mscorlib_System_Delegate3660574010MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2703623671MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen4228553526MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2524439330MethodDeclarations.h"
+#include "System_Core_System_Action_2_gen1008200779MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreEvents_Action1955883606MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen636699473MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen1173890205MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen359458046MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2995867492MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreEvents3899538192.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreEvents3899538192MethodDeclarations.h"
+#include "System_Core_System_Action_3_gen2978607449.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchasableVirtualI2555170966.h"
+#include "mscorlib_System_Delegate3660574010.h"
+#include "mscorlib_System_Action_1_gen2703623671.h"
+#include "System_Core_System_Action_2_gen4228553526.h"
+#include "mscorlib_System_Action_1_gen2524439330.h"
+#include "System_Core_System_Action_2_gen1008200779.h"
+#include "AssemblyU2DCSharp_Soomla_Store_UpgradeVG3350816643.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreEvents_Action1955883606.h"
+#include "System_Core_System_Action_3_gen636699473.h"
+#include "System_Core_System_Action_3_gen1173890205.h"
+#include "mscorlib_System_Action_1_gen359458046.h"
+#include "mscorlib_System_Action_1_gen2995867492.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_ExampleWind2922717028.h"
+#include "UnityEngine_UnityEngine_Screen3994030297MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_VirtualItemReward1848549122MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_MuffinRushA3830037138MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_SoomlaStore3150320552MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D2509538522.h"
+#include "UnityEngine_UnityEngine_Font1525081276.h"
+#include "AssemblyU2DCSharp_Soomla_VirtualItemReward1848549122.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_MuffinRushA3830037138.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreInventory1542337393MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen254888683.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen254888683MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g4147236426MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2640950052MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat726733044MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualCurrencyPack1843991083.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat726733044.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g4147236426.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2640950052.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1848703245MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1848703245.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_K4171978525.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_ExampleWind3778983990.h"
+#include "UnityEngine_UnityEngine_Input1593691127MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Application450040189MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RuntimePlatform1574985880.h"
+#include "UnityEngine_UnityEngine_KeyCode2371581209.h"
+#include "UnityEngine_UnityEngine_GUI1522956648MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUIStyle1006925219MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUISkin2614611333MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUISkin2614611333.h"
+#include "UnityEngine_UnityEngine_GUIStyle1006925219.h"
+#include "UnityEngine_UnityEngine_Rect1525428817MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TextAnchor551935663.h"
+#include "UnityEngine_UnityEngine_Rect1525428817.h"
+#include "mscorlib_System_Double534516614MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchaseWithVirtual2966680205.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchaseWithMarket3391409785.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketItem3274808165.h"
+#include "AssemblyU2DCSharp_Soomla_Store_Example_ExampleWind3778983990MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualCurrency3752897010MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchaseWithMarket3391409785MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualCurrencyPack1843991083MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchaseWithVirtual2966680205MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_SingleUseVG91284678MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualCategory3228006111MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_SingleUseVG91284678.h"
+#include "Assembly-CSharp_ArrayTypes.h"
+#include "AssemblyU2DCSharp_Soomla_Store_GoodBalanceChangedEv296625915.h"
+#include "AssemblyU2DCSharp_Soomla_Store_GoodBalanceChangedEv296625915MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_GoodEquippedEvent859823860.h"
+#include "AssemblyU2DCSharp_Soomla_Store_GoodEquippedEvent859823860MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_GoodUnEquippedEvent342443035.h"
+#include "AssemblyU2DCSharp_Soomla_Store_GoodUnEquippedEvent342443035MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_GoodUpgradeEvent1651210545.h"
+#include "AssemblyU2DCSharp_Soomla_Store_GoodUpgradeEvent1651210545MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_IabServiceStartedEv1913056570.h"
+#include "AssemblyU2DCSharp_Soomla_Store_IabServiceStartedEv1913056570MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_IabServiceStoppedEve100502382.h"
+#include "AssemblyU2DCSharp_Soomla_Store_IabServiceStoppedEve100502382MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_InsufficientFundsEx2202612346.h"
+#include "AssemblyU2DCSharp_Soomla_Store_InsufficientFundsEx2202612346MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_IOS_ErrorCodes2730253446.h"
+#include "AssemblyU2DCSharp_Soomla_Store_IOS_ErrorCodes2730253446MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualItemNotFound2582480248MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_ItemPurchasedEvent561905856.h"
+#include "AssemblyU2DCSharp_Soomla_Store_ItemPurchasedEvent561905856MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_ItemPurchaseStarted2088341475.h"
+#include "AssemblyU2DCSharp_Soomla_Store_ItemPurchaseStarted2088341475MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_VirtualGood840235038MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketItem3274808165MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketItemsRefreshF3341666023.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketItemsRefreshF3341666023MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4071767134.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketItemsRefreshS2958701446.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketItemsRefreshS2958701446MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketPurchaseCance2862479484.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketPurchaseCance2862479484MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketPurchaseEvent1078547699.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketPurchaseEvent1078547699MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketPurchaseStarte970257036.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketPurchaseStarte970257036MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketRefundEvent3485523420.h"
+#include "AssemblyU2DCSharp_Soomla_Store_MarketRefundEvent3485523420MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchasableVirtualI2555170966MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchaseType2779557329MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchaseWithVirtual4123054747MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreEvents_RunLater742861702MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_PurchaseWithVirtual4123054747.h"
+#include "AssemblyU2DCSharp_Soomla_Store_StoreEvents_RunLater742861702.h"
+#include "AssemblyU2DCSharp_Soomla_Store_RestoreTransactionsFi63445243.h"
+#include "AssemblyU2DCSharp_Soomla_Store_RestoreTransactionsFi63445243MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Soomla_Store_RestoreTransactionsSt82005746.h"
+#include "AssemblyU2DCSharp_Soomla_Store_RestoreTransactionsSt82005746MethodDeclarations.h"
+
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m3652735468(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<player4>()
+#define GameObject_GetComponent_Tisplayer4_t3801399667_m770673806(__this, method) ((  player4_t3801399667 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<wholeMap>()
+#define GameObject_GetComponent_TiswholeMap_t2327764005_m1775881880(__this, method) ((  wholeMap_t2327764005 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m267839954_gshared (Component_t2126946602 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisIl2CppObject_m267839954(__this, method) ((  Il2CppObject * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
+#define Component_GetComponent_TisAudioSource_t3628549054_m3821406207(__this, method) ((  AudioSource_t3628549054 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.SpriteRenderer>()
+#define Component_GetComponent_TisSpriteRenderer_t2223784725_m4090179846(__this, method) ((  SpriteRenderer_t2223784725 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<items>()
+#define GameObject_GetComponent_Tisitems_t100526016_m2173667233(__this, method) ((  items_t100526016 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<player3>()
+#define GameObject_GetComponent_Tisplayer3_t3801399666_m770644015(__this, method) ((  player3_t3801399666 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Animator>()
+#define Component_GetComponent_TisAnimator_t792326996_m4147395588(__this, method) ((  Animator_t792326996 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.SpriteRenderer>()
+#define GameObject_GetComponent_TisSpriteRenderer_t2223784725_m3588502113(__this, method) ((  SpriteRenderer_t2223784725 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<tiles>()
+#define Component_GetComponent_Tistiles_t110363525_m2063709460(__this, method) ((  tiles_t110363525 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<powerEffect>()
+#define GameObject_GetComponent_TispowerEffect_t27170550_m2133836587(__this, method) ((  powerEffect_t27170550 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<soomlascript>()
+#define GameObject_GetComponent_Tissoomlascript_t3105050042_m2183182819(__this, method) ((  soomlascript_t3105050042 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<character>()
+#define GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(__this, method) ((  character_t1564195625 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 Soomla.Singletons.UnitySingleton::GetSynchronousCodeGeneratedInstance<System.Object>()
+extern "C"  Il2CppObject * UnitySingleton_GetSynchronousCodeGeneratedInstance_TisIl2CppObject_m1410188865_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+#define UnitySingleton_GetSynchronousCodeGeneratedInstance_TisIl2CppObject_m1410188865(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))UnitySingleton_GetSynchronousCodeGeneratedInstance_TisIl2CppObject_m1410188865_gshared)(__this /* static, unused */, method)
+// !!0 Soomla.Singletons.UnitySingleton::GetSynchronousCodeGeneratedInstance<Soomla.CoreEvents>()
+#define UnitySingleton_GetSynchronousCodeGeneratedInstance_TisCoreEvents_t2723118925_m3960391368(__this /* static, unused */, method) ((  CoreEvents_t2723118925 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))UnitySingleton_GetSynchronousCodeGeneratedInstance_TisIl2CppObject_m1410188865_gshared)(__this /* static, unused */, method)
+// System.Void Soomla.SoomlaExtensions::AddOrUpdate<System.Object>(System.Collections.Generic.Dictionary`2<System.String,!!0>,System.String,!!0)
+extern "C"  void SoomlaExtensions_AddOrUpdate_TisIl2CppObject_m3100943315_gshared (Il2CppObject * __this /* static, unused */, Dictionary_2_t2474804324 * p0, String_t* p1, Il2CppObject * p2, const MethodInfo* method);
+#define SoomlaExtensions_AddOrUpdate_TisIl2CppObject_m3100943315(__this /* static, unused */, p0, p1, p2, method) ((  void (*) (Il2CppObject * /* static, unused */, Dictionary_2_t2474804324 *, String_t*, Il2CppObject *, const MethodInfo*))SoomlaExtensions_AddOrUpdate_TisIl2CppObject_m3100943315_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Void Soomla.SoomlaExtensions::AddOrUpdate<Soomla.Reward>(System.Collections.Generic.Dictionary`2<System.String,!!0>,System.String,!!0)
+#define SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923(__this /* static, unused */, p0, p1, p2, method) ((  void (*) (Il2CppObject * /* static, unused */, Dictionary_2_t3207863892 *, String_t*, Reward_t1570165988 *, const MethodInfo*))SoomlaExtensions_AddOrUpdate_TisIl2CppObject_m3100943315_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0[] System.Linq.Enumerable::ToArray<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  KeyValuePair_2U5BU5D_t346249057* Enumerable_ToArray_TisKeyValuePair_2_t3312956448_m1814594519_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, const MethodInfo* method);
+#define Enumerable_ToArray_TisKeyValuePair_2_t3312956448_m1814594519(__this /* static, unused */, p0, method) ((  KeyValuePair_2U5BU5D_t346249057* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_ToArray_TisKeyValuePair_2_t3312956448_m1814594519_gshared)(__this /* static, unused */, p0, method)
+// !!0[] System.Linq.Enumerable::ToArray<System.Collections.Generic.KeyValuePair`2<UnityEngine.MonoBehaviour,System.Action`1<Soomla.Singletons.UnitySingleton>>>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_ToArray_TisKeyValuePair_2_t608353633_m620787685(__this /* static, unused */, p0, method) ((  KeyValuePair_2U5BU5D_t3450430460* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_ToArray_TisKeyValuePair_2_t3312956448_m1814594519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
+extern "C"  Il2CppObject * ScriptableObject_CreateInstance_TisIl2CppObject_m1931564230_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+#define ScriptableObject_CreateInstance_TisIl2CppObject_m1931564230(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisIl2CppObject_m1931564230_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.ScriptableObject::CreateInstance<Soomla.SoomlaEditorScript>()
+#define ScriptableObject_CreateInstance_TisSoomlaEditorScript_t75812892_m1610952094(__this /* static, unused */, method) ((  SoomlaEditorScript_t75812892 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisIl2CppObject_m1931564230_gshared)(__this /* static, unused */, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void JSONObject/AddJSONConents::.ctor(System.Object,System.IntPtr)
+extern "C"  void AddJSONConents__ctor_m3113130080 (AddJSONConents_t3346118721 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->method);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void JSONObject/AddJSONConents::Invoke(JSONObject)
+extern "C"  void AddJSONConents_Invoke_m3702840851 (AddJSONConents_t3346118721 * __this, JSONObject_t1752376903 * ___self0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		AddJSONConents_Invoke_m3702840851((AddJSONConents_t3346118721 *)__this->get_prev_9(),___self0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, JSONObject_t1752376903 * ___self0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___self0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, JSONObject_t1752376903 * ___self0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___self0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___self0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_AddJSONConents_t3346118721(Il2CppObject* delegate, JSONObject_t1752376903 * ___self0)
+{
+	// Marshaling of parameter '___self0' to native representation
+	IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'JSONObject'."));
+}
+// System.IAsyncResult JSONObject/AddJSONConents::BeginInvoke(JSONObject,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * AddJSONConents_BeginInvoke_m4052807732 (AddJSONConents_t3346118721 * __this, JSONObject_t1752376903 * ___self0, AsyncCallback_t1363551830 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___self0;
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void JSONObject/AddJSONConents::EndInvoke(System.IAsyncResult)
+extern "C"  void AddJSONConents_EndInvoke_m4139596400 (AddJSONConents_t3346118721 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void JSONObject/FieldNotFound::.ctor(System.Object,System.IntPtr)
+extern "C"  void FieldNotFound__ctor_m3702607304 (FieldNotFound_t2014471017 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->method);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void JSONObject/FieldNotFound::Invoke(System.String)
+extern "C"  void FieldNotFound_Invoke_m1255490080 (FieldNotFound_t2014471017 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		FieldNotFound_Invoke_m1255490080((FieldNotFound_t2014471017 *)__this->get_prev_9(),___name0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, String_t* ___name0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___name0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, String_t* ___name0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___name0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___name0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_FieldNotFound_t2014471017(Il2CppObject* delegate, String_t* ___name0)
+{
+	typedef void (STDCALL *native_function_ptr_type)(char*);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___name0' to native representation
+	char* ____name0_marshaled = NULL;
+	____name0_marshaled = il2cpp_codegen_marshal_string(___name0);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____name0_marshaled);
+
+	// Marshaling cleanup of parameter '___name0' native representation
+	il2cpp_codegen_marshal_free(____name0_marshaled);
+	____name0_marshaled = NULL;
+
+}
+// System.IAsyncResult JSONObject/FieldNotFound::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * FieldNotFound_BeginInvoke_m2796968613 (FieldNotFound_t2014471017 * __this, String_t* ___name0, AsyncCallback_t1363551830 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___name0;
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void JSONObject/FieldNotFound::EndInvoke(System.IAsyncResult)
+extern "C"  void FieldNotFound_EndInvoke_m2166547416 (FieldNotFound_t2014471017 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void JSONObject/GetFieldResponse::.ctor(System.Object,System.IntPtr)
+extern "C"  void GetFieldResponse__ctor_m4162696676 (GetFieldResponse_t1656258501 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->method);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void JSONObject/GetFieldResponse::Invoke(JSONObject)
+extern "C"  void GetFieldResponse_Invoke_m194478999 (GetFieldResponse_t1656258501 * __this, JSONObject_t1752376903 * ___obj0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		GetFieldResponse_Invoke_m194478999((GetFieldResponse_t1656258501 *)__this->get_prev_9(),___obj0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, JSONObject_t1752376903 * ___obj0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___obj0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, JSONObject_t1752376903 * ___obj0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___obj0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___obj0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_GetFieldResponse_t1656258501(Il2CppObject* delegate, JSONObject_t1752376903 * ___obj0)
+{
+	// Marshaling of parameter '___obj0' to native representation
+	IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'JSONObject'."));
+}
+// System.IAsyncResult JSONObject/GetFieldResponse::BeginInvoke(JSONObject,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * GetFieldResponse_BeginInvoke_m2545021624 (GetFieldResponse_t1656258501 * __this, JSONObject_t1752376903 * ___obj0, AsyncCallback_t1363551830 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___obj0;
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void JSONObject/GetFieldResponse::EndInvoke(System.IAsyncResult)
+extern "C"  void GetFieldResponse_EndInvoke_m1365228020 (GetFieldResponse_t1656258501 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void layers::.ctor()
+extern "C"  void layers__ctor_m2579192217 (layers_t3185235266 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void layers::Start()
+extern "C"  void layers_Start_m1526330009 (layers_t3185235266 * __this, const MethodInfo* method)
+{
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t284553113 * L_1 = Transform_get_parent_m2236876972(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_t284553113 * L_2 = Component_get_transform_m4257140443(L_1, /*hidden argument*/NULL);
+		__this->set_parentTrans_4(L_2);
+		return;
+	}
+}
+// System.Void layers::Update()
+extern "C"  void layers_Update_m77442196 (layers_t3185235266 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void layers::OnTriggerExit2D(UnityEngine.Collider2D)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t4012695102_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1810371957;
+extern Il2CppCodeGenString* _stringLiteral1719457361;
+extern const uint32_t layers_OnTriggerExit2D_m1869384643_MetadataUsageId;
+extern "C"  void layers_OnTriggerExit2D_m1869384643 (layers_t3185235266 * __this, Collider2D_t1890038195 * ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (layers_OnTriggerExit2D_m1869384643_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t4012695102 * V_0 = NULL;
+	{
+		Collider2D_t1890038195 * L_0 = ___other0;
+		NullCheck(L_0);
+		String_t* L_1 = Component_get_tag_m217485006(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_1, _stringLiteral1810371957, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_3 = __this->get_first_2();
+		Transform_t284553113 * L_4 = __this->get_firstOne_3();
+		NullCheck(L_4);
+		Vector3_t3525329789  L_5 = Transform_get_position_m2211398607(L_4, /*hidden argument*/NULL);
+		Transform_t284553113 * L_6 = __this->get_firstOne_3();
+		NullCheck(L_6);
+		Quaternion_t1891715979  L_7 = Transform_get_rotation_m11483428(L_6, /*hidden argument*/NULL);
+		Object_t3878351788 * L_8 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_3, L_5, L_7, /*hidden argument*/NULL);
+		V_0 = ((GameObject_t4012695102 *)IsInstSealed(L_8, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_9 = V_0;
+		NullCheck(L_9);
+		Transform_t284553113 * L_10 = GameObject_get_transform_m1278640159(L_9, /*hidden argument*/NULL);
+		Transform_t284553113 * L_11 = __this->get_parentTrans_4();
+		NullCheck(L_10);
+		Transform_set_parent_m3231272063(L_10, L_11, /*hidden argument*/NULL);
+	}
+
+IL_004d:
+	{
+		Collider2D_t1890038195 * L_12 = ___other0;
+		NullCheck(L_12);
+		String_t* L_13 = Component_get_tag_m217485006(L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_14 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_13, _stringLiteral1719457361, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_15 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+	}
+
+IL_006d:
+	{
+		return;
+	}
+}
+// System.Void man::.ctor()
+extern "C"  void man__ctor_m2767889233 (man_t107866 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void man::Start()
+extern const MethodInfo* GameObject_GetComponent_Tisplayer4_t3801399667_m770673806_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TiswholeMap_t2327764005_m1775881880_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSpriteRenderer_t2223784725_m4090179846_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3309214433;
+extern Il2CppCodeGenString* _stringLiteral2327764005;
+extern const uint32_t man_Start_m1715027025_MetadataUsageId;
+extern "C"  void man_Start_m1715027025 (man_t107866 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (man_Start_m1715027025_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_stop_4((bool)0);
+		GameObject_t4012695102 * L_0 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral3309214433, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		player4_t3801399667 * L_1 = GameObject_GetComponent_Tisplayer4_t3801399667_m770673806(L_0, /*hidden argument*/GameObject_GetComponent_Tisplayer4_t3801399667_m770673806_MethodInfo_var);
+		__this->set_player_3(L_1);
+		GameObject_t4012695102 * L_2 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral2327764005, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		wholeMap_t2327764005 * L_3 = GameObject_GetComponent_TiswholeMap_t2327764005_m1775881880(L_2, /*hidden argument*/GameObject_GetComponent_TiswholeMap_t2327764005_m1775881880_MethodInfo_var);
+		__this->set_controller_6(L_3);
+		Vector3_t3525329789 * L_4 = __this->get_address_of_velocity_2();
+		float L_5 = L_4->get_y_2();
+		__this->set_downVelocity_11(L_5);
+		float L_6 = __this->get_upVelocity_10();
+		__this->set_originalUpvelocity_12(L_6);
+		wholeMap_t2327764005 * L_7 = __this->get_controller_6();
+		NullCheck(L_7);
+		int32_t L_8 = L_7->get_numer2_30();
+		__this->set_number_18(L_8);
+		AudioSource_t3628549054 * L_9 = Component_GetComponent_TisAudioSource_t3628549054_m3821406207(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var);
+		__this->set_manSound_20(L_9);
+		GameObject_t4012695102 * L_10 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Il2CppObject * L_11 = man_flasher_m2717867559(__this, (35.0f), L_10, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_11, /*hidden argument*/NULL);
+		SpriteRenderer_t2223784725 * L_12 = Component_GetComponent_TisSpriteRenderer_t2223784725_m4090179846(__this, /*hidden argument*/Component_GetComponent_TisSpriteRenderer_t2223784725_m4090179846_MethodInfo_var);
+		__this->set_spriteColor_23(L_12);
+		return;
+	}
+}
+// System.Void man::Update()
+extern "C"  void man_Update_m1632082396 (man_t107866 * __this, const MethodInfo* method)
+{
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t3525329789  L_1 = Transform_get_position_m2211398607(L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		float L_2 = (&V_1)->get_y_2();
+		player4_t3801399667 * L_3 = __this->get_player_3();
+		NullCheck(L_3);
+		float L_4 = L_3->get_bottomBorder_5();
+		if ((!(((float)L_2) < ((float)L_4))))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		int32_t L_5 = __this->get_number_18();
+		if (L_5)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		wholeMap_t2327764005 * L_6 = __this->get_controller_6();
+		wholeMap_t2327764005 * L_7 = L_6;
+		NullCheck(L_7);
+		int32_t L_8 = L_7->get_lifeNumber_17();
+		NullCheck(L_7);
+		L_7->set_lifeNumber_17(((int32_t)((int32_t)L_8-(int32_t)1)));
+		wholeMap_t2327764005 * L_9 = __this->get_controller_6();
+		NullCheck(L_9);
+		List_1_t514686775 * L_10 = L_9->get_hearts_21();
+		wholeMap_t2327764005 * L_11 = __this->get_controller_6();
+		NullCheck(L_11);
+		int32_t L_12 = L_11->get_lifeNumber_17();
+		NullCheck(L_10);
+		GameObject_t4012695102 * L_13 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_10, L_12);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		wholeMap_t2327764005 * L_14 = __this->get_controller_6();
+		wholeMap_t2327764005 * L_15 = L_14;
+		NullCheck(L_15);
+		int32_t L_16 = L_15->get_peopleInscene_5();
+		NullCheck(L_15);
+		L_15->set_peopleInscene_5(((int32_t)((int32_t)L_16-(int32_t)1)));
+		wholeMap_t2327764005 * L_17 = __this->get_controller_6();
+		NullCheck(L_17);
+		wholeMap_playOnceSound_m204239374(L_17, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_18 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+	}
+
+IL_008a:
+	{
+		bool L_19 = __this->get_startChange_8();
+		if (!L_19)
+		{
+			goto IL_00f4;
+		}
+	}
+	{
+		float L_20 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_21 = __this->get_target_9();
+		if ((!(((float)L_20) > ((float)L_21))))
+		{
+			goto IL_00f4;
+		}
+	}
+	{
+		__this->set_startChange_8((bool)0);
+		Vector3_t3525329789 * L_22 = __this->get_address_of_velocity_2();
+		float L_23 = L_22->get_y_2();
+		if ((!(((float)L_23) > ((float)(0.0f)))))
+		{
+			goto IL_00f4;
+		}
+	}
+	{
+		Vector3_t3525329789 * L_24 = __this->get_address_of_velocity_2();
+		float L_25 = L_24->get_x_1();
+		float L_26 = __this->get_downVelocity_11();
+		Vector3_t3525329789 * L_27 = __this->get_address_of_velocity_2();
+		float L_28 = L_27->get_z_3();
+		Vector3_t3525329789  L_29;
+		memset(&L_29, 0, sizeof(L_29));
+		Vector3__ctor_m2926210380(&L_29, L_25, L_26, L_28, /*hidden argument*/NULL);
+		__this->set_velocity_2(L_29);
+		float L_30 = __this->get_originalUpvelocity_12();
+		__this->set_upVelocity_10(L_30);
+	}
+
+IL_00f4:
+	{
+		Transform_t284553113 * L_31 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Vector3_t3525329789  L_32 = Transform_get_position_m2211398607(L_31, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_33 = __this->get_velocity_2();
+		float L_34 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_35 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_33, L_34, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_36 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_32, L_35, /*hidden argument*/NULL);
+		V_0 = L_36;
+		float L_37 = (&V_0)->get_y_2();
+		player4_t3801399667 * L_38 = __this->get_player_3();
+		NullCheck(L_38);
+		float L_39 = L_38->get_topBorder_4();
+		if ((!(((float)L_37) < ((float)L_39))))
+		{
+			goto IL_016b;
+		}
+	}
+	{
+		float L_40 = (&V_0)->get_x_1();
+		player4_t3801399667 * L_41 = __this->get_player_3();
+		NullCheck(L_41);
+		float L_42 = L_41->get_leftBorder_2();
+		if ((!(((float)L_40) > ((float)L_42))))
+		{
+			goto IL_016b;
+		}
+	}
+	{
+		float L_43 = (&V_0)->get_x_1();
+		player4_t3801399667 * L_44 = __this->get_player_3();
+		NullCheck(L_44);
+		float L_45 = L_44->get_rightBorder_3();
+		if ((!(((float)L_43) < ((float)L_45))))
+		{
+			goto IL_016b;
+		}
+	}
+	{
+		Transform_t284553113 * L_46 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_47 = V_0;
+		NullCheck(L_46);
+		Transform_set_position_m3111394108(L_46, L_47, /*hidden argument*/NULL);
+		goto IL_021a;
+	}
+
+IL_016b:
+	{
+		float L_48 = (&V_0)->get_y_2();
+		player4_t3801399667 * L_49 = __this->get_player_3();
+		NullCheck(L_49);
+		float L_50 = L_49->get_topBorder_4();
+		if ((!(((float)L_48) > ((float)L_50))))
+		{
+			goto IL_01af;
+		}
+	}
+	{
+		Vector3_t3525329789 * L_51 = __this->get_address_of_velocity_2();
+		float L_52 = L_51->get_x_1();
+		float L_53 = __this->get_upVelocity_10();
+		Vector3_t3525329789 * L_54 = __this->get_address_of_velocity_2();
+		float L_55 = L_54->get_z_3();
+		Vector3_t3525329789  L_56;
+		memset(&L_56, 0, sizeof(L_56));
+		Vector3__ctor_m2926210380(&L_56, L_52, ((-L_53)), L_55, /*hidden argument*/NULL);
+		__this->set_velocity_2(L_56);
+		goto IL_021a;
+	}
+
+IL_01af:
+	{
+		float L_57 = (&V_0)->get_x_1();
+		player4_t3801399667 * L_58 = __this->get_player_3();
+		NullCheck(L_58);
+		float L_59 = L_58->get_leftBorder_2();
+		if ((!(((float)L_57) < ((float)L_59))))
+		{
+			goto IL_01f2;
+		}
+	}
+	{
+		float L_60 = __this->get_upVelocity_10();
+		Vector3_t3525329789 * L_61 = __this->get_address_of_velocity_2();
+		float L_62 = L_61->get_y_2();
+		Vector3_t3525329789 * L_63 = __this->get_address_of_velocity_2();
+		float L_64 = L_63->get_z_3();
+		Vector3_t3525329789  L_65;
+		memset(&L_65, 0, sizeof(L_65));
+		Vector3__ctor_m2926210380(&L_65, L_60, L_62, L_64, /*hidden argument*/NULL);
+		__this->set_velocity_2(L_65);
+		goto IL_021a;
+	}
+
+IL_01f2:
+	{
+		float L_66 = __this->get_upVelocity_10();
+		Vector3_t3525329789 * L_67 = __this->get_address_of_velocity_2();
+		float L_68 = L_67->get_y_2();
+		Vector3_t3525329789 * L_69 = __this->get_address_of_velocity_2();
+		float L_70 = L_69->get_z_3();
+		Vector3_t3525329789  L_71;
+		memset(&L_71, 0, sizeof(L_71));
+		Vector3__ctor_m2926210380(&L_71, ((-L_66)), L_68, L_70, /*hidden argument*/NULL);
+		__this->set_velocity_2(L_71);
+	}
+
+IL_021a:
+	{
+		return;
+	}
+}
+// System.Collections.IEnumerator man::removeVelocity(UnityEngine.Vector3)
+extern Il2CppClass* U3CremoveVelocityU3Ec__IteratorA_t4158298865_il2cpp_TypeInfo_var;
+extern const uint32_t man_removeVelocity_m416315181_MetadataUsageId;
+extern "C"  Il2CppObject * man_removeVelocity_m416315181 (man_t107866 * __this, Vector3_t3525329789  ___vel0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (man_removeVelocity_m416315181_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CremoveVelocityU3Ec__IteratorA_t4158298865 * V_0 = NULL;
+	{
+		U3CremoveVelocityU3Ec__IteratorA_t4158298865 * L_0 = (U3CremoveVelocityU3Ec__IteratorA_t4158298865 *)il2cpp_codegen_object_new(U3CremoveVelocityU3Ec__IteratorA_t4158298865_il2cpp_TypeInfo_var);
+		U3CremoveVelocityU3Ec__IteratorA__ctor_m3204165077(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CremoveVelocityU3Ec__IteratorA_t4158298865 * L_1 = V_0;
+		Vector3_t3525329789  L_2 = ___vel0;
+		NullCheck(L_1);
+		L_1->set_vel_0(L_2);
+		U3CremoveVelocityU3Ec__IteratorA_t4158298865 * L_3 = V_0;
+		Vector3_t3525329789  L_4 = ___vel0;
+		NullCheck(L_3);
+		L_3->set_U3CU24U3Evel_3(L_4);
+		U3CremoveVelocityU3Ec__IteratorA_t4158298865 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->set_U3CU3Ef__this_4(__this);
+		U3CremoveVelocityU3Ec__IteratorA_t4158298865 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void man::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t4012695102_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral361935503;
+extern Il2CppCodeGenString* _stringLiteral3536968;
+extern Il2CppCodeGenString* _stringLiteral3540562;
+extern Il2CppCodeGenString* _stringLiteral4125203901;
+extern Il2CppCodeGenString* _stringLiteral2628629205;
+extern const uint32_t man_OnTriggerEnter2D_m1899489863_MetadataUsageId;
+extern "C"  void man_OnTriggerEnter2D_m1899489863 (man_t107866 * __this, Collider2D_t1890038195 * ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (man_OnTriggerEnter2D_m1899489863_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	GameObject_t4012695102 * V_1 = NULL;
+	{
+		Collider2D_t1890038195 * L_0 = ___other0;
+		NullCheck(L_0);
+		String_t* L_1 = Component_get_tag_m217485006(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_1, _stringLiteral361935503, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		wholeMap_t2327764005 * L_3 = __this->get_controller_6();
+		wholeMap_t2327764005 * L_4 = L_3;
+		NullCheck(L_4);
+		int32_t L_5 = L_4->get_lifeNumber_17();
+		NullCheck(L_4);
+		L_4->set_lifeNumber_17(((int32_t)((int32_t)L_5-(int32_t)1)));
+		wholeMap_t2327764005 * L_6 = __this->get_controller_6();
+		NullCheck(L_6);
+		List_1_t514686775 * L_7 = L_6->get_hearts_21();
+		wholeMap_t2327764005 * L_8 = __this->get_controller_6();
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_lifeNumber_17();
+		NullCheck(L_7);
+		GameObject_t4012695102 * L_10 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_7, L_9);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		wholeMap_t2327764005 * L_11 = __this->get_controller_6();
+		wholeMap_t2327764005 * L_12 = L_11;
+		NullCheck(L_12);
+		int32_t L_13 = L_12->get_peopleInscene_5();
+		NullCheck(L_12);
+		L_12->set_peopleInscene_5(((int32_t)((int32_t)L_13-(int32_t)1)));
+		GameObject_t4012695102 * L_14 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+	}
+
+IL_0066:
+	{
+		Collider2D_t1890038195 * L_15 = ___other0;
+		NullCheck(L_15);
+		String_t* L_16 = Component_get_tag_m217485006(L_15, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_17 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_16, _stringLiteral3536968, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_0109;
+		}
+	}
+	{
+		bool L_18 = __this->get_startChange_8();
+		if (L_18)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		Vector3_t3525329789 * L_19 = __this->get_address_of_velocity_2();
+		float L_20 = L_19->get_x_1();
+		float L_21 = __this->get_originalUpvelocity_12();
+		Vector3_t3525329789 * L_22 = __this->get_address_of_velocity_2();
+		float L_23 = L_22->get_z_3();
+		Vector3_t3525329789  L_24;
+		memset(&L_24, 0, sizeof(L_24));
+		Vector3__ctor_m2926210380(&L_24, L_20, L_21, L_23, /*hidden argument*/NULL);
+		__this->set_velocity_2(L_24);
+	}
+
+IL_00ad:
+	{
+		bool L_25 = __this->get_startChange_8();
+		if (!L_25)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		Vector3_t3525329789 * L_26 = __this->get_address_of_velocity_2();
+		float L_27 = L_26->get_x_1();
+		float L_28 = __this->get_upVelocity_10();
+		Vector3_t3525329789 * L_29 = __this->get_address_of_velocity_2();
+		float L_30 = L_29->get_z_3();
+		Vector3_t3525329789  L_31;
+		memset(&L_31, 0, sizeof(L_31));
+		Vector3__ctor_m2926210380(&L_31, L_27, ((float)((float)L_28+(float)(1.0f))), L_30, /*hidden argument*/NULL);
+		__this->set_velocity_2(L_31);
+	}
+
+IL_00e5:
+	{
+		__this->set_startChange_8((bool)1);
+		float L_32 = __this->get_rate_7();
+		float L_33 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_target_9(((float)((float)L_32+(float)L_33)));
+		Collider2D_t1890038195 * L_34 = ___other0;
+		NullCheck(L_34);
+		GameObject_t4012695102 * L_35 = Component_get_gameObject_m1170635899(L_34, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+	}
+
+IL_0109:
+	{
+		Collider2D_t1890038195 * L_36 = ___other0;
+		NullCheck(L_36);
+		String_t* L_37 = Component_get_tag_m217485006(L_36, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_38 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_37, _stringLiteral3540562, /*hidden argument*/NULL);
+		if (!L_38)
+		{
+			goto IL_018e;
+		}
+	}
+	{
+		Collider2D_t1890038195 * L_39 = ___other0;
+		NullCheck(L_39);
+		GameObject_t4012695102 * L_40 = Component_get_gameObject_m1170635899(L_39, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
+		wholeMap_t2327764005 * L_41 = __this->get_controller_6();
+		wholeMap_t2327764005 * L_42 = L_41;
+		NullCheck(L_42);
+		int32_t L_43 = L_42->get_startCounts_23();
+		NullCheck(L_42);
+		L_42->set_startCounts_23(((int32_t)((int32_t)L_43+(int32_t)1)));
+		int32_t L_44 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral4125203901, /*hidden argument*/NULL);
+		V_0 = ((int32_t)((int32_t)L_44+(int32_t)1));
+		int32_t L_45 = V_0;
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral4125203901, L_45, /*hidden argument*/NULL);
+		wholeMap_t2327764005 * L_46 = __this->get_controller_6();
+		NullCheck(L_46);
+		Text_t3286458198 * L_47 = L_46->get_starText_22();
+		String_t* L_48 = Int32_ToString_m1286526384((&V_0), /*hidden argument*/NULL);
+		NullCheck(L_47);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_47, L_48);
+		AudioSource_t3628549054 * L_49 = __this->get_manSound_20();
+		AudioClip_t3714538611 * L_50 = __this->get_coinSound_21();
+		NullCheck(L_49);
+		AudioSource_set_clip_m19502010(L_49, L_50, /*hidden argument*/NULL);
+		wholeMap_t2327764005 * L_51 = __this->get_controller_6();
+		AudioSource_t3628549054 * L_52 = __this->get_manSound_20();
+		NullCheck(L_51);
+		wholeMap_playsound_m1808527374(L_51, L_52, 0, /*hidden argument*/NULL);
+	}
+
+IL_018e:
+	{
+		Collider2D_t1890038195 * L_53 = ___other0;
+		NullCheck(L_53);
+		String_t* L_54 = Component_get_tag_m217485006(L_53, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_55 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_54, _stringLiteral2628629205, /*hidden argument*/NULL);
+		if (!L_55)
+		{
+			goto IL_01fa;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_56 = __this->get_explosion_19();
+		Collider2D_t1890038195 * L_57 = ___other0;
+		NullCheck(L_57);
+		Transform_t284553113 * L_58 = Component_get_transform_m4257140443(L_57, /*hidden argument*/NULL);
+		NullCheck(L_58);
+		Vector3_t3525329789  L_59 = Transform_get_position_m2211398607(L_58, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_60 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_61 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_56, L_59, L_60, /*hidden argument*/NULL);
+		V_1 = ((GameObject_t4012695102 *)IsInstSealed(L_61, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_62 = V_1;
+		Il2CppObject * L_63 = man_waitAndDestory_m689682672(__this, (0.6f), L_62, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_63, /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_64 = __this->get_manSound_20();
+		AudioClip_t3714538611 * L_65 = __this->get_hitSound_22();
+		NullCheck(L_64);
+		AudioSource_set_clip_m19502010(L_64, L_65, /*hidden argument*/NULL);
+		wholeMap_t2327764005 * L_66 = __this->get_controller_6();
+		AudioSource_t3628549054 * L_67 = __this->get_manSound_20();
+		NullCheck(L_66);
+		wholeMap_playsound_m1808527374(L_66, L_67, 0, /*hidden argument*/NULL);
+	}
+
+IL_01fa:
+	{
+		return;
+	}
+}
+// System.Collections.IEnumerator man::waitAndDestory(System.Single,UnityEngine.GameObject)
+extern Il2CppClass* U3CwaitAndDestoryU3Ec__IteratorB_t2161889665_il2cpp_TypeInfo_var;
+extern const uint32_t man_waitAndDestory_m689682672_MetadataUsageId;
+extern "C"  Il2CppObject * man_waitAndDestory_m689682672 (man_t107866 * __this, float ___time0, GameObject_t4012695102 * ___other1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (man_waitAndDestory_m689682672_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * V_0 = NULL;
+	{
+		U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * L_0 = (U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 *)il2cpp_codegen_object_new(U3CwaitAndDestoryU3Ec__IteratorB_t2161889665_il2cpp_TypeInfo_var);
+		U3CwaitAndDestoryU3Ec__IteratorB__ctor_m2923878725(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * L_1 = V_0;
+		float L_2 = ___time0;
+		NullCheck(L_1);
+		L_1->set_time_0(L_2);
+		U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * L_3 = V_0;
+		float L_4 = ___time0;
+		NullCheck(L_3);
+		L_3->set_U3CU24U3Etime_3(L_4);
+		U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Collections.IEnumerator man::flasher(System.Single,UnityEngine.GameObject)
+extern Il2CppClass* U3CflasherU3Ec__IteratorC_t191327567_il2cpp_TypeInfo_var;
+extern const uint32_t man_flasher_m2717867559_MetadataUsageId;
+extern "C"  Il2CppObject * man_flasher_m2717867559 (man_t107866 * __this, float ___time0, GameObject_t4012695102 * ___other1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (man_flasher_m2717867559_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CflasherU3Ec__IteratorC_t191327567 * V_0 = NULL;
+	{
+		U3CflasherU3Ec__IteratorC_t191327567 * L_0 = (U3CflasherU3Ec__IteratorC_t191327567 *)il2cpp_codegen_object_new(U3CflasherU3Ec__IteratorC_t191327567_il2cpp_TypeInfo_var);
+		U3CflasherU3Ec__IteratorC__ctor_m2910737489(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CflasherU3Ec__IteratorC_t191327567 * L_1 = V_0;
+		float L_2 = ___time0;
+		NullCheck(L_1);
+		L_1->set_time_0(L_2);
+		U3CflasherU3Ec__IteratorC_t191327567 * L_3 = V_0;
+		GameObject_t4012695102 * L_4 = ___other1;
+		NullCheck(L_3);
+		L_3->set_other_2(L_4);
+		U3CflasherU3Ec__IteratorC_t191327567 * L_5 = V_0;
+		float L_6 = ___time0;
+		NullCheck(L_5);
+		L_5->set_U3CU24U3Etime_5(L_6);
+		U3CflasherU3Ec__IteratorC_t191327567 * L_7 = V_0;
+		GameObject_t4012695102 * L_8 = ___other1;
+		NullCheck(L_7);
+		L_7->set_U3CU24U3Eother_6(L_8);
+		U3CflasherU3Ec__IteratorC_t191327567 * L_9 = V_0;
+		NullCheck(L_9);
+		L_9->set_U3CU3Ef__this_7(__this);
+		U3CflasherU3Ec__IteratorC_t191327567 * L_10 = V_0;
+		return L_10;
+	}
+}
+// System.Void man::OnCollisionEnter2D(UnityEngine.Collision2D)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_Tisitems_t100526016_m2173667233_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2628629205;
+extern const uint32_t man_OnCollisionEnter2D_m3319626555_MetadataUsageId;
+extern "C"  void man_OnCollisionEnter2D_m3319626555 (man_t107866 * __this, Collision2D_t452810033 * ___coll0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (man_OnCollisionEnter2D_m3319626555_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	Vector2_t3525329788  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector2_t3525329788  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector3_t3525329789  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t3525329789  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	{
+		Collision2D_t452810033 * L_0 = ___coll0;
+		NullCheck(L_0);
+		GameObject_t4012695102 * L_1 = Collision2D_get_gameObject_m718845954(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = GameObject_get_tag_m211612200(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_3 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_2, _stringLiteral2628629205, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		bool L_4 = __this->get_isCourtine_17();
+		if (!L_4)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		Il2CppObject * L_5 = __this->get_coroutine_16();
+		MonoBehaviour_StopCoroutine_m1340700766(__this, L_5, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_6 = __this->get_velocity_2();
+		Vector3_t3525329789  L_7 = __this->get_lastSpeed_15();
+		Vector3_t3525329789  L_8 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		__this->set_velocity_2(L_8);
+	}
+
+IL_0048:
+	{
+		Collision2D_t452810033 * L_9 = ___coll0;
+		NullCheck(L_9);
+		ContactPoint2DU5BU5D_t3188634326* L_10 = Collision2D_get_contacts_m4248754423(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 0);
+		Vector2_t3525329788  L_11 = ContactPoint2D_get_point_m875769013(((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), /*hidden argument*/NULL);
+		V_3 = L_11;
+		float L_12 = (&V_3)->get_x_1();
+		Collision2D_t452810033 * L_13 = ___coll0;
+		NullCheck(L_13);
+		ContactPoint2DU5BU5D_t3188634326* L_14 = Collision2D_get_contacts_m4248754423(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, 0);
+		Vector2_t3525329788  L_15 = ContactPoint2D_get_point_m875769013(((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), /*hidden argument*/NULL);
+		V_4 = L_15;
+		float L_16 = (&V_4)->get_y_2();
+		Transform_t284553113 * L_17 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t3525329789  L_18 = Transform_get_position_m2211398607(L_17, /*hidden argument*/NULL);
+		V_5 = L_18;
+		float L_19 = (&V_5)->get_z_3();
+		Vector3__ctor_m2926210380((&V_0), L_12, L_16, L_19, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_20 = V_0;
+		Transform_t284553113 * L_21 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Vector3_t3525329789  L_22 = Transform_get_position_m2211398607(L_21, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_23 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_20, L_22, /*hidden argument*/NULL);
+		V_6 = L_23;
+		Vector3_t3525329789  L_24 = Vector3_get_normalized_m2650940353((&V_6), /*hidden argument*/NULL);
+		Collision2D_t452810033 * L_25 = ___coll0;
+		NullCheck(L_25);
+		ContactPoint2DU5BU5D_t3188634326* L_26 = Collision2D_get_contacts_m4248754423(L_25, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_26, 0);
+		Vector2_t3525329788  L_27 = ContactPoint2D_get_normal_m2444620420(((L_26)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_28 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_29 = Vector3_Reflect_m2873550862(NULL /*static, unused*/, L_24, L_28, /*hidden argument*/NULL);
+		V_1 = L_29;
+		Collision2D_t452810033 * L_30 = ___coll0;
+		NullCheck(L_30);
+		GameObject_t4012695102 * L_31 = Collision2D_get_gameObject_m718845954(L_30, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		items_t100526016 * L_32 = GameObject_GetComponent_Tisitems_t100526016_m2173667233(L_31, /*hidden argument*/GameObject_GetComponent_Tisitems_t100526016_m2173667233_MethodInfo_var);
+		NullCheck(L_32);
+		float L_33 = L_32->get_speed_11();
+		V_2 = L_33;
+		Vector3_t3525329789  L_34 = V_1;
+		float L_35 = V_2;
+		Vector3_t3525329789  L_36 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_34, L_35, /*hidden argument*/NULL);
+		__this->set_lastSpeed_15(L_36);
+		Vector3_t3525329789  L_37 = __this->get_velocity_2();
+		Vector3_t3525329789  L_38 = __this->get_lastSpeed_15();
+		Vector3_t3525329789  L_39 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_37, L_38, /*hidden argument*/NULL);
+		__this->set_velocity_2(L_39);
+		Vector3_t3525329789  L_40 = __this->get_lastSpeed_15();
+		Il2CppObject * L_41 = man_removeVelocity_m416315181(__this, L_40, /*hidden argument*/NULL);
+		__this->set_coroutine_16(L_41);
+		Il2CppObject * L_42 = __this->get_coroutine_16();
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_42, /*hidden argument*/NULL);
+	}
+
+IL_0120:
+	{
+		return;
+	}
+}
+// System.Void man/<flasher>c__IteratorC::.ctor()
+extern "C"  void U3CflasherU3Ec__IteratorC__ctor_m2910737489 (U3CflasherU3Ec__IteratorC_t191327567 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object man/<flasher>c__IteratorC::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CflasherU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1789058017 (U3CflasherU3Ec__IteratorC_t191327567 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_4();
+		return L_0;
+	}
+}
+// System.Object man/<flasher>c__IteratorC::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CflasherU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m1503838581 (U3CflasherU3Ec__IteratorC_t191327567 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_4();
+		return L_0;
+	}
+}
+// System.Boolean man/<flasher>c__IteratorC::MoveNext()
+extern Il2CppClass* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const uint32_t U3CflasherU3Ec__IteratorC_MoveNext_m2275910915_MetadataUsageId;
+extern "C"  bool U3CflasherU3Ec__IteratorC_MoveNext_m2275910915 (U3CflasherU3Ec__IteratorC_t191327567 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CflasherU3Ec__IteratorC_MoveNext_m2275910915_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0029;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0046;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_0083;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		goto IL_00e5;
+	}
+
+IL_0029:
+	{
+		float L_2 = __this->get_time_0();
+		WaitForSeconds_t1291133240 * L_3 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_3, L_2, /*hidden argument*/NULL);
+		__this->set_U24current_4(L_3);
+		__this->set_U24PC_3(1);
+		goto IL_00e7;
+	}
+
+IL_0046:
+	{
+		__this->set_U3CiU3E__0_1(0);
+		goto IL_00c2;
+	}
+
+IL_0052:
+	{
+		man_t107866 * L_4 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_4);
+		SpriteRenderer_t2223784725 * L_5 = L_4->get_spriteColor_23();
+		Color_t1588175760  L_6 = Color_get_red_m4288945411(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		SpriteRenderer_set_color_m2701854973(L_5, L_6, /*hidden argument*/NULL);
+		WaitForSeconds_t1291133240 * L_7 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_7, (0.2f), /*hidden argument*/NULL);
+		__this->set_U24current_4(L_7);
+		__this->set_U24PC_3(2);
+		goto IL_00e7;
+	}
+
+IL_0083:
+	{
+		man_t107866 * L_8 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_8);
+		SpriteRenderer_t2223784725 * L_9 = L_8->get_spriteColor_23();
+		Color_t1588175760  L_10 = Color_get_white_m3038282331(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		SpriteRenderer_set_color_m2701854973(L_9, L_10, /*hidden argument*/NULL);
+		WaitForSeconds_t1291133240 * L_11 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_11, (0.2f), /*hidden argument*/NULL);
+		__this->set_U24current_4(L_11);
+		__this->set_U24PC_3(3);
+		goto IL_00e7;
+	}
+
+IL_00b4:
+	{
+		int32_t L_12 = __this->get_U3CiU3E__0_1();
+		__this->set_U3CiU3E__0_1(((int32_t)((int32_t)L_12+(int32_t)1)));
+	}
+
+IL_00c2:
+	{
+		int32_t L_13 = __this->get_U3CiU3E__0_1();
+		if ((((int32_t)L_13) < ((int32_t)5)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_14 = __this->get_other_2();
+		NullCheck(L_14);
+		GameObject_t4012695102 * L_15 = GameObject_get_gameObject_m1966529385(L_14, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		__this->set_U24PC_3((-1));
+	}
+
+IL_00e5:
+	{
+		return (bool)0;
+	}
+
+IL_00e7:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00e9: ldloc.1
+}
+// System.Void man/<flasher>c__IteratorC::Dispose()
+extern "C"  void U3CflasherU3Ec__IteratorC_Dispose_m1093300302 (U3CflasherU3Ec__IteratorC_t191327567 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void man/<flasher>c__IteratorC::Reset()
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CflasherU3Ec__IteratorC_Reset_m557170430_MetadataUsageId;
+extern "C"  void U3CflasherU3Ec__IteratorC_Reset_m557170430 (U3CflasherU3Ec__IteratorC_t191327567 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CflasherU3Ec__IteratorC_Reset_m557170430_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void man/<removeVelocity>c__IteratorA::.ctor()
+extern "C"  void U3CremoveVelocityU3Ec__IteratorA__ctor_m3204165077 (U3CremoveVelocityU3Ec__IteratorA_t4158298865 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object man/<removeVelocity>c__IteratorA::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CremoveVelocityU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3761301287 (U3CremoveVelocityU3Ec__IteratorA_t4158298865 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		return L_0;
+	}
+}
+// System.Object man/<removeVelocity>c__IteratorA::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CremoveVelocityU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m2018252987 (U3CremoveVelocityU3Ec__IteratorA_t4158298865 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		return L_0;
+	}
+}
+// System.Boolean man/<removeVelocity>c__IteratorA::MoveNext()
+extern Il2CppClass* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const uint32_t U3CremoveVelocityU3Ec__IteratorA_MoveNext_m2871552999_MetadataUsageId;
+extern "C"  bool U3CremoveVelocityU3Ec__IteratorA_MoveNext_m2871552999 (U3CremoveVelocityU3Ec__IteratorA_t4158298865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CremoveVelocityU3Ec__IteratorA_MoveNext_m2871552999_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_1();
+		V_0 = L_0;
+		__this->set_U24PC_1((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		goto IL_0078;
+	}
+
+IL_0021:
+	{
+		man_t107866 * L_2 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_2);
+		L_2->set_isCourtine_17((bool)1);
+		WaitForSeconds_t1291133240 * L_3 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_3, (5.0f), /*hidden argument*/NULL);
+		__this->set_U24current_2(L_3);
+		__this->set_U24PC_1(1);
+		goto IL_007a;
+	}
+
+IL_0049:
+	{
+		man_t107866 * L_4 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_4);
+		L_4->set_isCourtine_17((bool)0);
+		man_t107866 * L_5 = __this->get_U3CU3Ef__this_4();
+		man_t107866 * L_6 = L_5;
+		NullCheck(L_6);
+		Vector3_t3525329789  L_7 = L_6->get_velocity_2();
+		Vector3_t3525329789  L_8 = __this->get_vel_0();
+		Vector3_t3525329789  L_9 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		L_6->set_velocity_2(L_9);
+		__this->set_U24PC_1((-1));
+	}
+
+IL_0078:
+	{
+		return (bool)0;
+	}
+
+IL_007a:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_007c: ldloc.1
+}
+// System.Void man/<removeVelocity>c__IteratorA::Dispose()
+extern "C"  void U3CremoveVelocityU3Ec__IteratorA_Dispose_m3904338130 (U3CremoveVelocityU3Ec__IteratorA_t4158298865 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_1((-1));
+		return;
+	}
+}
+// System.Void man/<removeVelocity>c__IteratorA::Reset()
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CremoveVelocityU3Ec__IteratorA_Reset_m850598018_MetadataUsageId;
+extern "C"  void U3CremoveVelocityU3Ec__IteratorA_Reset_m850598018 (U3CremoveVelocityU3Ec__IteratorA_t4158298865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CremoveVelocityU3Ec__IteratorA_Reset_m850598018_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void man/<waitAndDestory>c__IteratorB::.ctor()
+extern "C"  void U3CwaitAndDestoryU3Ec__IteratorB__ctor_m2923878725 (U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object man/<waitAndDestory>c__IteratorB::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CwaitAndDestoryU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1947337143 (U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		return L_0;
+	}
+}
+// System.Object man/<waitAndDestory>c__IteratorB::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CwaitAndDestoryU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m1079268171 (U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		return L_0;
+	}
+}
+// System.Boolean man/<waitAndDestory>c__IteratorB::MoveNext()
+extern Il2CppClass* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const uint32_t U3CwaitAndDestoryU3Ec__IteratorB_MoveNext_m2277263991_MetadataUsageId;
+extern "C"  bool U3CwaitAndDestoryU3Ec__IteratorB_MoveNext_m2277263991 (U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CwaitAndDestoryU3Ec__IteratorB_MoveNext_m2277263991_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_1();
+		V_0 = L_0;
+		__this->set_U24PC_1((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		goto IL_0045;
+	}
+
+IL_0021:
+	{
+		float L_2 = __this->get_time_0();
+		WaitForSeconds_t1291133240 * L_3 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_3, L_2, /*hidden argument*/NULL);
+		__this->set_U24current_2(L_3);
+		__this->set_U24PC_1(1);
+		goto IL_0047;
+	}
+
+IL_003e:
+	{
+		__this->set_U24PC_1((-1));
+	}
+
+IL_0045:
+	{
+		return (bool)0;
+	}
+
+IL_0047:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0049: ldloc.1
+}
+// System.Void man/<waitAndDestory>c__IteratorB::Dispose()
+extern "C"  void U3CwaitAndDestoryU3Ec__IteratorB_Dispose_m837126210 (U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_1((-1));
+		return;
+	}
+}
+// System.Void man/<waitAndDestory>c__IteratorB::Reset()
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CwaitAndDestoryU3Ec__IteratorB_Reset_m570311666_MetadataUsageId;
+extern "C"  void U3CwaitAndDestoryU3Ec__IteratorB_Reset_m570311666 (U3CwaitAndDestoryU3Ec__IteratorB_t2161889665 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CwaitAndDestoryU3Ec__IteratorB_Reset_m570311666_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void map::.ctor()
+extern "C"  void map__ctor_m2374862223 (map_t107868 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void map::Start()
+extern const MethodInfo* GameObject_GetComponent_Tisplayer4_t3801399667_m770673806_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3309214433;
+extern const uint32_t map_Start_m1322000015_MetadataUsageId;
+extern "C"  void map_Start_m1322000015 (map_t107868 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (map_Start_m1322000015_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		GameObject_t4012695102 * L_0 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral3309214433, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		player4_t3801399667 * L_1 = GameObject_GetComponent_Tisplayer4_t3801399667_m770673806(L_0, /*hidden argument*/GameObject_GetComponent_Tisplayer4_t3801399667_m770673806_MethodInfo_var);
+		__this->set_player_4(L_1);
+		player4_t3801399667 * L_2 = __this->get_player_4();
+		NullCheck(L_2);
+		float L_3 = L_2->get_rightBorder_3();
+		player4_t3801399667 * L_4 = __this->get_player_4();
+		NullCheck(L_4);
+		float L_5 = L_4->get_leftBorder_2();
+		__this->set_standard_5(((float)((float)L_3-(float)L_5)));
+		int32_t L_6 = __this->get_number_7();
+		if ((!(((uint32_t)L_6) == ((uint32_t)2))))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		float L_7 = __this->get_standard_5();
+		__this->set_standard_5(((float)((float)L_7-(float)(2.0f))));
+	}
+
+IL_0050:
+	{
+		int32_t L_8 = __this->get_number_7();
+		if ((!(((uint32_t)L_8) == ((uint32_t)3))))
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		float L_9 = __this->get_standard_5();
+		__this->set_standard_5(((float)((float)L_9-(float)(4.0f))));
+	}
+
+IL_006e:
+	{
+		Transform_t284553113 * L_10 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Vector3_t3525329789  L_11 = Transform_get_position_m2211398607(L_10, /*hidden argument*/NULL);
+		V_0 = L_11;
+		float L_12 = (&V_0)->get_x_1();
+		__this->set_lastTime_3(L_12);
+		float L_13 = __this->get_standard_5();
+		int32_t L_14 = __this->get_length_10();
+		__this->set_distance2_9(((float)((float)L_13/(float)(((float)((float)L_14))))));
+		float L_15 = __this->get_distance2_9();
+		float L_16 = __this->get_standard_5();
+		Vector3_t3525329789 * L_17 = __this->get_address_of_velocity_6();
+		float L_18 = L_17->get_x_1();
+		__this->set_ownVelocity_8(((float)((float)L_15/(float)((float)((float)L_16/(float)L_18)))));
+		return;
+	}
+}
+// System.Void map::Update()
+extern Il2CppClass* Mathf_t1597001355_il2cpp_TypeInfo_var;
+extern const uint32_t map_Update_m2333146974_MetadataUsageId;
+extern "C"  void map_Update_m2333146974 (map_t107868 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (map_Update_m2333146974_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t3525329789  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		bool L_0 = __this->get_move_2();
+		if (!L_0)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		Transform_t284553113 * L_1 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Vector3_t3525329789  L_2 = Transform_get_position_m2211398607(L_1, /*hidden argument*/NULL);
+		V_2 = L_2;
+		float L_3 = (&V_2)->get_x_1();
+		float L_4 = __this->get_lastTime_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
+		float L_5 = fabsf(((float)((float)L_3-(float)L_4)));
+		V_0 = L_5;
+		float L_6 = V_0;
+		float L_7 = __this->get_distance2_9();
+		if ((!(((float)L_6) > ((float)L_7))))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		__this->set_move_2((bool)0);
+	}
+
+IL_003e:
+	{
+		Transform_t284553113 * L_8 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_9 = L_8;
+		NullCheck(L_9);
+		Vector3_t3525329789  L_10 = Transform_get_position_m2211398607(L_9, /*hidden argument*/NULL);
+		float L_11 = __this->get_ownVelocity_8();
+		Vector3_t3525329789  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		Vector3__ctor_m2926210380(&L_12, L_11, (0.0f), (0.0f), /*hidden argument*/NULL);
+		float L_13 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_14 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_15 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_10, L_14, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_set_position_m3111394108(L_9, L_15, /*hidden argument*/NULL);
+		goto IL_00de;
+	}
+
+IL_0078:
+	{
+		int32_t L_16 = __this->get_number_7();
+		if ((!(((uint32_t)L_16) == ((uint32_t)2))))
+		{
+			goto IL_00c5;
+		}
+	}
+	{
+		float L_17 = Random_Range_m3362417303(NULL /*static, unused*/, (-0.5f), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380((&V_1), L_17, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Transform_t284553113 * L_18 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_19 = L_18;
+		NullCheck(L_19);
+		Vector3_t3525329789  L_20 = Transform_get_position_m2211398607(L_19, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_21 = V_1;
+		float L_22 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_23 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_21, L_22, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_24 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_20, L_23, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Transform_set_position_m3111394108(L_19, L_24, /*hidden argument*/NULL);
+	}
+
+IL_00c5:
+	{
+		Transform_t284553113 * L_25 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		Vector3_t3525329789  L_26 = Transform_get_position_m2211398607(L_25, /*hidden argument*/NULL);
+		V_3 = L_26;
+		float L_27 = (&V_3)->get_x_1();
+		__this->set_lastTime_3(L_27);
+	}
+
+IL_00de:
+	{
+		return;
+	}
+}
+// System.Void MonoPInvokeCallbackAttribute::.ctor(System.Type)
+extern "C"  void MonoPInvokeCallbackAttribute__ctor_m198489808 (MonoPInvokeCallbackAttribute_t60011986 * __this, Type_t * ___type0, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m2985353781(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void moving::.ctor()
+extern "C"  void moving__ctor_m3656463373 (moving_t3226708046 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void moving::Start()
+extern const MethodInfo* GameObject_GetComponent_Tisplayer3_t3801399666_m770644015_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3309214433;
+extern const uint32_t moving_Start_m2603601165_MetadataUsageId;
+extern "C"  void moving_Start_m2603601165 (moving_t3226708046 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (moving_Start_m2603601165_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		float L_0 = __this->get_speed_2();
+		Vector3_t3525329789  L_1;
+		memset(&L_1, 0, sizeof(L_1));
+		Vector3__ctor_m2926210380(&L_1, L_0, (0.0f), (0.0f), /*hidden argument*/NULL);
+		__this->set_velocity_3(L_1);
+		GameObject_t4012695102 * L_2 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral3309214433, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		player3_t3801399666 * L_3 = GameObject_GetComponent_Tisplayer3_t3801399666_m770644015(L_2, /*hidden argument*/GameObject_GetComponent_Tisplayer3_t3801399666_m770644015_MethodInfo_var);
+		__this->set_player_4(L_3);
+		return;
+	}
+}
+// System.Void moving::Update()
+extern "C"  void moving_Update_m3408076960 (moving_t3226708046 * __this, const MethodInfo* method)
+{
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_1 = L_0;
+		NullCheck(L_1);
+		Vector3_t3525329789  L_2 = Transform_get_position_m2211398607(L_1, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_3 = __this->get_velocity_3();
+		float L_4 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_6 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_2, L_5, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_set_position_m3111394108(L_1, L_6, /*hidden argument*/NULL);
+		Transform_t284553113 * L_7 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t3525329789  L_8 = Transform_get_position_m2211398607(L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		float L_9 = (&V_0)->get_x_1();
+		player3_t3801399666 * L_10 = __this->get_player_4();
+		NullCheck(L_10);
+		float L_11 = L_10->get_leftBorder_4();
+		if ((((float)L_9) < ((float)L_11)))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		Transform_t284553113 * L_12 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t3525329789  L_13 = Transform_get_position_m2211398607(L_12, /*hidden argument*/NULL);
+		V_1 = L_13;
+		float L_14 = (&V_1)->get_x_1();
+		player3_t3801399666 * L_15 = __this->get_player_4();
+		NullCheck(L_15);
+		float L_16 = L_15->get_rightBorder_5();
+		if ((((float)L_14) > ((float)L_16)))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		Transform_t284553113 * L_17 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t3525329789  L_18 = Transform_get_position_m2211398607(L_17, /*hidden argument*/NULL);
+		V_2 = L_18;
+		float L_19 = (&V_2)->get_y_2();
+		player3_t3801399666 * L_20 = __this->get_player_4();
+		NullCheck(L_20);
+		float L_21 = L_20->get_bottomBorder_7();
+		if ((!(((float)L_19) < ((float)L_21))))
+		{
+			goto IL_009a;
+		}
+	}
+
+IL_008f:
+	{
+		GameObject_t4012695102 * L_22 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+	}
+
+IL_009a:
+	{
+		return;
+	}
+}
+// System.Void nextScene::.ctor()
+extern "C"  void nextScene__ctor_m377719858 (nextScene_t1205632345 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void nextScene::Start()
+extern Il2CppCodeGenString* _stringLiteral2348022547;
+extern const uint32_t nextScene_Start_m3619824946_MetadataUsageId;
+extern "C"  void nextScene_Start_m3619824946 (nextScene_t1205632345 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (nextScene_Start_m3619824946_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		MonoBehaviour_Invoke_m2825545578(__this, _stringLiteral2348022547, (2.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void nextScene::Update()
+extern "C"  void nextScene_Update_m551275803 (nextScene_t1205632345 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void nextScene::loadNextScene()
+extern "C"  void nextScene_loadNextScene_m2224553155 (nextScene_t1205632345 * __this, const MethodInfo* method)
+{
+	{
+		SceneManager_LoadScene_m193744610(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void NullCheckable::.ctor()
+extern "C"  void NullCheckable__ctor_m32453456 (NullCheckable_t2664269947 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean NullCheckable::op_Implicit(NullCheckable)
+extern "C"  bool NullCheckable_op_Implicit_m4112082770 (Il2CppObject * __this /* static, unused */, NullCheckable_t2664269947 * ___o0, const MethodInfo* method)
+{
+	{
+		NullCheckable_t2664269947 * L_0 = ___o0;
+		return (bool)((((int32_t)((((Il2CppObject*)(NullCheckable_t2664269947 *)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Void ObjectDictionary::.ctor()
+extern const MethodInfo* UnityDictionary_1__ctor_m1380394166_MethodInfo_var;
+extern const uint32_t ObjectDictionary__ctor_m1775396070_MetadataUsageId;
+extern "C"  void ObjectDictionary__ctor_m1775396070 (ObjectDictionary_t2756997461 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectDictionary__ctor_m1775396070_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UnityDictionary_1__ctor_m1380394166(__this, /*hidden argument*/UnityDictionary_1__ctor_m1380394166_MethodInfo_var);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<UnityEngine.UnityKeyValuePair`2<System.String,System.String>> ObjectDictionary::get_KeyValuePairs()
+extern Il2CppClass* List_1_t1311312255_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t2132059976_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t3692062543_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2579894821_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2532766869_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3748196456_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m62147624_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3967814120_MethodInfo_var;
+extern const uint32_t ObjectDictionary_get_KeyValuePairs_m163758437_MetadataUsageId;
+extern "C"  List_1_t2132059976 * ObjectDictionary_get_KeyValuePairs_m163758437 (ObjectDictionary_t2756997461 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectDictionary_get_KeyValuePairs_m163758437_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t2132059976 * V_0 = NULL;
+	ObjectKvp_t514353286 * V_1 = NULL;
+	Enumerator_t3692062543  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t1311312255 * L_0 = __this->get_values_0();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		List_1_t1311312255 * L_1 = (List_1_t1311312255 *)il2cpp_codegen_object_new(List_1_t1311312255_il2cpp_TypeInfo_var);
+		List_1__ctor_m2579894821(L_1, /*hidden argument*/List_1__ctor_m2579894821_MethodInfo_var);
+		__this->set_values_0(L_1);
+	}
+
+IL_0016:
+	{
+		List_1_t2132059976 * L_2 = (List_1_t2132059976 *)il2cpp_codegen_object_new(List_1_t2132059976_il2cpp_TypeInfo_var);
+		List_1__ctor_m2532766869(L_2, /*hidden argument*/List_1__ctor_m2532766869_MethodInfo_var);
+		V_0 = L_2;
+		List_1_t1311312255 * L_3 = __this->get_values_0();
+		NullCheck(L_3);
+		Enumerator_t3692062543  L_4 = List_1_GetEnumerator_m3748196456(L_3, /*hidden argument*/List_1_GetEnumerator_m3748196456_MethodInfo_var);
+		V_2 = L_4;
+	}
+
+IL_0028:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0042;
+		}
+
+IL_002d:
+		{
+			ObjectKvp_t514353286 * L_5 = Enumerator_get_Current_m62147624((&V_2), /*hidden argument*/Enumerator_get_Current_m62147624_MethodInfo_var);
+			V_1 = L_5;
+			List_1_t2132059976 * L_6 = V_0;
+			ObjectKvp_t514353286 * L_7 = V_1;
+			UnityKeyValuePair_2_t1335101007 * L_8 = ObjectDictionary_ConvertOkvp_m2611534770(__this, L_7, /*hidden argument*/NULL);
+			NullCheck(L_6);
+			VirtActionInvoker1< UnityKeyValuePair_2_t1335101007 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.UnityKeyValuePair`2<System.String,System.String>>::Add(!0) */, L_6, L_8);
+		}
+
+IL_0042:
+		{
+			bool L_9 = Enumerator_MoveNext_m3967814120((&V_2), /*hidden argument*/Enumerator_MoveNext_m3967814120_MethodInfo_var);
+			if (L_9)
+			{
+				goto IL_002d;
+			}
+		}
+
+IL_004e:
+		{
+			IL2CPP_LEAVE(0x5F, FINALLY_0053);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0053;
+	}
+
+FINALLY_0053:
+	{ // begin finally (depth: 1)
+		Enumerator_t3692062543  L_10 = V_2;
+		Enumerator_t3692062543  L_11 = L_10;
+		Il2CppObject * L_12 = Box(Enumerator_t3692062543_il2cpp_TypeInfo_var, &L_11);
+		NullCheck((Il2CppObject *)L_12);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_12);
+		IL2CPP_END_FINALLY(83)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(83)
+	{
+		IL2CPP_JUMP_TBL(0x5F, IL_005f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_005f:
+	{
+		List_1_t2132059976 * L_13 = V_0;
+		return L_13;
+	}
+}
+// System.Void ObjectDictionary::set_KeyValuePairs(System.Collections.Generic.List`1<UnityEngine.UnityKeyValuePair`2<System.String,System.String>>)
+extern Il2CppClass* List_1_t1311312255_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t217842968_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2579894821_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m1175704866_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m46105294_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3122662222_MethodInfo_var;
+extern const uint32_t ObjectDictionary_set_KeyValuePairs_m4084395854_MetadataUsageId;
+extern "C"  void ObjectDictionary_set_KeyValuePairs_m4084395854 (ObjectDictionary_t2756997461 * __this, List_1_t2132059976 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectDictionary_set_KeyValuePairs_m4084395854_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	UnityKeyValuePair_2_t1335101007 * V_0 = NULL;
+	Enumerator_t217842968  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t2132059976 * L_0 = ___value0;
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		List_1_t1311312255 * L_1 = (List_1_t1311312255 *)il2cpp_codegen_object_new(List_1_t1311312255_il2cpp_TypeInfo_var);
+		List_1__ctor_m2579894821(L_1, /*hidden argument*/List_1__ctor_m2579894821_MethodInfo_var);
+		__this->set_values_0(L_1);
+		return;
+	}
+
+IL_0012:
+	{
+		List_1_t2132059976 * L_2 = ___value0;
+		NullCheck(L_2);
+		Enumerator_t217842968  L_3 = List_1_GetEnumerator_m1175704866(L_2, /*hidden argument*/List_1_GetEnumerator_m1175704866_MethodInfo_var);
+		V_1 = L_3;
+	}
+
+IL_0019:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0038;
+		}
+
+IL_001e:
+		{
+			UnityKeyValuePair_2_t1335101007 * L_4 = Enumerator_get_Current_m46105294((&V_1), /*hidden argument*/Enumerator_get_Current_m46105294_MethodInfo_var);
+			V_0 = L_4;
+			List_1_t1311312255 * L_5 = __this->get_values_0();
+			UnityKeyValuePair_2_t1335101007 * L_6 = V_0;
+			ObjectKvp_t514353286 * L_7 = ObjectDictionary_ConvertUkvp_m31536208(__this, L_6, /*hidden argument*/NULL);
+			NullCheck(L_5);
+			VirtActionInvoker1< ObjectKvp_t514353286 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<ObjectKvp>::Add(!0) */, L_5, L_7);
+		}
+
+IL_0038:
+		{
+			bool L_8 = Enumerator_MoveNext_m3122662222((&V_1), /*hidden argument*/Enumerator_MoveNext_m3122662222_MethodInfo_var);
+			if (L_8)
+			{
+				goto IL_001e;
+			}
+		}
+
+IL_0044:
+		{
+			IL2CPP_LEAVE(0x55, FINALLY_0049);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0049;
+	}
+
+FINALLY_0049:
+	{ // begin finally (depth: 1)
+		Enumerator_t217842968  L_9 = V_1;
+		Enumerator_t217842968  L_10 = L_9;
+		Il2CppObject * L_11 = Box(Enumerator_t217842968_il2cpp_TypeInfo_var, &L_10);
+		NullCheck((Il2CppObject *)L_11);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_11);
+		IL2CPP_END_FINALLY(73)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(73)
+	{
+		IL2CPP_JUMP_TBL(0x55, IL_0055)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0055:
+	{
+		return;
+	}
+}
+// ObjectKvp ObjectDictionary::ConvertUkvp(UnityEngine.UnityKeyValuePair`2<System.String,System.String>)
+extern Il2CppClass* ObjectKvp_t514353286_il2cpp_TypeInfo_var;
+extern const uint32_t ObjectDictionary_ConvertUkvp_m31536208_MetadataUsageId;
+extern "C"  ObjectKvp_t514353286 * ObjectDictionary_ConvertUkvp_m31536208 (ObjectDictionary_t2756997461 * __this, UnityKeyValuePair_2_t1335101007 * ___ukvp0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectDictionary_ConvertUkvp_m31536208_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UnityKeyValuePair_2_t1335101007 * L_0 = ___ukvp0;
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(4 /* K UnityEngine.UnityKeyValuePair`2<System.String,System.String>::get_Key() */, L_0);
+		UnityKeyValuePair_2_t1335101007 * L_2 = ___ukvp0;
+		NullCheck(L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(6 /* V UnityEngine.UnityKeyValuePair`2<System.String,System.String>::get_Value() */, L_2);
+		ObjectKvp_t514353286 * L_4 = (ObjectKvp_t514353286 *)il2cpp_codegen_object_new(ObjectKvp_t514353286_il2cpp_TypeInfo_var);
+		ObjectKvp__ctor_m4248459513(L_4, L_1, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// UnityEngine.UnityKeyValuePair`2<System.String,System.String> ObjectDictionary::ConvertOkvp(ObjectKvp)
+extern Il2CppClass* UnityKeyValuePair_2_t1335101007_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityKeyValuePair_2__ctor_m286460236_MethodInfo_var;
+extern const uint32_t ObjectDictionary_ConvertOkvp_m2611534770_MetadataUsageId;
+extern "C"  UnityKeyValuePair_2_t1335101007 * ObjectDictionary_ConvertOkvp_m2611534770 (ObjectDictionary_t2756997461 * __this, ObjectKvp_t514353286 * ___okvp0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectDictionary_ConvertOkvp_m2611534770_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ObjectKvp_t514353286 * L_0 = ___okvp0;
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String UnityEngine.UnityNameValuePair`1<System.String>::get_Key() */, L_0);
+		ObjectKvp_t514353286 * L_2 = ___okvp0;
+		NullCheck(L_2);
+		String_t* L_3 = ObjectKvp_get_Value_m996355822(L_2, /*hidden argument*/NULL);
+		UnityKeyValuePair_2_t1335101007 * L_4 = (UnityKeyValuePair_2_t1335101007 *)il2cpp_codegen_object_new(UnityKeyValuePair_2_t1335101007_il2cpp_TypeInfo_var);
+		UnityKeyValuePair_2__ctor_m286460236(L_4, L_1, L_3, /*hidden argument*/UnityKeyValuePair_2__ctor_m286460236_MethodInfo_var);
+		return L_4;
+	}
+}
+// System.Void ObjectDictionary::SetKeyValuePair(System.String,System.String)
+extern Il2CppClass* U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577_il2cpp_TypeInfo_var;
+extern Il2CppClass* Predicate_1_t1085317184_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectKvp_t514353286_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CSetKeyValuePairU3Ec__AnonStorey17_U3CU3Em__2C_m680708142_MethodInfo_var;
+extern const MethodInfo* Predicate_1__ctor_m2814001634_MethodInfo_var;
+extern const MethodInfo* List_1_FindIndex_m2436645842_MethodInfo_var;
+extern const uint32_t ObjectDictionary_SetKeyValuePair_m4076673004_MetadataUsageId;
+extern "C"  void ObjectDictionary_SetKeyValuePair_m4076673004 (ObjectDictionary_t2756997461 * __this, String_t* ___k0, String_t* ___v1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectDictionary_SetKeyValuePair_m4076673004_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 * V_1 = NULL;
+	{
+		U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 * L_0 = (U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 *)il2cpp_codegen_object_new(U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577_il2cpp_TypeInfo_var);
+		U3CSetKeyValuePairU3Ec__AnonStorey17__ctor_m703746672(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 * L_1 = V_1;
+		String_t* L_2 = ___k0;
+		NullCheck(L_1);
+		L_1->set_k_0(L_2);
+		List_1_t1311312255 * L_3 = __this->get_values_0();
+		U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 * L_4 = V_1;
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)U3CSetKeyValuePairU3Ec__AnonStorey17_U3CU3Em__2C_m680708142_MethodInfo_var);
+		Predicate_1_t1085317184 * L_6 = (Predicate_1_t1085317184 *)il2cpp_codegen_object_new(Predicate_1_t1085317184_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m2814001634(L_6, L_4, L_5, /*hidden argument*/Predicate_1__ctor_m2814001634_MethodInfo_var);
+		NullCheck(L_3);
+		int32_t L_7 = List_1_FindIndex_m2436645842(L_3, L_6, /*hidden argument*/List_1_FindIndex_m2436645842_MethodInfo_var);
+		V_0 = L_7;
+		int32_t L_8 = V_0;
+		if ((((int32_t)L_8) == ((int32_t)(-1))))
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		String_t* L_9 = ___v1;
+		if (L_9)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		List_1_t1311312255 * L_10 = __this->get_values_0();
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		VirtActionInvoker1< int32_t >::Invoke(30 /* System.Void System.Collections.Generic.List`1<ObjectKvp>::RemoveAt(System.Int32) */, L_10, L_11);
+		return;
+	}
+
+IL_003f:
+	{
+		List_1_t1311312255 * L_12 = __this->get_values_0();
+		int32_t L_13 = V_0;
+		U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 * L_14 = V_1;
+		NullCheck(L_14);
+		String_t* L_15 = L_14->get_k_0();
+		String_t* L_16 = ___v1;
+		ObjectKvp_t514353286 * L_17 = (ObjectKvp_t514353286 *)il2cpp_codegen_object_new(ObjectKvp_t514353286_il2cpp_TypeInfo_var);
+		ObjectKvp__ctor_m4248459513(L_17, L_15, L_16, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		VirtActionInvoker2< int32_t, ObjectKvp_t514353286 * >::Invoke(32 /* System.Void System.Collections.Generic.List`1<ObjectKvp>::set_Item(System.Int32,!0) */, L_12, L_13, L_17);
+		return;
+	}
+
+IL_0058:
+	{
+		List_1_t1311312255 * L_18 = __this->get_values_0();
+		U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 * L_19 = V_1;
+		NullCheck(L_19);
+		String_t* L_20 = L_19->get_k_0();
+		String_t* L_21 = ___v1;
+		ObjectKvp_t514353286 * L_22 = (ObjectKvp_t514353286 *)il2cpp_codegen_object_new(ObjectKvp_t514353286_il2cpp_TypeInfo_var);
+		ObjectKvp__ctor_m4248459513(L_22, L_20, L_21, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		VirtActionInvoker1< ObjectKvp_t514353286 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<ObjectKvp>::Add(!0) */, L_18, L_22);
+		return;
+	}
+}
+// System.Void ObjectDictionary/<SetKeyValuePair>c__AnonStorey17::.ctor()
+extern "C"  void U3CSetKeyValuePairU3Ec__AnonStorey17__ctor_m703746672 (U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean ObjectDictionary/<SetKeyValuePair>c__AnonStorey17::<>m__2C(ObjectKvp)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSetKeyValuePairU3Ec__AnonStorey17_U3CU3Em__2C_m680708142_MetadataUsageId;
+extern "C"  bool U3CSetKeyValuePairU3Ec__AnonStorey17_U3CU3Em__2C_m680708142 (U3CSetKeyValuePairU3Ec__AnonStorey17_t3905732577 * __this, ObjectKvp_t514353286 * ___x0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSetKeyValuePairU3Ec__AnonStorey17_U3CU3Em__2C_m680708142_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ObjectKvp_t514353286 * L_0 = ___x0;
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String UnityEngine.UnityNameValuePair`1<System.String>::get_Key() */, L_0);
+		String_t* L_2 = __this->get_k_0();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_3 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void ObjectKvp::.ctor(System.String,System.String)
+extern const MethodInfo* UnityNameValuePair_1__ctor_m1151433732_MethodInfo_var;
+extern const uint32_t ObjectKvp__ctor_m4248459513_MetadataUsageId;
+extern "C"  void ObjectKvp__ctor_m4248459513 (ObjectKvp_t514353286 * __this, String_t* ___key0, String_t* ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectKvp__ctor_m4248459513_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___key0;
+		String_t* L_1 = ___value1;
+		UnityNameValuePair_1__ctor_m1151433732(__this, L_0, L_1, /*hidden argument*/UnityNameValuePair_1__ctor_m1151433732_MethodInfo_var);
+		return;
+	}
+}
+// System.String ObjectKvp::get_Value()
+extern "C"  String_t* ObjectKvp_get_Value_m996355822 (ObjectKvp_t514353286 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_value_3();
+		return L_0;
+	}
+}
+// System.Void ObjectKvp::set_Value(System.String)
+extern "C"  void ObjectKvp_set_Value_m817404491 (ObjectKvp_t514353286 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set_value_3(L_0);
+		return;
+	}
+}
+// System.Void obstacle::.ctor()
+extern "C"  void obstacle__ctor_m2631695596 (obstacle_t361935503 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void obstacle::Start()
+extern const MethodInfo* Component_GetComponent_TisAnimator_t792326996_m4147395588_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1848706221;
+extern Il2CppCodeGenString* _stringLiteral3949701987;
+extern Il2CppCodeGenString* _stringLiteral3981025493;
+extern const uint32_t obstacle_Start_m1578833388_MetadataUsageId;
+extern "C"  void obstacle_Start_m1578833388 (obstacle_t361935503 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (obstacle_Start_m1578833388_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = __this->get_changeTime_4();
+		MonoBehaviour_InvokeRepeating_m1115468640(__this, _stringLiteral1848706221, (0.0f), (((float)((float)L_0))), /*hidden argument*/NULL);
+		int32_t L_1 = __this->get_number_5();
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		MonoBehaviour_InvokeRepeating_m1115468640(__this, _stringLiteral3949701987, (0.0f), (2.0f), /*hidden argument*/NULL);
+	}
+
+IL_0038:
+	{
+		int32_t L_2 = __this->get_number_5();
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Il2CppObject * L_3 = obstacle_waitAndDestroy_m2289492408(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		int32_t L_4 = __this->get_number_5();
+		if ((!(((uint32_t)L_4) == ((uint32_t)3))))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		Animator_t792326996 * L_5 = Component_GetComponent_TisAnimator_t792326996_m4147395588(__this, /*hidden argument*/Component_GetComponent_TisAnimator_t792326996_m4147395588_MethodInfo_var);
+		__this->set_ani_8(L_5);
+		MonoBehaviour_InvokeRepeating_m1115468640(__this, _stringLiteral3981025493, (0.0f), (10.0f), /*hidden argument*/NULL);
+	}
+
+IL_007e:
+	{
+		return;
+	}
+}
+// System.Void obstacle::Update()
+extern "C"  void obstacle_Update_m1705046945 (obstacle_t361935503 * __this, const MethodInfo* method)
+{
+	{
+		obstacle_move_m1899659849(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void obstacle::strechOut()
+extern Il2CppCodeGenString* _stringLiteral2413094661;
+extern const uint32_t obstacle_strechOut_m678645055_MetadataUsageId;
+extern "C"  void obstacle_strechOut_m678645055 (obstacle_t361935503 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (obstacle_strechOut_m678645055_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		float L_0 = Random_Range_m3362417303(NULL /*static, unused*/, (-5.3f), (-8.5f), /*hidden argument*/NULL);
+		V_0 = L_0;
+		Transform_t284553113 * L_1 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_2 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Vector3_t3525329789  L_3 = Transform_get_position_m2211398607(L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		float L_4 = (&V_1)->get_x_1();
+		float L_5 = V_0;
+		Transform_t284553113 * L_6 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t3525329789  L_7 = Transform_get_position_m2211398607(L_6, /*hidden argument*/NULL);
+		V_2 = L_7;
+		float L_8 = (&V_2)->get_y_2();
+		Vector3_t3525329789  L_9;
+		memset(&L_9, 0, sizeof(L_9));
+		Vector3__ctor_m2926210380(&L_9, L_4, L_5, L_8, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_set_position_m3111394108(L_1, L_9, /*hidden argument*/NULL);
+		Animator_t792326996 * L_10 = __this->get_ani_8();
+		NullCheck(L_10);
+		Animator_SetTrigger_m514363822(L_10, _stringLiteral2413094661, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void obstacle::move()
+extern "C"  void obstacle_move_m1899659849 (obstacle_t361935503 * __this, const MethodInfo* method)
+{
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_1 = L_0;
+		NullCheck(L_1);
+		Vector3_t3525329789  L_2 = Transform_get_position_m2211398607(L_1, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_3 = __this->get_velocity_2();
+		float L_4 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		float L_6 = __this->get_speed_3();
+		Vector3_t3525329789  L_7 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_8 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_2, L_7, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_set_position_m3111394108(L_1, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void obstacle::changeVelocity()
+extern "C"  void obstacle_changeVelocity_m2871790437 (obstacle_t361935503 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get_speed_3();
+		__this->set_speed_3(((-L_0)));
+		return;
+	}
+}
+// System.Collections.IEnumerator obstacle::waitAndDestroy()
+extern Il2CppClass* U3CwaitAndDestroyU3Ec__IteratorD_t402599005_il2cpp_TypeInfo_var;
+extern const uint32_t obstacle_waitAndDestroy_m2289492408_MetadataUsageId;
+extern "C"  Il2CppObject * obstacle_waitAndDestroy_m2289492408 (obstacle_t361935503 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (obstacle_waitAndDestroy_m2289492408_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * V_0 = NULL;
+	{
+		U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * L_0 = (U3CwaitAndDestroyU3Ec__IteratorD_t402599005 *)il2cpp_codegen_object_new(U3CwaitAndDestroyU3Ec__IteratorD_t402599005_il2cpp_TypeInfo_var);
+		U3CwaitAndDestroyU3Ec__IteratorD__ctor_m891987502(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_2(__this);
+		U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void obstacle/<waitAndDestroy>c__IteratorD::.ctor()
+extern "C"  void U3CwaitAndDestroyU3Ec__IteratorD__ctor_m891987502 (U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object obstacle/<waitAndDestroy>c__IteratorD::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CwaitAndDestroyU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2634699172 (U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object obstacle/<waitAndDestroy>c__IteratorD::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CwaitAndDestroyU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m180100408 (U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Boolean obstacle/<waitAndDestroy>c__IteratorD::MoveNext()
+extern Il2CppClass* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const uint32_t U3CwaitAndDestroyU3Ec__IteratorD_MoveNext_m1866061830_MetadataUsageId;
+extern "C"  bool U3CwaitAndDestroyU3Ec__IteratorD_MoveNext_m1866061830 (U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CwaitAndDestroyU3Ec__IteratorD_MoveNext_m1866061830_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_0();
+		V_0 = L_0;
+		__this->set_U24PC_0((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		goto IL_0054;
+	}
+
+IL_0021:
+	{
+		WaitForSeconds_t1291133240 * L_2 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_2, (3.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_2);
+		__this->set_U24PC_0(1);
+		goto IL_0056;
+	}
+
+IL_003d:
+	{
+		obstacle_t361935503 * L_3 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_3);
+		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1170635899(L_3, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		__this->set_U24PC_0((-1));
+	}
+
+IL_0054:
+	{
+		return (bool)0;
+	}
+
+IL_0056:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0058: ldloc.1
+}
+// System.Void obstacle/<waitAndDestroy>c__IteratorD::Dispose()
+extern "C"  void U3CwaitAndDestroyU3Ec__IteratorD_Dispose_m2399780587 (U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_0((-1));
+		return;
+	}
+}
+// System.Void obstacle/<waitAndDestroy>c__IteratorD::Reset()
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CwaitAndDestroyU3Ec__IteratorD_Reset_m2833387739_MetadataUsageId;
+extern "C"  void U3CwaitAndDestroyU3Ec__IteratorD_Reset_m2833387739 (U3CwaitAndDestroyU3Ec__IteratorD_t402599005 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CwaitAndDestroyU3Ec__IteratorD_Reset_m2833387739_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void peopleGenerating::.ctor()
+extern "C"  void peopleGenerating__ctor_m983401178 (peopleGenerating_t4061532385 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void peopleGenerating::Start()
+extern Il2CppClass* List_1_t514686775_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2397334390_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1851494286;
+extern const uint32_t peopleGenerating_Start_m4225506266_MetadataUsageId;
+extern "C"  void peopleGenerating_Start_m4225506266 (peopleGenerating_t4061532385 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (peopleGenerating_Start_m4225506266_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t514686775 * L_0 = (List_1_t514686775 *)il2cpp_codegen_object_new(List_1_t514686775_il2cpp_TypeInfo_var);
+		List_1__ctor_m2397334390(L_0, /*hidden argument*/List_1__ctor_m2397334390_MethodInfo_var);
+		__this->set_unlockPeople_3(L_0);
+		List_1_t514686775 * L_1 = __this->get_unlockPeople_3();
+		List_1_t514686775 * L_2 = __this->get_people_2();
+		NullCheck(L_2);
+		GameObject_t4012695102 * L_3 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_2, 0);
+		NullCheck(L_1);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_1, L_3);
+		__this->set_number_4(3);
+		__this->set_addNumber_6(1);
+		__this->set_newLevel_7((bool)1);
+		__this->set_isStarting_15((bool)0);
+		MonoBehaviour_Invoke_m2825545578(__this, _stringLiteral1851494286, (2.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void peopleGenerating::Update()
+extern "C"  void peopleGenerating_Update_m2147527539 (peopleGenerating_t4061532385 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_isStarting_15();
+		if (!L_0)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		float L_1 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = __this->get_nextShoot_13();
+		if ((!(((float)L_1) > ((float)L_2))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		float L_3 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_4 = __this->get_waittigTime_14();
+		__this->set_nextShoot_13(((float)((float)L_3+(float)L_4)));
+		peopleGenerating_Generate_m2792666847(__this, /*hidden argument*/NULL);
+	}
+
+IL_0033:
+	{
+		wholeMap_t2327764005 * L_5 = __this->get_wholeController_5();
+		NullCheck(L_5);
+		bool L_6 = L_5->get_startNext_19();
+		if (!L_6)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		wholeMap_t2327764005 * L_7 = __this->get_wholeController_5();
+		NullCheck(L_7);
+		int32_t L_8 = L_7->get_level_2();
+		int32_t L_9 = __this->get_peopleNumberInLevel_8();
+		if (((int32_t)((int32_t)L_8%(int32_t)L_9)))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		int32_t L_10 = __this->get_addNumber_6();
+		List_1_t514686775 * L_11 = __this->get_people_2();
+		NullCheck(L_11);
+		int32_t L_12 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_11);
+		if ((((int32_t)L_10) >= ((int32_t)L_12)))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		List_1_t514686775 * L_13 = __this->get_unlockPeople_3();
+		List_1_t514686775 * L_14 = __this->get_people_2();
+		int32_t L_15 = __this->get_addNumber_6();
+		NullCheck(L_14);
+		GameObject_t4012695102 * L_16 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_14, L_15);
+		NullCheck(L_13);
+		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_13, L_16);
+		int32_t L_17 = __this->get_addNumber_6();
+		__this->set_addNumber_6(((int32_t)((int32_t)L_17+(int32_t)1)));
+	}
+
+IL_009a:
+	{
+		wholeMap_t2327764005 * L_18 = __this->get_wholeController_5();
+		NullCheck(L_18);
+		L_18->set_startNext_19((bool)0);
+	}
+
+IL_00a6:
+	{
+		return;
+	}
+}
+// System.Void peopleGenerating::startSetting()
+extern "C"  void peopleGenerating_startSetting_m2858305048 (peopleGenerating_t4061532385 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_isStarting_15((bool)1);
+		wholeMap_t2327764005 * L_0 = __this->get_wholeController_5();
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_numer2_30();
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Text_t3286458198 * L_2 = __this->get_text_16();
+		NullCheck(L_2);
+		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1170635899(L_2, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+// System.Void peopleGenerating::Generate()
+extern "C"  void peopleGenerating_Generate_m2792666847 (peopleGenerating_t4061532385 * __this, const MethodInfo* method)
+{
+	{
+		peopleGenerating_generatePeople_m1497973550(__this, /*hidden argument*/NULL);
+		wholeMap_t2327764005 * L_0 = __this->get_wholeController_5();
+		Il2CppObject * L_1 = peopleGenerating_newPeople_m2112588464(__this, 2, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		L_0->set_coroutine_6(L_1);
+		wholeMap_t2327764005 * L_2 = __this->get_wholeController_5();
+		NullCheck(L_2);
+		Il2CppObject * L_3 = L_2->get_coroutine_6();
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void peopleGenerating::generatePeople()
+extern "C"  void peopleGenerating_generatePeople_m1497973550 (peopleGenerating_t4061532385 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t3525329789  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector3_t3525329789  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		List_1_t514686775 * L_0 = __this->get_unlockPeople_3();
+		NullCheck(L_0);
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_0);
+		int32_t L_2 = Random_Range_m75452833(NULL /*static, unused*/, 0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		player4_t3801399667 * L_3 = __this->get_player_12();
+		NullCheck(L_3);
+		float L_4 = L_3->get_leftBorder_2();
+		player4_t3801399667 * L_5 = __this->get_player_12();
+		NullCheck(L_5);
+		float L_6 = L_5->get_rightBorder_3();
+		float L_7 = Random_Range_m3362417303(NULL /*static, unused*/, ((float)((float)L_4+(float)(0.5f))), ((float)((float)L_6-(float)(0.5f))), /*hidden argument*/NULL);
+		V_1 = L_7;
+		float L_8 = V_1;
+		Transform_t284553113 * L_9 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Vector3_t3525329789  L_10 = Transform_get_position_m2211398607(L_9, /*hidden argument*/NULL);
+		V_3 = L_10;
+		float L_11 = (&V_3)->get_y_2();
+		Transform_t284553113 * L_12 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t3525329789  L_13 = Transform_get_position_m2211398607(L_12, /*hidden argument*/NULL);
+		V_4 = L_13;
+		float L_14 = (&V_4)->get_z_3();
+		Vector3__ctor_m2926210380((&V_2), L_8, L_11, L_14, /*hidden argument*/NULL);
+		List_1_t514686775 * L_15 = __this->get_unlockPeople_3();
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		GameObject_t4012695102 * L_17 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_15, L_16);
+		Vector3_t3525329789  L_18 = V_2;
+		Transform_t284553113 * L_19 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Quaternion_t1891715979  L_20 = Transform_get_rotation_m11483428(L_19, /*hidden argument*/NULL);
+		Object_Instantiate_m2255090103(NULL /*static, unused*/, L_17, L_18, L_20, /*hidden argument*/NULL);
+		wholeMap_t2327764005 * L_21 = __this->get_wholeController_5();
+		wholeMap_t2327764005 * L_22 = L_21;
+		NullCheck(L_22);
+		int32_t L_23 = L_22->get_peopleGenerated_18();
+		NullCheck(L_22);
+		L_22->set_peopleGenerated_18(((int32_t)((int32_t)L_23+(int32_t)1)));
+		wholeMap_t2327764005 * L_24 = __this->get_wholeController_5();
+		wholeMap_t2327764005 * L_25 = L_24;
+		NullCheck(L_25);
+		int32_t L_26 = L_25->get_peopleInscene_5();
+		NullCheck(L_25);
+		L_25->set_peopleInscene_5(((int32_t)((int32_t)L_26+(int32_t)1)));
+		return;
+	}
+}
+// System.Collections.IEnumerator peopleGenerating::newPeople(System.Int32)
+extern Il2CppClass* U3CnewPeopleU3Ec__IteratorE_t4244967391_il2cpp_TypeInfo_var;
+extern const uint32_t peopleGenerating_newPeople_m2112588464_MetadataUsageId;
+extern "C"  Il2CppObject * peopleGenerating_newPeople_m2112588464 (peopleGenerating_t4061532385 * __this, int32_t ___begin0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (peopleGenerating_newPeople_m2112588464_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CnewPeopleU3Ec__IteratorE_t4244967391 * V_0 = NULL;
+	{
+		U3CnewPeopleU3Ec__IteratorE_t4244967391 * L_0 = (U3CnewPeopleU3Ec__IteratorE_t4244967391 *)il2cpp_codegen_object_new(U3CnewPeopleU3Ec__IteratorE_t4244967391_il2cpp_TypeInfo_var);
+		U3CnewPeopleU3Ec__IteratorE__ctor_m1762299146(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CnewPeopleU3Ec__IteratorE_t4244967391 * L_1 = V_0;
+		int32_t L_2 = ___begin0;
+		NullCheck(L_1);
+		L_1->set_begin_0(L_2);
+		U3CnewPeopleU3Ec__IteratorE_t4244967391 * L_3 = V_0;
+		int32_t L_4 = ___begin0;
+		NullCheck(L_3);
+		L_3->set_U3CU24U3Ebegin_5(L_4);
+		U3CnewPeopleU3Ec__IteratorE_t4244967391 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->set_U3CU3Ef__this_6(__this);
+		U3CnewPeopleU3Ec__IteratorE_t4244967391 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void peopleGenerating/<newPeople>c__IteratorE::.ctor()
+extern "C"  void U3CnewPeopleU3Ec__IteratorE__ctor_m1762299146 (U3CnewPeopleU3Ec__IteratorE_t4244967391 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object peopleGenerating/<newPeople>c__IteratorE::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CnewPeopleU3Ec__IteratorE_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3792034322 (U3CnewPeopleU3Ec__IteratorE_t4244967391 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_4();
+		return L_0;
+	}
+}
+// System.Object peopleGenerating/<newPeople>c__IteratorE::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CnewPeopleU3Ec__IteratorE_System_Collections_IEnumerator_get_Current_m260194726 (U3CnewPeopleU3Ec__IteratorE_t4244967391 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_4();
+		return L_0;
+	}
+}
+// System.Boolean peopleGenerating/<newPeople>c__IteratorE::MoveNext()
+extern Il2CppClass* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const uint32_t U3CnewPeopleU3Ec__IteratorE_MoveNext_m1933529234_MetadataUsageId;
+extern "C"  bool U3CnewPeopleU3Ec__IteratorE_MoveNext_m1933529234 (U3CnewPeopleU3Ec__IteratorE_t4244967391 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CnewPeopleU3Ec__IteratorE_MoveNext_m1933529234_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		goto IL_009a;
+	}
+
+IL_0021:
+	{
+		int32_t L_2 = __this->get_begin_0();
+		__this->set_U3CiU3E__0_1(L_2);
+		goto IL_007d;
+	}
+
+IL_0032:
+	{
+		float L_3 = Random_Range_m3362417303(NULL /*static, unused*/, (2.0f), (5.0f), /*hidden argument*/NULL);
+		__this->set_U3CwaitTimeU3E__1_2(L_3);
+		float L_4 = __this->get_U3CwaitTimeU3E__1_2();
+		WaitForSeconds_t1291133240 * L_5 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_5, L_4, /*hidden argument*/NULL);
+		__this->set_U24current_4(L_5);
+		__this->set_U24PC_3(1);
+		goto IL_009c;
+	}
+
+IL_0064:
+	{
+		peopleGenerating_t4061532385 * L_6 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_6);
+		peopleGenerating_generatePeople_m1497973550(L_6, /*hidden argument*/NULL);
+		int32_t L_7 = __this->get_U3CiU3E__0_1();
+		__this->set_U3CiU3E__0_1(((int32_t)((int32_t)L_7+(int32_t)1)));
+	}
+
+IL_007d:
+	{
+		int32_t L_8 = __this->get_U3CiU3E__0_1();
+		peopleGenerating_t4061532385 * L_9 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_9);
+		int32_t L_10 = L_9->get_number_4();
+		if ((((int32_t)L_8) < ((int32_t)L_10)))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		__this->set_U24PC_3((-1));
+	}
+
+IL_009a:
+	{
+		return (bool)0;
+	}
+
+IL_009c:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_009e: ldloc.1
+}
+// System.Void peopleGenerating/<newPeople>c__IteratorE::Dispose()
+extern "C"  void U3CnewPeopleU3Ec__IteratorE_Dispose_m1250647751 (U3CnewPeopleU3Ec__IteratorE_t4244967391 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void peopleGenerating/<newPeople>c__IteratorE::Reset()
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CnewPeopleU3Ec__IteratorE_Reset_m3703699383_MetadataUsageId;
+extern "C"  void U3CnewPeopleU3Ec__IteratorE_Reset_m3703699383 (U3CnewPeopleU3Ec__IteratorE_t4244967391 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CnewPeopleU3Ec__IteratorE_Reset_m3703699383_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void player3::.ctor()
+extern "C"  void player3__ctor_m2635198009 (player3_t3801399666 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void player3::Start()
+extern "C"  void player3_Start_m1582335801 (player3_t3801399666 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t3525329789  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector3_t3525329789  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector3_t3525329789  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t3525329789  L_1 = Transform_get_position_m2211398607(L_0, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_2 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Transform_t284553113 * L_3 = Component_get_transform_m4257140443(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_t3525329789  L_4 = Transform_get_position_m2211398607(L_3, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_1, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		float L_6 = (&V_1)->get_z_3();
+		V_0 = L_6;
+		Camera_t3533968274 * L_7 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_8 = V_0;
+		Vector3_t3525329789  L_9;
+		memset(&L_9, 0, sizeof(L_9));
+		Vector3__ctor_m2926210380(&L_9, (0.0f), (0.0f), L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t3525329789  L_10 = Camera_ViewportToWorldPoint_m1641213412(L_7, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		float L_11 = (&V_2)->get_x_1();
+		__this->set_leftBorder_4(L_11);
+		Camera_t3533968274 * L_12 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_13 = V_0;
+		Vector3_t3525329789  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		Vector3__ctor_m2926210380(&L_14, (1.0f), (0.0f), L_13, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t3525329789  L_15 = Camera_ViewportToWorldPoint_m1641213412(L_12, L_14, /*hidden argument*/NULL);
+		V_3 = L_15;
+		float L_16 = (&V_3)->get_x_1();
+		__this->set_rightBorder_5(L_16);
+		Camera_t3533968274 * L_17 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_18 = V_0;
+		Vector3_t3525329789  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Vector3__ctor_m2926210380(&L_19, (0.0f), (1.0f), L_18, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t3525329789  L_20 = Camera_ViewportToWorldPoint_m1641213412(L_17, L_19, /*hidden argument*/NULL);
+		V_4 = L_20;
+		float L_21 = (&V_4)->get_y_2();
+		__this->set_topBorder_6(L_21);
+		Camera_t3533968274 * L_22 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_23 = V_0;
+		Vector3_t3525329789  L_24;
+		memset(&L_24, 0, sizeof(L_24));
+		Vector3__ctor_m2926210380(&L_24, (0.0f), (0.0f), L_23, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Vector3_t3525329789  L_25 = Camera_ViewportToWorldPoint_m1641213412(L_22, L_24, /*hidden argument*/NULL);
+		V_5 = L_25;
+		float L_26 = (&V_5)->get_y_2();
+		__this->set_bottomBorder_7(L_26);
+		return;
+	}
+}
+// System.Void player3::Update()
+extern "C"  void player3_Update_m1813621748 (player3_t3801399666 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void player4::.ctor()
+extern "C"  void player4__ctor_m2438684504 (player4_t3801399667 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void player4::Awake()
+extern "C"  void player4_Awake_m2676289723 (player4_t3801399667 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t3525329789  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector3_t3525329789  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector3_t3525329789  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t3525329789  L_1 = Transform_get_position_m2211398607(L_0, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_2 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Transform_t284553113 * L_3 = Component_get_transform_m4257140443(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_t3525329789  L_4 = Transform_get_position_m2211398607(L_3, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_1, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		float L_6 = (&V_1)->get_z_3();
+		V_0 = L_6;
+		Camera_t3533968274 * L_7 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_8 = V_0;
+		Vector3_t3525329789  L_9;
+		memset(&L_9, 0, sizeof(L_9));
+		Vector3__ctor_m2926210380(&L_9, (0.0f), (0.0f), L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t3525329789  L_10 = Camera_ViewportToWorldPoint_m1641213412(L_7, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		float L_11 = (&V_2)->get_x_1();
+		__this->set_leftBorder_2(L_11);
+		Camera_t3533968274 * L_12 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_13 = V_0;
+		Vector3_t3525329789  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		Vector3__ctor_m2926210380(&L_14, (1.0f), (0.0f), L_13, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t3525329789  L_15 = Camera_ViewportToWorldPoint_m1641213412(L_12, L_14, /*hidden argument*/NULL);
+		V_3 = L_15;
+		float L_16 = (&V_3)->get_x_1();
+		__this->set_rightBorder_3(L_16);
+		Camera_t3533968274 * L_17 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_18 = V_0;
+		Vector3_t3525329789  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Vector3__ctor_m2926210380(&L_19, (0.0f), (1.0f), L_18, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t3525329789  L_20 = Camera_ViewportToWorldPoint_m1641213412(L_17, L_19, /*hidden argument*/NULL);
+		V_4 = L_20;
+		float L_21 = (&V_4)->get_y_2();
+		__this->set_topBorder_4(L_21);
+		Camera_t3533968274 * L_22 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_23 = V_0;
+		Vector3_t3525329789  L_24;
+		memset(&L_24, 0, sizeof(L_24));
+		Vector3__ctor_m2926210380(&L_24, (0.0f), (0.0f), L_23, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Vector3_t3525329789  L_25 = Camera_ViewportToWorldPoint_m1641213412(L_22, L_24, /*hidden argument*/NULL);
+		V_5 = L_25;
+		float L_26 = (&V_5)->get_y_2();
+		__this->set_bottomBorder_5(L_26);
+		return;
+	}
+}
+// System.Void player4::Start()
+extern const MethodInfo* Component_GetComponent_TisSpriteRenderer_t2223784725_m4090179846_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAnimator_t792326996_m4147395588_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2933749271;
+extern const uint32_t player4_Start_m1385822296_MetadataUsageId;
+extern "C"  void player4_Start_m1385822296 (player4_t3801399667 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (player4_Start_m1385822296_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = __this->get_number_13();
+		if (L_0)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		SpriteRenderer_t2223784725 * L_1 = Component_GetComponent_TisSpriteRenderer_t2223784725_m4090179846(__this, /*hidden argument*/Component_GetComponent_TisSpriteRenderer_t2223784725_m4090179846_MethodInfo_var);
+		__this->set_spriteSheet_7(L_1);
+		int32_t L_2 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral2933749271, /*hidden argument*/NULL);
+		__this->set_chosenIndex_8(L_2);
+		Animator_t792326996 * L_3 = Component_GetComponent_TisAnimator_t792326996_m4147395588(__this, /*hidden argument*/Component_GetComponent_TisAnimator_t792326996_m4147395588_MethodInfo_var);
+		__this->set_ani_9(L_3);
+		AudioSource_t3628549054 * L_4 = Component_GetComponent_TisAudioSource_t3628549054_m3821406207(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var);
+		__this->set_shootingSource_11(L_4);
+		player4_initial_m213070234(__this, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// System.Void player4::Update()
+extern "C"  void player4_Update_m16670389 (player4_t3801399667 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void player4::initial()
+extern Il2CppClass* RuntimeAnimatorController_t3860414472_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture_t1769722184_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisSpriteRenderer_t2223784725_m3588502113_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3309214433;
+extern Il2CppCodeGenString* _stringLiteral1925670303;
+extern Il2CppCodeGenString* _stringLiteral1880697174;
+extern Il2CppCodeGenString* _stringLiteral697966306;
+extern Il2CppCodeGenString* _stringLiteral2223705471;
+extern Il2CppCodeGenString* _stringLiteral2234706281;
+extern Il2CppCodeGenString* _stringLiteral1467255918;
+extern Il2CppCodeGenString* _stringLiteral843829929;
+extern Il2CppCodeGenString* _stringLiteral3015608525;
+extern Il2CppCodeGenString* _stringLiteral3165122956;
+extern Il2CppCodeGenString* _stringLiteral957790504;
+extern Il2CppCodeGenString* _stringLiteral3193016552;
+extern Il2CppCodeGenString* _stringLiteral629263115;
+extern Il2CppCodeGenString* _stringLiteral50358992;
+extern Il2CppCodeGenString* _stringLiteral3092204841;
+extern const uint32_t player4_initial_m213070234_MetadataUsageId;
+extern "C"  void player4_initial_m213070234 (player4_t3801399667 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (player4_initial_m213070234_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t4012695102 * V_0 = NULL;
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		List_1_t514686775 * L_0 = __this->get_SpriteList_6();
+		int32_t L_1 = __this->get_chosenIndex_8();
+		NullCheck(L_0);
+		GameObject_t4012695102 * L_2 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_0, L_1);
+		V_0 = L_2;
+		SpriteRenderer_t2223784725 * L_3 = __this->get_spriteSheet_7();
+		GameObject_t4012695102 * L_4 = V_0;
+		NullCheck(L_4);
+		SpriteRenderer_t2223784725 * L_5 = GameObject_GetComponent_TisSpriteRenderer_t2223784725_m3588502113(L_4, /*hidden argument*/GameObject_GetComponent_TisSpriteRenderer_t2223784725_m3588502113_MethodInfo_var);
+		NullCheck(L_5);
+		Sprite_t4006040370 * L_6 = SpriteRenderer_get_sprite_m3481747968(L_5, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		SpriteRenderer_set_sprite_m1519408453(L_3, L_6, /*hidden argument*/NULL);
+		Transform_t284553113 * L_7 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_8 = V_0;
+		NullCheck(L_8);
+		Transform_t284553113 * L_9 = GameObject_get_transform_m1278640159(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Vector3_t3525329789  L_10 = Transform_get_localScale_m3886572677(L_9, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Transform_set_localScale_m310756934(L_7, L_10, /*hidden argument*/NULL);
+		Transform_t284553113 * L_11 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_12 = V_0;
+		NullCheck(L_12);
+		Transform_t284553113 * L_13 = GameObject_get_transform_m1278640159(L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Vector3_t3525329789  L_14 = Transform_get_position_m2211398607(L_13, /*hidden argument*/NULL);
+		V_1 = L_14;
+		float L_15 = (&V_1)->get_x_1();
+		GameObject_t4012695102 * L_16 = V_0;
+		NullCheck(L_16);
+		Transform_t284553113 * L_17 = GameObject_get_transform_m1278640159(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t3525329789  L_18 = Transform_get_position_m2211398607(L_17, /*hidden argument*/NULL);
+		V_2 = L_18;
+		float L_19 = (&V_2)->get_y_2();
+		Vector3_t3525329789  L_20;
+		memset(&L_20, 0, sizeof(L_20));
+		Vector3__ctor_m2926210380(&L_20, L_15, L_19, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Transform_set_position_m3111394108(L_11, L_20, /*hidden argument*/NULL);
+		int32_t L_21 = __this->get_chosenIndex_8();
+		V_3 = L_21;
+		int32_t L_22 = V_3;
+		if (L_22 == 0)
+		{
+			goto IL_00a7;
+		}
+		if (L_22 == 1)
+		{
+			goto IL_00f7;
+		}
+		if (L_22 == 2)
+		{
+			goto IL_0147;
+		}
+		if (L_22 == 3)
+		{
+			goto IL_0197;
+		}
+		if (L_22 == 4)
+		{
+			goto IL_01e7;
+		}
+		if (L_22 == 5)
+		{
+			goto IL_0237;
+		}
+		if (L_22 == 6)
+		{
+			goto IL_0287;
+		}
+	}
+	{
+		goto IL_02d7;
+	}
+
+IL_00a7:
+	{
+		Animator_t792326996 * L_23 = __this->get_ani_9();
+		Object_t3878351788 * L_24 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral3309214433, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Animator_set_runtimeAnimatorController_m3435370636(L_23, ((RuntimeAnimatorController_t3860414472 *)IsInstClass(L_24, RuntimeAnimatorController_t3860414472_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Material_t1886596500 * L_25 = __this->get_material_10();
+		Object_t3878351788 * L_26 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral1925670303, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		Material_set_mainTexture_m3116438437(L_25, ((Texture_t1769722184 *)IsInstClass(L_26, Texture_t1769722184_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_27 = __this->get_shootingSource_11();
+		List_1_t216530284 * L_28 = __this->get_clips_12();
+		NullCheck(L_28);
+		AudioClip_t3714538611 * L_29 = VirtFuncInvoker1< AudioClip_t3714538611 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Item(System.Int32) */, L_28, 0);
+		NullCheck(L_27);
+		AudioSource_set_clip_m19502010(L_27, L_29, /*hidden argument*/NULL);
+		goto IL_02e6;
+	}
+
+IL_00f7:
+	{
+		Animator_t792326996 * L_30 = __this->get_ani_9();
+		Object_t3878351788 * L_31 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral1880697174, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		Animator_set_runtimeAnimatorController_m3435370636(L_30, ((RuntimeAnimatorController_t3860414472 *)IsInstClass(L_31, RuntimeAnimatorController_t3860414472_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Material_t1886596500 * L_32 = __this->get_material_10();
+		Object_t3878351788 * L_33 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral697966306, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		Material_set_mainTexture_m3116438437(L_32, ((Texture_t1769722184 *)IsInstClass(L_33, Texture_t1769722184_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_34 = __this->get_shootingSource_11();
+		List_1_t216530284 * L_35 = __this->get_clips_12();
+		NullCheck(L_35);
+		AudioClip_t3714538611 * L_36 = VirtFuncInvoker1< AudioClip_t3714538611 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Item(System.Int32) */, L_35, 1);
+		NullCheck(L_34);
+		AudioSource_set_clip_m19502010(L_34, L_36, /*hidden argument*/NULL);
+		goto IL_02e6;
+	}
+
+IL_0147:
+	{
+		Animator_t792326996 * L_37 = __this->get_ani_9();
+		Object_t3878351788 * L_38 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral2223705471, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		Animator_set_runtimeAnimatorController_m3435370636(L_37, ((RuntimeAnimatorController_t3860414472 *)IsInstClass(L_38, RuntimeAnimatorController_t3860414472_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Material_t1886596500 * L_39 = __this->get_material_10();
+		Object_t3878351788 * L_40 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral2234706281, /*hidden argument*/NULL);
+		NullCheck(L_39);
+		Material_set_mainTexture_m3116438437(L_39, ((Texture_t1769722184 *)IsInstClass(L_40, Texture_t1769722184_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_41 = __this->get_shootingSource_11();
+		List_1_t216530284 * L_42 = __this->get_clips_12();
+		NullCheck(L_42);
+		AudioClip_t3714538611 * L_43 = VirtFuncInvoker1< AudioClip_t3714538611 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Item(System.Int32) */, L_42, 2);
+		NullCheck(L_41);
+		AudioSource_set_clip_m19502010(L_41, L_43, /*hidden argument*/NULL);
+		goto IL_02e6;
+	}
+
+IL_0197:
+	{
+		Animator_t792326996 * L_44 = __this->get_ani_9();
+		Object_t3878351788 * L_45 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral1467255918, /*hidden argument*/NULL);
+		NullCheck(L_44);
+		Animator_set_runtimeAnimatorController_m3435370636(L_44, ((RuntimeAnimatorController_t3860414472 *)IsInstClass(L_45, RuntimeAnimatorController_t3860414472_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Material_t1886596500 * L_46 = __this->get_material_10();
+		Object_t3878351788 * L_47 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral843829929, /*hidden argument*/NULL);
+		NullCheck(L_46);
+		Material_set_mainTexture_m3116438437(L_46, ((Texture_t1769722184 *)IsInstClass(L_47, Texture_t1769722184_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_48 = __this->get_shootingSource_11();
+		List_1_t216530284 * L_49 = __this->get_clips_12();
+		NullCheck(L_49);
+		AudioClip_t3714538611 * L_50 = VirtFuncInvoker1< AudioClip_t3714538611 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Item(System.Int32) */, L_49, 3);
+		NullCheck(L_48);
+		AudioSource_set_clip_m19502010(L_48, L_50, /*hidden argument*/NULL);
+		goto IL_02e6;
+	}
+
+IL_01e7:
+	{
+		Animator_t792326996 * L_51 = __this->get_ani_9();
+		Object_t3878351788 * L_52 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral3015608525, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		Animator_set_runtimeAnimatorController_m3435370636(L_51, ((RuntimeAnimatorController_t3860414472 *)IsInstClass(L_52, RuntimeAnimatorController_t3860414472_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Material_t1886596500 * L_53 = __this->get_material_10();
+		Object_t3878351788 * L_54 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral3165122956, /*hidden argument*/NULL);
+		NullCheck(L_53);
+		Material_set_mainTexture_m3116438437(L_53, ((Texture_t1769722184 *)IsInstClass(L_54, Texture_t1769722184_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_55 = __this->get_shootingSource_11();
+		List_1_t216530284 * L_56 = __this->get_clips_12();
+		NullCheck(L_56);
+		AudioClip_t3714538611 * L_57 = VirtFuncInvoker1< AudioClip_t3714538611 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Item(System.Int32) */, L_56, 4);
+		NullCheck(L_55);
+		AudioSource_set_clip_m19502010(L_55, L_57, /*hidden argument*/NULL);
+		goto IL_02e6;
+	}
+
+IL_0237:
+	{
+		Animator_t792326996 * L_58 = __this->get_ani_9();
+		Object_t3878351788 * L_59 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral957790504, /*hidden argument*/NULL);
+		NullCheck(L_58);
+		Animator_set_runtimeAnimatorController_m3435370636(L_58, ((RuntimeAnimatorController_t3860414472 *)IsInstClass(L_59, RuntimeAnimatorController_t3860414472_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Material_t1886596500 * L_60 = __this->get_material_10();
+		Object_t3878351788 * L_61 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral3193016552, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		Material_set_mainTexture_m3116438437(L_60, ((Texture_t1769722184 *)IsInstClass(L_61, Texture_t1769722184_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_62 = __this->get_shootingSource_11();
+		List_1_t216530284 * L_63 = __this->get_clips_12();
+		NullCheck(L_63);
+		AudioClip_t3714538611 * L_64 = VirtFuncInvoker1< AudioClip_t3714538611 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Item(System.Int32) */, L_63, 5);
+		NullCheck(L_62);
+		AudioSource_set_clip_m19502010(L_62, L_64, /*hidden argument*/NULL);
+		goto IL_02e6;
+	}
+
+IL_0287:
+	{
+		Animator_t792326996 * L_65 = __this->get_ani_9();
+		Object_t3878351788 * L_66 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral629263115, /*hidden argument*/NULL);
+		NullCheck(L_65);
+		Animator_set_runtimeAnimatorController_m3435370636(L_65, ((RuntimeAnimatorController_t3860414472 *)IsInstClass(L_66, RuntimeAnimatorController_t3860414472_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Material_t1886596500 * L_67 = __this->get_material_10();
+		Object_t3878351788 * L_68 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral50358992, /*hidden argument*/NULL);
+		NullCheck(L_67);
+		Material_set_mainTexture_m3116438437(L_67, ((Texture_t1769722184 *)IsInstClass(L_68, Texture_t1769722184_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_69 = __this->get_shootingSource_11();
+		List_1_t216530284 * L_70 = __this->get_clips_12();
+		NullCheck(L_70);
+		AudioClip_t3714538611 * L_71 = VirtFuncInvoker1< AudioClip_t3714538611 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Item(System.Int32) */, L_70, 6);
+		NullCheck(L_69);
+		AudioSource_set_clip_m19502010(L_69, L_71, /*hidden argument*/NULL);
+		goto IL_02e6;
+	}
+
+IL_02d7:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3092204841, /*hidden argument*/NULL);
+		goto IL_02e6;
+	}
+
+IL_02e6:
+	{
+		return;
+	}
+}
+// System.Void powerEffect::.ctor()
+extern "C"  void powerEffect__ctor_m170416437 (powerEffect_t27170550 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void powerEffect::Start()
+extern Il2CppCodeGenString* _stringLiteral3309214433;
+extern Il2CppCodeGenString* _stringLiteral1121375994;
+extern const uint32_t powerEffect_Start_m3412521525_MetadataUsageId;
+extern "C"  void powerEffect_Start_m3412521525 (powerEffect_t27170550 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (powerEffect_Start_m3412521525_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Vector3_t3525329789  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Vector3__ctor_m2926210380(&L_0, (1.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		__this->set_distance_6(L_0);
+		GameObject_t4012695102 * L_1 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral3309214433, /*hidden argument*/NULL);
+		__this->set_player_5(L_1);
+		int32_t L_2 = __this->get_number_4();
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		MonoBehaviour_InvokeRepeating_m1115468640(__this, _stringLiteral1121375994, (0.0f), (0.5f), /*hidden argument*/NULL);
+	}
+
+IL_004b:
+	{
+		return;
+	}
+}
+// System.Void powerEffect::Update()
+extern Il2CppCodeGenString* _stringLiteral4000447819;
+extern const uint32_t powerEffect_Update_m2714804344_MetadataUsageId;
+extern "C"  void powerEffect_Update_m2714804344 (powerEffect_t27170550 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (powerEffect_Update_m2714804344_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = __this->get_hasWaitTime_3();
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		float L_1 = __this->get_time_2();
+		MonoBehaviour_Invoke_m2825545578(__this, _stringLiteral4000447819, L_1, /*hidden argument*/NULL);
+		__this->set_hasWaitTime_3((bool)0);
+	}
+
+IL_0023:
+	{
+		int32_t L_2 = __this->get_number_4();
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		Transform_t284553113 * L_3 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_4 = __this->get_player_5();
+		NullCheck(L_4);
+		Transform_t284553113 * L_5 = GameObject_get_transform_m1278640159(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t3525329789  L_6 = Transform_get_position_m2211398607(L_5, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_7 = __this->get_distance_6();
+		Vector3_t3525329789  L_8 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_set_position_m3111394108(L_3, L_8, /*hidden argument*/NULL);
+	}
+
+IL_0055:
+	{
+		return;
+	}
+}
+// System.Void powerEffect::destroyGameobject()
+extern "C"  void powerEffect_destroyGameobject_m1088053758 (powerEffect_t27170550 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void powerEffect::generateBulltes()
+extern "C"  void powerEffect_generateBulltes_m316833901 (powerEffect_t27170550 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		ParticleSystem_t56787138 * L_0 = __this->get_gunParticles_8();
+		NullCheck(L_0);
+		ParticleSystem_Stop_m1331160206(L_0, /*hidden argument*/NULL);
+		Transform_t284553113 * L_1 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Vector3_t3525329789  L_2 = Transform_get_position_m2211398607(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		float L_3 = (&V_1)->get_y_2();
+		V_0 = ((float)((float)L_3+(float)(2.0f)));
+		GameObject_t4012695102 * L_4 = __this->get_bullets_7();
+		Transform_t284553113 * L_5 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t3525329789  L_6 = Transform_get_position_m2211398607(L_5, /*hidden argument*/NULL);
+		V_2 = L_6;
+		float L_7 = (&V_2)->get_x_1();
+		float L_8 = V_0;
+		Vector3_t3525329789  L_9;
+		memset(&L_9, 0, sizeof(L_9));
+		Vector3__ctor_m2926210380(&L_9, L_7, L_8, (0.0f), /*hidden argument*/NULL);
+		Transform_t284553113 * L_10 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Quaternion_t1891715979  L_11 = Transform_get_rotation_m11483428(L_10, /*hidden argument*/NULL);
+		Object_Instantiate_m2255090103(NULL /*static, unused*/, L_4, L_9, L_11, /*hidden argument*/NULL);
+		ParticleSystem_t56787138 * L_12 = __this->get_gunParticles_8();
+		NullCheck(L_12);
+		ParticleSystem_Play_m1237476160(L_12, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void powerEffect::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1564195625;
+extern Il2CppCodeGenString* _stringLiteral3536968;
+extern const uint32_t powerEffect_OnTriggerEnter2D_m195002595_MetadataUsageId;
+extern "C"  void powerEffect_OnTriggerEnter2D_m195002595 (powerEffect_t27170550 * __this, Collider2D_t1890038195 * ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (powerEffect_OnTriggerEnter2D_m195002595_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Collider2D_t1890038195 * L_0 = ___other0;
+		NullCheck(L_0);
+		String_t* L_1 = Component_get_tag_m217485006(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_1, _stringLiteral1564195625, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Collider2D_t1890038195 * L_3 = ___other0;
+		NullCheck(L_3);
+		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1170635899(L_3, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		Collider2D_t1890038195 * L_5 = ___other0;
+		NullCheck(L_5);
+		String_t* L_6 = Component_get_tag_m217485006(L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_6, _stringLiteral3536968, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		Collider2D_t1890038195 * L_8 = ___other0;
+		NullCheck(L_8);
+		GameObject_t4012695102 * L_9 = Component_get_gameObject_m1170635899(L_8, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Void powerUps::.ctor()
+extern "C"  void powerUps__ctor_m2817578504 (powerUps_t858548723 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void powerUps::Start()
+extern const MethodInfo* Component_GetComponent_Tistiles_t110363525_m2063709460_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3309214433;
+extern const uint32_t powerUps_Start_m1764716296_MetadataUsageId;
+extern "C"  void powerUps_Start_m1764716296 (powerUps_t858548723 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (powerUps_Start_m1764716296_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = Random_Range_m75452833(NULL /*static, unused*/, ((int32_t)10), ((int32_t)15), /*hidden argument*/NULL);
+		__this->set_hitNumber_3(L_0);
+		Transform_t284553113 * L_1 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_t284553113 * L_2 = Transform_get_parent_m2236876972(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		tiles_t110363525 * L_3 = Component_GetComponent_Tistiles_t110363525_m2063709460(L_2, /*hidden argument*/Component_GetComponent_Tistiles_t110363525_m2063709460_MethodInfo_var);
+		__this->set_tile_4(L_3);
+		Text_t3286458198 * L_4 = __this->get_text_2();
+		int32_t* L_5 = __this->get_address_of_hitNumber_3();
+		String_t* L_6 = Int32_ToString_m1286526384(L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_4, L_6);
+		__this->set_oneTime_7((bool)1);
+		GameObject_t4012695102 * L_7 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral3309214433, /*hidden argument*/NULL);
+		__this->set_player_8(L_7);
+		return;
+	}
+}
+// System.Void powerUps::Update()
+extern "C"  void powerUps_Update_m3172449797 (powerUps_t858548723 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void powerUps::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern Il2CppClass* GameObject_t4012695102_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TispowerEffect_t27170550_m2133836587_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3536968;
+extern const uint32_t powerUps_OnTriggerEnter2D_m184887920_MetadataUsageId;
+extern "C"  void powerUps_OnTriggerEnter2D_m184887920 (powerUps_t858548723 * __this, Collider2D_t1890038195 * ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (powerUps_OnTriggerEnter2D_m184887920_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	GameObject_t4012695102 * V_1 = NULL;
+	{
+		int32_t L_0 = __this->get_hitNumber_3();
+		if ((((int32_t)L_0) > ((int32_t)0)))
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		bool L_1 = __this->get_oneTime_7();
+		if (!L_1)
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		__this->set_oneTime_7((bool)0);
+		Transform_t284553113 * L_2 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Vector3_t3525329789  L_3 = Transform_get_position_m2211398607(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		int32_t L_4 = __this->get_number_5();
+		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_5 = __this->get_player_8();
+		NullCheck(L_5);
+		Transform_t284553113 * L_6 = GameObject_get_transform_m1278640159(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t3525329789  L_7 = Transform_get_position_m2211398607(L_6, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Vector3__ctor_m2926210380(&L_8, (1.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_9 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
+	}
+
+IL_0060:
+	{
+		GameObject_t4012695102 * L_10 = __this->get_gameObj_6();
+		Vector3_t3525329789  L_11 = V_0;
+		Transform_t284553113 * L_12 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Quaternion_t1891715979  L_13 = Transform_get_rotation_m11483428(L_12, /*hidden argument*/NULL);
+		Object_t3878351788 * L_14 = Object_Instantiate_m2255090103(NULL /*static, unused*/, L_10, L_11, L_13, /*hidden argument*/NULL);
+		V_1 = ((GameObject_t4012695102 *)IsInstSealed(L_14, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_15 = V_1;
+		NullCheck(L_15);
+		Transform_t284553113 * L_16 = GameObject_get_transform_m1278640159(L_15, /*hidden argument*/NULL);
+		Transform_t284553113 * L_17 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Transform_t284553113 * L_18 = Transform_get_parent_m2236876972(L_17, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Transform_set_parent_m3231272063(L_16, L_18, /*hidden argument*/NULL);
+		tiles_t110363525 * L_19 = __this->get_tile_4();
+		float L_20 = Random_Range_m3362417303(NULL /*static, unused*/, (5.0f), (8.0f), /*hidden argument*/NULL);
+		NullCheck(L_19);
+		L_19->set_nextPower_43(L_20);
+		GameObject_t4012695102 * L_21 = V_1;
+		NullCheck(L_21);
+		powerEffect_t27170550 * L_22 = GameObject_GetComponent_TispowerEffect_t27170550_m2133836587(L_21, /*hidden argument*/GameObject_GetComponent_TispowerEffect_t27170550_m2133836587_MethodInfo_var);
+		tiles_t110363525 * L_23 = __this->get_tile_4();
+		NullCheck(L_23);
+		float L_24 = L_23->get_nextPower_43();
+		NullCheck(L_22);
+		L_22->set_time_2(L_24);
+		GameObject_t4012695102 * L_25 = V_1;
+		NullCheck(L_25);
+		powerEffect_t27170550 * L_26 = GameObject_GetComponent_TispowerEffect_t27170550_m2133836587(L_25, /*hidden argument*/GameObject_GetComponent_TispowerEffect_t27170550_m2133836587_MethodInfo_var);
+		NullCheck(L_26);
+		L_26->set_hasWaitTime_3((bool)1);
+		tiles_t110363525 * L_27 = __this->get_tile_4();
+		NullCheck(L_27);
+		L_27->set_alreadyDestoryed_42((bool)1);
+		GameObject_t4012695102 * L_28 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+	}
+
+IL_00e6:
+	{
+		int32_t L_29 = __this->get_hitNumber_3();
+		if ((((int32_t)L_29) <= ((int32_t)0)))
+		{
+			goto IL_0136;
+		}
+	}
+	{
+		Collider2D_t1890038195 * L_30 = ___other0;
+		NullCheck(L_30);
+		String_t* L_31 = Component_get_tag_m217485006(L_30, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_32 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_31, _stringLiteral3536968, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_0136;
+		}
+	}
+	{
+		int32_t L_33 = __this->get_hitNumber_3();
+		__this->set_hitNumber_3(((int32_t)((int32_t)L_33-(int32_t)1)));
+		Text_t3286458198 * L_34 = __this->get_text_2();
+		int32_t* L_35 = __this->get_address_of_hitNumber_3();
+		String_t* L_36 = Int32_ToString_m1286526384(L_35, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_34, L_36);
+		Collider2D_t1890038195 * L_37 = ___other0;
+		NullCheck(L_37);
+		GameObject_t4012695102 * L_38 = Component_get_gameObject_m1170635899(L_37, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+	}
+
+IL_0136:
+	{
+		return;
+	}
+}
+// System.Void selection::.ctor()
+extern "C"  void selection__ctor_m1434165599 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::Start()
+extern const MethodInfo* GameObject_GetComponent_Tissoomlascript_t3105050042_m2183182819_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2933749271;
+extern Il2CppCodeGenString* _stringLiteral4125203901;
+extern Il2CppCodeGenString* _stringLiteral3398278191;
+extern const uint32_t selection_Start_m381303391_MetadataUsageId;
+extern "C"  void selection_Start_m381303391 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_Start_m381303391_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		__this->set_main_3(0);
+		__this->set_moving_4((bool)1);
+		int32_t L_0 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral2933749271, /*hidden argument*/NULL);
+		__this->set_chosenIndex_7(L_0);
+		selection_showAlreadyChosen_m3542577994(__this, /*hidden argument*/NULL);
+		Text_t3286458198 * L_1 = __this->get_starText_9();
+		int32_t L_2 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral4125203901, /*hidden argument*/NULL);
+		V_0 = L_2;
+		String_t* L_3 = Int32_ToString_m1286526384((&V_0), /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_3);
+		GameObject_t4012695102 * L_4 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral3398278191, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		soomlascript_t3105050042 * L_5 = GameObject_GetComponent_Tissoomlascript_t3105050042_m2183182819(L_4, /*hidden argument*/GameObject_GetComponent_Tissoomlascript_t3105050042_m2183182819_MethodInfo_var);
+		__this->set_soomla_15(L_5);
+		AudioSource_t3628549054 * L_6 = Component_GetComponent_TisAudioSource_t3628549054_m3821406207(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var);
+		__this->set_audioPlay_23(L_6);
+		return;
+	}
+}
+// System.Void selection::Update()
+extern "C"  void selection_Update_m3236322702 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void selection::RemoveAds()
+extern "C"  void selection_RemoveAds_m168607497 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	{
+		AudioClip_t3714538611 * L_0 = __this->get_ButtonSound_22();
+		selection_playSound_m3691229323(__this, L_0, /*hidden argument*/NULL);
+		soomlascript_t3105050042 * L_1 = __this->get_soomla_15();
+		NullCheck(L_1);
+		soomlascript_RemoveAds_m1571578571(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::BuyThousandStars()
+extern "C"  void selection_BuyThousandStars_m3541678594 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	{
+		AudioClip_t3714538611 * L_0 = __this->get_ButtonSound_22();
+		selection_playSound_m3691229323(__this, L_0, /*hidden argument*/NULL);
+		soomlascript_t3105050042 * L_1 = __this->get_soomla_15();
+		NullCheck(L_1);
+		soomlascript_BuyThousandStars_m382777344(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::BuyUnlockAllChars()
+extern "C"  void selection_BuyUnlockAllChars_m1730585923 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	{
+		AudioClip_t3714538611 * L_0 = __this->get_ButtonSound_22();
+		selection_playSound_m3691229323(__this, L_0, /*hidden argument*/NULL);
+		soomlascript_t3105050042 * L_1 = __this->get_soomla_15();
+		NullCheck(L_1);
+		soomlascript_BuyUnlockAllChars_m2588894981(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::BuyOneChar()
+extern "C"  void selection_BuyOneChar_m3123770619 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	{
+		AudioClip_t3714538611 * L_0 = __this->get_ButtonSound_22();
+		selection_playSound_m3691229323(__this, L_0, /*hidden argument*/NULL);
+		soomlascript_t3105050042 * L_1 = __this->get_soomla_15();
+		NullCheck(L_1);
+		soomlascript_BuyOneChar_m3666200953(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::playSound(UnityEngine.AudioClip)
+extern Il2CppCodeGenString* _stringLiteral1670459668;
+extern const uint32_t selection_playSound_m3691229323_MetadataUsageId;
+extern "C"  void selection_playSound_m3691229323 (selection_t2579001740 * __this, AudioClip_t3714538611 * ___SoundClip0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_playSound_m3691229323_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral1670459668, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		AudioSource_t3628549054 * L_2 = __this->get_audioPlay_23();
+		AudioClip_t3714538611 * L_3 = ___SoundClip0;
+		NullCheck(L_2);
+		AudioSource_set_clip_m19502010(L_2, L_3, /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_4 = __this->get_audioPlay_23();
+		NullCheck(L_4);
+		bool L_5 = AudioSource_get_isPlaying_m4213444423(L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		AudioSource_t3628549054 * L_6 = __this->get_audioPlay_23();
+		NullCheck(L_6);
+		AudioSource_Stop_m1454243038(L_6, /*hidden argument*/NULL);
+	}
+
+IL_0038:
+	{
+		AudioSource_t3628549054 * L_7 = __this->get_audioPlay_23();
+		NullCheck(L_7);
+		AudioSource_Play_m1360558992(L_7, /*hidden argument*/NULL);
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Void selection::turnLeft()
+extern "C"  void selection_turnLeft_m3034381065 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_main_3();
+		List_1_t514686775 * L_1 = __this->get_characters_2();
+		NullCheck(L_1);
+		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count() */, L_1);
+		if ((((int32_t)L_0) == ((int32_t)((int32_t)((int32_t)L_2-(int32_t)1)))))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		AudioClip_t3714538611 * L_3 = __this->get_ChangingCharacters_18();
+		selection_playSound_m3691229323(__this, L_3, /*hidden argument*/NULL);
+		Il2CppObject * L_4 = selection_changePoisition_m1325669584(__this, (-400.0f), (-80.0f), 0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_4, /*hidden argument*/NULL);
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// System.Void selection::trunRight()
+extern "C"  void selection_trunRight_m183887394 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_main_3();
+		if (!L_0)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		AudioClip_t3714538611 * L_1 = __this->get_ChangingCharacters_18();
+		selection_playSound_m3691229323(__this, L_1, /*hidden argument*/NULL);
+		Il2CppObject * L_2 = selection_changePoisition_m1325669584(__this, (400.0f), (80.0f), 1, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_2, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+// System.Void selection::removeAds()
+extern Il2CppCodeGenString* _stringLiteral3160237981;
+extern const uint32_t selection_removeAds_m2795706153_MetadataUsageId;
+extern "C"  void selection_removeAds_m2795706153 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_removeAds_m2795706153_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral3160237981, (-1), /*hidden argument*/NULL);
+		Button_t990034267 * L_0 = __this->get_byeAds_16();
+		NullCheck(L_0);
+		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1170635899(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GameObject_SetActive_m3538205401(L_1, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::unLockAllChars()
+extern Il2CppCodeGenString* _stringLiteral1665141280;
+extern const uint32_t selection_unLockAllChars_m4160583973_MetadataUsageId;
+extern "C"  void selection_unLockAllChars_m4160583973 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_unLockAllChars_m4160583973_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral1665141280, 1, /*hidden argument*/NULL);
+		Button_t990034267 * L_0 = __this->get_buyAllChar_17();
+		NullCheck(L_0);
+		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1170635899(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GameObject_SetActive_m3538205401(L_1, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::useMoneyBuyStars()
+extern Il2CppCodeGenString* _stringLiteral4125203901;
+extern const uint32_t selection_useMoneyBuyStars_m2243111161_MetadataUsageId;
+extern "C"  void selection_useMoneyBuyStars_m2243111161 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_useMoneyBuyStars_m2243111161_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		AudioClip_t3714538611 * L_0 = __this->get_fiveThouandStarsSound_20();
+		selection_playSound_m3691229323(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral4125203901, /*hidden argument*/NULL);
+		V_0 = ((int32_t)((int32_t)L_1+(int32_t)((int32_t)3000)));
+		int32_t L_2 = V_0;
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral4125203901, L_2, /*hidden argument*/NULL);
+		Text_t3286458198 * L_3 = __this->get_starText_9();
+		int32_t L_4 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral4125203901, /*hidden argument*/NULL);
+		V_1 = L_4;
+		String_t* L_5 = Int32_ToString_m1286526384((&V_1), /*hidden argument*/NULL);
+		NullCheck(L_3);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_3, L_5);
+		return;
+	}
+}
+// System.Void selection::useMoneyBuyOneChar()
+extern Il2CppCodeGenString* _stringLiteral110182;
+extern Il2CppCodeGenString* _stringLiteral115276;
+extern Il2CppCodeGenString* _stringLiteral110339486;
+extern Il2CppCodeGenString* _stringLiteral3149094;
+extern Il2CppCodeGenString* _stringLiteral3143346;
+extern Il2CppCodeGenString* _stringLiteral113890;
+extern const uint32_t selection_useMoneyBuyOneChar_m2820221684_MetadataUsageId;
+extern "C"  void selection_useMoneyBuyOneChar_m2820221684 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_useMoneyBuyOneChar_m2820221684_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_main_3();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 0)
+		{
+			goto IL_002c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 1)
+		{
+			goto IL_003c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 2)
+		{
+			goto IL_004c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 3)
+		{
+			goto IL_005c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 4)
+		{
+			goto IL_006c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 5)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		goto IL_008c;
+	}
+
+IL_002c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral110182, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_003c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral115276, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_004c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral110339486, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_005c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral3149094, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_006c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral3143346, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_007c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral113890, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_008c:
+	{
+		goto IL_0091;
+	}
+
+IL_0091:
+	{
+		Button_t990034267 * L_2 = __this->get_starCostButton_10();
+		NullCheck(L_2);
+		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1170635899(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		GameObject_SetActive_m3538205401(L_3, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_4 = __this->get_moneyCostButton_11();
+		NullCheck(L_4);
+		GameObject_t4012695102 * L_5 = Component_get_gameObject_m1170635899(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		GameObject_SetActive_m3538205401(L_5, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_6 = __this->get_selectButton_6();
+		NullCheck(L_6);
+		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1170635899(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		GameObject_SetActive_m3538205401(L_7, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator selection::changePoisition(System.Single,System.Single,System.Int32)
+extern Il2CppClass* U3CchangePoisitionU3Ec__Iterator12_t3659782428_il2cpp_TypeInfo_var;
+extern const uint32_t selection_changePoisition_m1325669584_MetadataUsageId;
+extern "C"  Il2CppObject * selection_changePoisition_m1325669584 (selection_t2579001740 * __this, float ___goal0, float ___offset1, int32_t ___identity2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_changePoisition_m1325669584_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CchangePoisitionU3Ec__Iterator12_t3659782428 * V_0 = NULL;
+	{
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_0 = (U3CchangePoisitionU3Ec__Iterator12_t3659782428 *)il2cpp_codegen_object_new(U3CchangePoisitionU3Ec__Iterator12_t3659782428_il2cpp_TypeInfo_var);
+		U3CchangePoisitionU3Ec__Iterator12__ctor_m1867854716(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_1 = V_0;
+		float L_2 = ___offset1;
+		NullCheck(L_1);
+		L_1->set_offset_1(L_2);
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_3 = V_0;
+		int32_t L_4 = ___identity2;
+		NullCheck(L_3);
+		L_3->set_identity_2(L_4);
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_5 = V_0;
+		float L_6 = ___goal0;
+		NullCheck(L_5);
+		L_5->set_goal_3(L_6);
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_7 = V_0;
+		float L_8 = ___offset1;
+		NullCheck(L_7);
+		L_7->set_U3CU24U3Eoffset_7(L_8);
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_9 = V_0;
+		int32_t L_10 = ___identity2;
+		NullCheck(L_9);
+		L_9->set_U3CU24U3Eidentity_8(L_10);
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_11 = V_0;
+		float L_12 = ___goal0;
+		NullCheck(L_11);
+		L_11->set_U3CU24U3Egoal_9(L_12);
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_13 = V_0;
+		NullCheck(L_13);
+		L_13->set_U3CU3Ef__this_10(__this);
+		U3CchangePoisitionU3Ec__Iterator12_t3659782428 * L_14 = V_0;
+		return L_14;
+	}
+}
+// System.Collections.IEnumerator selection::waitAndRecover()
+extern Il2CppClass* U3CwaitAndRecoverU3Ec__Iterator13_t3837339923_il2cpp_TypeInfo_var;
+extern const uint32_t selection_waitAndRecover_m862652927_MetadataUsageId;
+extern "C"  Il2CppObject * selection_waitAndRecover_m862652927 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_waitAndRecover_m862652927_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * V_0 = NULL;
+	{
+		U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * L_0 = (U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 *)il2cpp_codegen_object_new(U3CwaitAndRecoverU3Ec__Iterator13_t3837339923_il2cpp_TypeInfo_var);
+		U3CwaitAndRecoverU3Ec__Iterator13__ctor_m2478012827(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_2(__this);
+		U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void selection::select()
+extern const MethodInfo* GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2933749271;
+extern const uint32_t selection_select_m3040654561_MetadataUsageId;
+extern "C"  void selection_select_m3040654561 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_select_m3040654561_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t514686775 * L_0 = __this->get_characters_2();
+		int32_t L_1 = __this->get_main_3();
+		NullCheck(L_0);
+		GameObject_t4012695102 * L_2 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_0, L_1);
+		NullCheck(L_2);
+		character_t1564195625 * L_3 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_2, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_3);
+		character_changeSprite_m2677644200(L_3, 1, /*hidden argument*/NULL);
+		List_1_t514686775 * L_4 = __this->get_characters_2();
+		int32_t L_5 = __this->get_chosenIndex_7();
+		NullCheck(L_4);
+		GameObject_t4012695102 * L_6 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_4, L_5);
+		NullCheck(L_6);
+		character_t1564195625 * L_7 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_6, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_7);
+		character_changeSprite_m2677644200(L_7, 0, /*hidden argument*/NULL);
+		int32_t L_8 = __this->get_main_3();
+		__this->set_chosenIndex_7(L_8);
+		int32_t L_9 = __this->get_chosenIndex_7();
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral2933749271, L_9, /*hidden argument*/NULL);
+		Button_t990034267 * L_10 = __this->get_selectButton_6();
+		NullCheck(L_10);
+		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1170635899(L_10, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		GameObject_SetActive_m3538205401(L_11, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_12 = __this->get_selectedButton_12();
+		NullCheck(L_12);
+		GameObject_t4012695102 * L_13 = Component_get_gameObject_m1170635899(L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		GameObject_SetActive_m3538205401(L_13, (bool)1, /*hidden argument*/NULL);
+		AudioClip_t3714538611 * L_14 = __this->get_CharacterSelected_19();
+		selection_playSound_m3691229323(__this, L_14, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::showButton(System.Int32)
+extern const MethodInfo* GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1665141280;
+extern Il2CppCodeGenString* _stringLiteral110182;
+extern Il2CppCodeGenString* _stringLiteral115276;
+extern Il2CppCodeGenString* _stringLiteral110339486;
+extern Il2CppCodeGenString* _stringLiteral3149094;
+extern Il2CppCodeGenString* _stringLiteral3143346;
+extern Il2CppCodeGenString* _stringLiteral113890;
+extern Il2CppCodeGenString* _stringLiteral4125203901;
+extern const uint32_t selection_showButton_m1428232453_MetadataUsageId;
+extern "C"  void selection_showButton_m1428232453 (selection_t2579001740 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_showButton_m1428232453_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = ___index0;
+		int32_t L_1 = __this->get_chosenIndex_7();
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_01ae;
+		}
+	}
+	{
+		V_0 = 0;
+		int32_t L_2 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral1665141280, /*hidden argument*/NULL);
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		___index0 = 0;
+	}
+
+IL_0023:
+	{
+		int32_t L_4 = ___index0;
+		V_3 = L_4;
+		int32_t L_5 = V_3;
+		if (L_5 == 0)
+		{
+			goto IL_004c;
+		}
+		if (L_5 == 1)
+		{
+			goto IL_0053;
+		}
+		if (L_5 == 2)
+		{
+			goto IL_0063;
+		}
+		if (L_5 == 3)
+		{
+			goto IL_0073;
+		}
+		if (L_5 == 4)
+		{
+			goto IL_0083;
+		}
+		if (L_5 == 5)
+		{
+			goto IL_0093;
+		}
+		if (L_5 == 6)
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		goto IL_00b3;
+	}
+
+IL_004c:
+	{
+		V_0 = 1;
+		goto IL_00ba;
+	}
+
+IL_0053:
+	{
+		int32_t L_6 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral110182, /*hidden argument*/NULL);
+		V_0 = L_6;
+		goto IL_00ba;
+	}
+
+IL_0063:
+	{
+		int32_t L_7 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral115276, /*hidden argument*/NULL);
+		V_0 = L_7;
+		goto IL_00ba;
+	}
+
+IL_0073:
+	{
+		int32_t L_8 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral110339486, /*hidden argument*/NULL);
+		V_0 = L_8;
+		goto IL_00ba;
+	}
+
+IL_0083:
+	{
+		int32_t L_9 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral3149094, /*hidden argument*/NULL);
+		V_0 = L_9;
+		goto IL_00ba;
+	}
+
+IL_0093:
+	{
+		int32_t L_10 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral3143346, /*hidden argument*/NULL);
+		V_0 = L_10;
+		goto IL_00ba;
+	}
+
+IL_00a3:
+	{
+		int32_t L_11 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral113890, /*hidden argument*/NULL);
+		V_0 = L_11;
+		goto IL_00ba;
+	}
+
+IL_00b3:
+	{
+		V_0 = 1;
+		goto IL_00ba;
+	}
+
+IL_00ba:
+	{
+		int32_t L_12 = V_0;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		Button_t990034267 * L_13 = __this->get_selectButton_6();
+		NullCheck(L_13);
+		GameObject_t4012695102 * L_14 = Component_get_gameObject_m1170635899(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		GameObject_SetActive_m3538205401(L_14, (bool)1, /*hidden argument*/NULL);
+		Button_t990034267 * L_15 = __this->get_starCostButton_10();
+		NullCheck(L_15);
+		GameObject_t4012695102 * L_16 = Component_get_gameObject_m1170635899(L_15, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		GameObject_SetActive_m3538205401(L_16, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_17 = __this->get_moneyCostButton_11();
+		NullCheck(L_17);
+		GameObject_t4012695102 * L_18 = Component_get_gameObject_m1170635899(L_17, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		GameObject_SetActive_m3538205401(L_18, (bool)0, /*hidden argument*/NULL);
+		goto IL_0198;
+	}
+
+IL_00f9:
+	{
+		Text_t3286458198 * L_19 = __this->get_starCost_13();
+		List_1_t514686775 * L_20 = __this->get_characters_2();
+		int32_t L_21 = ___index0;
+		NullCheck(L_20);
+		GameObject_t4012695102 * L_22 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_20, L_21);
+		NullCheck(L_22);
+		character_t1564195625 * L_23 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_22, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_23);
+		int32_t* L_24 = L_23->get_address_of_needStar_8();
+		String_t* L_25 = Int32_ToString_m1286526384(L_24, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_19, L_25);
+		int32_t L_26 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral4125203901, /*hidden argument*/NULL);
+		V_2 = L_26;
+		int32_t L_27 = V_2;
+		List_1_t514686775 * L_28 = __this->get_characters_2();
+		int32_t L_29 = ___index0;
+		NullCheck(L_28);
+		GameObject_t4012695102 * L_30 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_28, L_29);
+		NullCheck(L_30);
+		character_t1564195625 * L_31 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_30, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_31);
+		int32_t L_32 = L_31->get_needStar_8();
+		if ((((int32_t)((int32_t)((int32_t)L_27-(int32_t)L_32))) >= ((int32_t)0)))
+		{
+			goto IL_0159;
+		}
+	}
+	{
+		Button_t990034267 * L_33 = __this->get_starCostButton_10();
+		NullCheck(L_33);
+		Selectable_set_interactable_m2686686419(L_33, (bool)0, /*hidden argument*/NULL);
+		goto IL_0165;
+	}
+
+IL_0159:
+	{
+		Button_t990034267 * L_34 = __this->get_starCostButton_10();
+		NullCheck(L_34);
+		Selectable_set_interactable_m2686686419(L_34, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0165:
+	{
+		Button_t990034267 * L_35 = __this->get_selectButton_6();
+		NullCheck(L_35);
+		GameObject_t4012695102 * L_36 = Component_get_gameObject_m1170635899(L_35, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		GameObject_SetActive_m3538205401(L_36, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_37 = __this->get_starCostButton_10();
+		NullCheck(L_37);
+		GameObject_t4012695102 * L_38 = Component_get_gameObject_m1170635899(L_37, /*hidden argument*/NULL);
+		NullCheck(L_38);
+		GameObject_SetActive_m3538205401(L_38, (bool)1, /*hidden argument*/NULL);
+		Button_t990034267 * L_39 = __this->get_moneyCostButton_11();
+		NullCheck(L_39);
+		GameObject_t4012695102 * L_40 = Component_get_gameObject_m1170635899(L_39, /*hidden argument*/NULL);
+		NullCheck(L_40);
+		GameObject_SetActive_m3538205401(L_40, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0198:
+	{
+		Button_t990034267 * L_41 = __this->get_selectedButton_12();
+		NullCheck(L_41);
+		GameObject_t4012695102 * L_42 = Component_get_gameObject_m1170635899(L_41, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		GameObject_SetActive_m3538205401(L_42, (bool)0, /*hidden argument*/NULL);
+		goto IL_01f2;
+	}
+
+IL_01ae:
+	{
+		Button_t990034267 * L_43 = __this->get_selectedButton_12();
+		NullCheck(L_43);
+		GameObject_t4012695102 * L_44 = Component_get_gameObject_m1170635899(L_43, /*hidden argument*/NULL);
+		NullCheck(L_44);
+		GameObject_SetActive_m3538205401(L_44, (bool)1, /*hidden argument*/NULL);
+		Button_t990034267 * L_45 = __this->get_selectButton_6();
+		NullCheck(L_45);
+		GameObject_t4012695102 * L_46 = Component_get_gameObject_m1170635899(L_45, /*hidden argument*/NULL);
+		NullCheck(L_46);
+		GameObject_SetActive_m3538205401(L_46, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_47 = __this->get_starCostButton_10();
+		NullCheck(L_47);
+		GameObject_t4012695102 * L_48 = Component_get_gameObject_m1170635899(L_47, /*hidden argument*/NULL);
+		NullCheck(L_48);
+		GameObject_SetActive_m3538205401(L_48, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_49 = __this->get_moneyCostButton_11();
+		NullCheck(L_49);
+		GameObject_t4012695102 * L_50 = Component_get_gameObject_m1170635899(L_49, /*hidden argument*/NULL);
+		NullCheck(L_50);
+		GameObject_SetActive_m3538205401(L_50, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_01f2:
+	{
+		return;
+	}
+}
+// System.Void selection::showAlreadyChosen()
+extern const MethodInfo* GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var;
+extern const uint32_t selection_showAlreadyChosen_m3542577994_MetadataUsageId;
+extern "C"  void selection_showAlreadyChosen_m3542577994 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_showAlreadyChosen_m3542577994_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		List_1_t514686775 * L_0 = __this->get_characters_2();
+		int32_t L_1 = __this->get_chosenIndex_7();
+		NullCheck(L_0);
+		GameObject_t4012695102 * L_2 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_0, L_1);
+		NullCheck(L_2);
+		character_t1564195625 * L_3 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_2, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_3);
+		character_changeSprite_m2677644200(L_3, 1, /*hidden argument*/NULL);
+		int32_t L_4 = __this->get_chosenIndex_7();
+		selection_showButton_m1428232453(__this, L_4, /*hidden argument*/NULL);
+		Transform_t284553113 * L_5 = __this->get_trans_8();
+		NullCheck(L_5);
+		Vector3_t3525329789  L_6 = Transform_get_localPosition_m668140784(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		float L_7 = (&V_1)->get_x_1();
+		int32_t L_8 = __this->get_chosenIndex_7();
+		V_0 = ((float)((float)L_7+(float)((float)((float)(((float)((float)L_8)))*(float)(-400.0f)))));
+		Transform_t284553113 * L_9 = __this->get_trans_8();
+		float L_10 = V_0;
+		Transform_t284553113 * L_11 = __this->get_trans_8();
+		NullCheck(L_11);
+		Vector3_t3525329789  L_12 = Transform_get_localPosition_m668140784(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+		float L_13 = (&V_2)->get_y_2();
+		Vector3_t3525329789  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		Vector3__ctor_m2926210380(&L_14, L_10, L_13, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_set_localPosition_m3504330903(L_9, L_14, /*hidden argument*/NULL);
+		int32_t L_15 = __this->get_chosenIndex_7();
+		__this->set_main_3(L_15);
+		List_1_t514686775 * L_16 = __this->get_characters_2();
+		int32_t L_17 = __this->get_main_3();
+		NullCheck(L_16);
+		GameObject_t4012695102 * L_18 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_16, L_17);
+		NullCheck(L_18);
+		character_t1564195625 * L_19 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_18, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_19);
+		character_setSize_m3622057123(L_19, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection::useStarToBuy()
+extern const MethodInfo* GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4125203901;
+extern Il2CppCodeGenString* _stringLiteral110182;
+extern Il2CppCodeGenString* _stringLiteral115276;
+extern Il2CppCodeGenString* _stringLiteral110339486;
+extern Il2CppCodeGenString* _stringLiteral3149094;
+extern Il2CppCodeGenString* _stringLiteral3143346;
+extern Il2CppCodeGenString* _stringLiteral113890;
+extern const uint32_t selection_useStarToBuy_m1007143031_MetadataUsageId;
+extern "C"  void selection_useStarToBuy_m1007143031 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_useStarToBuy_m1007143031_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral4125203901, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Button_t990034267 * L_1 = __this->get_starCostButton_10();
+		NullCheck(L_1);
+		bool L_2 = VirtFuncInvoker0< bool >::Invoke(23 /* System.Boolean UnityEngine.UI.Selectable::IsInteractable() */, L_1);
+		if (!L_2)
+		{
+			goto IL_0131;
+		}
+	}
+	{
+		AudioClip_t3714538611 * L_3 = __this->get_ButtonSound_22();
+		selection_playSound_m3691229323(__this, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		List_1_t514686775 * L_5 = __this->get_characters_2();
+		int32_t L_6 = __this->get_main_3();
+		NullCheck(L_5);
+		GameObject_t4012695102 * L_7 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_5, L_6);
+		NullCheck(L_7);
+		character_t1564195625 * L_8 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_7, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_needStar_8();
+		V_1 = ((int32_t)((int32_t)L_4-(int32_t)L_9));
+		int32_t L_10 = V_1;
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral4125203901, L_10, /*hidden argument*/NULL);
+		int32_t L_11 = __this->get_main_3();
+		V_2 = L_11;
+		int32_t L_12 = V_2;
+		if (((int32_t)((int32_t)L_12-(int32_t)1)) == 0)
+		{
+			goto IL_007c;
+		}
+		if (((int32_t)((int32_t)L_12-(int32_t)1)) == 1)
+		{
+			goto IL_008c;
+		}
+		if (((int32_t)((int32_t)L_12-(int32_t)1)) == 2)
+		{
+			goto IL_009c;
+		}
+		if (((int32_t)((int32_t)L_12-(int32_t)1)) == 3)
+		{
+			goto IL_00ac;
+		}
+		if (((int32_t)((int32_t)L_12-(int32_t)1)) == 4)
+		{
+			goto IL_00bc;
+		}
+		if (((int32_t)((int32_t)L_12-(int32_t)1)) == 5)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		goto IL_00dc;
+	}
+
+IL_007c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral110182, 1, /*hidden argument*/NULL);
+		goto IL_00e1;
+	}
+
+IL_008c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral115276, 1, /*hidden argument*/NULL);
+		goto IL_00e1;
+	}
+
+IL_009c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral110339486, 1, /*hidden argument*/NULL);
+		goto IL_00e1;
+	}
+
+IL_00ac:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral3149094, 1, /*hidden argument*/NULL);
+		goto IL_00e1;
+	}
+
+IL_00bc:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral3143346, 1, /*hidden argument*/NULL);
+		goto IL_00e1;
+	}
+
+IL_00cc:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral113890, 1, /*hidden argument*/NULL);
+		goto IL_00e1;
+	}
+
+IL_00dc:
+	{
+		goto IL_00e1;
+	}
+
+IL_00e1:
+	{
+		Text_t3286458198 * L_13 = __this->get_starText_9();
+		int32_t L_14 = PlayerPrefs_GetInt_m1334009359(NULL /*static, unused*/, _stringLiteral4125203901, /*hidden argument*/NULL);
+		V_2 = L_14;
+		String_t* L_15 = Int32_ToString_m1286526384((&V_2), /*hidden argument*/NULL);
+		NullCheck(L_13);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_13, L_15);
+		Button_t990034267 * L_16 = __this->get_starCostButton_10();
+		NullCheck(L_16);
+		GameObject_t4012695102 * L_17 = Component_get_gameObject_m1170635899(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		GameObject_SetActive_m3538205401(L_17, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_18 = __this->get_moneyCostButton_11();
+		NullCheck(L_18);
+		GameObject_t4012695102 * L_19 = Component_get_gameObject_m1170635899(L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		GameObject_SetActive_m3538205401(L_19, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_20 = __this->get_selectButton_6();
+		NullCheck(L_20);
+		GameObject_t4012695102 * L_21 = Component_get_gameObject_m1170635899(L_20, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		GameObject_SetActive_m3538205401(L_21, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0131:
+	{
+		return;
+	}
+}
+// System.Void selection::useMoneyToBuy()
+extern Il2CppCodeGenString* _stringLiteral110182;
+extern Il2CppCodeGenString* _stringLiteral115276;
+extern Il2CppCodeGenString* _stringLiteral110339486;
+extern Il2CppCodeGenString* _stringLiteral3149094;
+extern Il2CppCodeGenString* _stringLiteral3143346;
+extern Il2CppCodeGenString* _stringLiteral113890;
+extern const uint32_t selection_useMoneyToBuy_m3352233007_MetadataUsageId;
+extern "C"  void selection_useMoneyToBuy_m3352233007 (selection_t2579001740 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (selection_useMoneyToBuy_m3352233007_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_main_3();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 0)
+		{
+			goto IL_002c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 1)
+		{
+			goto IL_003c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 2)
+		{
+			goto IL_004c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 3)
+		{
+			goto IL_005c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 4)
+		{
+			goto IL_006c;
+		}
+		if (((int32_t)((int32_t)L_1-(int32_t)1)) == 5)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		goto IL_008c;
+	}
+
+IL_002c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral110182, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_003c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral115276, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_004c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral110339486, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_005c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral3149094, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_006c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral3143346, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_007c:
+	{
+		PlayerPrefs_SetInt_m3485171996(NULL /*static, unused*/, _stringLiteral113890, 1, /*hidden argument*/NULL);
+		goto IL_0091;
+	}
+
+IL_008c:
+	{
+		goto IL_0091;
+	}
+
+IL_0091:
+	{
+		Button_t990034267 * L_2 = __this->get_starCostButton_10();
+		NullCheck(L_2);
+		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1170635899(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		GameObject_SetActive_m3538205401(L_3, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_4 = __this->get_moneyCostButton_11();
+		NullCheck(L_4);
+		GameObject_t4012695102 * L_5 = Component_get_gameObject_m1170635899(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		GameObject_SetActive_m3538205401(L_5, (bool)0, /*hidden argument*/NULL);
+		Button_t990034267 * L_6 = __this->get_selectButton_6();
+		NullCheck(L_6);
+		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1170635899(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		GameObject_SetActive_m3538205401(L_7, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void selection/<changePoisition>c__Iterator12::.ctor()
+extern "C"  void U3CchangePoisitionU3Ec__Iterator12__ctor_m1867854716 (U3CchangePoisitionU3Ec__Iterator12_t3659782428 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object selection/<changePoisition>c__Iterator12::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CchangePoisitionU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2857719520 (U3CchangePoisitionU3Ec__Iterator12_t3659782428 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Object selection/<changePoisition>c__Iterator12::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CchangePoisitionU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m4157676148 (U3CchangePoisitionU3Ec__Iterator12_t3659782428 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Boolean selection/<changePoisition>c__Iterator12::MoveNext()
+extern Il2CppClass* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var;
+extern const uint32_t U3CchangePoisitionU3Ec__Iterator12_MoveNext_m2623454432_MetadataUsageId;
+extern "C"  bool U3CchangePoisitionU3Ec__Iterator12_MoveNext_m2623454432 (U3CchangePoisitionU3Ec__Iterator12_t3659782428 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CchangePoisitionU3Ec__Iterator12_MoveNext_m2623454432_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	bool V_3 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24PC_5((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_015f;
+		}
+	}
+	{
+		goto IL_0217;
+	}
+
+IL_0021:
+	{
+		selection_t2579001740 * L_2 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_hasPress_5();
+		if (L_3)
+		{
+			goto IL_0210;
+		}
+	}
+	{
+		selection_t2579001740 * L_4 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_4);
+		L_4->set_hasPress_5((bool)1);
+		__this->set_U3CaccmulationU3E__0_0((0.0f));
+		selection_t2579001740 * L_5 = __this->get_U3CU3Ef__this_10();
+		selection_t2579001740 * L_6 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_6);
+		List_1_t514686775 * L_7 = L_6->get_characters_2();
+		selection_t2579001740 * L_8 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_main_3();
+		NullCheck(L_7);
+		GameObject_t4012695102 * L_10 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_7, L_9);
+		NullCheck(L_10);
+		character_t1564195625 * L_11 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_10, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_11);
+		Il2CppObject * L_12 = character_changeSize_m1657027804(L_11, 1, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		MonoBehaviour_StartCoroutine_m2135303124(L_5, L_12, /*hidden argument*/NULL);
+		goto IL_015f;
+	}
+
+IL_007f:
+	{
+		float L_13 = __this->get_U3CaccmulationU3E__0_0();
+		float L_14 = __this->get_offset_1();
+		__this->set_U3CaccmulationU3E__0_0(((float)((float)L_13+(float)L_14)));
+		int32_t L_15 = __this->get_identity_2();
+		if (L_15)
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		float L_16 = __this->get_U3CaccmulationU3E__0_0();
+		float L_17 = __this->get_goal_3();
+		if ((!(((float)L_16) < ((float)L_17))))
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		selection_t2579001740 * L_18 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_18);
+		L_18->set_moving_4((bool)0);
+		goto IL_016f;
+	}
+
+IL_00bf:
+	{
+		goto IL_00e6;
+	}
+
+IL_00c4:
+	{
+		float L_19 = __this->get_U3CaccmulationU3E__0_0();
+		float L_20 = __this->get_goal_3();
+		if ((!(((float)L_19) > ((float)L_20))))
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		selection_t2579001740 * L_21 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_21);
+		L_21->set_moving_4((bool)0);
+		goto IL_016f;
+	}
+
+IL_00e6:
+	{
+		selection_t2579001740 * L_22 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_22);
+		Transform_t284553113 * L_23 = L_22->get_trans_8();
+		NullCheck(L_23);
+		Vector3_t3525329789  L_24 = Transform_get_localPosition_m668140784(L_23, /*hidden argument*/NULL);
+		V_1 = L_24;
+		float L_25 = (&V_1)->get_x_1();
+		float L_26 = __this->get_offset_1();
+		__this->set_U3CnewXpositonU3E__1_4(((float)((float)L_25+(float)L_26)));
+		selection_t2579001740 * L_27 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_27);
+		Transform_t284553113 * L_28 = L_27->get_trans_8();
+		float L_29 = __this->get_U3CnewXpositonU3E__1_4();
+		selection_t2579001740 * L_30 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_30);
+		Transform_t284553113 * L_31 = L_30->get_trans_8();
+		NullCheck(L_31);
+		Vector3_t3525329789  L_32 = Transform_get_localPosition_m668140784(L_31, /*hidden argument*/NULL);
+		V_2 = L_32;
+		float L_33 = (&V_2)->get_y_2();
+		Vector3_t3525329789  L_34;
+		memset(&L_34, 0, sizeof(L_34));
+		Vector3__ctor_m2926210380(&L_34, L_29, L_33, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Transform_set_localPosition_m3504330903(L_28, L_34, /*hidden argument*/NULL);
+		WaitForSeconds_t1291133240 * L_35 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_35, (0.1f), /*hidden argument*/NULL);
+		__this->set_U24current_6(L_35);
+		__this->set_U24PC_5(1);
+		goto IL_0219;
+	}
+
+IL_015f:
+	{
+		selection_t2579001740 * L_36 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_36);
+		bool L_37 = L_36->get_moving_4();
+		if (L_37)
+		{
+			goto IL_007f;
+		}
+	}
+
+IL_016f:
+	{
+		selection_t2579001740 * L_38 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_38);
+		L_38->set_moving_4((bool)1);
+		int32_t L_39 = __this->get_identity_2();
+		if (L_39)
+		{
+			goto IL_019e;
+		}
+	}
+	{
+		selection_t2579001740 * L_40 = __this->get_U3CU3Ef__this_10();
+		selection_t2579001740 * L_41 = L_40;
+		NullCheck(L_41);
+		int32_t L_42 = L_41->get_main_3();
+		NullCheck(L_41);
+		L_41->set_main_3(((int32_t)((int32_t)L_42+(int32_t)1)));
+		goto IL_01b1;
+	}
+
+IL_019e:
+	{
+		selection_t2579001740 * L_43 = __this->get_U3CU3Ef__this_10();
+		selection_t2579001740 * L_44 = L_43;
+		NullCheck(L_44);
+		int32_t L_45 = L_44->get_main_3();
+		NullCheck(L_44);
+		L_44->set_main_3(((int32_t)((int32_t)L_45-(int32_t)1)));
+	}
+
+IL_01b1:
+	{
+		selection_t2579001740 * L_46 = __this->get_U3CU3Ef__this_10();
+		selection_t2579001740 * L_47 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_47);
+		List_1_t514686775 * L_48 = L_47->get_characters_2();
+		selection_t2579001740 * L_49 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_49);
+		int32_t L_50 = L_49->get_main_3();
+		NullCheck(L_48);
+		GameObject_t4012695102 * L_51 = VirtFuncInvoker1< GameObject_t4012695102 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32) */, L_48, L_50);
+		NullCheck(L_51);
+		character_t1564195625 * L_52 = GameObject_GetComponent_Tischaracter_t1564195625_m1631776408(L_51, /*hidden argument*/GameObject_GetComponent_Tischaracter_t1564195625_m1631776408_MethodInfo_var);
+		NullCheck(L_52);
+		Il2CppObject * L_53 = character_changeSize_m1657027804(L_52, 0, /*hidden argument*/NULL);
+		NullCheck(L_46);
+		MonoBehaviour_StartCoroutine_m2135303124(L_46, L_53, /*hidden argument*/NULL);
+		selection_t2579001740 * L_54 = __this->get_U3CU3Ef__this_10();
+		selection_t2579001740 * L_55 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_55);
+		int32_t L_56 = L_55->get_main_3();
+		NullCheck(L_54);
+		selection_showButton_m1428232453(L_54, L_56, /*hidden argument*/NULL);
+		selection_t2579001740 * L_57 = __this->get_U3CU3Ef__this_10();
+		selection_t2579001740 * L_58 = __this->get_U3CU3Ef__this_10();
+		NullCheck(L_58);
+		Il2CppObject * L_59 = selection_waitAndRecover_m862652927(L_58, /*hidden argument*/NULL);
+		NullCheck(L_57);
+		MonoBehaviour_StartCoroutine_m2135303124(L_57, L_59, /*hidden argument*/NULL);
+	}
+
+IL_0210:
+	{
+		__this->set_U24PC_5((-1));
+	}
+
+IL_0217:
+	{
+		return (bool)0;
+	}
+
+IL_0219:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_021b: ldloc.3
+}
+// System.Void selection/<changePoisition>c__Iterator12::Dispose()
+extern "C"  void U3CchangePoisitionU3Ec__Iterator12_Dispose_m3905302713 (U3CchangePoisitionU3Ec__Iterator12_t3659782428 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_5((-1));
+		return;
+	}
+}
+// System.Void selection/<changePoisition>c__Iterator12::Reset()
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CchangePoisitionU3Ec__Iterator12_Reset_m3809254953_MetadataUsageId;
+extern "C"  void U3CchangePoisitionU3Ec__Iterator12_Reset_m3809254953 (U3CchangePoisitionU3Ec__Iterator12_t3659782428 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CchangePoisitionU3Ec__Iterator12_Reset_m3809254953_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void selection/<waitAndRecover>c__Iterator13::.ctor()
+extern "C"  void U3CwaitAndRecoverU3Ec__Iterator13__ctor_m2478012827 (U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object selection/<waitAndRecover>c__Iterator13::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CwaitAndRecoverU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4165413271 (U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object selection/<waitAndRecover>c__Iterator13::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CwaitAndRecoverU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m1754610475 (U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Boolean selection/<waitAndRecover>c__Iterator13::MoveNext()
+extern Il2CppClass* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const uint32_t U3CwaitAndRecoverU3Ec__Iterator13_MoveNext_m472182393_MetadataUsageId;
+extern "C"  bool U3CwaitAndRecoverU3Ec__Iterator13_MoveNext_m472182393 (U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CwaitAndRecoverU3Ec__Iterator13_MoveNext_m472182393_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_0();
+		V_0 = L_0;
+		__this->set_U24PC_0((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		goto IL_0050;
+	}
+
+IL_0021:
+	{
+		WaitForSeconds_t1291133240 * L_2 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_2, (0.1f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_2);
+		__this->set_U24PC_0(1);
+		goto IL_0052;
+	}
+
+IL_003d:
+	{
+		selection_t2579001740 * L_3 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_3);
+		L_3->set_hasPress_5((bool)0);
+		__this->set_U24PC_0((-1));
+	}
+
+IL_0050:
+	{
+		return (bool)0;
+	}
+
+IL_0052:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0054: ldloc.1
+}
+// System.Void selection/<waitAndRecover>c__Iterator13::Dispose()
+extern "C"  void U3CwaitAndRecoverU3Ec__Iterator13_Dispose_m1856727832 (U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_0((-1));
+		return;
+	}
+}
+// System.Void selection/<waitAndRecover>c__Iterator13::Reset()
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CwaitAndRecoverU3Ec__Iterator13_Reset_m124445768_MetadataUsageId;
+extern "C"  void U3CwaitAndRecoverU3Ec__Iterator13_Reset_m124445768 (U3CwaitAndRecoverU3Ec__Iterator13_t3837339923 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CwaitAndRecoverU3Ec__Iterator13_Reset_m124445768_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void shooting::.ctor()
+extern "C"  void shooting__ctor_m1282159256 (shooting_t3949701987 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void shooting::Start()
+extern const MethodInfo* GameObject_GetComponent_Tisplayer4_t3801399667_m770673806_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3309214433;
+extern const uint32_t shooting_Start_m229297048_MetadataUsageId;
+extern "C"  void shooting_Start_m229297048 (shooting_t3949701987 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (shooting_Start_m229297048_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = __this->get_number_5();
+		if (L_0)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		float L_1 = __this->get_speed_2();
+		Vector3_t3525329789  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Vector3__ctor_m2926210380(&L_2, (0.0f), L_1, (0.0f), /*hidden argument*/NULL);
+		__this->set_velocity_3(L_2);
+		goto IL_0046;
+	}
+
+IL_002b:
+	{
+		float L_3 = __this->get_speed_2();
+		Vector3_t3525329789  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		Vector3__ctor_m2926210380(&L_4, L_3, (0.0f), (0.0f), /*hidden argument*/NULL);
+		__this->set_velocity_3(L_4);
+	}
+
+IL_0046:
+	{
+		GameObject_t4012695102 * L_5 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral3309214433, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		player4_t3801399667 * L_6 = GameObject_GetComponent_Tisplayer4_t3801399667_m770673806(L_5, /*hidden argument*/GameObject_GetComponent_Tisplayer4_t3801399667_m770673806_MethodInfo_var);
+		__this->set_player_4(L_6);
+		return;
+	}
+}
+// System.Void shooting::Update()
+extern "C"  void shooting_Update_m2819093365 (shooting_t3949701987 * __this, const MethodInfo* method)
+{
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t3525329789  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_1 = L_0;
+		NullCheck(L_1);
+		Vector3_t3525329789  L_2 = Transform_get_position_m2211398607(L_1, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_3 = __this->get_velocity_3();
+		float L_4 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_6 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_2, L_5, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_set_position_m3111394108(L_1, L_6, /*hidden argument*/NULL);
+		Transform_t284553113 * L_7 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t3525329789  L_8 = Transform_get_position_m2211398607(L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		float L_9 = (&V_0)->get_x_1();
+		player4_t3801399667 * L_10 = __this->get_player_4();
+		NullCheck(L_10);
+		float L_11 = L_10->get_leftBorder_2();
+		if ((((float)L_9) < ((float)L_11)))
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		Transform_t284553113 * L_12 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t3525329789  L_13 = Transform_get_position_m2211398607(L_12, /*hidden argument*/NULL);
+		V_1 = L_13;
+		float L_14 = (&V_1)->get_x_1();
+		player4_t3801399667 * L_15 = __this->get_player_4();
+		NullCheck(L_15);
+		float L_16 = L_15->get_rightBorder_3();
+		if ((((float)L_14) > ((float)L_16)))
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		Transform_t284553113 * L_17 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t3525329789  L_18 = Transform_get_position_m2211398607(L_17, /*hidden argument*/NULL);
+		V_2 = L_18;
+		float L_19 = (&V_2)->get_y_2();
+		player4_t3801399667 * L_20 = __this->get_player_4();
+		NullCheck(L_20);
+		float L_21 = L_20->get_bottomBorder_5();
+		if ((((float)L_19) < ((float)L_21)))
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		Transform_t284553113 * L_22 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Vector3_t3525329789  L_23 = Transform_get_position_m2211398607(L_22, /*hidden argument*/NULL);
+		V_3 = L_23;
+		float L_24 = (&V_3)->get_y_2();
+		player4_t3801399667 * L_25 = __this->get_player_4();
+		NullCheck(L_25);
+		float L_26 = L_25->get_topBorder_4();
+		if ((!(((float)L_24) > ((float)L_26))))
+		{
+			goto IL_00bd;
+		}
+	}
+
+IL_00b2:
+	{
+		GameObject_t4012695102 * L_27 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+	}
+
+IL_00bd:
+	{
+		return;
+	}
+}
+// System.Void Soomla.BadgeReward::.ctor(System.String,System.String)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const uint32_t BadgeReward__ctor_m2396884534_MetadataUsageId;
+extern "C"  void BadgeReward__ctor_m2396884534 (BadgeReward_t3851063847 * __this, String_t* ___id0, String_t* ___name1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (BadgeReward__ctor_m2396884534_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___id0;
+		String_t* L_1 = ___name1;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward__ctor_m3552203329(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.BadgeReward::.ctor(System.String,System.String,System.String)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const uint32_t BadgeReward__ctor_m2177802226_MetadataUsageId;
+extern "C"  void BadgeReward__ctor_m2177802226 (BadgeReward_t3851063847 * __this, String_t* ___id0, String_t* ___name1, String_t* ___iconUrl2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (BadgeReward__ctor_m2177802226_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___id0;
+		String_t* L_1 = ___name1;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward__ctor_m3552203329(__this, L_0, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = ___iconUrl2;
+		__this->set_IconUrl_7(L_2);
+		return;
+	}
+}
+// System.Void Soomla.BadgeReward::.ctor(JSONObject)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1638765110;
+extern const uint32_t BadgeReward__ctor_m768913505_MetadataUsageId;
+extern "C"  void BadgeReward__ctor_m768913505 (BadgeReward_t3851063847 * __this, JSONObject_t1752376903 * ___jsonReward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (BadgeReward__ctor_m768913505_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		JSONObject_t1752376903 * L_0 = ___jsonReward0;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward__ctor_m124487926(__this, L_0, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_1 = ___jsonReward0;
+		NullCheck(L_1);
+		JSONObject_t1752376903 * L_2 = JSONObject_get_Item_m3957353536(L_1, _stringLiteral1638765110, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		String_t* L_3 = L_2->get_str_9();
+		__this->set_IconUrl_7(L_3);
+		return;
+	}
+}
+// JSONObject Soomla.BadgeReward::toJSONObject()
+extern Il2CppCodeGenString* _stringLiteral1638765110;
+extern const uint32_t BadgeReward_toJSONObject_m3987433396_MetadataUsageId;
+extern "C"  JSONObject_t1752376903 * BadgeReward_toJSONObject_m3987433396 (BadgeReward_t3851063847 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (BadgeReward_toJSONObject_m3987433396_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	{
+		JSONObject_t1752376903 * L_0 = Reward_toJSONObject_m1441488979(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1752376903 * L_1 = V_0;
+		String_t* L_2 = __this->get_IconUrl_7();
+		NullCheck(L_1);
+		JSONObject_AddField_m2361299573(L_1, _stringLiteral1638765110, L_2, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Boolean Soomla.BadgeReward::giveInner()
+extern "C"  bool BadgeReward_giveInner_m383364759 (BadgeReward_t3851063847 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean Soomla.BadgeReward::takeInner()
+extern "C"  bool BadgeReward_takeInner_m2772071521 (BadgeReward_t3851063847 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void Soomla.CoreEvents::.ctor()
+extern "C"  void CoreEvents__ctor_m1837663892 (CoreEvents_t2723118925 * __this, const MethodInfo* method)
+{
+	{
+		CodeGeneratedSingleton__ctor_m3531635595(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents::.cctor()
+extern Il2CppClass* CoreEvents_t2723118925_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1718618693_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_2_t229952182_il2cpp_TypeInfo_var;
+extern const MethodInfo* CoreEvents_U3COnRewardGivenU3Em__2E_m3139214655_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m640617709_MethodInfo_var;
+extern const MethodInfo* CoreEvents_U3COnRewardTakenU3Em__2F_m3206817812_MethodInfo_var;
+extern const MethodInfo* CoreEvents_U3COnCustomEventU3Em__30_m1802416031_MethodInfo_var;
+extern const MethodInfo* Action_2__ctor_m560266229_MethodInfo_var;
+extern const uint32_t CoreEvents__cctor_m650909593_MetadataUsageId;
+extern "C"  void CoreEvents__cctor_m650909593 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreEvents__cctor_m650909593_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->set_Instance_7((CoreEvents_t2723118925 *)NULL);
+		Action_1_t1718618693 * L_0 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache4_11();
+		if (L_0)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)CoreEvents_U3COnRewardGivenU3Em__2E_m3139214655_MethodInfo_var);
+		Action_1_t1718618693 * L_2 = (Action_1_t1718618693 *)il2cpp_codegen_object_new(Action_1_t1718618693_il2cpp_TypeInfo_var);
+		Action_1__ctor_m640617709(L_2, NULL, L_1, /*hidden argument*/Action_1__ctor_m640617709_MethodInfo_var);
+		((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache4_11(L_2);
+	}
+
+IL_001e:
+	{
+		Action_1_t1718618693 * L_3 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache4_11();
+		((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->set_OnRewardGiven_8(L_3);
+		Action_1_t1718618693 * L_4 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache5_12();
+		if (L_4)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)CoreEvents_U3COnRewardTakenU3Em__2F_m3206817812_MethodInfo_var);
+		Action_1_t1718618693 * L_6 = (Action_1_t1718618693 *)il2cpp_codegen_object_new(Action_1_t1718618693_il2cpp_TypeInfo_var);
+		Action_1__ctor_m640617709(L_6, NULL, L_5, /*hidden argument*/Action_1__ctor_m640617709_MethodInfo_var);
+		((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache5_12(L_6);
+	}
+
+IL_0040:
+	{
+		Action_1_t1718618693 * L_7 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache5_12();
+		((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->set_OnRewardTaken_9(L_7);
+		Action_2_t229952182 * L_8 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache6_13();
+		if (L_8)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)CoreEvents_U3COnCustomEventU3Em__30_m1802416031_MethodInfo_var);
+		Action_2_t229952182 * L_10 = (Action_2_t229952182 *)il2cpp_codegen_object_new(Action_2_t229952182_il2cpp_TypeInfo_var);
+		Action_2__ctor_m560266229(L_10, NULL, L_9, /*hidden argument*/Action_2__ctor_m560266229_MethodInfo_var);
+		((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache6_13(L_10);
+	}
+
+IL_0062:
+	{
+		Action_2_t229952182 * L_11 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache6_13();
+		((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->set_OnCustomEvent_10(L_11);
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents::soomlaCore_Init(System.String,System.Boolean)
+extern "C" void DEFAULT_CALL soomlaCore_Init(char*, int32_t);
+extern "C"  void CoreEvents_soomlaCore_Init_m4115241582 (Il2CppObject * __this /* static, unused */, String_t* ___secret0, bool ___debug1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int32_t);
+
+	// Marshaling of parameter '___secret0' to native representation
+	char* ____secret0_marshaled = NULL;
+	____secret0_marshaled = il2cpp_codegen_marshal_string(___secret0);
+
+	// Marshaling of parameter '___debug1' to native representation
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(soomlaCore_Init)(____secret0_marshaled, ___debug1);
+
+	// Marshaling cleanup of parameter '___secret0' native representation
+	il2cpp_codegen_marshal_free(____secret0_marshaled);
+	____secret0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___debug1' native representation
+
+}
+// System.Boolean Soomla.CoreEvents::get_DontDestroySingleton()
+extern "C"  bool CoreEvents_get_DontDestroySingleton_m962707943 (CoreEvents_t2723118925 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void Soomla.CoreEvents::Initialize()
+extern Il2CppClass* CoreEvents_t2723118925_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnitySingleton_t1353646035_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnitySingleton_GetSynchronousCodeGeneratedInstance_TisCoreEvents_t2723118925_m3960391368_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2743470665;
+extern Il2CppCodeGenString* _stringLiteral2045680288;
+extern const uint32_t CoreEvents_Initialize_m2715077760_MetadataUsageId;
+extern "C"  void CoreEvents_Initialize_m2715077760 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreEvents_Initialize_m2715077760_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreEvents_t2723118925_il2cpp_TypeInfo_var);
+		CoreEvents_t2723118925 * L_0 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_Instance_7();
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		CoreEvents_t2723118925 * L_2 = UnitySingleton_GetSynchronousCodeGeneratedInstance_TisCoreEvents_t2723118925_m3960391368(NULL /*static, unused*/, /*hidden argument*/UnitySingleton_GetSynchronousCodeGeneratedInstance_TisCoreEvents_t2723118925_m3960391368_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(CoreEvents_t2723118925_il2cpp_TypeInfo_var);
+		((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->set_Instance_7(L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral2743470665, _stringLiteral2045680288, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_3 = CoreSettings_get_SoomlaSecret_m2224628415(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_4 = CoreSettings_get_DebugMessages_m3835705266(NULL /*static, unused*/, /*hidden argument*/NULL);
+		CoreEvents_soomlaCore_Init_m4115241582(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0038:
+	{
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents::onRewardGiven(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* CoreEvents_t2723118925_il2cpp_TypeInfo_var;
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m3366955448_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2743470665;
+extern Il2CppCodeGenString* _stringLiteral3298941430;
+extern Il2CppCodeGenString* _stringLiteral4055386282;
+extern const uint32_t CoreEvents_onRewardGiven_m2300503905_MetadataUsageId;
+extern "C"  void CoreEvents_onRewardGiven_m2300503905 (CoreEvents_t2723118925 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreEvents_onRewardGiven_m2300503905_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		String_t* L_0 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3298941430, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral2743470665, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = ___message0;
+		JSONObject_t1752376903 * L_3 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m4073880297(L_3, L_2, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_3;
+		JSONObject_t1752376903 * L_4 = V_0;
+		NullCheck(L_4);
+		JSONObject_t1752376903 * L_5 = JSONObject_get_Item_m3957353536(L_4, _stringLiteral4055386282, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		String_t* L_6 = L_5->get_str_9();
+		V_1 = L_6;
+		IL2CPP_RUNTIME_CLASS_INIT(CoreEvents_t2723118925_il2cpp_TypeInfo_var);
+		Action_1_t1718618693 * L_7 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_OnRewardGiven_8();
+		String_t* L_8 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward_t1570165988 * L_9 = Reward_GetReward_m237195837(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Action_1_Invoke_m3366955448(L_7, L_9, /*hidden argument*/Action_1_Invoke_m3366955448_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents::onRewardTaken(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* CoreEvents_t2723118925_il2cpp_TypeInfo_var;
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m3366955448_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2743470665;
+extern Il2CppCodeGenString* _stringLiteral3663404524;
+extern Il2CppCodeGenString* _stringLiteral4055386282;
+extern const uint32_t CoreEvents_onRewardTaken_m1824457943_MetadataUsageId;
+extern "C"  void CoreEvents_onRewardTaken_m1824457943 (CoreEvents_t2723118925 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreEvents_onRewardTaken_m1824457943_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		String_t* L_0 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3663404524, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral2743470665, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = ___message0;
+		JSONObject_t1752376903 * L_3 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m4073880297(L_3, L_2, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_3;
+		JSONObject_t1752376903 * L_4 = V_0;
+		NullCheck(L_4);
+		JSONObject_t1752376903 * L_5 = JSONObject_get_Item_m3957353536(L_4, _stringLiteral4055386282, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		String_t* L_6 = L_5->get_str_9();
+		V_1 = L_6;
+		IL2CPP_RUNTIME_CLASS_INIT(CoreEvents_t2723118925_il2cpp_TypeInfo_var);
+		Action_1_t1718618693 * L_7 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_OnRewardTaken_9();
+		String_t* L_8 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward_t1570165988 * L_9 = Reward_GetReward_m237195837(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Action_1_Invoke_m3366955448(L_7, L_9, /*hidden argument*/Action_1_Invoke_m3366955448_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents::onCustomEvent(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* CoreEvents_t2723118925_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_2_Invoke_m1868756566_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2743470665;
+extern Il2CppCodeGenString* _stringLiteral1898792251;
+extern Il2CppCodeGenString* _stringLiteral3373707;
+extern Il2CppCodeGenString* _stringLiteral96965648;
+extern const uint32_t CoreEvents_onCustomEvent_m3556160998_MetadataUsageId;
+extern "C"  void CoreEvents_onCustomEvent_m3556160998 (CoreEvents_t2723118925 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreEvents_onCustomEvent_m3556160998_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	Dictionary_2_t2606186806 * V_2 = NULL;
+	{
+		String_t* L_0 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1898792251, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral2743470665, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = ___message0;
+		JSONObject_t1752376903 * L_3 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m4073880297(L_3, L_2, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_3;
+		JSONObject_t1752376903 * L_4 = V_0;
+		NullCheck(L_4);
+		JSONObject_t1752376903 * L_5 = JSONObject_get_Item_m3957353536(L_4, _stringLiteral3373707, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		String_t* L_6 = L_5->get_str_9();
+		V_1 = L_6;
+		JSONObject_t1752376903 * L_7 = V_0;
+		NullCheck(L_7);
+		JSONObject_t1752376903 * L_8 = JSONObject_get_Item_m3957353536(L_7, _stringLiteral96965648, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Dictionary_2_t2606186806 * L_9 = JSONObject_ToDictionary_m660917039(L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
+		IL2CPP_RUNTIME_CLASS_INIT(CoreEvents_t2723118925_il2cpp_TypeInfo_var);
+		Action_2_t229952182 * L_10 = ((CoreEvents_t2723118925_StaticFields*)CoreEvents_t2723118925_il2cpp_TypeInfo_var->static_fields)->get_OnCustomEvent_10();
+		String_t* L_11 = V_1;
+		Dictionary_2_t2606186806 * L_12 = V_2;
+		NullCheck(L_10);
+		Action_2_Invoke_m1868756566(L_10, L_11, L_12, /*hidden argument*/Action_2_Invoke_m1868756566_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents::<OnRewardGiven>m__2E(Soomla.Reward)
+extern "C"  void CoreEvents_U3COnRewardGivenU3Em__2E_m3139214655 (Il2CppObject * __this /* static, unused */, Reward_t1570165988 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents::<OnRewardTaken>m__2F(Soomla.Reward)
+extern "C"  void CoreEvents_U3COnRewardTakenU3Em__2F_m3206817812 (Il2CppObject * __this /* static, unused */, Reward_t1570165988 * p0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents::<OnCustomEvent>m__30(System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  void CoreEvents_U3COnCustomEventU3Em__30_m1802416031 (Il2CppObject * __this /* static, unused */, String_t* p0, Dictionary_2_t2606186806 * p1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.CoreEvents/Action::.ctor(System.Object,System.IntPtr)
+extern "C"  void Action__ctor_m2393333845 (Action_t1955883606 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->method);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Soomla.CoreEvents/Action::Invoke()
+extern "C"  void Action_Invoke_m3646508271 (Action_t1955883606 * __this, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		Action_Invoke_m3646508271((Action_t1955883606 *)__this->get_prev_9(), method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if ((__this->get_m_target_2() != NULL || MethodHasParameters((MethodInfo*)(__this->get_method_3().get_m_value_0()))) && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_Action_t1955883606(Il2CppObject* delegate)
+{
+	typedef void (STDCALL *native_function_ptr_type)();
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Native function invocation
+	_il2cpp_pinvoke_func();
+
+}
+// System.IAsyncResult Soomla.CoreEvents/Action::BeginInvoke(System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * Action_BeginInvoke_m2493814068 (Action_t1955883606 * __this, AsyncCallback_t1363551830 * ___callback0, Il2CppObject * ___object1, const MethodInfo* method)
+{
+	void *__d_args[1] = {0};
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback0, (Il2CppObject*)___object1);
+}
+// System.Void Soomla.CoreEvents/Action::EndInvoke(System.IAsyncResult)
+extern "C"  void Action_EndInvoke_m2667201765 (Action_t1955883606 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Soomla.CoreSettings::.ctor()
+extern "C"  void CoreSettings__ctor_m445766730 (CoreSettings_t4288392855 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.CoreSettings::.cctor()
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2106303;
+extern Il2CppCodeGenString* _stringLiteral2171622423;
+extern const uint32_t CoreSettings__cctor_m451770531_MetadataUsageId;
+extern "C"  void CoreSettings__cctor_m451770531 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreSettings__cctor_m451770531_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_CoreModulePrefix_0(_stringLiteral2106303);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_ONLY_ONCE_DEFAULT_1(_stringLiteral2171622423);
+		return;
+	}
+}
+// System.String Soomla.CoreSettings::get_SoomlaSecret()
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2354645983;
+extern const uint32_t CoreSettings_get_SoomlaSecret_m2224628415_MetadataUsageId;
+extern "C"  String_t* CoreSettings_get_SoomlaSecret_m2224628415 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreSettings_get_SoomlaSecret_m2224628415_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_soomlaSecret_2();
+		if (L_0)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_CoreModulePrefix_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		String_t* L_2 = SoomlaEditorScript_GetConfigValue_m1198676809(NULL /*static, unused*/, L_1, _stringLiteral2354645983, /*hidden argument*/NULL);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_soomlaSecret_2(L_2);
+		String_t* L_3 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_soomlaSecret_2();
+		if (L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_ONLY_ONCE_DEFAULT_1();
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_soomlaSecret_2(L_4);
+	}
+
+IL_0032:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_soomlaSecret_2();
+		return L_5;
+	}
+}
+// System.Void Soomla.CoreSettings::set_SoomlaSecret(System.String)
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2354645983;
+extern const uint32_t CoreSettings_set_SoomlaSecret_m4047474444_MetadataUsageId;
+extern "C"  void CoreSettings_set_SoomlaSecret_m4047474444 (Il2CppObject * __this /* static, unused */, String_t* ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreSettings_set_SoomlaSecret_m4047474444_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_soomlaSecret_2();
+		String_t* L_1 = ___value0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_op_Inequality_m2125462205(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		String_t* L_3 = ___value0;
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_soomlaSecret_2(L_3);
+		String_t* L_4 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_CoreModulePrefix_0();
+		String_t* L_5 = ___value0;
+		NullCheck(L_5);
+		String_t* L_6 = String_ToString_m1382284457(L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		SoomlaEditorScript_SetConfigValue_m259672366(NULL /*static, unused*/, L_4, _stringLiteral2354645983, L_6, /*hidden argument*/NULL);
+		SoomlaEditorScript_DirtyEditor_m61731170(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0030:
+	{
+		return;
+	}
+}
+// System.Boolean Soomla.CoreSettings::get_DebugMessages()
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2564368543;
+extern const uint32_t CoreSettings_get_DebugMessages_m3835705266_MetadataUsageId;
+extern "C"  bool CoreSettings_get_DebugMessages_m3835705266 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreSettings_get_DebugMessages_m3835705266_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	bool V_0 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_debugMessages_3();
+		if (L_0)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_CoreModulePrefix_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		String_t* L_2 = SoomlaEditorScript_GetConfigValue_m1198676809(NULL /*static, unused*/, L_1, _stringLiteral2564368543, /*hidden argument*/NULL);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_debugMessages_3(L_2);
+		String_t* L_3 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_debugMessages_3();
+		if (L_3)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		String_t* L_4 = Boolean_ToString_m2512358154((&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_debugMessages_3(L_4);
+	}
+
+IL_0036:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_debugMessages_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		bool L_6 = Convert_ToBoolean_m309004443(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.Void Soomla.CoreSettings::set_DebugMessages(System.Boolean)
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2564368543;
+extern const uint32_t CoreSettings_set_DebugMessages_m537394689_MetadataUsageId;
+extern "C"  void CoreSettings_set_DebugMessages_m537394689 (Il2CppObject * __this /* static, unused */, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreSettings_set_DebugMessages_m537394689_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_debugMessages_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		bool L_1 = Convert_ToBoolean_m309004443(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_2 = ___value0;
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		String_t* L_3 = Boolean_ToString_m2512358154((&___value0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_debugMessages_3(L_3);
+		String_t* L_4 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_CoreModulePrefix_0();
+		String_t* L_5 = Boolean_ToString_m2512358154((&___value0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		SoomlaEditorScript_SetConfigValue_m259672366(NULL /*static, unused*/, L_4, _stringLiteral2564368543, L_5, /*hidden argument*/NULL);
+		SoomlaEditorScript_DirtyEditor_m61731170(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0037:
+	{
+		return;
+	}
+}
+// System.Boolean Soomla.CoreSettings::get_DebugUnityMessages()
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2494688366;
+extern const uint32_t CoreSettings_get_DebugUnityMessages_m2327620445_MetadataUsageId;
+extern "C"  bool CoreSettings_get_DebugUnityMessages_m2327620445 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreSettings_get_DebugUnityMessages_m2327620445_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	bool V_0 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_debugUnityMessages_4();
+		if (L_0)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_CoreModulePrefix_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		String_t* L_2 = SoomlaEditorScript_GetConfigValue_m1198676809(NULL /*static, unused*/, L_1, _stringLiteral2494688366, /*hidden argument*/NULL);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_debugUnityMessages_4(L_2);
+		String_t* L_3 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_debugUnityMessages_4();
+		if (L_3)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		V_0 = (bool)1;
+		String_t* L_4 = Boolean_ToString_m2512358154((&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_debugUnityMessages_4(L_4);
+	}
+
+IL_0036:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_debugUnityMessages_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		bool L_6 = Convert_ToBoolean_m309004443(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.Void Soomla.CoreSettings::set_DebugUnityMessages(System.Boolean)
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2494688366;
+extern const uint32_t CoreSettings_set_DebugUnityMessages_m3846488252_MetadataUsageId;
+extern "C"  void CoreSettings_set_DebugUnityMessages_m3846488252 (Il2CppObject * __this /* static, unused */, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CoreSettings_set_DebugUnityMessages_m3846488252_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_debugUnityMessages_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		bool L_1 = Convert_ToBoolean_m309004443(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_2 = ___value0;
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		String_t* L_3 = Boolean_ToString_m2512358154((&___value0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->set_debugUnityMessages_4(L_3);
+		String_t* L_4 = ((CoreSettings_t4288392855_StaticFields*)CoreSettings_t4288392855_il2cpp_TypeInfo_var->static_fields)->get_CoreModulePrefix_0();
+		String_t* L_5 = Boolean_ToString_m2512358154((&___value0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		SoomlaEditorScript_SetConfigValue_m259672366(NULL /*static, unused*/, L_4, _stringLiteral2494688366, L_5, /*hidden argument*/NULL);
+		SoomlaEditorScript_DirtyEditor_m61731170(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0037:
+	{
+		return;
+	}
+}
+// System.Void Soomla.CustomEvent::.ctor(System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  void CustomEvent__ctor_m1845197350 (CustomEvent_t3287004958 * __this, String_t* ___name0, Dictionary_2_t2606186806 * ___extra1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		Dictionary_2_t2606186806 * L_1 = ___extra1;
+		CustomEvent__ctor_m3752200820(__this, L_0, L_1, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.CustomEvent::.ctor(System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Object)
+extern "C"  void CustomEvent__ctor_m3752200820 (CustomEvent_t3287004958 * __this, String_t* ___name0, Dictionary_2_t2606186806 * ___extra1, Il2CppObject * ___sender2, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender2;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___name0;
+		__this->set_Name_2(L_1);
+		Dictionary_2_t2606186806 * L_2 = ___extra1;
+		__this->set_Extra_3(L_2);
+		return;
+	}
+}
+// System.String Soomla.CustomEvent::GetName()
+extern "C"  String_t* CustomEvent_GetName_m1573885581 (CustomEvent_t3287004958 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_Name_2();
+		return L_0;
+	}
+}
+// System.Collections.Generic.Dictionary`2<System.String,System.String> Soomla.CustomEvent::GetExtra()
+extern "C"  Dictionary_2_t2606186806 * CustomEvent_GetExtra_m2773687803 (CustomEvent_t3287004958 * __this, const MethodInfo* method)
+{
+	{
+		Dictionary_2_t2606186806 * L_0 = __this->get_Extra_3();
+		return L_0;
+	}
+}
+// System.Void Soomla.KeyValueStorage::.ctor()
+extern "C"  void KeyValueStorage__ctor_m356199377 (KeyValueStorage_t3102778686 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.KeyValueStorage::.cctor()
+extern "C"  void KeyValueStorage__cctor_m1970149884 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// Soomla.KeyValueStorage Soomla.KeyValueStorage::get_instance()
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern Il2CppClass* KeyValueStorageIOS_t560110905_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorage_get_instance_m670592004_MetadataUsageId;
+extern "C"  KeyValueStorage_t3102778686 * KeyValueStorage_get_instance_m670592004 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorage_get_instance_m670592004_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage_t3102778686 * L_0 = ((KeyValueStorage_t3102778686_StaticFields*)KeyValueStorage_t3102778686_il2cpp_TypeInfo_var->static_fields)->get__instance_1();
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		KeyValueStorageIOS_t560110905 * L_1 = (KeyValueStorageIOS_t560110905 *)il2cpp_codegen_object_new(KeyValueStorageIOS_t560110905_il2cpp_TypeInfo_var);
+		KeyValueStorageIOS__ctor_m3722541352(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		((KeyValueStorage_t3102778686_StaticFields*)KeyValueStorage_t3102778686_il2cpp_TypeInfo_var->static_fields)->set__instance_1(L_1);
+	}
+
+IL_0014:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage_t3102778686 * L_2 = ((KeyValueStorage_t3102778686_StaticFields*)KeyValueStorage_t3102778686_il2cpp_TypeInfo_var->static_fields)->get__instance_1();
+		return L_2;
+	}
+}
+// System.String Soomla.KeyValueStorage::GetValue(System.String)
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorage_GetValue_m1505596913_MetadataUsageId;
+extern "C"  String_t* KeyValueStorage_GetValue_m1505596913 (Il2CppObject * __this /* static, unused */, String_t* ___key0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorage_GetValue_m1505596913_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage_t3102778686 * L_0 = KeyValueStorage_get_instance_m670592004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___key0;
+		NullCheck(L_0);
+		String_t* L_2 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String Soomla.KeyValueStorage::_getValue(System.String) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void Soomla.KeyValueStorage::SetValue(System.String,System.String)
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorage_SetValue_m1674388924_MetadataUsageId;
+extern "C"  void KeyValueStorage_SetValue_m1674388924 (Il2CppObject * __this /* static, unused */, String_t* ___key0, String_t* ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorage_SetValue_m1674388924_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage_t3102778686 * L_0 = KeyValueStorage_get_instance_m670592004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___key0;
+		String_t* L_2 = ___val1;
+		NullCheck(L_0);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(5 /* System.Void Soomla.KeyValueStorage::_setValue(System.String,System.String) */, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Void Soomla.KeyValueStorage::DeleteKeyValue(System.String)
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorage_DeleteKeyValue_m2867631698_MetadataUsageId;
+extern "C"  void KeyValueStorage_DeleteKeyValue_m2867631698 (Il2CppObject * __this /* static, unused */, String_t* ___key0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorage_DeleteKeyValue_m2867631698_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage_t3102778686 * L_0 = KeyValueStorage_get_instance_m670592004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___key0;
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(6 /* System.Void Soomla.KeyValueStorage::_deleteKeyValue(System.String) */, L_0, L_1);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<System.String> Soomla.KeyValueStorage::GetEncryptedKeys()
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorage_GetEncryptedKeys_m2269097638_MetadataUsageId;
+extern "C"  List_1_t1765447871 * KeyValueStorage_GetEncryptedKeys_m2269097638 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorage_GetEncryptedKeys_m2269097638_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage_t3102778686 * L_0 = KeyValueStorage_get_instance_m670592004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		List_1_t1765447871 * L_1 = VirtFuncInvoker0< List_1_t1765447871 * >::Invoke(7 /* System.Collections.Generic.List`1<System.String> Soomla.KeyValueStorage::_getEncryptedKeys() */, L_0);
+		return L_1;
+	}
+}
+// System.Void Soomla.KeyValueStorage::Purge()
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorage_Purge_m979780314_MetadataUsageId;
+extern "C"  void KeyValueStorage_Purge_m979780314 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorage_Purge_m979780314_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage_t3102778686 * L_0 = KeyValueStorage_get_instance_m670592004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VirtActionInvoker0::Invoke(8 /* System.Void Soomla.KeyValueStorage::_purge() */, L_0);
+		return;
+	}
+}
+// System.String Soomla.KeyValueStorage::_getValue(System.String)
+extern "C"  String_t* KeyValueStorage__getValue_m1959146780 (KeyValueStorage_t3102778686 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	{
+		return (String_t*)NULL;
+	}
+}
+// System.Void Soomla.KeyValueStorage::_setValue(System.String,System.String)
+extern "C"  void KeyValueStorage__setValue_m3520124801 (KeyValueStorage_t3102778686 * __this, String_t* ___key0, String_t* ___val1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.KeyValueStorage::_deleteKeyValue(System.String)
+extern "C"  void KeyValueStorage__deleteKeyValue_m1240259863 (KeyValueStorage_t3102778686 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Collections.Generic.List`1<System.String> Soomla.KeyValueStorage::_getEncryptedKeys()
+extern "C"  List_1_t1765447871 * KeyValueStorage__getEncryptedKeys_m2186380735 (KeyValueStorage_t3102778686 * __this, const MethodInfo* method)
+{
+	{
+		return (List_1_t1765447871 *)NULL;
+	}
+}
+// System.Void Soomla.KeyValueStorage::_purge()
+extern "C"  void KeyValueStorage__purge_m634383199 (KeyValueStorage_t3102778686 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.KeyValueStorageAndroid::.ctor()
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorageAndroid__ctor_m3516468230_MetadataUsageId;
+extern "C"  void KeyValueStorageAndroid__ctor_m3516468230 (KeyValueStorageAndroid_t596220955 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorageAndroid__ctor_m3516468230_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage__ctor_m356199377(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.KeyValueStorageIOS::.ctor()
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorageIOS__ctor_m3722541352_MetadataUsageId;
+extern "C"  void KeyValueStorageIOS__ctor_m3722541352 (KeyValueStorageIOS_t560110905 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorageIOS__ctor_m3722541352_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage__ctor_m356199377(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.KeyValueStorageIOS::keyValStorage_GetValue(System.String,System.IntPtr&)
+extern "C" void DEFAULT_CALL keyValStorage_GetValue(char*, intptr_t*);
+extern "C"  void KeyValueStorageIOS_keyValStorage_GetValue_m994236089 (Il2CppObject * __this /* static, unused */, String_t* ___key0, IntPtr_t* ___outResult1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, intptr_t*);
+
+	// Marshaling of parameter '___key0' to native representation
+	char* ____key0_marshaled = NULL;
+	____key0_marshaled = il2cpp_codegen_marshal_string(___key0);
+
+	// Marshaling of parameter '___outResult1' to native representation
+	intptr_t ____outResult1_empty = 0;
+	intptr_t* ____outResult1_marshaled = &____outResult1_empty;
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(keyValStorage_GetValue)(____key0_marshaled, ____outResult1_marshaled);
+
+	// Marshaling cleanup of parameter '___key0' native representation
+	il2cpp_codegen_marshal_free(____key0_marshaled);
+	____key0_marshaled = NULL;
+
+	// Marshaling of parameter '___outResult1' back from native representation
+	IntPtr_t ____outResult1_result_dereferenced;
+	memset(&____outResult1_result_dereferenced, 0, sizeof(____outResult1_result_dereferenced));
+	IntPtr_t* ____outResult1_result = &____outResult1_result_dereferenced;
+	IntPtr_t ____outResult1_result_temp;
+	____outResult1_result_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)*____outResult1_marshaled));
+	*____outResult1_result = ____outResult1_result_temp;
+	*___outResult1 = *____outResult1_result;
+
+	// Marshaling cleanup of parameter '___outResult1' native representation
+
+}
+// System.Void Soomla.KeyValueStorageIOS::keyValStorage_SetValue(System.String,System.String)
+extern "C" void DEFAULT_CALL keyValStorage_SetValue(char*, char*);
+extern "C"  void KeyValueStorageIOS_keyValStorage_SetValue_m1674083373 (Il2CppObject * __this /* static, unused */, String_t* ___key0, String_t* ___val1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*);
+
+	// Marshaling of parameter '___key0' to native representation
+	char* ____key0_marshaled = NULL;
+	____key0_marshaled = il2cpp_codegen_marshal_string(___key0);
+
+	// Marshaling of parameter '___val1' to native representation
+	char* ____val1_marshaled = NULL;
+	____val1_marshaled = il2cpp_codegen_marshal_string(___val1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(keyValStorage_SetValue)(____key0_marshaled, ____val1_marshaled);
+
+	// Marshaling cleanup of parameter '___key0' native representation
+	il2cpp_codegen_marshal_free(____key0_marshaled);
+	____key0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___val1' native representation
+	il2cpp_codegen_marshal_free(____val1_marshaled);
+	____val1_marshaled = NULL;
+
+}
+// System.Void Soomla.KeyValueStorageIOS::keyValStorage_DeleteKeyValue(System.String)
+extern "C" void DEFAULT_CALL keyValStorage_DeleteKeyValue(char*);
+extern "C"  void KeyValueStorageIOS_keyValStorage_DeleteKeyValue_m1408888259 (Il2CppObject * __this /* static, unused */, String_t* ___key0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___key0' to native representation
+	char* ____key0_marshaled = NULL;
+	____key0_marshaled = il2cpp_codegen_marshal_string(___key0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(keyValStorage_DeleteKeyValue)(____key0_marshaled);
+
+	// Marshaling cleanup of parameter '___key0' native representation
+	il2cpp_codegen_marshal_free(____key0_marshaled);
+	____key0_marshaled = NULL;
+
+}
+// System.Void Soomla.KeyValueStorageIOS::keyValStorage_GetEncryptedKeys(System.IntPtr&)
+extern "C" void DEFAULT_CALL keyValStorage_GetEncryptedKeys(intptr_t*);
+extern "C"  void KeyValueStorageIOS_keyValStorage_GetEncryptedKeys_m4092226076 (Il2CppObject * __this /* static, unused */, IntPtr_t* ___outResult0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t*);
+
+	// Marshaling of parameter '___outResult0' to native representation
+	intptr_t ____outResult0_empty = 0;
+	intptr_t* ____outResult0_marshaled = &____outResult0_empty;
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(keyValStorage_GetEncryptedKeys)(____outResult0_marshaled);
+
+	// Marshaling of parameter '___outResult0' back from native representation
+	IntPtr_t ____outResult0_result_dereferenced;
+	memset(&____outResult0_result_dereferenced, 0, sizeof(____outResult0_result_dereferenced));
+	IntPtr_t* ____outResult0_result = &____outResult0_result_dereferenced;
+	IntPtr_t ____outResult0_result_temp;
+	____outResult0_result_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)*____outResult0_marshaled));
+	*____outResult0_result = ____outResult0_result_temp;
+	*___outResult0 = *____outResult0_result;
+
+	// Marshaling cleanup of parameter '___outResult0' native representation
+
+}
+// System.Void Soomla.KeyValueStorageIOS::keyValStorage_Purge()
+extern "C" void DEFAULT_CALL keyValStorage_Purge();
+extern "C"  void KeyValueStorageIOS_keyValStorage_Purge_m1965212939 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(keyValStorage_Purge)();
+
+}
+// System.String Soomla.KeyValueStorageIOS::_getValue(System.String)
+extern Il2CppClass* IntPtr_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Marshal_t3977632096_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorageIOS__getValue_m46053759_MetadataUsageId;
+extern "C"  String_t* KeyValueStorageIOS__getValue_m46053759 (KeyValueStorageIOS_t560110905 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorageIOS__getValue_m46053759_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	IntPtr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	String_t* V_1 = NULL;
+	{
+		IntPtr_t L_0 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		V_0 = L_0;
+		String_t* L_1 = ___key0;
+		KeyValueStorageIOS_keyValStorage_GetValue_m994236089(NULL /*static, unused*/, L_1, (&V_0), /*hidden argument*/NULL);
+		IntPtr_t L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t3977632096_il2cpp_TypeInfo_var);
+		String_t* L_3 = Marshal_PtrToStringAnsi_m1193920512(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		IntPtr_t L_4 = V_0;
+		Marshal_FreeHGlobal_m1353395547(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = V_1;
+		return L_5;
+	}
+}
+// System.Void Soomla.KeyValueStorageIOS::_setValue(System.String,System.String)
+extern "C"  void KeyValueStorageIOS__setValue_m1074175818 (KeyValueStorageIOS_t560110905 * __this, String_t* ___key0, String_t* ___val1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___key0;
+		String_t* L_1 = ___val1;
+		KeyValueStorageIOS_keyValStorage_SetValue_m1674083373(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.KeyValueStorageIOS::_deleteKeyValue(System.String)
+extern "C"  void KeyValueStorageIOS__deleteKeyValue_m1124564448 (KeyValueStorageIOS_t560110905 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___key0;
+		KeyValueStorageIOS_keyValStorage_DeleteKeyValue_m1408888259(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<System.String> Soomla.KeyValueStorageIOS::_getEncryptedKeys()
+extern Il2CppClass* IntPtr_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Marshal_t3977632096_il2cpp_TypeInfo_var;
+extern Il2CppClass* CharU5BU5D_t3416858730_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2301170921_MethodInfo_var;
+extern const uint32_t KeyValueStorageIOS__getEncryptedKeys_m2873635672_MetadataUsageId;
+extern "C"  List_1_t1765447871 * KeyValueStorageIOS__getEncryptedKeys_m2873635672 (KeyValueStorageIOS_t560110905 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorageIOS__getEncryptedKeys_m2873635672_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	IntPtr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	String_t* V_1 = NULL;
+	{
+		IntPtr_t L_0 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		V_0 = L_0;
+		KeyValueStorageIOS_keyValStorage_GetEncryptedKeys_m4092226076(NULL /*static, unused*/, (&V_0), /*hidden argument*/NULL);
+		IntPtr_t L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t3977632096_il2cpp_TypeInfo_var);
+		String_t* L_2 = Marshal_PtrToStringAnsi_m1193920512(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		IntPtr_t L_3 = V_0;
+		Marshal_FreeHGlobal_m1353395547(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = V_1;
+		CharU5BU5D_t3416858730* L_5 = ((CharU5BU5D_t3416858730*)SZArrayNew(CharU5BU5D_t3416858730_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_5);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 0);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint16_t)((int32_t)44));
+		NullCheck(L_4);
+		StringU5BU5D_t2956870243* L_6 = String_Split_m290179486(L_4, L_5, /*hidden argument*/NULL);
+		List_1_t1765447871 * L_7 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m2301170921(L_7, (Il2CppObject*)(Il2CppObject*)L_6, /*hidden argument*/List_1__ctor_m2301170921_MethodInfo_var);
+		return L_7;
+	}
+}
+// System.Void Soomla.KeyValueStorageIOS::_purge()
+extern "C"  void KeyValueStorageIOS__purge_m1911769320 (KeyValueStorageIOS_t560110905 * __this, const MethodInfo* method)
+{
+	{
+		KeyValueStorageIOS_keyValStorage_Purge_m1965212939(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.KeyValueStorageWP::.ctor()
+extern Il2CppClass* KeyValueStorage_t3102778686_il2cpp_TypeInfo_var;
+extern const uint32_t KeyValueStorageWP__ctor_m1414244760_MetadataUsageId;
+extern "C"  void KeyValueStorageWP__ctor_m1414244760 (KeyValueStorageWP_t2912709079 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (KeyValueStorageWP__ctor_m1414244760_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(KeyValueStorage_t3102778686_il2cpp_TypeInfo_var);
+		KeyValueStorage__ctor_m356199377(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.MarketItemsRefreshFailedEvent::.ctor(System.String)
+extern "C"  void MarketItemsRefreshFailedEvent__ctor_m1334878734 (MarketItemsRefreshFailedEvent_t3126712315 * __this, String_t* ___errorMessage0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___errorMessage0;
+		MarketItemsRefreshFailedEvent__ctor_m3028499548(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.MarketItemsRefreshFailedEvent::.ctor(System.String,System.Object)
+extern "C"  void MarketItemsRefreshFailedEvent__ctor_m3028499548 (MarketItemsRefreshFailedEvent_t3126712315 * __this, String_t* ___errorMessage0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___errorMessage0;
+		__this->set_ErrorMessage_2(L_1);
+		return;
+	}
+}
+// System.Void Soomla.RandomReward::.ctor(System.String,System.String,System.Collections.Generic.List`1<Soomla.Reward>)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppClass* RandomReward_t2987995015_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral977872145;
+extern const uint32_t RandomReward__ctor_m2178978996_MetadataUsageId;
+extern "C"  void RandomReward__ctor_m2178978996 (RandomReward_t2987995015 * __this, String_t* ___id0, String_t* ___name1, List_1_t2367124957 * ___rewards2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RandomReward__ctor_m2178978996_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___id0;
+		String_t* L_1 = ___name1;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward__ctor_m3552203329(__this, L_0, L_1, /*hidden argument*/NULL);
+		List_1_t2367124957 * L_2 = ___rewards2;
+		if (!L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		List_1_t2367124957 * L_3 = ___rewards2;
+		NullCheck(L_3);
+		int32_t L_4 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Reward>::get_Count() */, L_3);
+		if (L_4)
+		{
+			goto IL_0028;
+		}
+	}
+
+IL_0019:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RandomReward_t2987995015_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((RandomReward_t2987995015_StaticFields*)RandomReward_t2987995015_il2cpp_TypeInfo_var->static_fields)->get_TAG_7();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, L_5, _stringLiteral977872145, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		List_1_t2367124957 * L_6 = ___rewards2;
+		__this->set_Rewards_8(L_6);
+		return;
+	}
+}
+// System.Void Soomla.RandomReward::.ctor(JSONObject)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppClass* RandomReward_t2987995015_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t2549335872_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t2367124957_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t635118864_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1191993266_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1469957229_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3463117439_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4132179179_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3519654865_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1100650276;
+extern Il2CppCodeGenString* _stringLiteral649581122;
+extern const uint32_t RandomReward__ctor_m128385715_MetadataUsageId;
+extern "C"  void RandomReward__ctor_m128385715 (RandomReward_t2987995015 * __this, JSONObject_t1752376903 * ___jsonReward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RandomReward__ctor_m128385715_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t2549335872 * V_0 = NULL;
+	JSONObject_t1752376903 * V_1 = NULL;
+	Enumerator_t635118864  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		JSONObject_t1752376903 * L_0 = ___jsonReward0;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward__ctor_m124487926(__this, L_0, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_1 = ___jsonReward0;
+		NullCheck(L_1);
+		JSONObject_t1752376903 * L_2 = JSONObject_get_Item_m3957353536(L_1, _stringLiteral1100650276, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		List_1_t2549335872 * L_3 = L_2->get_list_7();
+		V_0 = L_3;
+		List_1_t2549335872 * L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		List_1_t2549335872 * L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<JSONObject>::get_Count() */, L_5);
+		if (L_6)
+		{
+			goto IL_003e;
+		}
+	}
+
+IL_0029:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RandomReward_t2987995015_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((RandomReward_t2987995015_StaticFields*)RandomReward_t2987995015_il2cpp_TypeInfo_var->static_fields)->get_TAG_7();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogWarning_m15730426(NULL /*static, unused*/, L_7, _stringLiteral649581122, /*hidden argument*/NULL);
+		List_1_t2549335872 * L_8 = (List_1_t2549335872 *)il2cpp_codegen_object_new(List_1_t2549335872_il2cpp_TypeInfo_var);
+		List_1__ctor_m1191993266(L_8, /*hidden argument*/List_1__ctor_m1191993266_MethodInfo_var);
+		V_0 = L_8;
+	}
+
+IL_003e:
+	{
+		List_1_t2367124957 * L_9 = (List_1_t2367124957 *)il2cpp_codegen_object_new(List_1_t2367124957_il2cpp_TypeInfo_var);
+		List_1__ctor_m1469957229(L_9, /*hidden argument*/List_1__ctor_m1469957229_MethodInfo_var);
+		__this->set_Rewards_8(L_9);
+		List_1_t2549335872 * L_10 = V_0;
+		NullCheck(L_10);
+		Enumerator_t635118864  L_11 = List_1_GetEnumerator_m3463117439(L_10, /*hidden argument*/List_1_GetEnumerator_m3463117439_MethodInfo_var);
+		V_2 = L_11;
+	}
+
+IL_0050:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_006e;
+		}
+
+IL_0055:
+		{
+			JSONObject_t1752376903 * L_12 = Enumerator_get_Current_m4132179179((&V_2), /*hidden argument*/Enumerator_get_Current_m4132179179_MethodInfo_var);
+			V_1 = L_12;
+			List_1_t2367124957 * L_13 = __this->get_Rewards_8();
+			JSONObject_t1752376903 * L_14 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+			Reward_t1570165988 * L_15 = Reward_fromJSONObject_m538740876(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+			NullCheck(L_13);
+			VirtActionInvoker1< Reward_t1570165988 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<Soomla.Reward>::Add(!0) */, L_13, L_15);
+		}
+
+IL_006e:
+		{
+			bool L_16 = Enumerator_MoveNext_m3519654865((&V_2), /*hidden argument*/Enumerator_MoveNext_m3519654865_MethodInfo_var);
+			if (L_16)
+			{
+				goto IL_0055;
+			}
+		}
+
+IL_007a:
+		{
+			IL2CPP_LEAVE(0x8B, FINALLY_007f);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_007f;
+	}
+
+FINALLY_007f:
+	{ // begin finally (depth: 1)
+		Enumerator_t635118864  L_17 = V_2;
+		Enumerator_t635118864  L_18 = L_17;
+		Il2CppObject * L_19 = Box(Enumerator_t635118864_il2cpp_TypeInfo_var, &L_18);
+		NullCheck((Il2CppObject *)L_19);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_19);
+		IL2CPP_END_FINALLY(127)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(127)
+	{
+		IL2CPP_JUMP_TBL(0x8B, IL_008b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_008b:
+	{
+		return;
+	}
+}
+// System.Void Soomla.RandomReward::.cctor()
+extern Il2CppClass* RandomReward_t2987995015_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3516455491;
+extern const uint32_t RandomReward__cctor_m2230488467_MetadataUsageId;
+extern "C"  void RandomReward__cctor_m2230488467 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RandomReward__cctor_m2230488467_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((RandomReward_t2987995015_StaticFields*)RandomReward_t2987995015_il2cpp_TypeInfo_var->static_fields)->set_TAG_7(_stringLiteral3516455491);
+		return;
+	}
+}
+// JSONObject Soomla.RandomReward::toJSONObject()
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t452907949_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3633114416_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1247196656_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1671940128_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1100650276;
+extern const uint32_t RandomReward_toJSONObject_m57221174_MetadataUsageId;
+extern "C"  JSONObject_t1752376903 * RandomReward_toJSONObject_m57221174 (RandomReward_t2987995015 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RandomReward_toJSONObject_m57221174_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	JSONObject_t1752376903 * V_1 = NULL;
+	Reward_t1570165988 * V_2 = NULL;
+	Enumerator_t452907949  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		JSONObject_t1752376903 * L_0 = Reward_toJSONObject_m1441488979(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1752376903 * L_1 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m196212956(L_1, 4, /*hidden argument*/NULL);
+		V_1 = L_1;
+		List_1_t2367124957 * L_2 = __this->get_Rewards_8();
+		NullCheck(L_2);
+		Enumerator_t452907949  L_3 = List_1_GetEnumerator_m3633114416(L_2, /*hidden argument*/List_1_GetEnumerator_m3633114416_MethodInfo_var);
+		V_3 = L_3;
+	}
+
+IL_001a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0033;
+		}
+
+IL_001f:
+		{
+			Reward_t1570165988 * L_4 = Enumerator_get_Current_m1247196656((&V_3), /*hidden argument*/Enumerator_get_Current_m1247196656_MethodInfo_var);
+			V_2 = L_4;
+			JSONObject_t1752376903 * L_5 = V_1;
+			Reward_t1570165988 * L_6 = V_2;
+			NullCheck(L_6);
+			JSONObject_t1752376903 * L_7 = VirtFuncInvoker0< JSONObject_t1752376903 * >::Invoke(4 /* JSONObject Soomla.Reward::toJSONObject() */, L_6);
+			NullCheck(L_5);
+			JSONObject_Add_m1349655052(L_5, L_7, /*hidden argument*/NULL);
+		}
+
+IL_0033:
+		{
+			bool L_8 = Enumerator_MoveNext_m1671940128((&V_3), /*hidden argument*/Enumerator_MoveNext_m1671940128_MethodInfo_var);
+			if (L_8)
+			{
+				goto IL_001f;
+			}
+		}
+
+IL_003f:
+		{
+			IL2CPP_LEAVE(0x50, FINALLY_0044);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0044;
+	}
+
+FINALLY_0044:
+	{ // begin finally (depth: 1)
+		Enumerator_t452907949  L_9 = V_3;
+		Enumerator_t452907949  L_10 = L_9;
+		Il2CppObject * L_11 = Box(Enumerator_t452907949_il2cpp_TypeInfo_var, &L_10);
+		NullCheck((Il2CppObject *)L_11);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_11);
+		IL2CPP_END_FINALLY(68)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(68)
+	{
+		IL2CPP_JUMP_TBL(0x50, IL_0050)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0050:
+	{
+		JSONObject_t1752376903 * L_12 = V_0;
+		JSONObject_t1752376903 * L_13 = V_1;
+		NullCheck(L_12);
+		JSONObject_AddField_m574028614(L_12, _stringLiteral1100650276, L_13, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_14 = V_0;
+		return L_14;
+	}
+}
+// System.Boolean Soomla.RandomReward::giveInner()
+extern Il2CppClass* List_1_t2367124957_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t452907949_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern Il2CppClass* RandomReward_t2987995015_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* Random_t922188920_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1469957229_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3633114416_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1247196656_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1671940128_MethodInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral227799161;
+extern const uint32_t RandomReward_giveInner_m3234957905_MetadataUsageId;
+extern "C"  bool RandomReward_giveInner_m3234957905 (RandomReward_t2987995015 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RandomReward_giveInner_m3234957905_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t2367124957 * V_0 = NULL;
+	Reward_t1570165988 * V_1 = NULL;
+	Enumerator_t452907949  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Random_t922188920 * V_3 = NULL;
+	int32_t V_4 = 0;
+	Reward_t1570165988 * V_5 = NULL;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t2367124957 * L_0 = (List_1_t2367124957 *)il2cpp_codegen_object_new(List_1_t2367124957_il2cpp_TypeInfo_var);
+		List_1__ctor_m1469957229(L_0, /*hidden argument*/List_1__ctor_m1469957229_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t2367124957 * L_1 = __this->get_Rewards_8();
+		NullCheck(L_1);
+		Enumerator_t452907949  L_2 = List_1_GetEnumerator_m3633114416(L_1, /*hidden argument*/List_1_GetEnumerator_m3633114416_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_0012:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0031;
+		}
+
+IL_0017:
+		{
+			Reward_t1570165988 * L_3 = Enumerator_get_Current_m1247196656((&V_2), /*hidden argument*/Enumerator_get_Current_m1247196656_MethodInfo_var);
+			V_1 = L_3;
+			Reward_t1570165988 * L_4 = V_1;
+			NullCheck(L_4);
+			bool L_5 = Reward_CanGive_m2342851440(L_4, /*hidden argument*/NULL);
+			if (!L_5)
+			{
+				goto IL_0031;
+			}
+		}
+
+IL_002a:
+		{
+			List_1_t2367124957 * L_6 = V_0;
+			Reward_t1570165988 * L_7 = V_1;
+			NullCheck(L_6);
+			VirtActionInvoker1< Reward_t1570165988 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<Soomla.Reward>::Add(!0) */, L_6, L_7);
+		}
+
+IL_0031:
+		{
+			bool L_8 = Enumerator_MoveNext_m1671940128((&V_2), /*hidden argument*/Enumerator_MoveNext_m1671940128_MethodInfo_var);
+			if (L_8)
+			{
+				goto IL_0017;
+			}
+		}
+
+IL_003d:
+		{
+			IL2CPP_LEAVE(0x4E, FINALLY_0042);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0042;
+	}
+
+FINALLY_0042:
+	{ // begin finally (depth: 1)
+		Enumerator_t452907949  L_9 = V_2;
+		Enumerator_t452907949  L_10 = L_9;
+		Il2CppObject * L_11 = Box(Enumerator_t452907949_il2cpp_TypeInfo_var, &L_10);
+		NullCheck((Il2CppObject *)L_11);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_11);
+		IL2CPP_END_FINALLY(66)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(66)
+	{
+		IL2CPP_JUMP_TBL(0x4E, IL_004e)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_004e:
+	{
+		List_1_t2367124957 * L_12 = V_0;
+		NullCheck(L_12);
+		int32_t L_13 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Reward>::get_Count() */, L_12);
+		if (L_13)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RandomReward_t2987995015_il2cpp_TypeInfo_var);
+		String_t* L_14 = ((RandomReward_t2987995015_StaticFields*)RandomReward_t2987995015_il2cpp_TypeInfo_var->static_fields)->get_TAG_7();
+		String_t* L_15 = SoomlaEntity_1_get_ID_m993100410(__this, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_16 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral227799161, L_15, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_14, L_16, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0075:
+	{
+		Random_t922188920 * L_17 = (Random_t922188920 *)il2cpp_codegen_object_new(Random_t922188920_il2cpp_TypeInfo_var);
+		Random__ctor_m2490522898(L_17, /*hidden argument*/NULL);
+		V_3 = L_17;
+		Random_t922188920 * L_18 = V_3;
+		List_1_t2367124957 * L_19 = V_0;
+		NullCheck(L_19);
+		int32_t L_20 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Reward>::get_Count() */, L_19);
+		NullCheck(L_18);
+		int32_t L_21 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(5 /* System.Int32 System.Random::Next(System.Int32) */, L_18, L_20);
+		V_4 = L_21;
+		List_1_t2367124957 * L_22 = V_0;
+		int32_t L_23 = V_4;
+		NullCheck(L_22);
+		Reward_t1570165988 * L_24 = VirtFuncInvoker1< Reward_t1570165988 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<Soomla.Reward>::get_Item(System.Int32) */, L_22, L_23);
+		V_5 = L_24;
+		Reward_t1570165988 * L_25 = V_5;
+		NullCheck(L_25);
+		Reward_Give_m2930535140(L_25, /*hidden argument*/NULL);
+		Reward_t1570165988 * L_26 = V_5;
+		__this->set_LastGivenReward_9(L_26);
+		return (bool)1;
+	}
+}
+// System.Boolean Soomla.RandomReward::takeInner()
+extern const MethodInfo* SoomlaEntity_1_op_Equality_m3582825619_MethodInfo_var;
+extern const uint32_t RandomReward_takeInner_m1328697371_MetadataUsageId;
+extern "C"  bool RandomReward_takeInner_m1328697371 (RandomReward_t2987995015 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RandomReward_takeInner_m1328697371_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	bool V_0 = false;
+	{
+		Reward_t1570165988 * L_0 = __this->get_LastGivenReward_9();
+		bool L_1 = SoomlaEntity_1_op_Equality_m3582825619(NULL /*static, unused*/, L_0, (SoomlaEntity_1_t1250626721 *)NULL, /*hidden argument*/SoomlaEntity_1_op_Equality_m3582825619_MethodInfo_var);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0013:
+	{
+		Reward_t1570165988 * L_2 = __this->get_LastGivenReward_9();
+		NullCheck(L_2);
+		bool L_3 = Reward_Take_m3294998234(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		__this->set_LastGivenReward_9((Reward_t1570165988 *)NULL);
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void Soomla.Reward::.ctor(System.String,System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Schedule_t2787348556_il2cpp_TypeInfo_var;
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1__ctor_m1515810825_MethodInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern const MethodInfo* SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923_MethodInfo_var;
+extern const uint32_t Reward__ctor_m3552203329_MetadataUsageId;
+extern "C"  void Reward__ctor_m3552203329 (Reward_t1570165988 * __this, String_t* ___id0, String_t* ___name1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward__ctor_m3552203329_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___id0;
+		String_t* L_1 = ___name1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		SoomlaEntity_1__ctor_m1515810825(__this, L_0, L_1, L_2, /*hidden argument*/SoomlaEntity_1__ctor_m1515810825_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		Schedule_t2787348556 * L_3 = Schedule_AnyTimeOnce_m2035453802(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_Schedule_5(L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Dictionary_2_t3207863892 * L_4 = ((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->get_RewardsMap_6();
+		String_t* L_5 = SoomlaEntity_1_get_ID_m993100410(__this, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923(NULL /*static, unused*/, L_4, L_5, __this, /*hidden argument*/SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Soomla.Reward::.ctor(JSONObject)
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* Schedule_t2787348556_il2cpp_TypeInfo_var;
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1__ctor_m1075398442_MethodInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern const MethodInfo* SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3597046423;
+extern const uint32_t Reward__ctor_m124487926_MetadataUsageId;
+extern "C"  void Reward__ctor_m124487926 (Reward_t1570165988 * __this, JSONObject_t1752376903 * ___jsonReward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward__ctor_m124487926_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	{
+		JSONObject_t1752376903 * L_0 = ___jsonReward0;
+		SoomlaEntity_1__ctor_m1075398442(__this, L_0, /*hidden argument*/SoomlaEntity_1__ctor_m1075398442_MethodInfo_var);
+		JSONObject_t1752376903 * L_1 = ___jsonReward0;
+		NullCheck(L_1);
+		JSONObject_t1752376903 * L_2 = JSONObject_get_Item_m3957353536(L_1, _stringLiteral3597046423, /*hidden argument*/NULL);
+		V_0 = L_2;
+		JSONObject_t1752376903 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		bool L_4 = JSONObject_op_Implicit_m2520452346(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_5 = V_0;
+		Schedule_t2787348556 * L_6 = (Schedule_t2787348556 *)il2cpp_codegen_object_new(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		Schedule__ctor_m2134877774(L_6, L_5, /*hidden argument*/NULL);
+		__this->set_Schedule_5(L_6);
+		goto IL_0036;
+	}
+
+IL_002f:
+	{
+		__this->set_Schedule_5((Schedule_t2787348556 *)NULL);
+	}
+
+IL_0036:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Dictionary_2_t3207863892 * L_7 = ((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->get_RewardsMap_6();
+		String_t* L_8 = SoomlaEntity_1_get_ID_m993100410(__this, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923(NULL /*static, unused*/, L_7, L_8, __this, /*hidden argument*/SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Soomla.Reward::.cctor()
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t3207863892_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m786989034_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3018870880;
+extern const uint32_t Reward__cctor_m2991087600_MetadataUsageId;
+extern "C"  void Reward__cctor_m2991087600 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward__cctor_m2991087600_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->set_TAG_4(_stringLiteral3018870880);
+		Dictionary_2_t3207863892 * L_0 = (Dictionary_2_t3207863892 *)il2cpp_codegen_object_new(Dictionary_2_t3207863892_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m786989034(L_0, /*hidden argument*/Dictionary_2__ctor_m786989034_MethodInfo_var);
+		((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->set_RewardsMap_6(L_0);
+		return;
+	}
+}
+// System.Boolean Soomla.Reward::get_Owned()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t Reward_get_Owned_m3517051563_MetadataUsageId;
+extern "C"  bool Reward_get_Owned_m3517051563 (Reward_t1570165988 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward_get_Owned_m3517051563_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		bool L_0 = RewardStorage_IsRewardGiven_m1038574024(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// JSONObject Soomla.Reward::toJSONObject()
+extern Il2CppClass* Schedule_t2787348556_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1_toJSONObject_m4171019275_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3597046423;
+extern const uint32_t Reward_toJSONObject_m1441488979_MetadataUsageId;
+extern "C"  JSONObject_t1752376903 * Reward_toJSONObject_m1441488979 (Reward_t1570165988 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward_toJSONObject_m1441488979_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	{
+		JSONObject_t1752376903 * L_0 = SoomlaEntity_1_toJSONObject_m4171019275(__this, /*hidden argument*/SoomlaEntity_1_toJSONObject_m4171019275_MethodInfo_var);
+		V_0 = L_0;
+		Schedule_t2787348556 * L_1 = __this->get_Schedule_5();
+		if (!L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_2 = V_0;
+		Schedule_t2787348556 * L_3 = __this->get_Schedule_5();
+		NullCheck(L_3);
+		JSONObject_t1752376903 * L_4 = Schedule_toJSONObject_m1122713467(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		JSONObject_AddField_m574028614(L_2, _stringLiteral3597046423, L_4, /*hidden argument*/NULL);
+		goto IL_0042;
+	}
+
+IL_002d:
+	{
+		JSONObject_t1752376903 * L_5 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		Schedule_t2787348556 * L_6 = Schedule_AnyTimeOnce_m2035453802(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		JSONObject_t1752376903 * L_7 = Schedule_toJSONObject_m1122713467(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		JSONObject_AddField_m574028614(L_5, _stringLiteral3597046423, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		JSONObject_t1752376903 * L_8 = V_0;
+		return L_8;
+	}
+}
+// Soomla.Reward Soomla.Reward::fromJSONObject(JSONObject)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var;
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern const MethodInfo* SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4285078563;
+extern Il2CppCodeGenString* _stringLiteral3932062143;
+extern const uint32_t Reward_fromJSONObject_m538740876_MetadataUsageId;
+extern "C"  Reward_t1570165988 * Reward_fromJSONObject_m538740876 (Il2CppObject * __this /* static, unused */, JSONObject_t1752376903 * ___rewardObj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward_fromJSONObject_m538740876_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	Reward_t1570165988 * V_1 = NULL;
+	{
+		JSONObject_t1752376903 * L_0 = ___rewardObj0;
+		NullCheck(L_0);
+		JSONObject_t1752376903 * L_1 = JSONObject_get_Item_m3957353536(L_0, _stringLiteral4285078563, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = L_1->get_str_9();
+		V_0 = L_2;
+		String_t* L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3932062143, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = il2cpp_codegen_get_type((Il2CppMethodPointer)&Type_GetType_m2877589631, L_4, "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null");
+		ObjectU5BU5D_t11523773* L_6 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)1));
+		JSONObject_t1752376903 * L_7 = ___rewardObj0;
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 0);
+		ArrayElementTypeCheck (L_6, L_7);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_7);
+		Il2CppObject * L_8 = Activator_CreateInstance_m2161363287(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		V_1 = ((Reward_t1570165988 *)CastclassClass(L_8, Reward_t1570165988_il2cpp_TypeInfo_var));
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Dictionary_2_t3207863892 * L_9 = ((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->get_RewardsMap_6();
+		Reward_t1570165988 * L_10 = V_1;
+		NullCheck(L_10);
+		String_t* L_11 = SoomlaEntity_1_get_ID_m993100410(L_10, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		Reward_t1570165988 * L_12 = V_1;
+		SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923(NULL /*static, unused*/, L_9, L_11, L_12, /*hidden argument*/SoomlaExtensions_AddOrUpdate_TisReward_t1570165988_m1283965923_MethodInfo_var);
+		Reward_t1570165988 * L_13 = V_1;
+		return L_13;
+	}
+}
+// System.Boolean Soomla.Reward::Take()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4101039954;
+extern const uint32_t Reward_Take_m3294998234_MetadataUsageId;
+extern "C"  bool Reward_Take_m3294998234 (Reward_t1570165988 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward_Take_m3294998234_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		bool L_0 = RewardStorage_IsRewardGiven_m1038574024(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->get_TAG_4();
+		String_t* L_2 = ((SoomlaEntity_1_t1250626721 *)__this)->get__id_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral4101039954, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0027:
+	{
+		bool L_4 = VirtFuncInvoker0< bool >::Invoke(7 /* System.Boolean Soomla.Reward::takeInner() */, __this);
+		if (!L_4)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_SetRewardStatus_m811983208(NULL /*static, unused*/, __this, (bool)0, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+
+IL_003b:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean Soomla.Reward::CanGive()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t Reward_CanGive_m2342851440_MetadataUsageId;
+extern "C"  bool Reward_CanGive_m2342851440 (Reward_t1570165988 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward_CanGive_m2342851440_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Schedule_t2787348556 * L_0 = __this->get_Schedule_5();
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		int32_t L_1 = RewardStorage_GetTimesGiven_m4291724729(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_2 = Schedule_Approve_m3348827237(L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Boolean Soomla.Reward::Give()
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral685934124;
+extern const uint32_t Reward_Give_m2930535140_MetadataUsageId;
+extern "C"  bool Reward_Give_m2930535140 (Reward_t1570165988 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward_Give_m2930535140_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = Reward_CanGive_m2342851440(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->get_TAG_4();
+		String_t* L_2 = ((SoomlaEntity_1_t1250626721 *)__this)->get__id_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral685934124, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0027:
+	{
+		bool L_4 = VirtFuncInvoker0< bool >::Invoke(6 /* System.Boolean Soomla.Reward::giveInner() */, __this);
+		if (!L_4)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_SetRewardStatus_m811983208(NULL /*static, unused*/, __this, (bool)1, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+
+IL_003b:
+	{
+		return (bool)0;
+	}
+}
+// Soomla.Reward Soomla.Reward::GetReward(System.String)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const uint32_t Reward_GetReward_m237195837_MetadataUsageId;
+extern "C"  Reward_t1570165988 * Reward_GetReward_m237195837 (Il2CppObject * __this /* static, unused */, String_t* ___rewardID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward_GetReward_m237195837_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Reward_t1570165988 * V_0 = NULL;
+	{
+		V_0 = (Reward_t1570165988 *)NULL;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Dictionary_2_t3207863892 * L_0 = ((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->get_RewardsMap_6();
+		String_t* L_1 = ___rewardID0;
+		NullCheck(L_0);
+		VirtFuncInvoker2< bool, String_t*, Reward_t1570165988 ** >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,Soomla.Reward>::TryGetValue(!0,!1&) */, L_0, L_1, (&V_0));
+		Reward_t1570165988 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Collections.Generic.List`1<Soomla.Reward> Soomla.Reward::GetRewards()
+extern Il2CppClass* List_1_t2367124957_il2cpp_TypeInfo_var;
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t2974891833_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1469957229_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m1831769484_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m2448861152_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2553720186_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3772611925_MethodInfo_var;
+extern const uint32_t Reward_GetRewards_m713491526_MetadataUsageId;
+extern "C"  List_1_t2367124957 * Reward_GetRewards_m713491526 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Reward_GetRewards_m713491526_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t2367124957 * V_0 = NULL;
+	Reward_t1570165988 * V_1 = NULL;
+	Enumerator_t2974891833  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		List_1_t2367124957 * L_0 = (List_1_t2367124957 *)il2cpp_codegen_object_new(List_1_t2367124957_il2cpp_TypeInfo_var);
+		List_1__ctor_m1469957229(L_0, /*hidden argument*/List_1__ctor_m1469957229_MethodInfo_var);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Dictionary_2_t3207863892 * L_1 = ((Reward_t1570165988_StaticFields*)Reward_t1570165988_il2cpp_TypeInfo_var->static_fields)->get_RewardsMap_6();
+		NullCheck(L_1);
+		ValueCollection_t835033690 * L_2 = Dictionary_2_get_Values_m1831769484(L_1, /*hidden argument*/Dictionary_2_get_Values_m1831769484_MethodInfo_var);
+		NullCheck(L_2);
+		Enumerator_t2974891833  L_3 = ValueCollection_GetEnumerator_m2448861152(L_2, /*hidden argument*/ValueCollection_GetEnumerator_m2448861152_MethodInfo_var);
+		V_2 = L_3;
+	}
+
+IL_0016:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_002a;
+		}
+
+IL_001b:
+		{
+			Reward_t1570165988 * L_4 = Enumerator_get_Current_m2553720186((&V_2), /*hidden argument*/Enumerator_get_Current_m2553720186_MethodInfo_var);
+			V_1 = L_4;
+			List_1_t2367124957 * L_5 = V_0;
+			Reward_t1570165988 * L_6 = V_1;
+			NullCheck(L_5);
+			VirtActionInvoker1< Reward_t1570165988 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<Soomla.Reward>::Add(!0) */, L_5, L_6);
+		}
+
+IL_002a:
+		{
+			bool L_7 = Enumerator_MoveNext_m3772611925((&V_2), /*hidden argument*/Enumerator_MoveNext_m3772611925_MethodInfo_var);
+			if (L_7)
+			{
+				goto IL_001b;
+			}
+		}
+
+IL_0036:
+		{
+			IL2CPP_LEAVE(0x47, FINALLY_003b);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_003b;
+	}
+
+FINALLY_003b:
+	{ // begin finally (depth: 1)
+		Enumerator_t2974891833  L_8 = V_2;
+		Enumerator_t2974891833  L_9 = L_8;
+		Il2CppObject * L_10 = Box(Enumerator_t2974891833_il2cpp_TypeInfo_var, &L_9);
+		NullCheck((Il2CppObject *)L_10);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_10);
+		IL2CPP_END_FINALLY(59)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(59)
+	{
+		IL2CPP_JUMP_TBL(0x47, IL_0047)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0047:
+	{
+		List_1_t2367124957 * L_11 = V_0;
+		return L_11;
+	}
+}
+// System.Void Soomla.RewardGivenEvent::.ctor(System.String)
+extern "C"  void RewardGivenEvent__ctor_m1583657154 (RewardGivenEvent_t2233781089 * __this, String_t* ___rewardId0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___rewardId0;
+		RewardGivenEvent__ctor_m1332643534(__this, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardGivenEvent::.ctor(Soomla.Reward)
+extern "C"  void RewardGivenEvent__ctor_m1221578596 (RewardGivenEvent_t2233781089 * __this, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	{
+		Reward_t1570165988 * L_0 = ___reward0;
+		RewardGivenEvent__ctor_m1252806892(__this, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardGivenEvent::.ctor(System.String,UnityEngine.Object)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const uint32_t RewardGivenEvent__ctor_m1332643534_MetadataUsageId;
+extern "C"  void RewardGivenEvent__ctor_m1332643534 (RewardGivenEvent_t2233781089 * __this, String_t* ___rewardId0, Object_t3878351788 * ___sender1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardGivenEvent__ctor_m1332643534_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t3878351788 * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___rewardId0;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward_t1570165988 * L_2 = Reward_GetReward_m237195837(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		__this->set_Reward_2(L_2);
+		return;
+	}
+}
+// System.Void Soomla.RewardGivenEvent::.ctor(Soomla.Reward,UnityEngine.Object)
+extern "C"  void RewardGivenEvent__ctor_m1252806892 (RewardGivenEvent_t2233781089 * __this, Reward_t1570165988 * ___reward0, Object_t3878351788 * ___sender1, const MethodInfo* method)
+{
+	{
+		Object_t3878351788 * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		Reward_t1570165988 * L_1 = ___reward0;
+		__this->set_Reward_2(L_1);
+		return;
+	}
+}
+// System.Void Soomla.RewardStorage::.ctor()
+extern "C"  void RewardStorage__ctor_m118672494 (RewardStorage_t2389422529 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardStorage::.cctor()
+extern "C"  void RewardStorage__cctor_m3196751103 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// Soomla.RewardStorage Soomla.RewardStorage::get_instance()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern Il2CppClass* RewardStorageIOS_t465018326_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage_get_instance_m4171062244_MetadataUsageId;
+extern "C"  RewardStorage_t2389422529 * RewardStorage_get_instance_m4171062244 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage_get_instance_m4171062244_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_t2389422529 * L_0 = ((RewardStorage_t2389422529_StaticFields*)RewardStorage_t2389422529_il2cpp_TypeInfo_var->static_fields)->get__instance_1();
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		RewardStorageIOS_t465018326 * L_1 = (RewardStorageIOS_t465018326 *)il2cpp_codegen_object_new(RewardStorageIOS_t465018326_il2cpp_TypeInfo_var);
+		RewardStorageIOS__ctor_m1370306411(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		((RewardStorage_t2389422529_StaticFields*)RewardStorage_t2389422529_il2cpp_TypeInfo_var->static_fields)->set__instance_1(L_1);
+	}
+
+IL_0014:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_t2389422529 * L_2 = ((RewardStorage_t2389422529_StaticFields*)RewardStorage_t2389422529_il2cpp_TypeInfo_var->static_fields)->get__instance_1();
+		return L_2;
+	}
+}
+// System.Void Soomla.RewardStorage::SetRewardStatus(Soomla.Reward,System.Boolean)
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage_SetRewardStatus_m811983208_MetadataUsageId;
+extern "C"  void RewardStorage_SetRewardStatus_m811983208 (Il2CppObject * __this /* static, unused */, Reward_t1570165988 * ___reward0, bool ___give1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage_SetRewardStatus_m811983208_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Reward_t1570165988 * L_0 = ___reward0;
+		bool L_1 = ___give1;
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_SetRewardStatus_m998143253(NULL /*static, unused*/, L_0, L_1, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardStorage::SetRewardStatus(Soomla.Reward,System.Boolean,System.Boolean)
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage_SetRewardStatus_m998143253_MetadataUsageId;
+extern "C"  void RewardStorage_SetRewardStatus_m998143253 (Il2CppObject * __this /* static, unused */, Reward_t1570165988 * ___reward0, bool ___give1, bool ___notify2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage_SetRewardStatus_m998143253_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_t2389422529 * L_0 = RewardStorage_get_instance_m4171062244(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Reward_t1570165988 * L_1 = ___reward0;
+		bool L_2 = ___give1;
+		bool L_3 = ___notify2;
+		NullCheck(L_0);
+		VirtActionInvoker3< Reward_t1570165988 *, bool, bool >::Invoke(6 /* System.Void Soomla.RewardStorage::_setTimesGiven(Soomla.Reward,System.Boolean,System.Boolean) */, L_0, L_1, L_2, L_3);
+		return;
+	}
+}
+// System.Boolean Soomla.RewardStorage::IsRewardGiven(Soomla.Reward)
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage_IsRewardGiven_m1038574024_MetadataUsageId;
+extern "C"  bool RewardStorage_IsRewardGiven_m1038574024 (Il2CppObject * __this /* static, unused */, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage_IsRewardGiven_m1038574024_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Reward_t1570165988 * L_0 = ___reward0;
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		int32_t L_1 = RewardStorage_GetTimesGiven_m4291724729(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return (bool)((((int32_t)L_1) > ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Int32 Soomla.RewardStorage::GetTimesGiven(Soomla.Reward)
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage_GetTimesGiven_m4291724729_MetadataUsageId;
+extern "C"  int32_t RewardStorage_GetTimesGiven_m4291724729 (Il2CppObject * __this /* static, unused */, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage_GetTimesGiven_m4291724729_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_t2389422529 * L_0 = RewardStorage_get_instance_m4171062244(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Reward_t1570165988 * L_1 = ___reward0;
+		NullCheck(L_0);
+		int32_t L_2 = VirtFuncInvoker1< int32_t, Reward_t1570165988 * >::Invoke(7 /* System.Int32 Soomla.RewardStorage::_getTimesGiven(Soomla.Reward) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.DateTime Soomla.RewardStorage::GetLastGivenTime(Soomla.Reward)
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage_GetLastGivenTime_m573034647_MetadataUsageId;
+extern "C"  DateTime_t339033936  RewardStorage_GetLastGivenTime_m573034647 (Il2CppObject * __this /* static, unused */, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage_GetLastGivenTime_m573034647_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_t2389422529 * L_0 = RewardStorage_get_instance_m4171062244(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Reward_t1570165988 * L_1 = ___reward0;
+		NullCheck(L_0);
+		DateTime_t339033936  L_2 = VirtFuncInvoker1< DateTime_t339033936 , Reward_t1570165988 * >::Invoke(8 /* System.DateTime Soomla.RewardStorage::_getLastGivenTime(Soomla.Reward) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Int32 Soomla.RewardStorage::GetLastSeqIdxGiven(Soomla.SequenceReward)
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage_GetLastSeqIdxGiven_m1297795404_MetadataUsageId;
+extern "C"  int32_t RewardStorage_GetLastSeqIdxGiven_m1297795404 (Il2CppObject * __this /* static, unused */, SequenceReward_t1164674053 * ___reward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage_GetLastSeqIdxGiven_m1297795404_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_t2389422529 * L_0 = RewardStorage_get_instance_m4171062244(NULL /*static, unused*/, /*hidden argument*/NULL);
+		SequenceReward_t1164674053 * L_1 = ___reward0;
+		NullCheck(L_0);
+		int32_t L_2 = VirtFuncInvoker1< int32_t, SequenceReward_t1164674053 * >::Invoke(4 /* System.Int32 Soomla.RewardStorage::_getLastSeqIdxGiven(Soomla.SequenceReward) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void Soomla.RewardStorage::SetLastSeqIdxGiven(Soomla.SequenceReward,System.Int32)
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage_SetLastSeqIdxGiven_m3135091057_MetadataUsageId;
+extern "C"  void RewardStorage_SetLastSeqIdxGiven_m3135091057 (Il2CppObject * __this /* static, unused */, SequenceReward_t1164674053 * ___reward0, int32_t ___idx1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage_SetLastSeqIdxGiven_m3135091057_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_t2389422529 * L_0 = RewardStorage_get_instance_m4171062244(NULL /*static, unused*/, /*hidden argument*/NULL);
+		SequenceReward_t1164674053 * L_1 = ___reward0;
+		int32_t L_2 = ___idx1;
+		NullCheck(L_0);
+		VirtActionInvoker2< SequenceReward_t1164674053 *, int32_t >::Invoke(5 /* System.Void Soomla.RewardStorage::_setLastSeqIdxGiven(Soomla.SequenceReward,System.Int32) */, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Int32 Soomla.RewardStorage::_getLastSeqIdxGiven(Soomla.SequenceReward)
+extern "C"  int32_t RewardStorage__getLastSeqIdxGiven_m400533331 (RewardStorage_t2389422529 * __this, SequenceReward_t1164674053 * ___seqReward0, const MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+// System.Void Soomla.RewardStorage::_setLastSeqIdxGiven(Soomla.SequenceReward,System.Int32)
+extern "C"  void RewardStorage__setLastSeqIdxGiven_m3700854566 (RewardStorage_t2389422529 * __this, SequenceReward_t1164674053 * ___seqReward0, int32_t ___idx1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.RewardStorage::_setTimesGiven(Soomla.Reward,System.Boolean,System.Boolean)
+extern "C"  void RewardStorage__setTimesGiven_m96316660 (RewardStorage_t2389422529 * __this, Reward_t1570165988 * ___reward0, bool ___up1, bool ___notify2, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int32 Soomla.RewardStorage::_getTimesGiven(Soomla.Reward)
+extern "C"  int32_t RewardStorage__getTimesGiven_m3728107602 (RewardStorage_t2389422529 * __this, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+// System.DateTime Soomla.RewardStorage::_getLastGivenTime(Soomla.Reward)
+extern Il2CppClass* DateTime_t339033936_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorage__getLastGivenTime_m1124372948_MetadataUsageId;
+extern "C"  DateTime_t339033936  RewardStorage__getLastGivenTime_m1124372948 (RewardStorage_t2389422529 * __this, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorage__getLastGivenTime_m1124372948_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	DateTime_t339033936  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Initobj (DateTime_t339033936_il2cpp_TypeInfo_var, (&V_0));
+		DateTime_t339033936  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void Soomla.RewardStorageAndroid::.ctor()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorageAndroid__ctor_m3775262921_MetadataUsageId;
+extern "C"  void RewardStorageAndroid__ctor_m3775262921 (RewardStorageAndroid_t4093838904 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorageAndroid__ctor_m3775262921_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage__ctor_m118672494(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardStorageIOS::.ctor()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorageIOS__ctor_m1370306411_MetadataUsageId;
+extern "C"  void RewardStorageIOS__ctor_m1370306411 (RewardStorageIOS_t465018326 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorageIOS__ctor_m1370306411_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage__ctor_m118672494(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int64 Soomla.RewardStorageIOS::rewardStorage_GetLastGivenTimeMillis(System.String)
+extern "C" int64_t DEFAULT_CALL rewardStorage_GetLastGivenTimeMillis(char*);
+extern "C"  int64_t RewardStorageIOS_rewardStorage_GetLastGivenTimeMillis_m2579564001 (Il2CppObject * __this /* static, unused */, String_t* ___rewardId0, const MethodInfo* method)
+{
+	typedef int64_t (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___rewardId0' to native representation
+	char* ____rewardId0_marshaled = NULL;
+	____rewardId0_marshaled = il2cpp_codegen_marshal_string(___rewardId0);
+
+	// Native function invocation and marshaling of return value back from native representation
+	int64_t _return_value = reinterpret_cast<PInvokeFunc>(rewardStorage_GetLastGivenTimeMillis)(____rewardId0_marshaled);
+
+	// Marshaling cleanup of parameter '___rewardId0' native representation
+	il2cpp_codegen_marshal_free(____rewardId0_marshaled);
+	____rewardId0_marshaled = NULL;
+
+	return _return_value;
+}
+// System.Int32 Soomla.RewardStorageIOS::rewardStorage_GetTimesGiven(System.String)
+extern "C" int32_t DEFAULT_CALL rewardStorage_GetTimesGiven(char*);
+extern "C"  int32_t RewardStorageIOS_rewardStorage_GetTimesGiven_m3853545969 (Il2CppObject * __this /* static, unused */, String_t* ___rewardId0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___rewardId0' to native representation
+	char* ____rewardId0_marshaled = NULL;
+	____rewardId0_marshaled = il2cpp_codegen_marshal_string(___rewardId0);
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = reinterpret_cast<PInvokeFunc>(rewardStorage_GetTimesGiven)(____rewardId0_marshaled);
+
+	// Marshaling cleanup of parameter '___rewardId0' native representation
+	il2cpp_codegen_marshal_free(____rewardId0_marshaled);
+	____rewardId0_marshaled = NULL;
+
+	return _return_value;
+}
+// System.Void Soomla.RewardStorageIOS::rewardStorage_SetTimesGiven(System.String,System.Boolean,System.Boolean)
+extern "C" void DEFAULT_CALL rewardStorage_SetTimesGiven(char*, int32_t, int32_t);
+extern "C"  void RewardStorageIOS_rewardStorage_SetTimesGiven_m2993683027 (Il2CppObject * __this /* static, unused */, String_t* ___rewardId0, bool ___up1, bool ___notify2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, int32_t);
+
+	// Marshaling of parameter '___rewardId0' to native representation
+	char* ____rewardId0_marshaled = NULL;
+	____rewardId0_marshaled = il2cpp_codegen_marshal_string(___rewardId0);
+
+	// Marshaling of parameter '___up1' to native representation
+
+	// Marshaling of parameter '___notify2' to native representation
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(rewardStorage_SetTimesGiven)(____rewardId0_marshaled, ___up1, ___notify2);
+
+	// Marshaling cleanup of parameter '___rewardId0' native representation
+	il2cpp_codegen_marshal_free(____rewardId0_marshaled);
+	____rewardId0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___up1' native representation
+
+	// Marshaling cleanup of parameter '___notify2' native representation
+
+}
+// System.Int32 Soomla.RewardStorageIOS::rewardStorage_GetLastSeqIdxGiven(System.String)
+extern "C" int32_t DEFAULT_CALL rewardStorage_GetLastSeqIdxGiven(char*);
+extern "C"  int32_t RewardStorageIOS_rewardStorage_GetLastSeqIdxGiven_m3797181969 (Il2CppObject * __this /* static, unused */, String_t* ___rewardId0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___rewardId0' to native representation
+	char* ____rewardId0_marshaled = NULL;
+	____rewardId0_marshaled = il2cpp_codegen_marshal_string(___rewardId0);
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = reinterpret_cast<PInvokeFunc>(rewardStorage_GetLastSeqIdxGiven)(____rewardId0_marshaled);
+
+	// Marshaling cleanup of parameter '___rewardId0' native representation
+	il2cpp_codegen_marshal_free(____rewardId0_marshaled);
+	____rewardId0_marshaled = NULL;
+
+	return _return_value;
+}
+// System.Void Soomla.RewardStorageIOS::rewardStorage_SetLastSeqIdxGiven(System.String,System.Int32)
+extern "C" void DEFAULT_CALL rewardStorage_SetLastSeqIdxGiven(char*, int32_t);
+extern "C"  void RewardStorageIOS_rewardStorage_SetLastSeqIdxGiven_m3815881512 (Il2CppObject * __this /* static, unused */, String_t* ___rewardId0, int32_t ___idx1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int32_t);
+
+	// Marshaling of parameter '___rewardId0' to native representation
+	char* ____rewardId0_marshaled = NULL;
+	____rewardId0_marshaled = il2cpp_codegen_marshal_string(___rewardId0);
+
+	// Marshaling of parameter '___idx1' to native representation
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(rewardStorage_SetLastSeqIdxGiven)(____rewardId0_marshaled, ___idx1);
+
+	// Marshaling cleanup of parameter '___rewardId0' native representation
+	il2cpp_codegen_marshal_free(____rewardId0_marshaled);
+	____rewardId0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___idx1' native representation
+
+}
+// System.Int32 Soomla.RewardStorageIOS::_getLastSeqIdxGiven(Soomla.SequenceReward)
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern const uint32_t RewardStorageIOS__getLastSeqIdxGiven_m3474025562_MetadataUsageId;
+extern "C"  int32_t RewardStorageIOS__getLastSeqIdxGiven_m3474025562 (RewardStorageIOS_t465018326 * __this, SequenceReward_t1164674053 * ___seqReward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorageIOS__getLastSeqIdxGiven_m3474025562_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SequenceReward_t1164674053 * L_0 = ___seqReward0;
+		NullCheck(L_0);
+		String_t* L_1 = SoomlaEntity_1_get_ID_m993100410(L_0, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		int32_t L_2 = RewardStorageIOS_rewardStorage_GetLastSeqIdxGiven_m3797181969(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Void Soomla.RewardStorageIOS::_setLastSeqIdxGiven(Soomla.SequenceReward,System.Int32)
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern const uint32_t RewardStorageIOS__setLastSeqIdxGiven_m1341271075_MetadataUsageId;
+extern "C"  void RewardStorageIOS__setLastSeqIdxGiven_m1341271075 (RewardStorageIOS_t465018326 * __this, SequenceReward_t1164674053 * ___seqReward0, int32_t ___idx1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorageIOS__setLastSeqIdxGiven_m1341271075_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SequenceReward_t1164674053 * L_0 = ___seqReward0;
+		NullCheck(L_0);
+		String_t* L_1 = SoomlaEntity_1_get_ID_m993100410(L_0, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		int32_t L_2 = ___idx1;
+		RewardStorageIOS_rewardStorage_SetLastSeqIdxGiven_m3815881512(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardStorageIOS::_setTimesGiven(Soomla.Reward,System.Boolean,System.Boolean)
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern const uint32_t RewardStorageIOS__setTimesGiven_m4158161777_MetadataUsageId;
+extern "C"  void RewardStorageIOS__setTimesGiven_m4158161777 (RewardStorageIOS_t465018326 * __this, Reward_t1570165988 * ___reward0, bool ___up1, bool ___notify2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorageIOS__setTimesGiven_m4158161777_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Reward_t1570165988 * L_0 = ___reward0;
+		NullCheck(L_0);
+		String_t* L_1 = SoomlaEntity_1_get_ID_m993100410(L_0, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		bool L_2 = ___up1;
+		bool L_3 = ___notify2;
+		RewardStorageIOS_rewardStorage_SetTimesGiven_m2993683027(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Soomla.RewardStorageIOS::_getTimesGiven(Soomla.Reward)
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2474256268;
+extern Il2CppCodeGenString* _stringLiteral2709508734;
+extern const uint32_t RewardStorageIOS__getTimesGiven_m3590718443_MetadataUsageId;
+extern "C"  int32_t RewardStorageIOS__getTimesGiven_m3590718443 (RewardStorageIOS_t465018326 * __this, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorageIOS__getTimesGiven_m3590718443_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		Reward_t1570165988 * L_0 = ___reward0;
+		NullCheck(L_0);
+		String_t* L_1 = SoomlaEntity_1_get_ID_m993100410(L_0, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		int32_t L_2 = RewardStorageIOS_rewardStorage_GetTimesGiven_m3853545969(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		Reward_t1570165988 * L_3 = ___reward0;
+		NullCheck(L_3);
+		String_t* L_4 = SoomlaEntity_1_get_ID_m993100410(L_3, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		int32_t L_5 = V_0;
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_6);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Format_m2398979370(NULL /*static, unused*/, _stringLiteral2709508734, L_4, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral2474256268, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_0;
+		return L_9;
+	}
+}
+// System.DateTime Soomla.RewardStorageIOS::_getLastGivenTime(Soomla.Reward)
+extern Il2CppClass* TimeSpan_t763862892_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern const uint32_t RewardStorageIOS__getLastGivenTime_m1191918245_MetadataUsageId;
+extern "C"  DateTime_t339033936  RewardStorageIOS__getLastGivenTime_m1191918245 (RewardStorageIOS_t465018326 * __this, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorageIOS__getLastGivenTime_m1191918245_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int64_t V_0 = 0;
+	TimeSpan_t763862892  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Reward_t1570165988 * L_0 = ___reward0;
+		NullCheck(L_0);
+		String_t* L_1 = SoomlaEntity_1_get_ID_m993100410(L_0, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		int64_t L_2 = RewardStorageIOS_rewardStorage_GetLastGivenTimeMillis_m2579564001(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int64_t L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t763862892_il2cpp_TypeInfo_var);
+		TimeSpan_t763862892  L_4 = TimeSpan_FromMilliseconds_m1386660477(NULL /*static, unused*/, (((double)((double)L_3))), /*hidden argument*/NULL);
+		V_1 = L_4;
+		int64_t L_5 = TimeSpan_get_Ticks_m315930342((&V_1), /*hidden argument*/NULL);
+		DateTime_t339033936  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		DateTime__ctor_m4059138700(&L_6, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.Void Soomla.RewardStorageWP::.ctor()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t RewardStorageWP__ctor_m784176885_MetadataUsageId;
+extern "C"  void RewardStorageWP__ctor_m784176885 (RewardStorageWP_t277242266 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardStorageWP__ctor_m784176885_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage__ctor_m118672494(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardTakenEvent::.ctor(System.String)
+extern "C"  void RewardTakenEvent__ctor_m2586201400 (RewardTakenEvent_t3557762135 * __this, String_t* ___rewardId0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___rewardId0;
+		RewardTakenEvent__ctor_m2756777478(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardTakenEvent::.ctor(Soomla.Reward)
+extern "C"  void RewardTakenEvent__ctor_m2224122842 (RewardTakenEvent_t3557762135 * __this, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	{
+		Reward_t1570165988 * L_0 = ___reward0;
+		RewardTakenEvent__ctor_m180941096(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.RewardTakenEvent::.ctor(System.String,System.Object)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern const uint32_t RewardTakenEvent__ctor_m2756777478_MetadataUsageId;
+extern "C"  void RewardTakenEvent__ctor_m2756777478 (RewardTakenEvent_t3557762135 * __this, String_t* ___rewardId0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RewardTakenEvent__ctor_m2756777478_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___rewardId0;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward_t1570165988 * L_2 = Reward_GetReward_m237195837(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		__this->set_Reward_2(L_2);
+		return;
+	}
+}
+// System.Void Soomla.RewardTakenEvent::.ctor(Soomla.Reward,System.Object)
+extern "C"  void RewardTakenEvent__ctor_m180941096 (RewardTakenEvent_t3557762135 * __this, Reward_t1570165988 * ___reward0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		Reward_t1570165988 * L_1 = ___reward0;
+		__this->set_Reward_2(L_1);
+		return;
+	}
+}
+// System.Void Soomla.Schedule::.ctor(System.Int32)
+extern "C"  void Schedule__ctor_m124063878 (Schedule_t2787348556 * __this, int32_t ___activationLimit0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___activationLimit0;
+		Schedule__ctor_m1946701692(__this, (List_1_t3323622203 *)NULL, 4, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Schedule::.ctor(System.DateTime,System.DateTime,Soomla.Schedule/Recurrence,System.Int32)
+extern Il2CppClass* List_1_t3323622203_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTimeRange_t2526663234_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3802133064_MethodInfo_var;
+extern const uint32_t Schedule__ctor_m1035217647_MetadataUsageId;
+extern "C"  void Schedule__ctor_m1035217647 (Schedule_t2787348556 * __this, DateTime_t339033936  ___startTime0, DateTime_t339033936  ___endTime1, int32_t ___recurrence2, int32_t ___activationLimit3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Schedule__ctor_m1035217647_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t3323622203 * V_0 = NULL;
+	{
+		List_1_t3323622203 * L_0 = (List_1_t3323622203 *)il2cpp_codegen_object_new(List_1_t3323622203_il2cpp_TypeInfo_var);
+		List_1__ctor_m3802133064(L_0, /*hidden argument*/List_1__ctor_m3802133064_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t3323622203 * L_1 = V_0;
+		DateTime_t339033936  L_2 = ___startTime0;
+		DateTime_t339033936  L_3 = ___endTime1;
+		DateTimeRange_t2526663234 * L_4 = (DateTimeRange_t2526663234 *)il2cpp_codegen_object_new(DateTimeRange_t2526663234_il2cpp_TypeInfo_var);
+		DateTimeRange__ctor_m2972327112(L_4, L_2, L_3, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker1< DateTimeRange_t2526663234 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<Soomla.Schedule/DateTimeRange>::Add(!0) */, L_1, L_4);
+		List_1_t3323622203 * L_5 = V_0;
+		int32_t L_6 = ___recurrence2;
+		int32_t L_7 = ___activationLimit3;
+		Schedule__ctor_m1946701692(__this, L_5, L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Schedule::.ctor(System.Collections.Generic.List`1<Soomla.Schedule/DateTimeRange>,Soomla.Schedule/Recurrence,System.Int32)
+extern "C"  void Schedule__ctor_m1946701692 (Schedule_t2787348556 * __this, List_1_t3323622203 * ___timeRanges0, int32_t ___recurrence1, int32_t ___activationLimit2, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		List_1_t3323622203 * L_0 = ___timeRanges0;
+		__this->set_TimeRanges_2(L_0);
+		int32_t L_1 = ___recurrence1;
+		__this->set_RequiredRecurrence_1(L_1);
+		int32_t L_2 = ___activationLimit2;
+		__this->set_ActivationLimit_3(L_2);
+		return;
+	}
+}
+// System.Void Soomla.Schedule::.ctor(JSONObject)
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3323622203_il2cpp_TypeInfo_var;
+extern Il2CppClass* TimeSpan_t763862892_il2cpp_TypeInfo_var;
+extern Il2CppClass* DateTimeRange_t2526663234_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t635118864_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3802133064_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3463117439_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4132179179_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3519654865_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2932760903;
+extern Il2CppCodeGenString* _stringLiteral64781721;
+extern Il2CppCodeGenString* _stringLiteral1901356570;
+extern Il2CppCodeGenString* _stringLiteral1150488169;
+extern Il2CppCodeGenString* _stringLiteral1842522274;
+extern const uint32_t Schedule__ctor_m2134877774_MetadataUsageId;
+extern "C"  void Schedule__ctor_m2134877774 (Schedule_t2787348556 * __this, JSONObject_t1752376903 * ___jsonSched0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Schedule__ctor_m2134877774_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t2549335872 * V_0 = NULL;
+	JSONObject_t1752376903 * V_1 = NULL;
+	Enumerator_t635118864  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	TimeSpan_t763862892  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	DateTime_t339033936  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	DateTime_t339033936  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_0 = ___jsonSched0;
+		NullCheck(L_0);
+		JSONObject_t1752376903 * L_1 = JSONObject_get_Item_m3957353536(L_0, _stringLiteral2932760903, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		bool L_2 = JSONObject_op_Implicit_m2520452346(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_3 = ___jsonSched0;
+		NullCheck(L_3);
+		JSONObject_t1752376903 * L_4 = JSONObject_get_Item_m3957353536(L_3, _stringLiteral2932760903, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		double L_5 = L_4->get_n_10();
+		__this->set_RequiredRecurrence_1((((int32_t)((int32_t)L_5))));
+		goto IL_003e;
+	}
+
+IL_0037:
+	{
+		__this->set_RequiredRecurrence_1(4);
+	}
+
+IL_003e:
+	{
+		JSONObject_t1752376903 * L_6 = ___jsonSched0;
+		NullCheck(L_6);
+		JSONObject_t1752376903 * L_7 = JSONObject_get_Item_m3957353536(L_6, _stringLiteral64781721, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		double L_8 = L_7->get_n_10();
+		double L_9 = ceil(L_8);
+		__this->set_ActivationLimit_3((((int32_t)((int32_t)L_9))));
+		List_1_t3323622203 * L_10 = (List_1_t3323622203 *)il2cpp_codegen_object_new(List_1_t3323622203_il2cpp_TypeInfo_var);
+		List_1__ctor_m3802133064(L_10, /*hidden argument*/List_1__ctor_m3802133064_MethodInfo_var);
+		__this->set_TimeRanges_2(L_10);
+		JSONObject_t1752376903 * L_11 = ___jsonSched0;
+		NullCheck(L_11);
+		JSONObject_t1752376903 * L_12 = JSONObject_get_Item_m3957353536(L_11, _stringLiteral1901356570, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		bool L_13 = JSONObject_op_Implicit_m2520452346(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_011c;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_14 = ___jsonSched0;
+		NullCheck(L_14);
+		JSONObject_t1752376903 * L_15 = JSONObject_get_Item_m3957353536(L_14, _stringLiteral1901356570, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		List_1_t2549335872 * L_16 = L_15->get_list_7();
+		V_0 = L_16;
+		List_1_t2549335872 * L_17 = V_0;
+		NullCheck(L_17);
+		Enumerator_t635118864  L_18 = List_1_GetEnumerator_m3463117439(L_17, /*hidden argument*/List_1_GetEnumerator_m3463117439_MethodInfo_var);
+		V_2 = L_18;
+	}
+
+IL_0092:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00ff;
+		}
+
+IL_0097:
+		{
+			JSONObject_t1752376903 * L_19 = Enumerator_get_Current_m4132179179((&V_2), /*hidden argument*/Enumerator_get_Current_m4132179179_MethodInfo_var);
+			V_1 = L_19;
+			JSONObject_t1752376903 * L_20 = V_1;
+			NullCheck(L_20);
+			JSONObject_t1752376903 * L_21 = JSONObject_get_Item_m3957353536(L_20, _stringLiteral1150488169, /*hidden argument*/NULL);
+			NullCheck(L_21);
+			double L_22 = L_21->get_n_10();
+			IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t763862892_il2cpp_TypeInfo_var);
+			TimeSpan_t763862892  L_23 = TimeSpan_FromMilliseconds_m1386660477(NULL /*static, unused*/, (((double)((double)(((int64_t)((int64_t)L_22)))))), /*hidden argument*/NULL);
+			V_3 = L_23;
+			int64_t L_24 = TimeSpan_get_Ticks_m315930342((&V_3), /*hidden argument*/NULL);
+			DateTime__ctor_m4059138700((&V_4), L_24, /*hidden argument*/NULL);
+			JSONObject_t1752376903 * L_25 = V_1;
+			NullCheck(L_25);
+			JSONObject_t1752376903 * L_26 = JSONObject_get_Item_m3957353536(L_25, _stringLiteral1842522274, /*hidden argument*/NULL);
+			NullCheck(L_26);
+			double L_27 = L_26->get_n_10();
+			TimeSpan_t763862892  L_28 = TimeSpan_FromMilliseconds_m1386660477(NULL /*static, unused*/, (((double)((double)(((int64_t)((int64_t)L_27)))))), /*hidden argument*/NULL);
+			V_3 = L_28;
+			int64_t L_29 = TimeSpan_get_Ticks_m315930342((&V_3), /*hidden argument*/NULL);
+			DateTime__ctor_m4059138700((&V_5), L_29, /*hidden argument*/NULL);
+			List_1_t3323622203 * L_30 = __this->get_TimeRanges_2();
+			DateTime_t339033936  L_31 = V_4;
+			DateTime_t339033936  L_32 = V_5;
+			DateTimeRange_t2526663234 * L_33 = (DateTimeRange_t2526663234 *)il2cpp_codegen_object_new(DateTimeRange_t2526663234_il2cpp_TypeInfo_var);
+			DateTimeRange__ctor_m2972327112(L_33, L_31, L_32, /*hidden argument*/NULL);
+			NullCheck(L_30);
+			VirtActionInvoker1< DateTimeRange_t2526663234 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<Soomla.Schedule/DateTimeRange>::Add(!0) */, L_30, L_33);
+		}
+
+IL_00ff:
+		{
+			bool L_34 = Enumerator_MoveNext_m3519654865((&V_2), /*hidden argument*/Enumerator_MoveNext_m3519654865_MethodInfo_var);
+			if (L_34)
+			{
+				goto IL_0097;
+			}
+		}
+
+IL_010b:
+		{
+			IL2CPP_LEAVE(0x11C, FINALLY_0110);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0110;
+	}
+
+FINALLY_0110:
+	{ // begin finally (depth: 1)
+		Enumerator_t635118864  L_35 = V_2;
+		Enumerator_t635118864  L_36 = L_35;
+		Il2CppObject * L_37 = Box(Enumerator_t635118864_il2cpp_TypeInfo_var, &L_36);
+		NullCheck((Il2CppObject *)L_37);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_37);
+		IL2CPP_END_FINALLY(272)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(272)
+	{
+		IL2CPP_JUMP_TBL(0x11C, IL_011c)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_011c:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Schedule::.cctor()
+extern Il2CppClass* Schedule_t2787348556_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1573653384;
+extern const uint32_t Schedule__cctor_m802512792_MetadataUsageId;
+extern "C"  void Schedule__cctor_m802512792 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Schedule__cctor_m802512792_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->set_TAG_0(_stringLiteral1573653384);
+		return;
+	}
+}
+// Soomla.Schedule Soomla.Schedule::AnyTimeOnce()
+extern Il2CppClass* Schedule_t2787348556_il2cpp_TypeInfo_var;
+extern const uint32_t Schedule_AnyTimeOnce_m2035453802_MetadataUsageId;
+extern "C"  Schedule_t2787348556 * Schedule_AnyTimeOnce_m2035453802 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Schedule_AnyTimeOnce_m2035453802_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Schedule_t2787348556 * L_0 = (Schedule_t2787348556 *)il2cpp_codegen_object_new(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		Schedule__ctor_m124063878(L_0, 1, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// Soomla.Schedule Soomla.Schedule::AnyTimeLimited(System.Int32)
+extern Il2CppClass* Schedule_t2787348556_il2cpp_TypeInfo_var;
+extern const uint32_t Schedule_AnyTimeLimited_m1195598788_MetadataUsageId;
+extern "C"  Schedule_t2787348556 * Schedule_AnyTimeLimited_m1195598788 (Il2CppObject * __this /* static, unused */, int32_t ___activationLimit0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Schedule_AnyTimeLimited_m1195598788_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = ___activationLimit0;
+		Schedule_t2787348556 * L_1 = (Schedule_t2787348556 *)il2cpp_codegen_object_new(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		Schedule__ctor_m124063878(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// Soomla.Schedule Soomla.Schedule::AnyTimeUnLimited()
+extern Il2CppClass* Schedule_t2787348556_il2cpp_TypeInfo_var;
+extern const uint32_t Schedule_AnyTimeUnLimited_m3294730842_MetadataUsageId;
+extern "C"  Schedule_t2787348556 * Schedule_AnyTimeUnLimited_m3294730842 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Schedule_AnyTimeUnLimited_m3294730842_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Schedule_t2787348556 * L_0 = (Schedule_t2787348556 *)il2cpp_codegen_object_new(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		Schedule__ctor_m124063878(L_0, 0, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// JSONObject Soomla.Schedule::toJSONObject()
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1409405195_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m4048869899_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2419755403_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1974099557_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4285078563;
+extern Il2CppCodeGenString* _stringLiteral2932760903;
+extern Il2CppCodeGenString* _stringLiteral64781721;
+extern Il2CppCodeGenString* _stringLiteral1150488169;
+extern Il2CppCodeGenString* _stringLiteral1842522274;
+extern Il2CppCodeGenString* _stringLiteral1901356570;
+extern const uint32_t Schedule_toJSONObject_m1122713467_MetadataUsageId;
+extern "C"  JSONObject_t1752376903 * Schedule_toJSONObject_m1122713467 (Schedule_t2787348556 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Schedule_toJSONObject_m1122713467_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	JSONObject_t1752376903 * V_1 = NULL;
+	DateTimeRange_t2526663234 * V_2 = NULL;
+	Enumerator_t1409405195  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	int64_t V_4 = 0;
+	int64_t V_5 = 0;
+	JSONObject_t1752376903 * V_6 = NULL;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		JSONObject_t1752376903 * L_0 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m196212956(L_0, 3, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1752376903 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		String_t* L_2 = SoomlaUtils_GetClassName_m3482668472(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		JSONObject_AddField_m2361299573(L_1, _stringLiteral4285078563, L_2, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_3 = V_0;
+		int32_t L_4 = __this->get_RequiredRecurrence_1();
+		NullCheck(L_3);
+		JSONObject_AddField_m3386574718(L_3, _stringLiteral2932760903, L_4, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_5 = V_0;
+		int32_t L_6 = __this->get_ActivationLimit_3();
+		NullCheck(L_5);
+		JSONObject_AddField_m3386574718(L_5, _stringLiteral64781721, L_6, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_7 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m196212956(L_7, 4, /*hidden argument*/NULL);
+		V_1 = L_7;
+		List_1_t3323622203 * L_8 = __this->get_TimeRanges_2();
+		if (!L_8)
+		{
+			goto IL_00ea;
+		}
+	}
+	{
+		List_1_t3323622203 * L_9 = __this->get_TimeRanges_2();
+		NullCheck(L_9);
+		Enumerator_t1409405195  L_10 = List_1_GetEnumerator_m4048869899(L_9, /*hidden argument*/List_1_GetEnumerator_m4048869899_MethodInfo_var);
+		V_3 = L_10;
+	}
+
+IL_0058:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00cd;
+		}
+
+IL_005d:
+		{
+			DateTimeRange_t2526663234 * L_11 = Enumerator_get_Current_m2419755403((&V_3), /*hidden argument*/Enumerator_get_Current_m2419755403_MethodInfo_var);
+			V_2 = L_11;
+			DateTimeRange_t2526663234 * L_12 = V_2;
+			NullCheck(L_12);
+			DateTime_t339033936 * L_13 = L_12->get_address_of_Start_0();
+			int64_t L_14 = DateTime_get_Ticks_m386468226(L_13, /*hidden argument*/NULL);
+			V_4 = ((int64_t)((int64_t)L_14/(int64_t)(((int64_t)((int64_t)((int32_t)10000))))));
+			DateTimeRange_t2526663234 * L_15 = V_2;
+			NullCheck(L_15);
+			DateTime_t339033936 * L_16 = L_15->get_address_of_End_1();
+			int64_t L_17 = DateTime_get_Ticks_m386468226(L_16, /*hidden argument*/NULL);
+			V_5 = ((int64_t)((int64_t)L_17/(int64_t)(((int64_t)((int64_t)((int32_t)10000))))));
+			JSONObject_t1752376903 * L_18 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+			JSONObject__ctor_m196212956(L_18, 3, /*hidden argument*/NULL);
+			V_6 = L_18;
+			JSONObject_t1752376903 * L_19 = V_6;
+			DateTimeRange_t2526663234 * L_20 = V_2;
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			String_t* L_21 = SoomlaUtils_GetClassName_m3482668472(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+			NullCheck(L_19);
+			JSONObject_AddField_m2361299573(L_19, _stringLiteral4285078563, L_21, /*hidden argument*/NULL);
+			JSONObject_t1752376903 * L_22 = V_6;
+			int64_t L_23 = V_4;
+			NullCheck(L_22);
+			JSONObject_AddField_m2042623262(L_22, _stringLiteral1150488169, (((float)((float)L_23))), /*hidden argument*/NULL);
+			JSONObject_t1752376903 * L_24 = V_6;
+			int64_t L_25 = V_5;
+			NullCheck(L_24);
+			JSONObject_AddField_m2042623262(L_24, _stringLiteral1842522274, (((float)((float)L_25))), /*hidden argument*/NULL);
+			JSONObject_t1752376903 * L_26 = V_1;
+			JSONObject_t1752376903 * L_27 = V_6;
+			NullCheck(L_26);
+			JSONObject_Add_m1349655052(L_26, L_27, /*hidden argument*/NULL);
+		}
+
+IL_00cd:
+		{
+			bool L_28 = Enumerator_MoveNext_m1974099557((&V_3), /*hidden argument*/Enumerator_MoveNext_m1974099557_MethodInfo_var);
+			if (L_28)
+			{
+				goto IL_005d;
+			}
+		}
+
+IL_00d9:
+		{
+			IL2CPP_LEAVE(0xEA, FINALLY_00de);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_00de;
+	}
+
+FINALLY_00de:
+	{ // begin finally (depth: 1)
+		Enumerator_t1409405195  L_29 = V_3;
+		Enumerator_t1409405195  L_30 = L_29;
+		Il2CppObject * L_31 = Box(Enumerator_t1409405195_il2cpp_TypeInfo_var, &L_30);
+		NullCheck((Il2CppObject *)L_31);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_31);
+		IL2CPP_END_FINALLY(222)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(222)
+	{
+		IL2CPP_JUMP_TBL(0xEA, IL_00ea)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_00ea:
+	{
+		JSONObject_t1752376903 * L_32 = V_0;
+		JSONObject_t1752376903 * L_33 = V_1;
+		NullCheck(L_32);
+		JSONObject_AddField_m574028614(L_32, _stringLiteral1901356570, L_33, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_34 = V_0;
+		return L_34;
+	}
+}
+// System.Boolean Soomla.Schedule::Approve(System.Int32)
+extern Il2CppClass* DateTime_t339033936_il2cpp_TypeInfo_var;
+extern Il2CppClass* Schedule_t2787348556_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1409405195_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m4048869899_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2419755403_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1974099557_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral769609983;
+extern Il2CppCodeGenString* _stringLiteral4276004396;
+extern Il2CppCodeGenString* _stringLiteral3243366237;
+extern Il2CppCodeGenString* _stringLiteral3750859755;
+extern Il2CppCodeGenString* _stringLiteral3882707728;
+extern Il2CppCodeGenString* _stringLiteral388517144;
+extern Il2CppCodeGenString* _stringLiteral2554570880;
+extern Il2CppCodeGenString* _stringLiteral1623152088;
+extern Il2CppCodeGenString* _stringLiteral1815060778;
+extern Il2CppCodeGenString* _stringLiteral1099762472;
+extern Il2CppCodeGenString* _stringLiteral835841230;
+extern Il2CppCodeGenString* _stringLiteral1865502908;
+extern const uint32_t Schedule_Approve_m3348827237_MetadataUsageId;
+extern "C"  bool Schedule_Approve_m3348827237 (Schedule_t2787348556 * __this, int32_t ___activationTimes0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Schedule_Approve_m3348827237_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	DateTime_t339033936  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	DateTimeRange_t2526663234 * V_1 = NULL;
+	Enumerator_t1409405195  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	DateTimeRange_t2526663234 * V_3 = NULL;
+	Enumerator_t1409405195  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	bool V_5 = false;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t339033936_il2cpp_TypeInfo_var);
+		DateTime_t339033936  L_0 = DateTime_get_Now_m1812131422(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = __this->get_ActivationLimit_3();
+		if ((((int32_t)L_1) >= ((int32_t)1)))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		List_1_t3323622203 * L_2 = __this->get_TimeRanges_2();
+		if (!L_2)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		List_1_t3323622203 * L_3 = __this->get_TimeRanges_2();
+		NullCheck(L_3);
+		int32_t L_4 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Schedule/DateTimeRange>::get_Count() */, L_3);
+		if (L_4)
+		{
+			goto IL_003e;
+		}
+	}
+
+IL_002d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_5, _stringLiteral769609983, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+
+IL_003e:
+	{
+		int32_t L_6 = __this->get_ActivationLimit_3();
+		if ((((int32_t)L_6) <= ((int32_t)0)))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		int32_t L_7 = ___activationTimes0;
+		int32_t L_8 = __this->get_ActivationLimit_3();
+		if ((((int32_t)L_7) < ((int32_t)L_8)))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		String_t* L_9 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_9, _stringLiteral4276004396, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0067:
+	{
+		List_1_t3323622203 * L_10 = __this->get_TimeRanges_2();
+		if (!L_10)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		List_1_t3323622203 * L_11 = __this->get_TimeRanges_2();
+		NullCheck(L_11);
+		int32_t L_12 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Schedule/DateTimeRange>::get_Count() */, L_11);
+		if (L_12)
+		{
+			goto IL_0093;
+		}
+	}
+
+IL_0082:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+		String_t* L_13 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_13, _stringLiteral3243366237, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+
+IL_0093:
+	{
+		List_1_t3323622203 * L_14 = __this->get_TimeRanges_2();
+		NullCheck(L_14);
+		Enumerator_t1409405195  L_15 = List_1_GetEnumerator_m4048869899(L_14, /*hidden argument*/List_1_GetEnumerator_m4048869899_MethodInfo_var);
+		V_2 = L_15;
+	}
+
+IL_009f:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00e5;
+		}
+
+IL_00a4:
+		{
+			DateTimeRange_t2526663234 * L_16 = Enumerator_get_Current_m2419755403((&V_2), /*hidden argument*/Enumerator_get_Current_m2419755403_MethodInfo_var);
+			V_1 = L_16;
+			DateTime_t339033936  L_17 = V_0;
+			DateTimeRange_t2526663234 * L_18 = V_1;
+			NullCheck(L_18);
+			DateTime_t339033936  L_19 = L_18->get_Start_0();
+			IL2CPP_RUNTIME_CLASS_INIT(DateTime_t339033936_il2cpp_TypeInfo_var);
+			bool L_20 = DateTime_op_GreaterThanOrEqual_m717787228(NULL /*static, unused*/, L_17, L_19, /*hidden argument*/NULL);
+			if (!L_20)
+			{
+				goto IL_00e5;
+			}
+		}
+
+IL_00bd:
+		{
+			DateTime_t339033936  L_21 = V_0;
+			DateTimeRange_t2526663234 * L_22 = V_1;
+			NullCheck(L_22);
+			DateTime_t339033936  L_23 = L_22->get_End_1();
+			IL2CPP_RUNTIME_CLASS_INIT(DateTime_t339033936_il2cpp_TypeInfo_var);
+			bool L_24 = DateTime_op_LessThanOrEqual_m354447689(NULL /*static, unused*/, L_21, L_23, /*hidden argument*/NULL);
+			if (!L_24)
+			{
+				goto IL_00e5;
+			}
+		}
+
+IL_00ce:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_25 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_25, _stringLiteral3750859755, /*hidden argument*/NULL);
+			V_5 = (bool)1;
+			IL2CPP_LEAVE(0x2C9, FINALLY_00f6);
+		}
+
+IL_00e5:
+		{
+			bool L_26 = Enumerator_MoveNext_m1974099557((&V_2), /*hidden argument*/Enumerator_MoveNext_m1974099557_MethodInfo_var);
+			if (L_26)
+			{
+				goto IL_00a4;
+			}
+		}
+
+IL_00f1:
+		{
+			IL2CPP_LEAVE(0x102, FINALLY_00f6);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_00f6;
+	}
+
+FINALLY_00f6:
+	{ // begin finally (depth: 1)
+		Enumerator_t1409405195  L_27 = V_2;
+		Enumerator_t1409405195  L_28 = L_27;
+		Il2CppObject * L_29 = Box(Enumerator_t1409405195_il2cpp_TypeInfo_var, &L_28);
+		NullCheck((Il2CppObject *)L_29);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_29);
+		IL2CPP_END_FINALLY(246)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(246)
+	{
+		IL2CPP_JUMP_TBL(0x2C9, IL_02c9)
+		IL2CPP_JUMP_TBL(0x102, IL_0102)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0102:
+	{
+		int32_t L_30 = __this->get_RequiredRecurrence_1();
+		if ((!(((uint32_t)L_30) == ((uint32_t)4))))
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0110:
+	{
+		List_1_t3323622203 * L_31 = __this->get_TimeRanges_2();
+		NullCheck(L_31);
+		Enumerator_t1409405195  L_32 = List_1_GetEnumerator_m4048869899(L_31, /*hidden argument*/List_1_GetEnumerator_m4048869899_MethodInfo_var);
+		V_4 = L_32;
+	}
+
+IL_011d:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_02a9;
+		}
+
+IL_0122:
+		{
+			DateTimeRange_t2526663234 * L_33 = Enumerator_get_Current_m2419755403((&V_4), /*hidden argument*/Enumerator_get_Current_m2419755403_MethodInfo_var);
+			V_3 = L_33;
+			int32_t L_34 = DateTime_get_Minute_m1138831307((&V_0), /*hidden argument*/NULL);
+			DateTimeRange_t2526663234 * L_35 = V_3;
+			NullCheck(L_35);
+			DateTime_t339033936 * L_36 = L_35->get_address_of_Start_0();
+			int32_t L_37 = DateTime_get_Minute_m1138831307(L_36, /*hidden argument*/NULL);
+			if ((((int32_t)L_34) < ((int32_t)L_37)))
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_0141:
+		{
+			int32_t L_38 = DateTime_get_Minute_m1138831307((&V_0), /*hidden argument*/NULL);
+			DateTimeRange_t2526663234 * L_39 = V_3;
+			NullCheck(L_39);
+			DateTime_t339033936 * L_40 = L_39->get_address_of_End_1();
+			int32_t L_41 = DateTime_get_Minute_m1138831307(L_40, /*hidden argument*/NULL);
+			if ((((int32_t)L_38) > ((int32_t)L_41)))
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_0158:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_42 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_42, _stringLiteral3882707728, /*hidden argument*/NULL);
+			int32_t L_43 = __this->get_RequiredRecurrence_1();
+			if ((!(((uint32_t)L_43) == ((uint32_t)3))))
+			{
+				goto IL_018a;
+			}
+		}
+
+IL_0173:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_44 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_44, _stringLiteral388517144, /*hidden argument*/NULL);
+			V_5 = (bool)1;
+			IL2CPP_LEAVE(0x2C9, FINALLY_02ba);
+		}
+
+IL_018a:
+		{
+			int32_t L_45 = DateTime_get_Hour_m1857077531((&V_0), /*hidden argument*/NULL);
+			DateTimeRange_t2526663234 * L_46 = V_3;
+			NullCheck(L_46);
+			DateTime_t339033936 * L_47 = L_46->get_address_of_Start_0();
+			int32_t L_48 = DateTime_get_Hour_m1857077531(L_47, /*hidden argument*/NULL);
+			if ((((int32_t)L_45) < ((int32_t)L_48)))
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_01a1:
+		{
+			int32_t L_49 = DateTime_get_Hour_m1857077531((&V_0), /*hidden argument*/NULL);
+			DateTimeRange_t2526663234 * L_50 = V_3;
+			NullCheck(L_50);
+			DateTime_t339033936 * L_51 = L_50->get_address_of_End_1();
+			int32_t L_52 = DateTime_get_Hour_m1857077531(L_51, /*hidden argument*/NULL);
+			if ((((int32_t)L_49) > ((int32_t)L_52)))
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_01b8:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_53 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_53, _stringLiteral2554570880, /*hidden argument*/NULL);
+			int32_t L_54 = __this->get_RequiredRecurrence_1();
+			if ((!(((uint32_t)L_54) == ((uint32_t)2))))
+			{
+				goto IL_01ea;
+			}
+		}
+
+IL_01d3:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_55 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_55, _stringLiteral1623152088, /*hidden argument*/NULL);
+			V_5 = (bool)1;
+			IL2CPP_LEAVE(0x2C9, FINALLY_02ba);
+		}
+
+IL_01ea:
+		{
+			int32_t L_56 = DateTime_get_DayOfWeek_m1793620473((&V_0), /*hidden argument*/NULL);
+			DateTimeRange_t2526663234 * L_57 = V_3;
+			NullCheck(L_57);
+			DateTime_t339033936 * L_58 = L_57->get_address_of_Start_0();
+			int32_t L_59 = DateTime_get_DayOfWeek_m1793620473(L_58, /*hidden argument*/NULL);
+			if ((((int32_t)L_56) < ((int32_t)L_59)))
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_0201:
+		{
+			int32_t L_60 = DateTime_get_DayOfWeek_m1793620473((&V_0), /*hidden argument*/NULL);
+			DateTimeRange_t2526663234 * L_61 = V_3;
+			NullCheck(L_61);
+			DateTime_t339033936 * L_62 = L_61->get_address_of_End_1();
+			int32_t L_63 = DateTime_get_DayOfWeek_m1793620473(L_62, /*hidden argument*/NULL);
+			if ((((int32_t)L_60) > ((int32_t)L_63)))
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_0218:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_64 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_64, _stringLiteral1815060778, /*hidden argument*/NULL);
+			int32_t L_65 = __this->get_RequiredRecurrence_1();
+			if ((!(((uint32_t)L_65) == ((uint32_t)1))))
+			{
+				goto IL_024a;
+			}
+		}
+
+IL_0233:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_66 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_66, _stringLiteral1099762472, /*hidden argument*/NULL);
+			V_5 = (bool)1;
+			IL2CPP_LEAVE(0x2C9, FINALLY_02ba);
+		}
+
+IL_024a:
+		{
+			int32_t L_67 = DateTime_get_Day_m609985447((&V_0), /*hidden argument*/NULL);
+			DateTimeRange_t2526663234 * L_68 = V_3;
+			NullCheck(L_68);
+			DateTime_t339033936 * L_69 = L_68->get_address_of_Start_0();
+			int32_t L_70 = DateTime_get_Day_m609985447(L_69, /*hidden argument*/NULL);
+			if ((((int32_t)L_67) < ((int32_t)L_70)))
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_0261:
+		{
+			int32_t L_71 = DateTime_get_Day_m609985447((&V_0), /*hidden argument*/NULL);
+			DateTimeRange_t2526663234 * L_72 = V_3;
+			NullCheck(L_72);
+			DateTime_t339033936 * L_73 = L_72->get_address_of_End_1();
+			int32_t L_74 = DateTime_get_Day_m609985447(L_73, /*hidden argument*/NULL);
+			if ((((int32_t)L_71) > ((int32_t)L_74)))
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_0278:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_75 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_75, _stringLiteral835841230, /*hidden argument*/NULL);
+			int32_t L_76 = __this->get_RequiredRecurrence_1();
+			if (L_76)
+			{
+				goto IL_02a9;
+			}
+		}
+
+IL_0292:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Schedule_t2787348556_il2cpp_TypeInfo_var);
+			String_t* L_77 = ((Schedule_t2787348556_StaticFields*)Schedule_t2787348556_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_77, _stringLiteral1865502908, /*hidden argument*/NULL);
+			V_5 = (bool)1;
+			IL2CPP_LEAVE(0x2C9, FINALLY_02ba);
+		}
+
+IL_02a9:
+		{
+			bool L_78 = Enumerator_MoveNext_m1974099557((&V_4), /*hidden argument*/Enumerator_MoveNext_m1974099557_MethodInfo_var);
+			if (L_78)
+			{
+				goto IL_0122;
+			}
+		}
+
+IL_02b5:
+		{
+			IL2CPP_LEAVE(0x2C7, FINALLY_02ba);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_02ba;
+	}
+
+FINALLY_02ba:
+	{ // begin finally (depth: 1)
+		Enumerator_t1409405195  L_79 = V_4;
+		Enumerator_t1409405195  L_80 = L_79;
+		Il2CppObject * L_81 = Box(Enumerator_t1409405195_il2cpp_TypeInfo_var, &L_80);
+		NullCheck((Il2CppObject *)L_81);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_81);
+		IL2CPP_END_FINALLY(698)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(698)
+	{
+		IL2CPP_JUMP_TBL(0x2C9, IL_02c9)
+		IL2CPP_JUMP_TBL(0x2C7, IL_02c7)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_02c7:
+	{
+		return (bool)0;
+	}
+
+IL_02c9:
+	{
+		bool L_82 = V_5;
+		return L_82;
+	}
+}
+// System.Void Soomla.Schedule/DateTimeRange::.ctor(System.DateTime,System.DateTime)
+extern "C"  void DateTimeRange__ctor_m2972327112 (DateTimeRange_t2526663234 * __this, DateTime_t339033936  ___start0, DateTime_t339033936  ___end1, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		DateTime_t339033936  L_0 = ___start0;
+		__this->set_Start_0(L_0);
+		DateTime_t339033936  L_1 = ___end1;
+		__this->set_End_1(L_1);
+		return;
+	}
+}
+// System.Void Soomla.SequenceReward::.ctor(System.String,System.String,System.Collections.Generic.List`1<Soomla.Reward>)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppClass* SequenceReward_t1164674053_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral977872145;
+extern const uint32_t SequenceReward__ctor_m3955715254_MetadataUsageId;
+extern "C"  void SequenceReward__ctor_m3955715254 (SequenceReward_t1164674053 * __this, String_t* ___id0, String_t* ___name1, List_1_t2367124957 * ___rewards2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward__ctor_m3955715254_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___id0;
+		String_t* L_1 = ___name1;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward__ctor_m3552203329(__this, L_0, L_1, /*hidden argument*/NULL);
+		List_1_t2367124957 * L_2 = ___rewards2;
+		if (!L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		List_1_t2367124957 * L_3 = ___rewards2;
+		NullCheck(L_3);
+		int32_t L_4 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Reward>::get_Count() */, L_3);
+		if (L_4)
+		{
+			goto IL_0028;
+		}
+	}
+
+IL_0019:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SequenceReward_t1164674053_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((SequenceReward_t1164674053_StaticFields*)SequenceReward_t1164674053_il2cpp_TypeInfo_var->static_fields)->get_TAG_7();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, L_5, _stringLiteral977872145, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		List_1_t2367124957 * L_6 = ___rewards2;
+		__this->set_Rewards_8(L_6);
+		return;
+	}
+}
+// System.Void Soomla.SequenceReward::.ctor(JSONObject)
+extern Il2CppClass* Reward_t1570165988_il2cpp_TypeInfo_var;
+extern Il2CppClass* SequenceReward_t1164674053_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t2549335872_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t2367124957_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t635118864_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1191993266_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1469957229_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3463117439_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4132179179_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3519654865_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1100650276;
+extern Il2CppCodeGenString* _stringLiteral649581122;
+extern const uint32_t SequenceReward__ctor_m986514229_MetadataUsageId;
+extern "C"  void SequenceReward__ctor_m986514229 (SequenceReward_t1164674053 * __this, JSONObject_t1752376903 * ___jsonReward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward__ctor_m986514229_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t2549335872 * V_0 = NULL;
+	JSONObject_t1752376903 * V_1 = NULL;
+	Enumerator_t635118864  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		JSONObject_t1752376903 * L_0 = ___jsonReward0;
+		IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+		Reward__ctor_m124487926(__this, L_0, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_1 = ___jsonReward0;
+		NullCheck(L_1);
+		JSONObject_t1752376903 * L_2 = JSONObject_get_Item_m3957353536(L_1, _stringLiteral1100650276, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		List_1_t2549335872 * L_3 = L_2->get_list_7();
+		V_0 = L_3;
+		List_1_t2549335872 * L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		List_1_t2549335872 * L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<JSONObject>::get_Count() */, L_5);
+		if (L_6)
+		{
+			goto IL_003e;
+		}
+	}
+
+IL_0029:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SequenceReward_t1164674053_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((SequenceReward_t1164674053_StaticFields*)SequenceReward_t1164674053_il2cpp_TypeInfo_var->static_fields)->get_TAG_7();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogWarning_m15730426(NULL /*static, unused*/, L_7, _stringLiteral649581122, /*hidden argument*/NULL);
+		List_1_t2549335872 * L_8 = (List_1_t2549335872 *)il2cpp_codegen_object_new(List_1_t2549335872_il2cpp_TypeInfo_var);
+		List_1__ctor_m1191993266(L_8, /*hidden argument*/List_1__ctor_m1191993266_MethodInfo_var);
+		V_0 = L_8;
+	}
+
+IL_003e:
+	{
+		List_1_t2367124957 * L_9 = (List_1_t2367124957 *)il2cpp_codegen_object_new(List_1_t2367124957_il2cpp_TypeInfo_var);
+		List_1__ctor_m1469957229(L_9, /*hidden argument*/List_1__ctor_m1469957229_MethodInfo_var);
+		__this->set_Rewards_8(L_9);
+		List_1_t2549335872 * L_10 = V_0;
+		NullCheck(L_10);
+		Enumerator_t635118864  L_11 = List_1_GetEnumerator_m3463117439(L_10, /*hidden argument*/List_1_GetEnumerator_m3463117439_MethodInfo_var);
+		V_2 = L_11;
+	}
+
+IL_0050:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_006e;
+		}
+
+IL_0055:
+		{
+			JSONObject_t1752376903 * L_12 = Enumerator_get_Current_m4132179179((&V_2), /*hidden argument*/Enumerator_get_Current_m4132179179_MethodInfo_var);
+			V_1 = L_12;
+			List_1_t2367124957 * L_13 = __this->get_Rewards_8();
+			JSONObject_t1752376903 * L_14 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(Reward_t1570165988_il2cpp_TypeInfo_var);
+			Reward_t1570165988 * L_15 = Reward_fromJSONObject_m538740876(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+			NullCheck(L_13);
+			VirtActionInvoker1< Reward_t1570165988 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<Soomla.Reward>::Add(!0) */, L_13, L_15);
+		}
+
+IL_006e:
+		{
+			bool L_16 = Enumerator_MoveNext_m3519654865((&V_2), /*hidden argument*/Enumerator_MoveNext_m3519654865_MethodInfo_var);
+			if (L_16)
+			{
+				goto IL_0055;
+			}
+		}
+
+IL_007a:
+		{
+			IL2CPP_LEAVE(0x8B, FINALLY_007f);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_007f;
+	}
+
+FINALLY_007f:
+	{ // begin finally (depth: 1)
+		Enumerator_t635118864  L_17 = V_2;
+		Enumerator_t635118864  L_18 = L_17;
+		Il2CppObject * L_19 = Box(Enumerator_t635118864_il2cpp_TypeInfo_var, &L_18);
+		NullCheck((Il2CppObject *)L_19);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_19);
+		IL2CPP_END_FINALLY(127)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(127)
+	{
+		IL2CPP_JUMP_TBL(0x8B, IL_008b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_008b:
+	{
+		return;
+	}
+}
+// System.Void Soomla.SequenceReward::.cctor()
+extern Il2CppClass* SequenceReward_t1164674053_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral359358081;
+extern const uint32_t SequenceReward__cctor_m2464912081_MetadataUsageId;
+extern "C"  void SequenceReward__cctor_m2464912081 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward__cctor_m2464912081_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((SequenceReward_t1164674053_StaticFields*)SequenceReward_t1164674053_il2cpp_TypeInfo_var->static_fields)->set_TAG_7(_stringLiteral359358081);
+		return;
+	}
+}
+// JSONObject Soomla.SequenceReward::toJSONObject()
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t452907949_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3633114416_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1247196656_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1671940128_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1100650276;
+extern const uint32_t SequenceReward_toJSONObject_m1876941940_MetadataUsageId;
+extern "C"  JSONObject_t1752376903 * SequenceReward_toJSONObject_m1876941940 (SequenceReward_t1164674053 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward_toJSONObject_m1876941940_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	JSONObject_t1752376903 * V_1 = NULL;
+	Reward_t1570165988 * V_2 = NULL;
+	Enumerator_t452907949  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		JSONObject_t1752376903 * L_0 = Reward_toJSONObject_m1441488979(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1752376903 * L_1 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m196212956(L_1, 4, /*hidden argument*/NULL);
+		V_1 = L_1;
+		List_1_t2367124957 * L_2 = __this->get_Rewards_8();
+		NullCheck(L_2);
+		Enumerator_t452907949  L_3 = List_1_GetEnumerator_m3633114416(L_2, /*hidden argument*/List_1_GetEnumerator_m3633114416_MethodInfo_var);
+		V_3 = L_3;
+	}
+
+IL_001a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0033;
+		}
+
+IL_001f:
+		{
+			Reward_t1570165988 * L_4 = Enumerator_get_Current_m1247196656((&V_3), /*hidden argument*/Enumerator_get_Current_m1247196656_MethodInfo_var);
+			V_2 = L_4;
+			JSONObject_t1752376903 * L_5 = V_1;
+			Reward_t1570165988 * L_6 = V_2;
+			NullCheck(L_6);
+			JSONObject_t1752376903 * L_7 = VirtFuncInvoker0< JSONObject_t1752376903 * >::Invoke(4 /* JSONObject Soomla.Reward::toJSONObject() */, L_6);
+			NullCheck(L_5);
+			JSONObject_Add_m1349655052(L_5, L_7, /*hidden argument*/NULL);
+		}
+
+IL_0033:
+		{
+			bool L_8 = Enumerator_MoveNext_m1671940128((&V_3), /*hidden argument*/Enumerator_MoveNext_m1671940128_MethodInfo_var);
+			if (L_8)
+			{
+				goto IL_001f;
+			}
+		}
+
+IL_003f:
+		{
+			IL2CPP_LEAVE(0x50, FINALLY_0044);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0044;
+	}
+
+FINALLY_0044:
+	{ // begin finally (depth: 1)
+		Enumerator_t452907949  L_9 = V_3;
+		Enumerator_t452907949  L_10 = L_9;
+		Il2CppObject * L_11 = Box(Enumerator_t452907949_il2cpp_TypeInfo_var, &L_10);
+		NullCheck((Il2CppObject *)L_11);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_11);
+		IL2CPP_END_FINALLY(68)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(68)
+	{
+		IL2CPP_JUMP_TBL(0x50, IL_0050)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0050:
+	{
+		JSONObject_t1752376903 * L_12 = V_0;
+		JSONObject_t1752376903 * L_13 = V_1;
+		NullCheck(L_12);
+		JSONObject_AddField_m574028614(L_12, _stringLiteral1100650276, L_13, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_14 = V_0;
+		return L_14;
+	}
+}
+// Soomla.Reward Soomla.SequenceReward::GetLastGivenReward()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t SequenceReward_GetLastGivenReward_m3108323747_MetadataUsageId;
+extern "C"  Reward_t1570165988 * SequenceReward_GetLastGivenReward_m3108323747 (SequenceReward_t1164674053 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward_GetLastGivenReward_m3108323747_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		int32_t L_0 = RewardStorage_GetLastSeqIdxGiven_m1297795404(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) >= ((int32_t)0)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return (Reward_t1570165988 *)NULL;
+	}
+
+IL_0010:
+	{
+		List_1_t2367124957 * L_2 = __this->get_Rewards_8();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		Reward_t1570165988 * L_4 = VirtFuncInvoker1< Reward_t1570165988 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<Soomla.Reward>::get_Item(System.Int32) */, L_2, L_3);
+		return L_4;
+	}
+}
+// System.Boolean Soomla.SequenceReward::HasMoreToGive()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t SequenceReward_HasMoreToGive_m1634209673_MetadataUsageId;
+extern "C"  bool SequenceReward_HasMoreToGive_m1634209673 (SequenceReward_t1164674053 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward_HasMoreToGive_m1634209673_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		int32_t L_0 = RewardStorage_GetLastSeqIdxGiven_m1297795404(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		List_1_t2367124957 * L_1 = __this->get_Rewards_8();
+		NullCheck(L_1);
+		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Reward>::get_Count() */, L_1);
+		return (bool)((((int32_t)L_0) < ((int32_t)L_2))? 1 : 0);
+	}
+}
+// System.Boolean Soomla.SequenceReward::ForceNextRewardToGive(Soomla.Reward)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m993100410_MethodInfo_var;
+extern const uint32_t SequenceReward_ForceNextRewardToGive_m1155590205_MetadataUsageId;
+extern "C"  bool SequenceReward_ForceNextRewardToGive_m1155590205 (SequenceReward_t1164674053 * __this, Reward_t1570165988 * ___reward0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward_ForceNextRewardToGive_m1155590205_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0037;
+	}
+
+IL_0007:
+	{
+		List_1_t2367124957 * L_0 = __this->get_Rewards_8();
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		Reward_t1570165988 * L_2 = VirtFuncInvoker1< Reward_t1570165988 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<Soomla.Reward>::get_Item(System.Int32) */, L_0, L_1);
+		NullCheck(L_2);
+		String_t* L_3 = SoomlaEntity_1_get_ID_m993100410(L_2, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		Reward_t1570165988 * L_4 = ___reward0;
+		NullCheck(L_4);
+		String_t* L_5 = SoomlaEntity_1_get_ID_m993100410(L_4, /*hidden argument*/SoomlaEntity_1_get_ID_m993100410_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_6 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		int32_t L_7 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_SetLastSeqIdxGiven_m3135091057(NULL /*static, unused*/, __this, ((int32_t)((int32_t)L_7-(int32_t)1)), /*hidden argument*/NULL);
+		return (bool)1;
+	}
+
+IL_0033:
+	{
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_0037:
+	{
+		int32_t L_9 = V_0;
+		List_1_t2367124957 * L_10 = __this->get_Rewards_8();
+		NullCheck(L_10);
+		int32_t L_11 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Reward>::get_Count() */, L_10);
+		if ((((int32_t)L_9) < ((int32_t)L_11)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean Soomla.SequenceReward::giveInner()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t SequenceReward_giveInner_m1687009107_MetadataUsageId;
+extern "C"  bool SequenceReward_giveInner_m1687009107 (SequenceReward_t1164674053 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward_giveInner_m1687009107_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		int32_t L_0 = RewardStorage_GetLastSeqIdxGiven_m1297795404(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		List_1_t2367124957 * L_2 = __this->get_Rewards_8();
+		NullCheck(L_2);
+		int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Reward>::get_Count() */, L_2);
+		if ((((int32_t)L_1) < ((int32_t)L_3)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		int32_t L_4 = V_0;
+		int32_t L_5 = ((int32_t)((int32_t)L_4+(int32_t)1));
+		V_0 = L_5;
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_SetLastSeqIdxGiven_m3135091057(NULL /*static, unused*/, __this, L_5, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+}
+// System.Boolean Soomla.SequenceReward::takeInner()
+extern Il2CppClass* RewardStorage_t2389422529_il2cpp_TypeInfo_var;
+extern const uint32_t SequenceReward_takeInner_m4075715869_MetadataUsageId;
+extern "C"  bool SequenceReward_takeInner_m4075715869 (SequenceReward_t1164674053 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SequenceReward_takeInner_m4075715869_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		int32_t L_0 = RewardStorage_GetLastSeqIdxGiven_m1297795404(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) > ((int32_t)0)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		int32_t L_2 = V_0;
+		int32_t L_3 = ((int32_t)((int32_t)L_2-(int32_t)1));
+		V_0 = L_3;
+		IL2CPP_RUNTIME_CLASS_INIT(RewardStorage_t2389422529_il2cpp_TypeInfo_var);
+		RewardStorage_SetLastSeqIdxGiven_m3135091057(NULL /*static, unused*/, __this, L_3, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+}
+// System.Void Soomla.Singletons.BaseBehaviour::.ctor()
+extern "C"  void BaseBehaviour__ctor_m1411158278 (BaseBehaviour_t2889047145 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Transform Soomla.Singletons.BaseBehaviour::get_CachedTransform()
+extern "C"  Transform_t284553113 * BaseBehaviour_get_CachedTransform_m2651766787 (BaseBehaviour_t2889047145 * __this, const MethodInfo* method)
+{
+	Transform_t284553113 * V_0 = NULL;
+	Transform_t284553113 * G_B2_0 = NULL;
+	Transform_t284553113 * G_B1_0 = NULL;
+	{
+		Transform_t284553113 * L_0 = __this->get_cashedTransform_2();
+		Transform_t284553113 * L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_001c;
+		}
+	}
+	{
+		Transform_t284553113 * L_2 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_3 = L_2;
+		V_0 = L_3;
+		__this->set_cashedTransform_2(L_3);
+		Transform_t284553113 * L_4 = V_0;
+		G_B2_0 = L_4;
+	}
+
+IL_001c:
+	{
+		return G_B2_0;
+	}
+}
+// System.Void Soomla.Singletons.BaseBehaviour::Awake()
+extern "C"  void BaseBehaviour_Awake_m1648763497 (BaseBehaviour_t2889047145 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Singletons.BaseBehaviour::Start()
+extern "C"  void BaseBehaviour_Start_m358296070 (BaseBehaviour_t2889047145 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Singletons.BaseBehaviour::OnDestroy()
+extern "C"  void BaseBehaviour_OnDestroy_m1905423103 (BaseBehaviour_t2889047145 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Singletons.CodeGeneratedSingleton::.ctor()
+extern Il2CppClass* UnitySingleton_t1353646035_il2cpp_TypeInfo_var;
+extern const uint32_t CodeGeneratedSingleton__ctor_m3531635595_MetadataUsageId;
+extern "C"  void CodeGeneratedSingleton__ctor_m3531635595 (CodeGeneratedSingleton_t1574437830 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CodeGeneratedSingleton__ctor_m3531635595_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		UnitySingleton__ctor_m1949196062(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Singletons.SceneSingleton::.ctor()
+extern Il2CppClass* UnitySingleton_t1353646035_il2cpp_TypeInfo_var;
+extern const uint32_t SceneSingleton__ctor_m1720559733_MetadataUsageId;
+extern "C"  void SceneSingleton__ctor_m1720559733 (SceneSingleton_t2607974556 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SceneSingleton__ctor_m1720559733_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		UnitySingleton__ctor_m1949196062(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::.ctor()
+extern "C"  void UnitySingleton__ctor_m1949196062 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	{
+		BaseBehaviour__ctor_m1411158278(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::.cctor()
+extern Il2CppClass* Dictionary_2_t3466193750_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnitySingleton_t1353646035_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t3232370050_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2760686498_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3595225958_MethodInfo_var;
+extern const uint32_t UnitySingleton__cctor_m4108406863_MetadataUsageId;
+extern "C"  void UnitySingleton__cctor_m4108406863 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (UnitySingleton__cctor_m4108406863_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Dictionary_2_t3466193750 * L_0 = (Dictionary_2_t3466193750 *)il2cpp_codegen_object_new(Dictionary_2_t3466193750_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2760686498(L_0, /*hidden argument*/Dictionary_2__ctor_m2760686498_MethodInfo_var);
+		((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->set_instances_3(L_0);
+		Dictionary_2_t3232370050 * L_1 = (Dictionary_2_t3232370050 *)il2cpp_codegen_object_new(Dictionary_2_t3232370050_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3595225958(L_1, /*hidden argument*/Dictionary_2__ctor_m3595225958_MethodInfo_var);
+		((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->set_instanceListeners_4(L_1);
+		return;
+	}
+}
+// System.Boolean Soomla.Singletons.UnitySingleton::get_IsInstanceReady()
+extern "C"  bool UnitySingleton_get_IsInstanceReady_m4247922467 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CIsInstanceReadyU3Ek__BackingField_5();
+		return L_0;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::set_IsInstanceReady(System.Boolean)
+extern "C"  void UnitySingleton_set_IsInstanceReady_m3454688922 (UnitySingleton_t1353646035 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsInstanceReadyU3Ek__BackingField_5(L_0);
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::RegisterAsSingleInstanceAndInit()
+extern Il2CppClass* UnitySingleton_t1353646035_il2cpp_TypeInfo_var;
+extern const uint32_t UnitySingleton_RegisterAsSingleInstanceAndInit_m2214818769_MetadataUsageId;
+extern "C"  void UnitySingleton_RegisterAsSingleInstanceAndInit_m2214818769 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (UnitySingleton_RegisterAsSingleInstanceAndInit_m2214818769_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3466193750 * L_0 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instances_3();
+		Type_t * L_1 = Object_GetType_m2022236990(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VirtActionInvoker2< Type_t *, UnitySingleton_t1353646035 * >::Invoke(26 /* System.Void System.Collections.Generic.Dictionary`2<System.Type,Soomla.Singletons.UnitySingleton>::Add(!0,!1) */, L_0, L_1, __this);
+		UnitySingleton_InnerInit_m3501961666(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::InnerInit()
+extern "C"  void UnitySingleton_InnerInit_m3501961666 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	{
+		VirtActionInvoker0::Invoke(8 /* System.Void Soomla.Singletons.UnitySingleton::InitAfterRegisteringAsSingleInstance() */, __this);
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Soomla.Singletons.UnitySingleton::get_DontDestroySingleton() */, __this);
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m4064482788(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::NotifyInstanceListeners()
+extern Il2CppClass* UnitySingleton_t1353646035_il2cpp_TypeInfo_var;
+extern const MethodInfo* Enumerable_ToArray_TisKeyValuePair_2_t608353633_m620787685_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3162630326_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3976034633_MethodInfo_var;
+extern const MethodInfo* Action_1_Invoke_m578970893_MethodInfo_var;
+extern const uint32_t UnitySingleton_NotifyInstanceListeners_m3952971805_MetadataUsageId;
+extern "C"  void UnitySingleton_NotifyInstanceListeners_m3952971805 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (UnitySingleton_NotifyInstanceListeners_m3952971805_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Type_t * V_0 = NULL;
+	KeyValuePair_2_t608353633  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	KeyValuePair_2U5BU5D_t3450430460* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		Type_t * L_0 = Object_GetType_m2022236990(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3232370050 * L_1 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instanceListeners_4();
+		Type_t * L_2 = V_0;
+		NullCheck(L_1);
+		bool L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(27 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Action`1<Soomla.Singletons.UnitySingleton>>>::ContainsKey(!0) */, L_1, L_2);
+		if (!L_3)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3232370050 * L_4 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instanceListeners_4();
+		Type_t * L_5 = V_0;
+		NullCheck(L_4);
+		Dictionary_2_t1119822335 * L_6 = VirtFuncInvoker1< Dictionary_2_t1119822335 *, Type_t * >::Invoke(24 /* !1 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Action`1<Soomla.Singletons.UnitySingleton>>>::get_Item(!0) */, L_4, L_5);
+		KeyValuePair_2U5BU5D_t3450430460* L_7 = Enumerable_ToArray_TisKeyValuePair_2_t608353633_m620787685(NULL /*static, unused*/, L_6, /*hidden argument*/Enumerable_ToArray_TisKeyValuePair_2_t608353633_m620787685_MethodInfo_var);
+		V_2 = L_7;
+		V_3 = 0;
+		goto IL_0082;
+	}
+
+IL_002f:
+	{
+		KeyValuePair_2U5BU5D_t3450430460* L_8 = V_2;
+		int32_t L_9 = V_3;
+		NullCheck(L_8);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, L_9);
+		V_1 = (*(KeyValuePair_2_t608353633 *)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9))));
+		MonoBehaviour_t3012272455 * L_10 = KeyValuePair_2_get_Key_m3162630326((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3162630326_MethodInfo_var);
+		bool L_11 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		Action_1_t1502098740 * L_12 = KeyValuePair_2_get_Value_m3976034633((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3976034633_MethodInfo_var);
+		if (!L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		Action_1_t1502098740 * L_13 = KeyValuePair_2_get_Value_m3976034633((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m3976034633_MethodInfo_var);
+		NullCheck(L_13);
+		Action_1_Invoke_m578970893(L_13, __this, /*hidden argument*/Action_1_Invoke_m578970893_MethodInfo_var);
+	}
+
+IL_0066:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3232370050 * L_14 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instanceListeners_4();
+		Type_t * L_15 = V_0;
+		NullCheck(L_14);
+		Dictionary_2_t1119822335 * L_16 = VirtFuncInvoker1< Dictionary_2_t1119822335 *, Type_t * >::Invoke(24 /* !1 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Action`1<Soomla.Singletons.UnitySingleton>>>::get_Item(!0) */, L_14, L_15);
+		MonoBehaviour_t3012272455 * L_17 = KeyValuePair_2_get_Key_m3162630326((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3162630326_MethodInfo_var);
+		NullCheck(L_16);
+		VirtFuncInvoker1< bool, MonoBehaviour_t3012272455 * >::Invoke(30 /* System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Action`1<Soomla.Singletons.UnitySingleton>>::Remove(!0) */, L_16, L_17);
+		int32_t L_18 = V_3;
+		V_3 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_0082:
+	{
+		int32_t L_19 = V_3;
+		KeyValuePair_2U5BU5D_t3450430460* L_20 = V_2;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_008b:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::DeclareAsReady()
+extern "C"  void UnitySingleton_DeclareAsReady_m1204835885 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	{
+		UnitySingleton_set_IsInstanceReady_m3454688922(__this, (bool)1, /*hidden argument*/NULL);
+		UnitySingleton_NotifyInstanceListeners_m3952971805(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::Start()
+extern const Il2CppType* CodeGeneratedSingleton_t1574437830_0_0_0_var;
+extern Il2CppClass* UnitySingleton_t1353646035_il2cpp_TypeInfo_var;
+extern Il2CppClass* CodeGeneratedSingleton_t1574437830_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1967233988_il2cpp_TypeInfo_var;
+extern Il2CppClass* SceneSingleton_t2607974556_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2909792487;
+extern Il2CppCodeGenString* _stringLiteral975176365;
+extern Il2CppCodeGenString* _stringLiteral3164559409;
+extern const uint32_t UnitySingleton_Start_m896333854_MetadataUsageId;
+extern "C"  void UnitySingleton_Start_m896333854 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (UnitySingleton_Start_m896333854_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Type_t * V_0 = NULL;
+	bool V_1 = false;
+	{
+		BaseBehaviour_Start_m358296070(__this, /*hidden argument*/NULL);
+		Type_t * L_0 = Object_GetType_m2022236990(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		V_1 = (bool)0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3466193750 * L_1 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instances_3();
+		Type_t * L_2 = V_0;
+		NullCheck(L_1);
+		bool L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(27 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Type,Soomla.Singletons.UnitySingleton>::ContainsKey(!0) */, L_1, L_2);
+		if (!L_3)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3466193750 * L_4 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instances_3();
+		Type_t * L_5 = V_0;
+		NullCheck(L_4);
+		UnitySingleton_t1353646035 * L_6 = VirtFuncInvoker1< UnitySingleton_t1353646035 *, Type_t * >::Invoke(24 /* !1 System.Collections.Generic.Dictionary`2<System.Type,Soomla.Singletons.UnitySingleton>::get_Item(!0) */, L_4, L_5);
+		bool L_7 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_6, __this, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		if (!((CodeGeneratedSingleton_t1574437830 *)IsInstClass(__this, CodeGeneratedSingleton_t1574437830_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		Type_t * L_8 = V_0;
+		NullCheck(L_8);
+		String_t* L_9 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2909792487, L_9, /*hidden argument*/NULL);
+		Exception_t1967233988 * L_11 = (Exception_t1967233988 *)il2cpp_codegen_object_new(Exception_t1967233988_il2cpp_TypeInfo_var);
+		Exception__ctor_m3870771296(L_11, L_10, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11);
+	}
+
+IL_0056:
+	{
+		if (!((SceneSingleton_t2607974556 *)IsInstClass(__this, SceneSingleton_t2607974556_il2cpp_TypeInfo_var)))
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		bool L_12 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Soomla.Singletons.UnitySingleton::get_DontDestroySingleton() */, __this);
+		if (!L_12)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		V_1 = (bool)1;
+	}
+
+IL_006e:
+	{
+		goto IL_00a3;
+	}
+
+IL_0073:
+	{
+		if (!((CodeGeneratedSingleton_t1574437830 *)IsInstClass(__this, CodeGeneratedSingleton_t1574437830_il2cpp_TypeInfo_var)))
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		Type_t * L_13 = V_0;
+		NullCheck(L_13);
+		String_t* L_14 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_13);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_15 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(CodeGeneratedSingleton_t1574437830_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_15);
+		String_t* L_16 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_15);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_17 = String_Format_m2398979370(NULL /*static, unused*/, _stringLiteral975176365, L_14, L_16, /*hidden argument*/NULL);
+		NotSupportedException_t1374155497 * L_18 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m133757637(L_18, L_17, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_18);
+	}
+
+IL_00a3:
+	{
+		bool L_19 = V_1;
+		if (!L_19)
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		Type_t * L_20 = V_0;
+		NullCheck(L_20);
+		String_t* L_21 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_20);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = String_Format_m2471250780(NULL /*static, unused*/, _stringLiteral3164559409, L_21, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		goto IL_00e0;
+	}
+
+IL_00c9:
+	{
+		if (!((SceneSingleton_t2607974556 *)IsInstClass(__this, SceneSingleton_t2607974556_il2cpp_TypeInfo_var)))
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		UnitySingleton_RegisterAsSingleInstanceAndInit_m2214818769(__this, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(7 /* System.Void Soomla.Singletons.UnitySingleton::SetReadyAndNotifyAfterRegistering() */, __this);
+	}
+
+IL_00e0:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::SetReadyAndNotifyAfterRegistering()
+extern "C"  void UnitySingleton_SetReadyAndNotifyAfterRegistering_m283687134 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	{
+		UnitySingleton_DeclareAsReady_m1204835885(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::OnDestroy()
+extern Il2CppClass* UnitySingleton_t1353646035_il2cpp_TypeInfo_var;
+extern const uint32_t UnitySingleton_OnDestroy_m2036299031_MetadataUsageId;
+extern "C"  void UnitySingleton_OnDestroy_m2036299031 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (UnitySingleton_OnDestroy_m2036299031_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Type_t * V_0 = NULL;
+	{
+		BaseBehaviour_OnDestroy_m1905423103(__this, /*hidden argument*/NULL);
+		Type_t * L_0 = Object_GetType_m2022236990(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3466193750 * L_1 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instances_3();
+		Type_t * L_2 = V_0;
+		NullCheck(L_1);
+		bool L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(27 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Type,Soomla.Singletons.UnitySingleton>::ContainsKey(!0) */, L_1, L_2);
+		if (!L_3)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3466193750 * L_4 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instances_3();
+		Type_t * L_5 = V_0;
+		NullCheck(L_4);
+		UnitySingleton_t1353646035 * L_6 = VirtFuncInvoker1< UnitySingleton_t1353646035 *, Type_t * >::Invoke(24 /* !1 System.Collections.Generic.Dictionary`2<System.Type,Soomla.Singletons.UnitySingleton>::get_Item(!0) */, L_4, L_5);
+		bool L_7 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_6, __this, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnitySingleton_t1353646035_il2cpp_TypeInfo_var);
+		Dictionary_2_t3466193750 * L_8 = ((UnitySingleton_t1353646035_StaticFields*)UnitySingleton_t1353646035_il2cpp_TypeInfo_var->static_fields)->get_instances_3();
+		Type_t * L_9 = V_0;
+		NullCheck(L_8);
+		VirtFuncInvoker1< bool, Type_t * >::Invoke(30 /* System.Boolean System.Collections.Generic.Dictionary`2<System.Type,Soomla.Singletons.UnitySingleton>::Remove(!0) */, L_8, L_9);
+	}
+
+IL_003f:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Singletons.UnitySingleton::InitAfterRegisteringAsSingleInstance()
+extern "C"  void UnitySingleton_InitAfterRegisteringAsSingleInstance_m3464109544 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Boolean Soomla.Singletons.UnitySingleton::get_DontDestroySingleton()
+extern "C"  bool UnitySingleton_get_DontDestroySingleton_m3039812613 (UnitySingleton_t1353646035 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Void Soomla.SoomlaAndroidUtil::.ctor()
+extern "C"  void SoomlaAndroidUtil__ctor_m2453071512 (SoomlaAndroidUtil_t128486615 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.SoomlaEditorScript::.ctor()
+extern Il2CppClass* ObjectDictionary_t2756997461_il2cpp_TypeInfo_var;
+extern const uint32_t SoomlaEditorScript__ctor_m1446434213_MetadataUsageId;
+extern "C"  void SoomlaEditorScript__ctor_m1446434213 (SoomlaEditorScript_t75812892 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaEditorScript__ctor_m1446434213_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ObjectDictionary_t2756997461 * L_0 = (ObjectDictionary_t2756997461 *)il2cpp_codegen_object_new(ObjectDictionary_t2756997461_il2cpp_TypeInfo_var);
+		ObjectDictionary__ctor_m1775396070(L_0, /*hidden argument*/NULL);
+		__this->set_SoomlaSettings_8(L_0);
+		ScriptableObject__ctor_m1827087273(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.SoomlaEditorScript::.cctor()
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3996645146;
+extern Il2CppCodeGenString* _stringLiteral2171622423;
+extern const uint32_t SoomlaEditorScript__cctor_m1407691432_MetadataUsageId;
+extern "C"  void SoomlaEditorScript__cctor_m1407691432 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaEditorScript__cctor_m1407691432_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((SoomlaEditorScript_t75812892_StaticFields*)SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var->static_fields)->set_AND_PUB_KEY_DEFAULT_5(_stringLiteral3996645146);
+		((SoomlaEditorScript_t75812892_StaticFields*)SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var->static_fields)->set_ONLY_ONCE_DEFAULT_6(_stringLiteral2171622423);
+		return;
+	}
+}
+// Soomla.SoomlaEditorScript Soomla.SoomlaEditorScript::get_Instance()
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern const MethodInfo* ScriptableObject_CreateInstance_TisSoomlaEditorScript_t75812892_m1610952094_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral950154887;
+extern const uint32_t SoomlaEditorScript_get_Instance_m1676071152_MetadataUsageId;
+extern "C"  SoomlaEditorScript_t75812892 * SoomlaEditorScript_get_Instance_m1676071152 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaEditorScript_get_Instance_m1676071152_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		SoomlaEditorScript_t75812892 * L_0 = ((SoomlaEditorScript_t75812892_StaticFields*)SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var->static_fields)->get_instance_7();
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		Object_t3878351788 * L_2 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral950154887, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		((SoomlaEditorScript_t75812892_StaticFields*)SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var->static_fields)->set_instance_7(((SoomlaEditorScript_t75812892 *)IsInstClass(L_2, SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var)));
+		SoomlaEditorScript_t75812892 * L_3 = ((SoomlaEditorScript_t75812892_StaticFields*)SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var->static_fields)->get_instance_7();
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		SoomlaEditorScript_t75812892 * L_5 = ScriptableObject_CreateInstance_TisSoomlaEditorScript_t75812892_m1610952094(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisSoomlaEditorScript_t75812892_m1610952094_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		((SoomlaEditorScript_t75812892_StaticFields*)SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var->static_fields)->set_instance_7(L_5);
+	}
+
+IL_003e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		SoomlaEditorScript_t75812892 * L_6 = ((SoomlaEditorScript_t75812892_StaticFields*)SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var->static_fields)->get_instance_7();
+		return L_6;
+	}
+}
+// System.Void Soomla.SoomlaEditorScript::DirtyEditor()
+extern "C"  void SoomlaEditorScript_DirtyEditor_m61731170 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.SoomlaEditorScript::SetConfigValue(System.String,System.String,System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3932062143;
+extern Il2CppCodeGenString* _stringLiteral46;
+extern const uint32_t SoomlaEditorScript_SetConfigValue_m259672366_MetadataUsageId;
+extern "C"  void SoomlaEditorScript_SetConfigValue_m259672366 (Il2CppObject * __this /* static, unused */, String_t* ___prefix0, String_t* ___key1, String_t* ___value2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaEditorScript_SetConfigValue_m259672366_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___prefix0;
+		String_t* L_1 = ___key1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m2933632197(NULL /*static, unused*/, _stringLiteral3932062143, L_0, _stringLiteral46, L_1, /*hidden argument*/NULL);
+		String_t* L_3 = ___value2;
+		PlayerPrefs_SetString_m989974275(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		SoomlaEditorScript_t75812892 * L_4 = SoomlaEditorScript_get_Instance_m1676071152(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ObjectDictionary_t2756997461 * L_5 = L_4->get_SoomlaSettings_8();
+		String_t* L_6 = ___prefix0;
+		String_t* L_7 = ___key1;
+		String_t* L_8 = String_Concat_m2933632197(NULL /*static, unused*/, _stringLiteral3932062143, L_6, _stringLiteral46, L_7, /*hidden argument*/NULL);
+		String_t* L_9 = ___value2;
+		NullCheck(L_5);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(17 /* System.Void UnityEngine.UnityDictionary`2<System.String,System.String>::set_Item(K,V) */, L_5, L_8, L_9);
+		PlayerPrefs_Save_m3891538519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Soomla.SoomlaEditorScript::GetConfigValue(System.String,System.String)
+extern Il2CppClass* SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3932062143;
+extern Il2CppCodeGenString* _stringLiteral46;
+extern const uint32_t SoomlaEditorScript_GetConfigValue_m1198676809_MetadataUsageId;
+extern "C"  String_t* SoomlaEditorScript_GetConfigValue_m1198676809 (Il2CppObject * __this /* static, unused */, String_t* ___prefix0, String_t* ___key1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaEditorScript_GetConfigValue_m1198676809_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* G_B6_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		SoomlaEditorScript_t75812892 * L_0 = SoomlaEditorScript_get_Instance_m1676071152(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ObjectDictionary_t2756997461 * L_1 = L_0->get_SoomlaSettings_8();
+		String_t* L_2 = ___prefix0;
+		String_t* L_3 = ___key1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2933632197(NULL /*static, unused*/, _stringLiteral3932062143, L_2, _stringLiteral46, L_3, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_5 = VirtFuncInvoker2< bool, String_t*, String_t** >::Invoke(19 /* System.Boolean UnityEngine.UnityDictionary`2<System.String,System.String>::TryGetValue(K,V&) */, L_1, L_4, (&V_0));
+		if (!L_5)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		String_t* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = String_get_Length_m2979997331(L_6, /*hidden argument*/NULL);
+		if ((((int32_t)L_7) <= ((int32_t)0)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		String_t* L_8 = V_0;
+		return L_8;
+	}
+
+IL_0035:
+	{
+		String_t* L_9 = ___prefix0;
+		String_t* L_10 = ___key1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Concat_m2933632197(NULL /*static, unused*/, _stringLiteral3932062143, L_9, _stringLiteral46, L_10, /*hidden argument*/NULL);
+		String_t* L_12 = PlayerPrefs_GetString_m378864272(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		V_0 = L_12;
+		String_t* L_13 = ___prefix0;
+		String_t* L_14 = ___key1;
+		String_t* L_15 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaEditorScript_t75812892_il2cpp_TypeInfo_var);
+		SoomlaEditorScript_SetConfigValue_m259672366(NULL /*static, unused*/, L_13, L_14, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = V_0;
+		NullCheck(L_16);
+		int32_t L_17 = String_get_Length_m2979997331(L_16, /*hidden argument*/NULL);
+		if ((((int32_t)L_17) <= ((int32_t)0)))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		String_t* L_18 = V_0;
+		G_B6_0 = L_18;
+		goto IL_0067;
+	}
+
+IL_0066:
+	{
+		G_B6_0 = ((String_t*)(NULL));
+	}
+
+IL_0067:
+	{
+		return G_B6_0;
+	}
+}
+// System.Void Soomla.SoomlaEvent::.ctor()
+extern "C"  void SoomlaEvent__ctor_m4139918767 (SoomlaEvent_t2098687264 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.SoomlaEvent::.ctor(System.Object)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SoomlaEvent__ctor_m3973943365_MetadataUsageId;
+extern "C"  void SoomlaEvent__ctor_m3973943365 (SoomlaEvent_t2098687264 * __this, Il2CppObject * ___sender0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaEvent__ctor_m3973943365_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___sender0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		SoomlaEvent__ctor_m1518230465(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.SoomlaEvent::.ctor(System.Object,System.String)
+extern "C"  void SoomlaEvent__ctor_m1518230465 (SoomlaEvent_t2098687264 * __this, Il2CppObject * ___sender0, String_t* ___payload1, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		Il2CppObject * L_0 = ___sender0;
+		__this->set_Sender_0(L_0);
+		String_t* L_1 = ___payload1;
+		__this->set_Payload_1(L_1);
+		return;
+	}
+}
+// System.Void Soomla.SoomlaManifestTools::.ctor()
+extern "C"  void SoomlaManifestTools__ctor_m4188634525 (SoomlaManifestTools_t2838014578 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.SoomlaPostBuildTools::.ctor()
+extern "C"  void SoomlaPostBuildTools__ctor_m3573235344 (SoomlaPostBuildTools_t573885585 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.SoomlaUtils::.cctor()
+extern "C"  void SoomlaUtils__cctor_m3028650293 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.SoomlaUtils::LogDebug(System.String,System.String)
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1967233988_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* CoreSettings_t4288392855_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3279482895;
+extern const uint32_t SoomlaUtils_LogDebug_m392952291_MetadataUsageId;
+extern "C"  void SoomlaUtils_LogDebug_m392952291 (Il2CppObject * __this /* static, unused */, String_t* ___tag0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaUtils_LogDebug_m392952291_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Exception_t1967233988 * V_0 = NULL;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		bool L_0 = ((SoomlaUtils_t2113407799_StaticFields*)SoomlaUtils_t2113407799_il2cpp_TypeInfo_var->static_fields)->get_isDebugBuildSet_1();
+		if (L_0)
+		{
+			goto IL_0041;
+		}
+	}
+
+IL_000a:
+	try
+	{ // begin try (depth: 1)
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		bool L_1 = Debug_get_isDebugBuild_m351497798(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		((SoomlaUtils_t2113407799_StaticFields*)SoomlaUtils_t2113407799_il2cpp_TypeInfo_var->static_fields)->set_isDebugBuild_0(L_1);
+		goto IL_003b;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1967233988 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t1967233988_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0019;
+		throw e;
+	}
+
+CATCH_0019:
+	{ // begin catch(System.Exception)
+		V_0 = ((Exception_t1967233988 *)__exception_local);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		((SoomlaUtils_t2113407799_StaticFields*)SoomlaUtils_t2113407799_il2cpp_TypeInfo_var->static_fields)->set_isDebugBuild_0((bool)1);
+		String_t* L_2 = ___tag0;
+		Exception_t1967233988 * L_3 = V_0;
+		NullCheck(L_3);
+		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Format_m2398979370(NULL /*static, unused*/, _stringLiteral3279482895, L_2, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		goto IL_003b;
+	} // end catch (depth: 1)
+
+IL_003b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		((SoomlaUtils_t2113407799_StaticFields*)SoomlaUtils_t2113407799_il2cpp_TypeInfo_var->static_fields)->set_isDebugBuildSet_1((bool)1);
+	}
+
+IL_0041:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		bool L_6 = ((SoomlaUtils_t2113407799_StaticFields*)SoomlaUtils_t2113407799_il2cpp_TypeInfo_var->static_fields)->get_isDebugBuild_0();
+		if (!L_6)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CoreSettings_t4288392855_il2cpp_TypeInfo_var);
+		bool L_7 = CoreSettings_get_DebugUnityMessages_m2327620445(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		String_t* L_8 = ___tag0;
+		String_t* L_9 = ___message1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m2398979370(NULL /*static, unused*/, _stringLiteral3279482895, L_8, L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0066:
+	{
+		return;
+	}
+}
+// System.Void Soomla.SoomlaUtils::LogError(System.String,System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3279482895;
+extern const uint32_t SoomlaUtils_LogError_m3313169998_MetadataUsageId;
+extern "C"  void SoomlaUtils_LogError_m3313169998 (Il2CppObject * __this /* static, unused */, String_t* ___tag0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaUtils_LogError_m3313169998_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___tag0;
+		String_t* L_1 = ___message1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Format_m2398979370(NULL /*static, unused*/, _stringLiteral3279482895, L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.SoomlaUtils::LogWarning(System.String,System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3279482895;
+extern const uint32_t SoomlaUtils_LogWarning_m15730426_MetadataUsageId;
+extern "C"  void SoomlaUtils_LogWarning_m15730426 (Il2CppObject * __this /* static, unused */, String_t* ___tag0, String_t* ___message1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SoomlaUtils_LogWarning_m15730426_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___tag0;
+		String_t* L_1 = ___message1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Format_m2398979370(NULL /*static, unused*/, _stringLiteral3279482895, L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Soomla.SoomlaUtils::GetClassName(System.Object)
+extern "C"  String_t* SoomlaUtils_GetClassName_m3482668472 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___target0, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___target0;
+		NullCheck(L_0);
+		Type_t * L_1 = Object_GetType_m2022236990(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
+		return L_2;
+	}
+}
+// System.Void Soomla.Store.BillingNotSupportedEvent::.ctor()
+extern "C"  void BillingNotSupportedEvent__ctor_m3947381307 (BillingNotSupportedEvent_t1654379770 * __this, const MethodInfo* method)
+{
+	{
+		BillingNotSupportedEvent__ctor_m3379509049(__this, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.BillingNotSupportedEvent::.ctor(System.Object)
+extern "C"  void BillingNotSupportedEvent__ctor_m3379509049 (BillingNotSupportedEvent_t1654379770 * __this, Il2CppObject * ___sender0, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender0;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.BillingSupportedEvent::.ctor()
+extern "C"  void BillingSupportedEvent__ctor_m1874006976 (BillingSupportedEvent_t1980952477 * __this, const MethodInfo* method)
+{
+	{
+		BillingSupportedEvent__ctor_m2870592980(__this, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.BillingSupportedEvent::.ctor(System.Object)
+extern "C"  void BillingSupportedEvent__ctor_m2870592980 (BillingSupportedEvent_t1980952477 * __this, Il2CppObject * ___sender0, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender0;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.CurrencyBalanceChangedEvent::.ctor(Soomla.Store.VirtualCurrency,System.Int32,System.Int32)
+extern "C"  void CurrencyBalanceChangedEvent__ctor_m1641902662 (CurrencyBalanceChangedEvent_t2496773927 * __this, VirtualCurrency_t3752897010 * ___item0, int32_t ___balance1, int32_t ___amountAdded2, const MethodInfo* method)
+{
+	{
+		VirtualCurrency_t3752897010 * L_0 = ___item0;
+		int32_t L_1 = ___balance1;
+		int32_t L_2 = ___amountAdded2;
+		CurrencyBalanceChangedEvent__ctor_m3223538324(__this, L_0, L_1, L_2, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.CurrencyBalanceChangedEvent::.ctor(Soomla.Store.VirtualCurrency,System.Int32,System.Int32,System.Object)
+extern "C"  void CurrencyBalanceChangedEvent__ctor_m3223538324 (CurrencyBalanceChangedEvent_t2496773927 * __this, VirtualCurrency_t3752897010 * ___item0, int32_t ___balance1, int32_t ___amountAdded2, Il2CppObject * ___sender3, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender3;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		VirtualCurrency_t3752897010 * L_1 = ___item0;
+		__this->set_mItem_2(L_1);
+		int32_t L_2 = ___balance1;
+		__this->set_mBalance_3(L_2);
+		int32_t L_3 = ___amountAdded2;
+		__this->set_mAmountAdded_4(L_3);
+		return;
+	}
+}
+// Soomla.Store.VirtualCurrency Soomla.Store.CurrencyBalanceChangedEvent::getCurrencyItem()
+extern "C"  VirtualCurrency_t3752897010 * CurrencyBalanceChangedEvent_getCurrencyItem_m4208242401 (CurrencyBalanceChangedEvent_t2496773927 * __this, const MethodInfo* method)
+{
+	{
+		VirtualCurrency_t3752897010 * L_0 = __this->get_mItem_2();
+		return L_0;
+	}
+}
+// System.Int32 Soomla.Store.CurrencyBalanceChangedEvent::getBalance()
+extern "C"  int32_t CurrencyBalanceChangedEvent_getBalance_m672294114 (CurrencyBalanceChangedEvent_t2496773927 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_mBalance_3();
+		return L_0;
+	}
+}
+// System.Int32 Soomla.Store.CurrencyBalanceChangedEvent::getAmountAdded()
+extern "C"  int32_t CurrencyBalanceChangedEvent_getAmountAdded_m2119305230 (CurrencyBalanceChangedEvent_t2496773927 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_mAmountAdded_4();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.EquippableVG::.ctor(Soomla.Store.EquippableVG/EquippingModel,System.String,System.String,System.String,Soomla.Store.PurchaseType)
+extern Il2CppClass* LifetimeVG_t1847981616_il2cpp_TypeInfo_var;
+extern const uint32_t EquippableVG__ctor_m444241358_MetadataUsageId;
+extern "C"  void EquippableVG__ctor_m444241358 (EquippableVG_t2375986625 * __this, EquippingModel_t2267691719 * ___equippingModel0, String_t* ___name1, String_t* ___description2, String_t* ___itemId3, PurchaseType_t2779557329 * ___purchaseType4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (EquippableVG__ctor_m444241358_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___name1;
+		String_t* L_1 = ___description2;
+		String_t* L_2 = ___itemId3;
+		PurchaseType_t2779557329 * L_3 = ___purchaseType4;
+		IL2CPP_RUNTIME_CLASS_INIT(LifetimeVG_t1847981616_il2cpp_TypeInfo_var);
+		LifetimeVG__ctor_m3699772762(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		EquippingModel_t2267691719 * L_4 = ___equippingModel0;
+		__this->set_Equipping_9(L_4);
+		return;
+	}
+}
+// System.Void Soomla.Store.EquippableVG::.ctor(JSONObject)
+extern Il2CppClass* LifetimeVG_t1847981616_il2cpp_TypeInfo_var;
+extern Il2CppClass* EquippingModel_t2267691719_il2cpp_TypeInfo_var;
+extern Il2CppClass* EquippableVG_t2375986625_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t190145395_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1958628151_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1076449698;
+extern Il2CppCodeGenString* _stringLiteral103145323;
+extern Il2CppCodeGenString* _stringLiteral3051946915;
+extern const uint32_t EquippableVG__ctor_m3121474605_MetadataUsageId;
+extern "C"  void EquippableVG__ctor_m3121474605 (EquippableVG_t2375986625 * __this, JSONObject_t1752376903 * ___jsonItem0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (EquippableVG__ctor_m3121474605_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	Dictionary_2_t190145395 * V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		JSONObject_t1752376903 * L_0 = ___jsonItem0;
+		IL2CPP_RUNTIME_CLASS_INIT(LifetimeVG_t1847981616_il2cpp_TypeInfo_var);
+		LifetimeVG__ctor_m2734341726(__this, L_0, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_1 = ___jsonItem0;
+		NullCheck(L_1);
+		JSONObject_t1752376903 * L_2 = JSONObject_get_Item_m3957353536(L_1, _stringLiteral1076449698, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		String_t* L_3 = L_2->get_str_9();
+		V_0 = L_3;
+		IL2CPP_RUNTIME_CLASS_INIT(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel_t2267691719 * L_4 = ((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->get_CATEGORY_3();
+		__this->set_Equipping_9(L_4);
+		String_t* L_5 = V_0;
+		V_1 = L_5;
+		String_t* L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EquippableVG_t2375986625_il2cpp_TypeInfo_var);
+		Dictionary_2_t190145395 * L_7 = ((EquippableVG_t2375986625_StaticFields*)EquippableVG_t2375986625_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map2_10();
+		if (L_7)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		Dictionary_2_t190145395 * L_8 = (Dictionary_2_t190145395 *)il2cpp_codegen_object_new(Dictionary_2_t190145395_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1958628151(L_8, 2, /*hidden argument*/Dictionary_2__ctor_m1958628151_MethodInfo_var);
+		V_2 = L_8;
+		Dictionary_2_t190145395 * L_9 = V_2;
+		NullCheck(L_9);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(26 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral103145323, 0);
+		Dictionary_2_t190145395 * L_10 = V_2;
+		NullCheck(L_10);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(26 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral3051946915, 1);
+		Dictionary_2_t190145395 * L_11 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(EquippableVG_t2375986625_il2cpp_TypeInfo_var);
+		((EquippableVG_t2375986625_StaticFields*)EquippableVG_t2375986625_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__switchU24map2_10(L_11);
+	}
+
+IL_005a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EquippableVG_t2375986625_il2cpp_TypeInfo_var);
+		Dictionary_2_t190145395 * L_12 = ((EquippableVG_t2375986625_StaticFields*)EquippableVG_t2375986625_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__switchU24map2_10();
+		String_t* L_13 = V_1;
+		NullCheck(L_12);
+		bool L_14 = VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_12, L_13, (&V_3));
+		if (!L_14)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		int32_t L_15 = V_3;
+		if (!L_15)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		int32_t L_16 = V_3;
+		if ((((int32_t)L_16) == ((int32_t)1)))
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		goto IL_009e;
+	}
+
+IL_007e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel_t2267691719 * L_17 = ((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->get_LOCAL_2();
+		__this->set_Equipping_9(L_17);
+		goto IL_00ae;
+	}
+
+IL_008e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel_t2267691719 * L_18 = ((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->get_GLOBAL_4();
+		__this->set_Equipping_9(L_18);
+		goto IL_00ae;
+	}
+
+IL_009e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel_t2267691719 * L_19 = ((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->get_CATEGORY_3();
+		__this->set_Equipping_9(L_19);
+		goto IL_00ae;
+	}
+
+IL_00ae:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.EquippableVG::.cctor()
+extern Il2CppClass* EquippableVG_t2375986625_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1865693244;
+extern const uint32_t EquippableVG__cctor_m711602905_MetadataUsageId;
+extern "C"  void EquippableVG__cctor_m711602905 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (EquippableVG__cctor_m711602905_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((EquippableVG_t2375986625_StaticFields*)EquippableVG_t2375986625_il2cpp_TypeInfo_var->static_fields)->set_TAG_8(_stringLiteral1865693244);
+		return;
+	}
+}
+// JSONObject Soomla.Store.EquippableVG::toJSONObject()
+extern Il2CppCodeGenString* _stringLiteral1076449698;
+extern const uint32_t EquippableVG_toJSONObject_m3483529596_MetadataUsageId;
+extern "C"  JSONObject_t1752376903 * EquippableVG_toJSONObject_m3483529596 (EquippableVG_t2375986625 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (EquippableVG_toJSONObject_m3483529596_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	{
+		JSONObject_t1752376903 * L_0 = LifetimeVG_toJSONObject_m3133462379(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1752376903 * L_1 = V_0;
+		EquippingModel_t2267691719 * L_2 = __this->get_Equipping_9();
+		NullCheck(L_2);
+		String_t* L_3 = EquippingModel_ToString_m3170788023(L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		JSONObject_AddField_m2361299573(L_1, _stringLiteral1076449698, L_3, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void Soomla.Store.EquippableVG::Equip()
+extern "C"  void EquippableVG_Equip_m347636898 (EquippableVG_t2375986625 * __this, const MethodInfo* method)
+{
+	{
+		EquippableVG_Equip_m1958835865(__this, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.EquippableVG::Equip(System.Boolean)
+extern Il2CppClass* VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var;
+extern Il2CppClass* EquippingModel_t2267691719_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInfo_t3860026085_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var;
+extern Il2CppClass* EquippableVG_t2375986625_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* InvalidCastException_t922874574_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t4146198160_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t4017944295_il2cpp_TypeInfo_var;
+extern Il2CppClass* NotEnoughGoodsException_t4079965266_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2194092946_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3788713170_MethodInfo_var;
+extern const MethodInfo* SoomlaEntity_1_op_Inequality_m3870034526_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2014284926_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m853266036_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m219462560_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3214302908_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4272192459;
+extern Il2CppCodeGenString* _stringLiteral3800227996;
+extern Il2CppCodeGenString* _stringLiteral2098247693;
+extern const uint32_t EquippableVG_Equip_m1958835865_MetadataUsageId;
+extern "C"  void EquippableVG_Equip_m1958835865 (EquippableVG_t2375986625 * __this, bool ___notify0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (EquippableVG_Equip_m1958835865_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	VirtualCategory_t3228006111 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	Enumerator_t4146198160  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	EquippableVG_t2375986625 * V_3 = NULL;
+	VirtualGood_t840235038 * V_4 = NULL;
+	Enumerator_t4017944295  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var);
+		int32_t L_0 = VirtualGoodsStorage_GetBalance_m2727580527(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		EquippingModel_t2267691719 * L_1 = __this->get_Equipping_9();
+		IL2CPP_RUNTIME_CLASS_INIT(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel_t2267691719 * L_2 = ((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->get_CATEGORY_3();
+		if ((!(((Il2CppObject*)(EquippingModel_t2267691719 *)L_1) == ((Il2CppObject*)(EquippingModel_t2267691719 *)L_2))))
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		V_0 = (VirtualCategory_t3228006111 *)NULL;
+	}
+
+IL_001e:
+	try
+	{ // begin try (depth: 1)
+		String_t* L_3 = VirtualItem_get_ItemId_m947777429(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		VirtualCategory_t3228006111 * L_4 = StoreInfo_GetCategoryForVirtualGood_m3721417529(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_0054;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1967233988 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_002f;
+		throw e;
+	}
+
+CATCH_002f:
+	{ // begin catch(Soomla.Store.VirtualItemNotFoundException)
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(EquippableVG_t2375986625_il2cpp_TypeInfo_var);
+			String_t* L_5 = ((EquippableVG_t2375986625_StaticFields*)EquippableVG_t2375986625_il2cpp_TypeInfo_var->static_fields)->get_TAG_8();
+			String_t* L_6 = VirtualItem_get_ItemId_m947777429(__this, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_7 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral4272192459, L_6, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+			goto IL_017d;
+		}
+
+IL_004f:
+		{
+			; // IL_004f: leave IL_0054
+		}
+	} // end catch (depth: 1)
+
+IL_0054:
+	{
+		VirtualCategory_t3228006111 * L_8 = V_0;
+		NullCheck(L_8);
+		List_1_t1765447871 * L_9 = L_8->get_GoodItemIds_2();
+		NullCheck(L_9);
+		Enumerator_t4146198160  L_10 = List_1_GetEnumerator_m2194092946(L_9, /*hidden argument*/List_1_GetEnumerator_m2194092946_MethodInfo_var);
+		V_2 = L_10;
+	}
+
+IL_0060:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00d5;
+		}
+
+IL_0065:
+		{
+			String_t* L_11 = Enumerator_get_Current_m3788713170((&V_2), /*hidden argument*/Enumerator_get_Current_m3788713170_MethodInfo_var);
+			V_1 = L_11;
+			V_3 = (EquippableVG_t2375986625 *)NULL;
+		}
+
+IL_006f:
+		try
+		{ // begin try (depth: 2)
+			{
+				String_t* L_12 = V_1;
+				IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+				VirtualItem_t840299124 * L_13 = StoreInfo_GetItemByItemId_m3707996393(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+				V_3 = ((EquippableVG_t2375986625 *)CastclassClass(L_13, EquippableVG_t2375986625_il2cpp_TypeInfo_var));
+				EquippableVG_t2375986625 * L_14 = V_3;
+				bool L_15 = SoomlaEntity_1_op_Inequality_m3870034526(NULL /*static, unused*/, L_14, (SoomlaEntity_1_t520759857 *)NULL, /*hidden argument*/SoomlaEntity_1_op_Inequality_m3870034526_MethodInfo_var);
+				if (!L_15)
+				{
+					goto IL_009a;
+				}
+			}
+
+IL_0087:
+			{
+				EquippableVG_t2375986625 * L_16 = V_3;
+				bool L_17 = SoomlaEntity_1_op_Inequality_m3870034526(NULL /*static, unused*/, L_16, __this, /*hidden argument*/SoomlaEntity_1_op_Inequality_m3870034526_MethodInfo_var);
+				if (!L_17)
+				{
+					goto IL_009a;
+				}
+			}
+
+IL_0093:
+			{
+				EquippableVG_t2375986625 * L_18 = V_3;
+				bool L_19 = ___notify0;
+				NullCheck(L_18);
+				EquippableVG_Unequip_m3146189152(L_18, L_19, /*hidden argument*/NULL);
+			}
+
+IL_009a:
+			{
+				goto IL_00d5;
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1967233988 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var, e.ex->object.klass))
+				goto CATCH_009f;
+			if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t922874574_il2cpp_TypeInfo_var, e.ex->object.klass))
+				goto CATCH_00ba;
+			throw e;
+		}
+
+CATCH_009f:
+		{ // begin catch(Soomla.Store.VirtualItemNotFoundException)
+			IL2CPP_RUNTIME_CLASS_INIT(EquippableVG_t2375986625_il2cpp_TypeInfo_var);
+			String_t* L_20 = ((EquippableVG_t2375986625_StaticFields*)EquippableVG_t2375986625_il2cpp_TypeInfo_var->static_fields)->get_TAG_8();
+			String_t* L_21 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_22 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3800227996, L_21, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, L_20, L_22, /*hidden argument*/NULL);
+			goto IL_00d5;
+		} // end catch (depth: 2)
+
+CATCH_00ba:
+		{ // begin catch(System.InvalidCastException)
+			IL2CPP_RUNTIME_CLASS_INIT(EquippableVG_t2375986625_il2cpp_TypeInfo_var);
+			String_t* L_23 = ((EquippableVG_t2375986625_StaticFields*)EquippableVG_t2375986625_il2cpp_TypeInfo_var->static_fields)->get_TAG_8();
+			String_t* L_24 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_25 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2098247693, L_24, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_23, L_25, /*hidden argument*/NULL);
+			goto IL_00d5;
+		} // end catch (depth: 2)
+
+IL_00d5:
+		{
+			bool L_26 = Enumerator_MoveNext_m2014284926((&V_2), /*hidden argument*/Enumerator_MoveNext_m2014284926_MethodInfo_var);
+			if (L_26)
+			{
+				goto IL_0065;
+			}
+		}
+
+IL_00e1:
+		{
+			IL2CPP_LEAVE(0xF2, FINALLY_00e6);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_00e6;
+	}
+
+FINALLY_00e6:
+	{ // begin finally (depth: 1)
+		Enumerator_t4146198160  L_27 = V_2;
+		Enumerator_t4146198160  L_28 = L_27;
+		Il2CppObject * L_29 = Box(Enumerator_t4146198160_il2cpp_TypeInfo_var, &L_28);
+		NullCheck((Il2CppObject *)L_29);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_29);
+		IL2CPP_END_FINALLY(230)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(230)
+	{
+		IL2CPP_JUMP_TBL(0xF2, IL_00f2)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_00f2:
+	{
+		goto IL_0165;
+	}
+
+IL_00f7:
+	{
+		EquippingModel_t2267691719 * L_30 = __this->get_Equipping_9();
+		IL2CPP_RUNTIME_CLASS_INIT(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel_t2267691719 * L_31 = ((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->get_GLOBAL_4();
+		if ((!(((Il2CppObject*)(EquippingModel_t2267691719 *)L_30) == ((Il2CppObject*)(EquippingModel_t2267691719 *)L_31))))
+		{
+			goto IL_0165;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		List_1_t1637194007 * L_32 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Goods_8();
+		NullCheck(L_32);
+		Enumerator_t4017944295  L_33 = List_1_GetEnumerator_m853266036(L_32, /*hidden argument*/List_1_GetEnumerator_m853266036_MethodInfo_var);
+		V_5 = L_33;
+	}
+
+IL_0113:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0147;
+		}
+
+IL_0118:
+		{
+			VirtualGood_t840235038 * L_34 = Enumerator_get_Current_m219462560((&V_5), /*hidden argument*/Enumerator_get_Current_m219462560_MethodInfo_var);
+			V_4 = L_34;
+			VirtualGood_t840235038 * L_35 = V_4;
+			bool L_36 = SoomlaEntity_1_op_Inequality_m3870034526(NULL /*static, unused*/, L_35, __this, /*hidden argument*/SoomlaEntity_1_op_Inequality_m3870034526_MethodInfo_var);
+			if (!L_36)
+			{
+				goto IL_0147;
+			}
+		}
+
+IL_012e:
+		{
+			VirtualGood_t840235038 * L_37 = V_4;
+			if (!((EquippableVG_t2375986625 *)IsInstClass(L_37, EquippableVG_t2375986625_il2cpp_TypeInfo_var)))
+			{
+				goto IL_0147;
+			}
+		}
+
+IL_013a:
+		{
+			VirtualGood_t840235038 * L_38 = V_4;
+			bool L_39 = ___notify0;
+			NullCheck(((EquippableVG_t2375986625 *)CastclassClass(L_38, EquippableVG_t2375986625_il2cpp_TypeInfo_var)));
+			EquippableVG_Unequip_m3146189152(((EquippableVG_t2375986625 *)CastclassClass(L_38, EquippableVG_t2375986625_il2cpp_TypeInfo_var)), L_39, /*hidden argument*/NULL);
+		}
+
+IL_0147:
+		{
+			bool L_40 = Enumerator_MoveNext_m3214302908((&V_5), /*hidden argument*/Enumerator_MoveNext_m3214302908_MethodInfo_var);
+			if (L_40)
+			{
+				goto IL_0118;
+			}
+		}
+
+IL_0153:
+		{
+			IL2CPP_LEAVE(0x165, FINALLY_0158);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0158;
+	}
+
+FINALLY_0158:
+	{ // begin finally (depth: 1)
+		Enumerator_t4017944295  L_41 = V_5;
+		Enumerator_t4017944295  L_42 = L_41;
+		Il2CppObject * L_43 = Box(Enumerator_t4017944295_il2cpp_TypeInfo_var, &L_42);
+		NullCheck((Il2CppObject *)L_43);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_43);
+		IL2CPP_END_FINALLY(344)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(344)
+	{
+		IL2CPP_JUMP_TBL(0x165, IL_0165)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0165:
+	{
+		bool L_44 = ___notify0;
+		IL2CPP_RUNTIME_CLASS_INIT(VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var);
+		VirtualGoodsStorage_Equip_m1479626535(NULL /*static, unused*/, __this, L_44, /*hidden argument*/NULL);
+		goto IL_017d;
+	}
+
+IL_0171:
+	{
+		String_t* L_45 = VirtualItem_get_ItemId_m947777429(__this, /*hidden argument*/NULL);
+		NotEnoughGoodsException_t4079965266 * L_46 = (NotEnoughGoodsException_t4079965266 *)il2cpp_codegen_object_new(NotEnoughGoodsException_t4079965266_il2cpp_TypeInfo_var);
+		NotEnoughGoodsException__ctor_m3810163511(L_46, L_45, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_46);
+	}
+
+IL_017d:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.EquippableVG::Unequip()
+extern "C"  void EquippableVG_Unequip_m2499112873 (EquippableVG_t2375986625 * __this, const MethodInfo* method)
+{
+	{
+		EquippableVG_Unequip_m3146189152(__this, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.EquippableVG::Unequip(System.Boolean)
+extern Il2CppClass* VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var;
+extern const uint32_t EquippableVG_Unequip_m3146189152_MetadataUsageId;
+extern "C"  void EquippableVG_Unequip_m3146189152 (EquippableVG_t2375986625 * __this, bool ___notify0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (EquippableVG_Unequip_m3146189152_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = ___notify0;
+		IL2CPP_RUNTIME_CLASS_INIT(VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var);
+		VirtualGoodsStorage_UnEquip_m167856718(NULL /*static, unused*/, __this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.EquippableVG/EquippingModel::.ctor(System.Int32,System.String)
+extern "C"  void EquippingModel__ctor_m1961284201 (EquippingModel_t2267691719 * __this, int32_t ___value0, String_t* ___name1, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___name1;
+		__this->set_name_0(L_0);
+		int32_t L_1 = ___value0;
+		__this->set_value_1(L_1);
+		return;
+	}
+}
+// System.Void Soomla.Store.EquippableVG/EquippingModel::.cctor()
+extern Il2CppClass* EquippingModel_t2267691719_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral103145323;
+extern Il2CppCodeGenString* _stringLiteral50511102;
+extern Il2CppCodeGenString* _stringLiteral3051946915;
+extern const uint32_t EquippingModel__cctor_m673373585_MetadataUsageId;
+extern "C"  void EquippingModel__cctor_m673373585 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (EquippingModel__cctor_m673373585_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		EquippingModel_t2267691719 * L_0 = (EquippingModel_t2267691719 *)il2cpp_codegen_object_new(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel__ctor_m1961284201(L_0, 0, _stringLiteral103145323, /*hidden argument*/NULL);
+		((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->set_LOCAL_2(L_0);
+		EquippingModel_t2267691719 * L_1 = (EquippingModel_t2267691719 *)il2cpp_codegen_object_new(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel__ctor_m1961284201(L_1, 1, _stringLiteral50511102, /*hidden argument*/NULL);
+		((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->set_CATEGORY_3(L_1);
+		EquippingModel_t2267691719 * L_2 = (EquippingModel_t2267691719 *)il2cpp_codegen_object_new(EquippingModel_t2267691719_il2cpp_TypeInfo_var);
+		EquippingModel__ctor_m1961284201(L_2, 2, _stringLiteral3051946915, /*hidden argument*/NULL);
+		((EquippingModel_t2267691719_StaticFields*)EquippingModel_t2267691719_il2cpp_TypeInfo_var->static_fields)->set_GLOBAL_4(L_2);
+		return;
+	}
+}
+// System.String Soomla.Store.EquippableVG/EquippingModel::ToString()
+extern "C"  String_t* EquippingModel_ToString_m3170788023 (EquippingModel_t2267691719 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_name_0();
+		return L_0;
+	}
+}
+// System.Int32 Soomla.Store.EquippableVG/EquippingModel::toInt()
+extern "C"  int32_t EquippingModel_toInt_m243880192 (EquippingModel_t2267691719 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_value_1();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.Example.Example::.ctor()
+extern "C"  void Example__ctor_m366036673 (Example_t1171912404 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.Example::Start()
+extern Il2CppClass* ExampleWindow_t2922717028_il2cpp_TypeInfo_var;
+extern const uint32_t Example_Start_m3608141761_MetadataUsageId;
+extern "C"  void Example_Start_m3608141761 (Example_t1171912404 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Example_Start_m3608141761_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ExampleWindow_t2922717028_il2cpp_TypeInfo_var);
+		ExampleWindow_OpenWindow_m2253765581(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::.ctor()
+extern Il2CppClass* StoreEvents_t3899538192_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_3_t2978607449_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2703623671_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_2_t4228553526_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2524439330_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_2_t1008200779_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t1955883607_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_3_t636699473_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_3_t1173890205_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t359458046_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2995867492_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExampleEventHandler_onMarketPurchase_m2630779428_MethodInfo_var;
+extern const MethodInfo* Action_3__ctor_m100081942_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onMarketRefund_m1478805280_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2023425839_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onItemPurchased_m3217943170_MethodInfo_var;
+extern const MethodInfo* Action_2__ctor_m4109860106_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onGoodEquipped_m3077543725_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m881540964_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onGoodUnequipped_m3443668340_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onGoodUpgrade_m1194157778_MethodInfo_var;
+extern const MethodInfo* Action_2__ctor_m2583510953_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onBillingSupported_m2986620709_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onBillingNotSupported_m1474131110_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onMarketPurchaseStarted_m908162450_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onItemPurchaseStarted_m3360823081_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onCurrencyBalanceChanged_m3505132331_MethodInfo_var;
+extern const MethodInfo* Action_3__ctor_m775540817_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onGoodBalanceChanged_m3635891883_MethodInfo_var;
+extern const MethodInfo* Action_3__ctor_m1815565477_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onMarketPurchaseCancelled_m640592706_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onMarketPurchaseDeferred_m2068114964_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onRestoreTransactionsStarted_m3967495856_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onRestoreTransactionsFinished_m2453123580_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m377969142_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onSoomlaStoreInitialized_m1459927988_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onUnexpectedStoreError_m4258553883_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m375071632_MethodInfo_var;
+extern const MethodInfo* ExampleEventHandler_onVerificationStarted_m332090768_MethodInfo_var;
+extern const uint32_t ExampleEventHandler__ctor_m2090379345_MetadataUsageId;
+extern "C"  void ExampleEventHandler__ctor_m2090379345 (ExampleEventHandler_t2092820292 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleEventHandler__ctor_m2090379345_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreEvents_t3899538192_il2cpp_TypeInfo_var);
+		Action_3_t2978607449 * L_0 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnMarketPurchase_20();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)ExampleEventHandler_onMarketPurchase_m2630779428_MethodInfo_var);
+		Action_3_t2978607449 * L_2 = (Action_3_t2978607449 *)il2cpp_codegen_object_new(Action_3_t2978607449_il2cpp_TypeInfo_var);
+		Action_3__ctor_m100081942(L_2, __this, L_1, /*hidden argument*/Action_3__ctor_m100081942_MethodInfo_var);
+		Delegate_t3660574010 * L_3 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnMarketPurchase_20(((Action_3_t2978607449 *)CastclassSealed(L_3, Action_3_t2978607449_il2cpp_TypeInfo_var)));
+		Action_1_t2703623671 * L_4 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnMarketRefund_22();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)ExampleEventHandler_onMarketRefund_m1478805280_MethodInfo_var);
+		Action_1_t2703623671 * L_6 = (Action_1_t2703623671 *)il2cpp_codegen_object_new(Action_1_t2703623671_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2023425839(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m2023425839_MethodInfo_var);
+		Delegate_t3660574010 * L_7 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnMarketRefund_22(((Action_1_t2703623671 *)CastclassSealed(L_7, Action_1_t2703623671_il2cpp_TypeInfo_var)));
+		Action_2_t4228553526 * L_8 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnItemPurchased_16();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)ExampleEventHandler_onItemPurchased_m3217943170_MethodInfo_var);
+		Action_2_t4228553526 * L_10 = (Action_2_t4228553526 *)il2cpp_codegen_object_new(Action_2_t4228553526_il2cpp_TypeInfo_var);
+		Action_2__ctor_m4109860106(L_10, __this, L_9, /*hidden argument*/Action_2__ctor_m4109860106_MethodInfo_var);
+		Delegate_t3660574010 * L_11 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnItemPurchased_16(((Action_2_t4228553526 *)CastclassSealed(L_11, Action_2_t4228553526_il2cpp_TypeInfo_var)));
+		Action_1_t2524439330 * L_12 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnGoodEquipped_13();
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)ExampleEventHandler_onGoodEquipped_m3077543725_MethodInfo_var);
+		Action_1_t2524439330 * L_14 = (Action_1_t2524439330 *)il2cpp_codegen_object_new(Action_1_t2524439330_il2cpp_TypeInfo_var);
+		Action_1__ctor_m881540964(L_14, __this, L_13, /*hidden argument*/Action_1__ctor_m881540964_MethodInfo_var);
+		Delegate_t3660574010 * L_15 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_12, L_14, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnGoodEquipped_13(((Action_1_t2524439330 *)CastclassSealed(L_15, Action_1_t2524439330_il2cpp_TypeInfo_var)));
+		Action_1_t2524439330 * L_16 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnGoodUnEquipped_14();
+		IntPtr_t L_17;
+		L_17.set_m_value_0((void*)(void*)ExampleEventHandler_onGoodUnequipped_m3443668340_MethodInfo_var);
+		Action_1_t2524439330 * L_18 = (Action_1_t2524439330 *)il2cpp_codegen_object_new(Action_1_t2524439330_il2cpp_TypeInfo_var);
+		Action_1__ctor_m881540964(L_18, __this, L_17, /*hidden argument*/Action_1__ctor_m881540964_MethodInfo_var);
+		Delegate_t3660574010 * L_19 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnGoodUnEquipped_14(((Action_1_t2524439330 *)CastclassSealed(L_19, Action_1_t2524439330_il2cpp_TypeInfo_var)));
+		Action_2_t1008200779 * L_20 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnGoodUpgrade_15();
+		IntPtr_t L_21;
+		L_21.set_m_value_0((void*)(void*)ExampleEventHandler_onGoodUpgrade_m1194157778_MethodInfo_var);
+		Action_2_t1008200779 * L_22 = (Action_2_t1008200779 *)il2cpp_codegen_object_new(Action_2_t1008200779_il2cpp_TypeInfo_var);
+		Action_2__ctor_m2583510953(L_22, __this, L_21, /*hidden argument*/Action_2__ctor_m2583510953_MethodInfo_var);
+		Delegate_t3660574010 * L_23 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_20, L_22, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnGoodUpgrade_15(((Action_2_t1008200779 *)CastclassSealed(L_23, Action_2_t1008200779_il2cpp_TypeInfo_var)));
+		Action_t1955883607 * L_24 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnBillingSupported_10();
+		IntPtr_t L_25;
+		L_25.set_m_value_0((void*)(void*)ExampleEventHandler_onBillingSupported_m2986620709_MethodInfo_var);
+		Action_t1955883607 * L_26 = (Action_t1955883607 *)il2cpp_codegen_object_new(Action_t1955883607_il2cpp_TypeInfo_var);
+		Action__ctor_m2086660654(L_26, __this, L_25, /*hidden argument*/NULL);
+		Delegate_t3660574010 * L_27 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_24, L_26, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnBillingSupported_10(((Action_t1955883607 *)CastclassSealed(L_27, Action_t1955883607_il2cpp_TypeInfo_var)));
+		Action_t1955883607 * L_28 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnBillingNotSupported_9();
+		IntPtr_t L_29;
+		L_29.set_m_value_0((void*)(void*)ExampleEventHandler_onBillingNotSupported_m1474131110_MethodInfo_var);
+		Action_t1955883607 * L_30 = (Action_t1955883607 *)il2cpp_codegen_object_new(Action_t1955883607_il2cpp_TypeInfo_var);
+		Action__ctor_m2086660654(L_30, __this, L_29, /*hidden argument*/NULL);
+		Delegate_t3660574010 * L_31 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_28, L_30, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnBillingNotSupported_9(((Action_t1955883607 *)CastclassSealed(L_31, Action_t1955883607_il2cpp_TypeInfo_var)));
+		Action_1_t2703623671 * L_32 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnMarketPurchaseStarted_21();
+		IntPtr_t L_33;
+		L_33.set_m_value_0((void*)(void*)ExampleEventHandler_onMarketPurchaseStarted_m908162450_MethodInfo_var);
+		Action_1_t2703623671 * L_34 = (Action_1_t2703623671 *)il2cpp_codegen_object_new(Action_1_t2703623671_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2023425839(L_34, __this, L_33, /*hidden argument*/Action_1__ctor_m2023425839_MethodInfo_var);
+		Delegate_t3660574010 * L_35 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_32, L_34, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnMarketPurchaseStarted_21(((Action_1_t2703623671 *)CastclassSealed(L_35, Action_1_t2703623671_il2cpp_TypeInfo_var)));
+		Action_1_t2703623671 * L_36 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnItemPurchaseStarted_17();
+		IntPtr_t L_37;
+		L_37.set_m_value_0((void*)(void*)ExampleEventHandler_onItemPurchaseStarted_m3360823081_MethodInfo_var);
+		Action_1_t2703623671 * L_38 = (Action_1_t2703623671 *)il2cpp_codegen_object_new(Action_1_t2703623671_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2023425839(L_38, __this, L_37, /*hidden argument*/Action_1__ctor_m2023425839_MethodInfo_var);
+		Delegate_t3660574010 * L_39 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_36, L_38, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnItemPurchaseStarted_17(((Action_1_t2703623671 *)CastclassSealed(L_39, Action_1_t2703623671_il2cpp_TypeInfo_var)));
+		Action_3_t636699473 * L_40 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnCurrencyBalanceChanged_11();
+		IntPtr_t L_41;
+		L_41.set_m_value_0((void*)(void*)ExampleEventHandler_onCurrencyBalanceChanged_m3505132331_MethodInfo_var);
+		Action_3_t636699473 * L_42 = (Action_3_t636699473 *)il2cpp_codegen_object_new(Action_3_t636699473_il2cpp_TypeInfo_var);
+		Action_3__ctor_m775540817(L_42, __this, L_41, /*hidden argument*/Action_3__ctor_m775540817_MethodInfo_var);
+		Delegate_t3660574010 * L_43 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_40, L_42, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnCurrencyBalanceChanged_11(((Action_3_t636699473 *)CastclassSealed(L_43, Action_3_t636699473_il2cpp_TypeInfo_var)));
+		Action_3_t1173890205 * L_44 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnGoodBalanceChanged_12();
+		IntPtr_t L_45;
+		L_45.set_m_value_0((void*)(void*)ExampleEventHandler_onGoodBalanceChanged_m3635891883_MethodInfo_var);
+		Action_3_t1173890205 * L_46 = (Action_3_t1173890205 *)il2cpp_codegen_object_new(Action_3_t1173890205_il2cpp_TypeInfo_var);
+		Action_3__ctor_m1815565477(L_46, __this, L_45, /*hidden argument*/Action_3__ctor_m1815565477_MethodInfo_var);
+		Delegate_t3660574010 * L_47 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_44, L_46, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnGoodBalanceChanged_12(((Action_3_t1173890205 *)CastclassSealed(L_47, Action_3_t1173890205_il2cpp_TypeInfo_var)));
+		Action_1_t2703623671 * L_48 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnMarketPurchaseCancelled_18();
+		IntPtr_t L_49;
+		L_49.set_m_value_0((void*)(void*)ExampleEventHandler_onMarketPurchaseCancelled_m640592706_MethodInfo_var);
+		Action_1_t2703623671 * L_50 = (Action_1_t2703623671 *)il2cpp_codegen_object_new(Action_1_t2703623671_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2023425839(L_50, __this, L_49, /*hidden argument*/Action_1__ctor_m2023425839_MethodInfo_var);
+		Delegate_t3660574010 * L_51 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_48, L_50, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnMarketPurchaseCancelled_18(((Action_1_t2703623671 *)CastclassSealed(L_51, Action_1_t2703623671_il2cpp_TypeInfo_var)));
+		Action_2_t4228553526 * L_52 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnMarketPurchaseDeferred_19();
+		IntPtr_t L_53;
+		L_53.set_m_value_0((void*)(void*)ExampleEventHandler_onMarketPurchaseDeferred_m2068114964_MethodInfo_var);
+		Action_2_t4228553526 * L_54 = (Action_2_t4228553526 *)il2cpp_codegen_object_new(Action_2_t4228553526_il2cpp_TypeInfo_var);
+		Action_2__ctor_m4109860106(L_54, __this, L_53, /*hidden argument*/Action_2__ctor_m4109860106_MethodInfo_var);
+		Delegate_t3660574010 * L_55 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_52, L_54, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnMarketPurchaseDeferred_19(((Action_2_t4228553526 *)CastclassSealed(L_55, Action_2_t4228553526_il2cpp_TypeInfo_var)));
+		Action_t1955883607 * L_56 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnRestoreTransactionsStarted_24();
+		IntPtr_t L_57;
+		L_57.set_m_value_0((void*)(void*)ExampleEventHandler_onRestoreTransactionsStarted_m3967495856_MethodInfo_var);
+		Action_t1955883607 * L_58 = (Action_t1955883607 *)il2cpp_codegen_object_new(Action_t1955883607_il2cpp_TypeInfo_var);
+		Action__ctor_m2086660654(L_58, __this, L_57, /*hidden argument*/NULL);
+		Delegate_t3660574010 * L_59 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_56, L_58, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnRestoreTransactionsStarted_24(((Action_t1955883607 *)CastclassSealed(L_59, Action_t1955883607_il2cpp_TypeInfo_var)));
+		Action_1_t359458046 * L_60 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnRestoreTransactionsFinished_23();
+		IntPtr_t L_61;
+		L_61.set_m_value_0((void*)(void*)ExampleEventHandler_onRestoreTransactionsFinished_m2453123580_MethodInfo_var);
+		Action_1_t359458046 * L_62 = (Action_1_t359458046 *)il2cpp_codegen_object_new(Action_1_t359458046_il2cpp_TypeInfo_var);
+		Action_1__ctor_m377969142(L_62, __this, L_61, /*hidden argument*/Action_1__ctor_m377969142_MethodInfo_var);
+		Delegate_t3660574010 * L_63 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_60, L_62, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnRestoreTransactionsFinished_23(((Action_1_t359458046 *)CastclassSealed(L_63, Action_1_t359458046_il2cpp_TypeInfo_var)));
+		Action_t1955883607 * L_64 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnSoomlaStoreInitialized_30();
+		IntPtr_t L_65;
+		L_65.set_m_value_0((void*)(void*)ExampleEventHandler_onSoomlaStoreInitialized_m1459927988_MethodInfo_var);
+		Action_t1955883607 * L_66 = (Action_t1955883607 *)il2cpp_codegen_object_new(Action_t1955883607_il2cpp_TypeInfo_var);
+		Action__ctor_m2086660654(L_66, __this, L_65, /*hidden argument*/NULL);
+		Delegate_t3660574010 * L_67 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_64, L_66, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnSoomlaStoreInitialized_30(((Action_t1955883607 *)CastclassSealed(L_67, Action_t1955883607_il2cpp_TypeInfo_var)));
+		Action_1_t2995867492 * L_68 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnUnexpectedStoreError_28();
+		IntPtr_t L_69;
+		L_69.set_m_value_0((void*)(void*)ExampleEventHandler_onUnexpectedStoreError_m4258553883_MethodInfo_var);
+		Action_1_t2995867492 * L_70 = (Action_1_t2995867492 *)il2cpp_codegen_object_new(Action_1_t2995867492_il2cpp_TypeInfo_var);
+		Action_1__ctor_m375071632(L_70, __this, L_69, /*hidden argument*/Action_1__ctor_m375071632_MethodInfo_var);
+		Delegate_t3660574010 * L_71 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_68, L_70, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnUnexpectedStoreError_28(((Action_1_t2995867492 *)CastclassSealed(L_71, Action_1_t2995867492_il2cpp_TypeInfo_var)));
+		Action_1_t2703623671 * L_72 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnVerificationStarted_29();
+		IntPtr_t L_73;
+		L_73.set_m_value_0((void*)(void*)ExampleEventHandler_onVerificationStarted_m332090768_MethodInfo_var);
+		Action_1_t2703623671 * L_74 = (Action_1_t2703623671 *)il2cpp_codegen_object_new(Action_1_t2703623671_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2023425839(L_74, __this, L_73, /*hidden argument*/Action_1__ctor_m2023425839_MethodInfo_var);
+		Delegate_t3660574010 * L_75 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_72, L_74, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnVerificationStarted_29(((Action_1_t2703623671 *)CastclassSealed(L_75, Action_1_t2703623671_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onUnexpectedStoreError(System.Int32)
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1262590394;
+extern Il2CppCodeGenString* _stringLiteral2085882965;
+extern const uint32_t ExampleEventHandler_onUnexpectedStoreError_m4258553883_MetadataUsageId;
+extern "C"  void ExampleEventHandler_onUnexpectedStoreError_m4258553883 (ExampleEventHandler_t2092820292 * __this, int32_t ___errorCode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleEventHandler_onUnexpectedStoreError_m4258553883_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = ___errorCode0;
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral2085882965, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, _stringLiteral1262590394, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onMarketPurchase(Soomla.Store.PurchasableVirtualItem,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  void ExampleEventHandler_onMarketPurchase_m2630779428 (ExampleEventHandler_t2092820292 * __this, PurchasableVirtualItem_t2555170966 * ___pvi0, String_t* ___payload1, Dictionary_2_t2606186806 * ___extra2, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onMarketRefund(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void ExampleEventHandler_onMarketRefund_m1478805280 (ExampleEventHandler_t2092820292 * __this, PurchasableVirtualItem_t2555170966 * ___pvi0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onItemPurchased(Soomla.Store.PurchasableVirtualItem,System.String)
+extern "C"  void ExampleEventHandler_onItemPurchased_m3217943170 (ExampleEventHandler_t2092820292 * __this, PurchasableVirtualItem_t2555170966 * ___pvi0, String_t* ___payload1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onGoodEquipped(Soomla.Store.EquippableVG)
+extern "C"  void ExampleEventHandler_onGoodEquipped_m3077543725 (ExampleEventHandler_t2092820292 * __this, EquippableVG_t2375986625 * ___good0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onGoodUnequipped(Soomla.Store.EquippableVG)
+extern "C"  void ExampleEventHandler_onGoodUnequipped_m3443668340 (ExampleEventHandler_t2092820292 * __this, EquippableVG_t2375986625 * ___good0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onGoodUpgrade(Soomla.Store.VirtualGood,Soomla.Store.UpgradeVG)
+extern "C"  void ExampleEventHandler_onGoodUpgrade_m1194157778 (ExampleEventHandler_t2092820292 * __this, VirtualGood_t840235038 * ___good0, UpgradeVG_t3350816643 * ___currentUpgrade1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onBillingSupported()
+extern "C"  void ExampleEventHandler_onBillingSupported_m2986620709 (ExampleEventHandler_t2092820292 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onBillingNotSupported()
+extern "C"  void ExampleEventHandler_onBillingNotSupported_m1474131110 (ExampleEventHandler_t2092820292 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onMarketPurchaseStarted(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void ExampleEventHandler_onMarketPurchaseStarted_m908162450 (ExampleEventHandler_t2092820292 * __this, PurchasableVirtualItem_t2555170966 * ___pvi0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onItemPurchaseStarted(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void ExampleEventHandler_onItemPurchaseStarted_m3360823081 (ExampleEventHandler_t2092820292 * __this, PurchasableVirtualItem_t2555170966 * ___pvi0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onMarketPurchaseCancelled(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void ExampleEventHandler_onMarketPurchaseCancelled_m640592706 (ExampleEventHandler_t2092820292 * __this, PurchasableVirtualItem_t2555170966 * ___pvi0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onMarketPurchaseDeferred(Soomla.Store.PurchasableVirtualItem,System.String)
+extern "C"  void ExampleEventHandler_onMarketPurchaseDeferred_m2068114964 (ExampleEventHandler_t2092820292 * __this, PurchasableVirtualItem_t2555170966 * ___pvi0, String_t* ___payload1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onCurrencyBalanceChanged(Soomla.Store.VirtualCurrency,System.Int32,System.Int32)
+extern "C"  void ExampleEventHandler_onCurrencyBalanceChanged_m3505132331 (ExampleEventHandler_t2092820292 * __this, VirtualCurrency_t3752897010 * ___virtualCurrency0, int32_t ___balance1, int32_t ___amountAdded2, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onGoodBalanceChanged(Soomla.Store.VirtualGood,System.Int32,System.Int32)
+extern "C"  void ExampleEventHandler_onGoodBalanceChanged_m3635891883 (ExampleEventHandler_t2092820292 * __this, VirtualGood_t840235038 * ___good0, int32_t ___balance1, int32_t ___amountAdded2, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onRestoreTransactionsStarted()
+extern "C"  void ExampleEventHandler_onRestoreTransactionsStarted_m3967495856 (ExampleEventHandler_t2092820292 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onRestoreTransactionsFinished(System.Boolean)
+extern "C"  void ExampleEventHandler_onRestoreTransactionsFinished_m2453123580 (ExampleEventHandler_t2092820292 * __this, bool ___success0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onVerificationStarted(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void ExampleEventHandler_onVerificationStarted_m332090768 (ExampleEventHandler_t2092820292 * __this, PurchasableVirtualItem_t2555170966 * ___pvi0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleEventHandler::onSoomlaStoreInitialized()
+extern "C"  void ExampleEventHandler_onSoomlaStoreInitialized_m1459927988 (ExampleEventHandler_t2092820292 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::.ctor()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t ExampleWindow__ctor_m697592369_MetadataUsageId;
+extern "C"  void ExampleWindow__ctor_m697592369 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow__ctor_m697592369_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Vector2_t3525329788  L_0 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_goodsScrollPosition_4(L_0);
+		Vector2_t3525329788  L_1 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_productScrollPosition_5(L_1);
+		Vector2_t3525329788  L_2 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_startTouch_7(L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_fontSuffix_9(L_3);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::.cctor()
+extern "C"  void ExampleWindow__cctor_m3963398044 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::Awake()
+extern Il2CppClass* ExampleWindow_t2922717028_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t1597001355_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral92933;
+extern const uint32_t ExampleWindow_Awake_m935197588_MetadataUsageId;
+extern "C"  void ExampleWindow_Awake_m935197588 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_Awake_m935197588_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ExampleWindow_t2922717028_il2cpp_TypeInfo_var);
+		ExampleWindow_t2922717028 * L_0 = ((ExampleWindow_t2922717028_StaticFields*)ExampleWindow_t2922717028_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ExampleWindow_t2922717028_il2cpp_TypeInfo_var);
+		((ExampleWindow_t2922717028_StaticFields*)ExampleWindow_t2922717028_il2cpp_TypeInfo_var->static_fields)->set_instance_2(__this);
+		GameObject_t4012695102 * L_2 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_DontDestroyOnLoad_m4064482788(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		goto IL_002c;
+	}
+
+IL_0026:
+	{
+		Object_Destroy_m176400816(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		int32_t L_3 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
+		int32_t L_5 = Mathf_Max_m2911193737(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		if ((((int32_t)L_5) <= ((int32_t)((int32_t)640))))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		__this->set_fontSuffix_9(_stringLiteral92933);
+	}
+
+IL_0050:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::Start()
+extern Il2CppClass* StoreEvents_t3899538192_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t1955883607_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_3_t636699473_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2995867492_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t2509538522_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Font_t1525081276_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualItemReward_t1848549122_il2cpp_TypeInfo_var;
+extern Il2CppClass* MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaStore_t3150320552_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExampleWindow_onSoomlaStoreInitialized_m174255572_MethodInfo_var;
+extern const MethodInfo* ExampleWindow_onCurrencyBalanceChanged_m888892747_MethodInfo_var;
+extern const MethodInfo* Action_3__ctor_m775540817_MethodInfo_var;
+extern const MethodInfo* ExampleWindow_onUnexpectedStoreError_m3677514299_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m375071632_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4040274143;
+extern Il2CppCodeGenString* _stringLiteral2509878242;
+extern Il2CppCodeGenString* _stringLiteral2519448170;
+extern Il2CppCodeGenString* _stringLiteral657774178;
+extern Il2CppCodeGenString* _stringLiteral1513372982;
+extern Il2CppCodeGenString* _stringLiteral1471425467;
+extern Il2CppCodeGenString* _stringLiteral80869292;
+extern Il2CppCodeGenString* _stringLiteral3926603976;
+extern Il2CppCodeGenString* _stringLiteral527677215;
+extern Il2CppCodeGenString* _stringLiteral4283073705;
+extern Il2CppCodeGenString* _stringLiteral3611634017;
+extern Il2CppCodeGenString* _stringLiteral2899905777;
+extern Il2CppCodeGenString* _stringLiteral2724287856;
+extern Il2CppCodeGenString* _stringLiteral2587997889;
+extern Il2CppCodeGenString* _stringLiteral627764091;
+extern const uint32_t ExampleWindow_Start_m3939697457_MetadataUsageId;
+extern "C"  void ExampleWindow_Start_m3939697457 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_Start_m3939697457_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(StoreEvents_t3899538192_il2cpp_TypeInfo_var);
+		Action_t1955883607 * L_0 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnSoomlaStoreInitialized_30();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)ExampleWindow_onSoomlaStoreInitialized_m174255572_MethodInfo_var);
+		Action_t1955883607 * L_2 = (Action_t1955883607 *)il2cpp_codegen_object_new(Action_t1955883607_il2cpp_TypeInfo_var);
+		Action__ctor_m2086660654(L_2, __this, L_1, /*hidden argument*/NULL);
+		Delegate_t3660574010 * L_3 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnSoomlaStoreInitialized_30(((Action_t1955883607 *)CastclassSealed(L_3, Action_t1955883607_il2cpp_TypeInfo_var)));
+		Action_3_t636699473 * L_4 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnCurrencyBalanceChanged_11();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)ExampleWindow_onCurrencyBalanceChanged_m888892747_MethodInfo_var);
+		Action_3_t636699473 * L_6 = (Action_3_t636699473 *)il2cpp_codegen_object_new(Action_3_t636699473_il2cpp_TypeInfo_var);
+		Action_3__ctor_m775540817(L_6, __this, L_5, /*hidden argument*/Action_3__ctor_m775540817_MethodInfo_var);
+		Delegate_t3660574010 * L_7 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnCurrencyBalanceChanged_11(((Action_3_t636699473 *)CastclassSealed(L_7, Action_3_t636699473_il2cpp_TypeInfo_var)));
+		Action_1_t2995867492 * L_8 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_OnUnexpectedStoreError_28();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)ExampleWindow_onUnexpectedStoreError_m3677514299_MethodInfo_var);
+		Action_1_t2995867492 * L_10 = (Action_1_t2995867492 *)il2cpp_codegen_object_new(Action_1_t2995867492_il2cpp_TypeInfo_var);
+		Action_1__ctor_m375071632(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m375071632_MethodInfo_var);
+		Delegate_t3660574010 * L_11 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->set_OnUnexpectedStoreError_28(((Action_1_t2995867492 *)CastclassSealed(L_11, Action_1_t2995867492_il2cpp_TypeInfo_var)));
+		Object_t3878351788 * L_12 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral4040274143, /*hidden argument*/NULL);
+		__this->set_tImgDirect_11(((Texture2D_t2509538522 *)CastclassSealed(L_12, Texture2D_t2509538522_il2cpp_TypeInfo_var)));
+		String_t* L_13 = __this->get_fontSuffix_9();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2509878242, L_13, /*hidden argument*/NULL);
+		Object_t3878351788 * L_15 = Resources_Load_m2187391845(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		__this->set_fgoodDog_13(((Font_t1525081276 *)CastclassSealed(L_15, Font_t1525081276_il2cpp_TypeInfo_var)));
+		String_t* L_16 = __this->get_fontSuffix_9();
+		String_t* L_17 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2519448170, L_16, /*hidden argument*/NULL);
+		Object_t3878351788 * L_18 = Resources_Load_m2187391845(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		__this->set_fgoodDogSmall_14(((Font_t1525081276 *)CastclassSealed(L_18, Font_t1525081276_il2cpp_TypeInfo_var)));
+		Object_t3878351788 * L_19 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral657774178, /*hidden argument*/NULL);
+		__this->set_tLogoNew_12(((Texture2D_t2509538522 *)CastclassSealed(L_19, Texture2D_t2509538522_il2cpp_TypeInfo_var)));
+		Object_t3878351788 * L_20 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral1513372982, /*hidden argument*/NULL);
+		__this->set_tWhitePixel_16(((Texture2D_t2509538522 *)CastclassSealed(L_20, Texture2D_t2509538522_il2cpp_TypeInfo_var)));
+		String_t* L_21 = __this->get_fontSuffix_9();
+		String_t* L_22 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1471425467, L_21, /*hidden argument*/NULL);
+		Object_t3878351788 * L_23 = Resources_Load_m2187391845(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		__this->set_fTitle_15(((Font_t1525081276 *)CastclassSealed(L_23, Font_t1525081276_il2cpp_TypeInfo_var)));
+		Object_t3878351788 * L_24 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral80869292, /*hidden argument*/NULL);
+		__this->set_tMuffins_17(((Texture2D_t2509538522 *)CastclassSealed(L_24, Texture2D_t2509538522_il2cpp_TypeInfo_var)));
+		String_t* L_25 = __this->get_fontSuffix_9();
+		String_t* L_26 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3926603976, L_25, /*hidden argument*/NULL);
+		Object_t3878351788 * L_27 = Resources_Load_m2187391845(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		__this->set_fName_18(((Font_t1525081276 *)CastclassSealed(L_27, Font_t1525081276_il2cpp_TypeInfo_var)));
+		String_t* L_28 = __this->get_fontSuffix_9();
+		String_t* L_29 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral527677215, L_28, /*hidden argument*/NULL);
+		Object_t3878351788 * L_30 = Resources_Load_m2187391845(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
+		__this->set_fDesc_19(((Font_t1525081276 *)CastclassSealed(L_30, Font_t1525081276_il2cpp_TypeInfo_var)));
+		String_t* L_31 = __this->get_fontSuffix_9();
+		String_t* L_32 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral4283073705, L_31, /*hidden argument*/NULL);
+		Object_t3878351788 * L_33 = Resources_Load_m2187391845(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+		__this->set_fBuy_20(((Font_t1525081276 *)CastclassSealed(L_33, Font_t1525081276_il2cpp_TypeInfo_var)));
+		Object_t3878351788 * L_34 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral3611634017, /*hidden argument*/NULL);
+		__this->set_tBack_21(((Texture2D_t2509538522 *)CastclassSealed(L_34, Texture2D_t2509538522_il2cpp_TypeInfo_var)));
+		Object_t3878351788 * L_35 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral2899905777, /*hidden argument*/NULL);
+		__this->set_tGetMore_22(((Texture2D_t2509538522 *)CastclassSealed(L_35, Texture2D_t2509538522_il2cpp_TypeInfo_var)));
+		String_t* L_36 = __this->get_fontSuffix_9();
+		String_t* L_37 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1471425467, L_36, /*hidden argument*/NULL);
+		Object_t3878351788 * L_38 = Resources_Load_m2187391845(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+		__this->set_tTitle_23(((Font_t1525081276 *)CastclassSealed(L_38, Font_t1525081276_il2cpp_TypeInfo_var)));
+		VirtualItemReward_t1848549122 * L_39 = (VirtualItemReward_t1848549122 *)il2cpp_codegen_object_new(VirtualItemReward_t1848549122_il2cpp_TypeInfo_var);
+		VirtualItemReward__ctor_m2282081450(L_39, _stringLiteral2724287856, _stringLiteral2587997889, _stringLiteral627764091, ((int32_t)4000), /*hidden argument*/NULL);
+		__this->set_firstLaunchReward_26(L_39);
+		MuffinRushAssets_t3830037138 * L_40 = (MuffinRushAssets_t3830037138 *)il2cpp_codegen_object_new(MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var);
+		MuffinRushAssets__ctor_m1374028083(L_40, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaStore_t3150320552_il2cpp_TypeInfo_var);
+		SoomlaStore_Initialize_m1497100888(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::onUnexpectedStoreError(System.Int32)
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1262590394;
+extern Il2CppCodeGenString* _stringLiteral2085882965;
+extern const uint32_t ExampleWindow_onUnexpectedStoreError_m3677514299_MetadataUsageId;
+extern "C"  void ExampleWindow_onUnexpectedStoreError_m3677514299 (ExampleWindow_t2922717028 * __this, int32_t ___errorCode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_onUnexpectedStoreError_m3677514299_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = ___errorCode0;
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral2085882965, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, _stringLiteral1262590394, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::onSoomlaStoreInitialized()
+extern Il2CppClass* StoreInfo_t3860026085_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInventory_t1542337393_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3687450697;
+extern Il2CppCodeGenString* _stringLiteral1436164077;
+extern Il2CppCodeGenString* _stringLiteral4255061929;
+extern const uint32_t ExampleWindow_onSoomlaStoreInitialized_m174255572_MetadataUsageId;
+extern "C"  void ExampleWindow_onSoomlaStoreInitialized_m174255572 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_onSoomlaStoreInitialized_m174255572_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	VirtualItemNotFoundException_t2582480248 * V_0 = NULL;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		List_1_t254888683 * L_0 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Currencies_6();
+		NullCheck(L_0);
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Store.VirtualCurrency>::get_Count() */, L_0);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_0075;
+		}
+	}
+
+IL_0010:
+	try
+	{ // begin try (depth: 1)
+		{
+			Reward_t1570165988 * L_2 = __this->get_firstLaunchReward_26();
+			NullCheck(L_2);
+			bool L_3 = Reward_get_Owned_m3517051563(L_2, /*hidden argument*/NULL);
+			if (L_3)
+			{
+				goto IL_002c;
+			}
+		}
+
+IL_0020:
+		{
+			Reward_t1570165988 * L_4 = __this->get_firstLaunchReward_26();
+			NullCheck(L_4);
+			Reward_Give_m2930535140(L_4, /*hidden argument*/NULL);
+		}
+
+IL_002c:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+			List_1_t254888683 * L_5 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Currencies_6();
+			NullCheck(L_5);
+			VirtualCurrency_t3752897010 * L_6 = VirtFuncInvoker1< VirtualCurrency_t3752897010 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<Soomla.Store.VirtualCurrency>::get_Item(System.Int32) */, L_5, 0);
+			NullCheck(L_6);
+			String_t* L_7 = VirtualItem_get_ItemId_m947777429(L_6, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+			int32_t L_8 = StoreInventory_GetItemBalance_m2515193533(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+			int32_t L_9 = L_8;
+			Il2CppObject * L_10 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_9);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_11 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral1436164077, L_10, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+			SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral3687450697, L_11, /*hidden argument*/NULL);
+			goto IL_0075;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1967233988 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_005f;
+		throw e;
+	}
+
+CATCH_005f:
+	{ // begin catch(Soomla.Store.VirtualItemNotFoundException)
+		V_0 = ((VirtualItemNotFoundException_t2582480248 *)__exception_local);
+		VirtualItemNotFoundException_t2582480248 * L_12 = V_0;
+		NullCheck(L_12);
+		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_12);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, _stringLiteral4255061929, L_13, /*hidden argument*/NULL);
+		goto IL_0075;
+	} // end catch (depth: 1)
+
+IL_0075:
+	{
+		ExampleWindow_setupItemsTextures_m1712348590(__this, /*hidden argument*/NULL);
+		ExampleWindow_setupItemsAffordability_m2676170358(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::setupItemsTextures()
+extern Il2CppClass* Dictionary_2_t4147236426_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInfo_t3860026085_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t2509538522_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t4017944295_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t726733044_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1926324850_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m853266036_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m219462560_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3214302908_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3434291265_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4018611885_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1647915215_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2550165882;
+extern const uint32_t ExampleWindow_setupItemsTextures_m1712348590_MetadataUsageId;
+extern "C"  void ExampleWindow_setupItemsTextures_m1712348590 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_setupItemsTextures_m1712348590_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	VirtualGood_t840235038 * V_0 = NULL;
+	Enumerator_t4017944295  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	VirtualCurrencyPack_t1843991083 * V_2 = NULL;
+	Enumerator_t726733044  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Dictionary_2_t4147236426 * L_0 = (Dictionary_2_t4147236426 *)il2cpp_codegen_object_new(Dictionary_2_t4147236426_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1926324850(L_0, /*hidden argument*/Dictionary_2__ctor_m1926324850_MethodInfo_var);
+		__this->set_itemsTextures_24(L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		List_1_t1637194007 * L_1 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Goods_8();
+		NullCheck(L_1);
+		Enumerator_t4017944295  L_2 = List_1_GetEnumerator_m853266036(L_1, /*hidden argument*/List_1_GetEnumerator_m853266036_MethodInfo_var);
+		V_1 = L_2;
+	}
+
+IL_0016:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_004e;
+		}
+
+IL_001b:
+		{
+			VirtualGood_t840235038 * L_3 = Enumerator_get_Current_m219462560((&V_1), /*hidden argument*/Enumerator_get_Current_m219462560_MethodInfo_var);
+			V_0 = L_3;
+			Dictionary_2_t4147236426 * L_4 = __this->get_itemsTextures_24();
+			VirtualGood_t840235038 * L_5 = V_0;
+			NullCheck(L_5);
+			String_t* L_6 = VirtualItem_get_ItemId_m947777429(L_5, /*hidden argument*/NULL);
+			VirtualGood_t840235038 * L_7 = V_0;
+			NullCheck(L_7);
+			String_t* L_8 = ((SoomlaEntity_1_t520759857 *)L_7)->get_Name_1();
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_9 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2550165882, L_8, /*hidden argument*/NULL);
+			Object_t3878351788 * L_10 = Resources_Load_m2187391845(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+			NullCheck(L_4);
+			VirtActionInvoker2< String_t*, Texture2D_t2509538522 * >::Invoke(25 /* System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture2D>::set_Item(!0,!1) */, L_4, L_6, ((Texture2D_t2509538522 *)CastclassSealed(L_10, Texture2D_t2509538522_il2cpp_TypeInfo_var)));
+		}
+
+IL_004e:
+		{
+			bool L_11 = Enumerator_MoveNext_m3214302908((&V_1), /*hidden argument*/Enumerator_MoveNext_m3214302908_MethodInfo_var);
+			if (L_11)
+			{
+				goto IL_001b;
+			}
+		}
+
+IL_005a:
+		{
+			IL2CPP_LEAVE(0x6B, FINALLY_005f);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_005f;
+	}
+
+FINALLY_005f:
+	{ // begin finally (depth: 1)
+		Enumerator_t4017944295  L_12 = V_1;
+		Enumerator_t4017944295  L_13 = L_12;
+		Il2CppObject * L_14 = Box(Enumerator_t4017944295_il2cpp_TypeInfo_var, &L_13);
+		NullCheck((Il2CppObject *)L_14);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_14);
+		IL2CPP_END_FINALLY(95)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(95)
+	{
+		IL2CPP_JUMP_TBL(0x6B, IL_006b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_006b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		List_1_t2640950052 * L_15 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_CurrencyPacks_7();
+		NullCheck(L_15);
+		Enumerator_t726733044  L_16 = List_1_GetEnumerator_m3434291265(L_15, /*hidden argument*/List_1_GetEnumerator_m3434291265_MethodInfo_var);
+		V_3 = L_16;
+	}
+
+IL_0076:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00ae;
+		}
+
+IL_007b:
+		{
+			VirtualCurrencyPack_t1843991083 * L_17 = Enumerator_get_Current_m4018611885((&V_3), /*hidden argument*/Enumerator_get_Current_m4018611885_MethodInfo_var);
+			V_2 = L_17;
+			Dictionary_2_t4147236426 * L_18 = __this->get_itemsTextures_24();
+			VirtualCurrencyPack_t1843991083 * L_19 = V_2;
+			NullCheck(L_19);
+			String_t* L_20 = VirtualItem_get_ItemId_m947777429(L_19, /*hidden argument*/NULL);
+			VirtualCurrencyPack_t1843991083 * L_21 = V_2;
+			NullCheck(L_21);
+			String_t* L_22 = ((SoomlaEntity_1_t520759857 *)L_21)->get_Name_1();
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_23 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2550165882, L_22, /*hidden argument*/NULL);
+			Object_t3878351788 * L_24 = Resources_Load_m2187391845(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+			NullCheck(L_18);
+			VirtActionInvoker2< String_t*, Texture2D_t2509538522 * >::Invoke(25 /* System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture2D>::set_Item(!0,!1) */, L_18, L_20, ((Texture2D_t2509538522 *)CastclassSealed(L_24, Texture2D_t2509538522_il2cpp_TypeInfo_var)));
+		}
+
+IL_00ae:
+		{
+			bool L_25 = Enumerator_MoveNext_m1647915215((&V_3), /*hidden argument*/Enumerator_MoveNext_m1647915215_MethodInfo_var);
+			if (L_25)
+			{
+				goto IL_007b;
+			}
+		}
+
+IL_00ba:
+		{
+			IL2CPP_LEAVE(0xCB, FINALLY_00bf);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_00bf;
+	}
+
+FINALLY_00bf:
+	{ // begin finally (depth: 1)
+		Enumerator_t726733044  L_26 = V_3;
+		Enumerator_t726733044  L_27 = L_26;
+		Il2CppObject * L_28 = Box(Enumerator_t726733044_il2cpp_TypeInfo_var, &L_27);
+		NullCheck((Il2CppObject *)L_28);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_28);
+		IL2CPP_END_FINALLY(191)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(191)
+	{
+		IL2CPP_JUMP_TBL(0xCB, IL_00cb)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_00cb:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::setupItemsAffordability()
+extern Il2CppClass* Dictionary_2_t1848703245_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInfo_t3860026085_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInventory_t1542337393_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t4017944295_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1444977527_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m853266036_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m219462560_MethodInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m2032022732_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3214302908_MethodInfo_var;
+extern const uint32_t ExampleWindow_setupItemsAffordability_m2676170358_MetadataUsageId;
+extern "C"  void ExampleWindow_setupItemsAffordability_m2676170358 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_setupItemsAffordability_m2676170358_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	VirtualGood_t840235038 * V_0 = NULL;
+	Enumerator_t4017944295  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Dictionary_2_t1848703245 * L_0 = (Dictionary_2_t1848703245 *)il2cpp_codegen_object_new(Dictionary_2_t1848703245_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1444977527(L_0, /*hidden argument*/Dictionary_2__ctor_m1444977527_MethodInfo_var);
+		__this->set_itemsAffordability_25(L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		List_1_t1637194007 * L_1 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Goods_8();
+		NullCheck(L_1);
+		Enumerator_t4017944295  L_2 = List_1_GetEnumerator_m853266036(L_1, /*hidden argument*/List_1_GetEnumerator_m853266036_MethodInfo_var);
+		V_1 = L_2;
+	}
+
+IL_0016:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_003f;
+		}
+
+IL_001b:
+		{
+			VirtualGood_t840235038 * L_3 = Enumerator_get_Current_m219462560((&V_1), /*hidden argument*/Enumerator_get_Current_m219462560_MethodInfo_var);
+			V_0 = L_3;
+			Dictionary_2_t1848703245 * L_4 = __this->get_itemsAffordability_25();
+			VirtualGood_t840235038 * L_5 = V_0;
+			NullCheck(L_5);
+			String_t* L_6 = SoomlaEntity_1_get_ID_m2032022732(L_5, /*hidden argument*/SoomlaEntity_1_get_ID_m2032022732_MethodInfo_var);
+			VirtualGood_t840235038 * L_7 = V_0;
+			NullCheck(L_7);
+			String_t* L_8 = SoomlaEntity_1_get_ID_m2032022732(L_7, /*hidden argument*/SoomlaEntity_1_get_ID_m2032022732_MethodInfo_var);
+			IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+			bool L_9 = StoreInventory_CanAfford_m312869500(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+			NullCheck(L_4);
+			VirtActionInvoker2< String_t*, bool >::Invoke(26 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::Add(!0,!1) */, L_4, L_6, L_9);
+		}
+
+IL_003f:
+		{
+			bool L_10 = Enumerator_MoveNext_m3214302908((&V_1), /*hidden argument*/Enumerator_MoveNext_m3214302908_MethodInfo_var);
+			if (L_10)
+			{
+				goto IL_001b;
+			}
+		}
+
+IL_004b:
+		{
+			IL2CPP_LEAVE(0x5C, FINALLY_0050);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0050;
+	}
+
+FINALLY_0050:
+	{ // begin finally (depth: 1)
+		Enumerator_t4017944295  L_11 = V_1;
+		Enumerator_t4017944295  L_12 = L_11;
+		Il2CppObject * L_13 = Box(Enumerator_t4017944295_il2cpp_TypeInfo_var, &L_12);
+		NullCheck((Il2CppObject *)L_13);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_13);
+		IL2CPP_END_FINALLY(80)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(80)
+	{
+		IL2CPP_JUMP_TBL(0x5C, IL_005c)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_005c:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::onCurrencyBalanceChanged(Soomla.Store.VirtualCurrency,System.Int32,System.Int32)
+extern Il2CppClass* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInventory_t1542337393_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t4146198160_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Keys_m1571778133_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m2301170921_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2194092946_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3788713170_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2014284926_MethodInfo_var;
+extern const uint32_t ExampleWindow_onCurrencyBalanceChanged_m888892747_MetadataUsageId;
+extern "C"  void ExampleWindow_onCurrencyBalanceChanged_m888892747 (ExampleWindow_t2922717028 * __this, VirtualCurrency_t3752897010 * ___virtualCurrency0, int32_t ___balance1, int32_t ___amountAdded2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_onCurrencyBalanceChanged_m888892747_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1765447871 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	Enumerator_t4146198160  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Dictionary_2_t1848703245 * L_0 = __this->get_itemsAffordability_25();
+		if (!L_0)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		Dictionary_2_t1848703245 * L_1 = __this->get_itemsAffordability_25();
+		NullCheck(L_1);
+		KeyCollection_t4171978525 * L_2 = Dictionary_2_get_Keys_m1571778133(L_1, /*hidden argument*/Dictionary_2_get_Keys_m1571778133_MethodInfo_var);
+		List_1_t1765447871 * L_3 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m2301170921(L_3, L_2, /*hidden argument*/List_1__ctor_m2301170921_MethodInfo_var);
+		V_0 = L_3;
+		List_1_t1765447871 * L_4 = V_0;
+		NullCheck(L_4);
+		Enumerator_t4146198160  L_5 = List_1_GetEnumerator_m2194092946(L_4, /*hidden argument*/List_1_GetEnumerator_m2194092946_MethodInfo_var);
+		V_2 = L_5;
+	}
+
+IL_0023:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0042;
+		}
+
+IL_0028:
+		{
+			String_t* L_6 = Enumerator_get_Current_m3788713170((&V_2), /*hidden argument*/Enumerator_get_Current_m3788713170_MethodInfo_var);
+			V_1 = L_6;
+			Dictionary_2_t1848703245 * L_7 = __this->get_itemsAffordability_25();
+			String_t* L_8 = V_1;
+			String_t* L_9 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+			bool L_10 = StoreInventory_CanAfford_m312869500(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+			NullCheck(L_7);
+			VirtActionInvoker2< String_t*, bool >::Invoke(25 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::set_Item(!0,!1) */, L_7, L_8, L_10);
+		}
+
+IL_0042:
+		{
+			bool L_11 = Enumerator_MoveNext_m2014284926((&V_2), /*hidden argument*/Enumerator_MoveNext_m2014284926_MethodInfo_var);
+			if (L_11)
+			{
+				goto IL_0028;
+			}
+		}
+
+IL_004e:
+		{
+			IL2CPP_LEAVE(0x5F, FINALLY_0053);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0053;
+	}
+
+FINALLY_0053:
+	{ // begin finally (depth: 1)
+		Enumerator_t4146198160  L_12 = V_2;
+		Enumerator_t4146198160  L_13 = L_12;
+		Il2CppObject * L_14 = Box(Enumerator_t4146198160_il2cpp_TypeInfo_var, &L_13);
+		NullCheck((Il2CppObject *)L_14);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_14);
+		IL2CPP_END_FINALLY(83)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(83)
+	{
+		IL2CPP_JUMP_TBL(0x5F, IL_005f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_005f:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::OpenWindow()
+extern Il2CppClass* ExampleWindow_t2922717028_il2cpp_TypeInfo_var;
+extern const uint32_t ExampleWindow_OpenWindow_m2253765581_MetadataUsageId;
+extern "C"  void ExampleWindow_OpenWindow_m2253765581 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_OpenWindow_m2253765581_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ExampleWindow_t2922717028_il2cpp_TypeInfo_var);
+		ExampleWindow_t2922717028 * L_0 = ((ExampleWindow_t2922717028_StaticFields*)ExampleWindow_t2922717028_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		NullCheck(L_0);
+		L_0->set_guiState_3(0);
+		((ExampleWindow_t2922717028_StaticFields*)ExampleWindow_t2922717028_il2cpp_TypeInfo_var->static_fields)->set_isVisible_10((bool)1);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::CloseWindow()
+extern Il2CppClass* ExampleWindow_t2922717028_il2cpp_TypeInfo_var;
+extern const uint32_t ExampleWindow_CloseWindow_m1672595159_MetadataUsageId;
+extern "C"  void ExampleWindow_CloseWindow_m1672595159 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_CloseWindow_m1672595159_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ExampleWindow_t2922717028_il2cpp_TypeInfo_var);
+		((ExampleWindow_t2922717028_StaticFields*)ExampleWindow_t2922717028_il2cpp_TypeInfo_var->static_fields)->set_isVisible_10((bool)0);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::Update()
+extern Il2CppClass* ExampleWindow_t2922717028_il2cpp_TypeInfo_var;
+extern Il2CppClass* Input_t1593691127_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t1597001355_il2cpp_TypeInfo_var;
+extern const uint32_t ExampleWindow_Update_m1877389052_MetadataUsageId;
+extern "C"  void ExampleWindow_Update_m1877389052 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_Update_m1877389052_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t3525329789  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3525329789  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ExampleWindow_t2922717028_il2cpp_TypeInfo_var);
+		bool L_0 = ((ExampleWindow_t2922717028_StaticFields*)ExampleWindow_t2922717028_il2cpp_TypeInfo_var->static_fields)->get_isVisible_10();
+		if (!L_0)
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_1 = Input_GetMouseButtonDown_m2031691843(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		Vector3_t3525329789  L_2 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_3 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		__this->set_startTouch_7(L_3);
+		goto IL_011e;
+	}
+
+IL_002a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_4 = Input_GetMouseButtonUp_m2588144188(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		__this->set_isDragging_6((bool)0);
+		goto IL_011e;
+	}
+
+IL_0041:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_5 = Input_GetMouseButton_m4080958081(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		bool L_6 = __this->get_isDragging_6();
+		if (L_6)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		Vector2_t3525329788 * L_7 = __this->get_address_of_startTouch_7();
+		float L_8 = L_7->get_y_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		Vector3_t3525329789  L_9 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_9;
+		float L_10 = (&V_0)->get_y_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
+		float L_11 = fabsf(((float)((float)L_8-(float)L_10)));
+		if ((!(((float)L_11) > ((float)(10.0f)))))
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		__this->set_isDragging_6((bool)1);
+	}
+
+IL_0086:
+	{
+		goto IL_011e;
+	}
+
+IL_008b:
+	{
+		int32_t L_12 = __this->get_guiState_3();
+		if ((!(((uint32_t)L_12) == ((uint32_t)2))))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Vector2_t3525329788 * L_13 = __this->get_address_of_goodsScrollPosition_4();
+		Vector2_t3525329788 * L_14 = L_13;
+		float L_15 = L_14->get_y_2();
+		Vector2_t3525329788 * L_16 = __this->get_address_of_startTouch_7();
+		float L_17 = L_16->get_y_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		Vector3_t3525329789  L_18 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_18;
+		float L_19 = (&V_1)->get_y_2();
+		L_14->set_y_2(((float)((float)L_15-(float)((float)((float)L_17-(float)L_19)))));
+		Vector3_t3525329789  L_20 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_21 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		__this->set_startTouch_7(L_21);
+		goto IL_011e;
+	}
+
+IL_00d7:
+	{
+		int32_t L_22 = __this->get_guiState_3();
+		if ((!(((uint32_t)L_22) == ((uint32_t)1))))
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		Vector2_t3525329788 * L_23 = __this->get_address_of_productScrollPosition_5();
+		Vector2_t3525329788 * L_24 = L_23;
+		float L_25 = L_24->get_y_2();
+		Vector2_t3525329788 * L_26 = __this->get_address_of_startTouch_7();
+		float L_27 = L_26->get_y_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		Vector3_t3525329789  L_28 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = L_28;
+		float L_29 = (&V_2)->get_y_2();
+		L_24->set_y_2(((float)((float)L_25-(float)((float)((float)L_27-(float)L_29)))));
+		Vector3_t3525329789  L_30 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_31 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		__this->set_startTouch_7(L_31);
+	}
+
+IL_011e:
+	{
+		int32_t L_32 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_32) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_33 = Input_GetKeyUp_m2739135306(NULL /*static, unused*/, ((int32_t)27), /*hidden argument*/NULL);
+		if (!L_33)
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		Application_Quit_m1187862186(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_013c:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::OnGUI()
+extern Il2CppClass* ExampleWindow_t2922717028_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUI_t1522956648_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUIStyle_t1006925219_il2cpp_TypeInfo_var;
+extern const uint32_t ExampleWindow_OnGUI_m192991019_MetadataUsageId;
+extern "C"  void ExampleWindow_OnGUI_m192991019 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_OnGUI_m192991019_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ExampleWindow_t2922717028_il2cpp_TypeInfo_var);
+		bool L_0 = ((ExampleWindow_t2922717028_StaticFields*)ExampleWindow_t2922717028_il2cpp_TypeInfo_var->static_fields)->get_isVisible_10();
+		if (L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUISkin_t2614611333 * L_1 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUIStyle_t1006925219_il2cpp_TypeInfo_var);
+		GUIStyle_t1006925219 * L_2 = GUIStyle_get_none_m2767659632(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GUISkin_set_horizontalScrollbar_m2358004279(L_1, L_2, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_3 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUIStyle_t1006925219 * L_4 = GUIStyle_get_none_m2767659632(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		GUISkin_set_verticalScrollbar_m3705641189(L_3, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = __this->get_guiState_3();
+		if (L_5)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		ExampleWindow_welcomeScreen_m1677573213(__this, /*hidden argument*/NULL);
+		goto IL_0068;
+	}
+
+IL_003f:
+	{
+		int32_t L_6 = __this->get_guiState_3();
+		if ((!(((uint32_t)L_6) == ((uint32_t)2))))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		ExampleWindow_goodsScreen_m4204185553(__this, /*hidden argument*/NULL);
+		goto IL_0068;
+	}
+
+IL_0056:
+	{
+		int32_t L_7 = __this->get_guiState_3();
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		ExampleWindow_currencyScreen_m1058060016(__this, /*hidden argument*/NULL);
+	}
+
+IL_0068:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::welcomeScreen()
+extern Il2CppClass* GUI_t1522956648_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral374646704;
+extern Il2CppCodeGenString* _stringLiteral985203013;
+extern Il2CppCodeGenString* _stringLiteral2796604659;
+extern const uint32_t ExampleWindow_welcomeScreen_m1677573213_MetadataUsageId;
+extern "C"  void ExampleWindow_welcomeScreen_m1677573213 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_welcomeScreen_m1677573213_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Font_t1525081276 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Rect__ctor_m3291325233(&L_2, (0.0f), (0.0f), (((float)((float)L_0))), (((float)((float)L_1))), /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_3 = __this->get_tImgDirect_11();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_4 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GUIStyle_t1006925219 * L_5 = GUISkin_get_label_m3553254700(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Font_t1525081276 * L_6 = GUIStyle_get_font_m1061814606(L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		GUISkin_t2614611333 * L_7 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		GUIStyle_t1006925219 * L_8 = GUISkin_get_label_m3553254700(L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		int32_t L_9 = GUIStyle_get_alignment_m1533628953(L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		GUISkin_t2614611333 * L_10 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		GUIStyle_t1006925219 * L_11 = GUISkin_get_label_m3553254700(L_10, /*hidden argument*/NULL);
+		Font_t1525081276 * L_12 = __this->get_fgoodDog_13();
+		NullCheck(L_11);
+		GUIStyle_set_font_m3587533075(L_11, L_12, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_13 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		GUIStyle_t1006925219 * L_14 = GUISkin_get_label_m3553254700(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		GUIStyle_set_alignment_m4252900834(L_14, 4, /*hidden argument*/NULL);
+		int32_t L_15 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_16 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_17 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_18 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Rect__ctor_m3291325233(&L_19, (((float)((float)((int32_t)((int32_t)L_15/(int32_t)8))))), ((float)((float)(((float)((float)L_16)))/(float)(8.0f))), ((float)((float)((float)((float)(((float)((float)L_17)))*(float)(6.0f)))/(float)(8.0f))), ((float)((float)(((float)((float)L_18)))*(float)(0.3f))), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_19, _stringLiteral374646704, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_20 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		GUIStyle_t1006925219 * L_21 = GUISkin_get_label_m3553254700(L_20, /*hidden argument*/NULL);
+		Font_t1525081276 * L_22 = __this->get_fgoodDogSmall_14();
+		NullCheck(L_21);
+		GUIStyle_set_font_m3587533075(L_21, L_22, /*hidden argument*/NULL);
+		int32_t L_23 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_24 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_25 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_26 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_27;
+		memset(&L_27, 0, sizeof(L_27));
+		Rect__ctor_m3291325233(&L_27, (((float)((float)((int32_t)((int32_t)L_23/(int32_t)8))))), ((float)((float)((float)((float)(((float)((float)L_24)))*(float)(7.0f)))/(float)(8.0f))), ((float)((float)((float)((float)(((float)((float)L_25)))*(float)(6.0f)))/(float)(8.0f))), ((float)((float)(((float)((float)L_26)))/(float)(8.0f))), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_27, _stringLiteral985203013, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_28 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		GUIStyle_t1006925219 * L_29 = GUISkin_get_label_m3553254700(L_28, /*hidden argument*/NULL);
+		Font_t1525081276 * L_30 = V_0;
+		NullCheck(L_29);
+		GUIStyle_set_font_m3587533075(L_29, L_30, /*hidden argument*/NULL);
+		int32_t L_31 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_32 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_33 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_34;
+		memset(&L_34, 0, sizeof(L_34));
+		Rect__ctor_m3291325233(&L_34, ((float)((float)(((float)((float)L_31)))*(float)(0.25f))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_32/(int32_t)2))-(int32_t)((int32_t)50)))))), ((float)((float)(((float)((float)L_33)))*(float)(0.5f))), (100.0f), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_34, _stringLiteral2796604659, /*hidden argument*/NULL);
+		int32_t L_35 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_36 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_37 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_38 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_39;
+		memset(&L_39, 0, sizeof(L_39));
+		Rect__ctor_m3291325233(&L_39, (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_35*(int32_t)2))/(int32_t)6))))), ((float)((float)((float)((float)(((float)((float)L_36)))*(float)(5.0f)))/(float)(8.0f))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_37*(int32_t)2))/(int32_t)6))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_38*(int32_t)2))/(int32_t)6))))), /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_40 = __this->get_tLogoNew_12();
+		bool L_41 = GUI_Button_m3751403967(NULL /*static, unused*/, L_39, L_40, /*hidden argument*/NULL);
+		if (!L_41)
+		{
+			goto IL_019b;
+		}
+	}
+	{
+		__this->set_guiState_3(2);
+	}
+
+IL_019b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUISkin_t2614611333 * L_42 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		GUIStyle_t1006925219 * L_43 = GUISkin_get_label_m3553254700(L_42, /*hidden argument*/NULL);
+		int32_t L_44 = V_1;
+		NullCheck(L_43);
+		GUIStyle_set_alignment_m4252900834(L_43, L_44, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::goodsScreen()
+extern Il2CppClass* GUI_t1522956648_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInfo_t3860026085_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInventory_t1542337393_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1967233988_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t4017944295_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m853266036_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m219462560_MethodInfo_var;
+extern const MethodInfo* SoomlaEntity_1_get_ID_m2032022732_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3214302908_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2660330554;
+extern Il2CppCodeGenString* _stringLiteral3114003826;
+extern Il2CppCodeGenString* _stringLiteral4067513793;
+extern Il2CppCodeGenString* _stringLiteral2750316399;
+extern Il2CppCodeGenString* _stringLiteral3509786955;
+extern Il2CppCodeGenString* _stringLiteral3314972689;
+extern Il2CppCodeGenString* _stringLiteral1475710;
+extern Il2CppCodeGenString* _stringLiteral3979905583;
+extern Il2CppCodeGenString* _stringLiteral2434781438;
+extern Il2CppCodeGenString* _stringLiteral814977305;
+extern Il2CppCodeGenString* _stringLiteral3963429885;
+extern Il2CppCodeGenString* _stringLiteral3015911;
+extern const uint32_t ExampleWindow_goodsScreen_m4204185553_MetadataUsageId;
+extern "C"  void ExampleWindow_goodsScreen_m4204185553 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_goodsScreen_m4204185553_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Color_t1588175760  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Font_t1525081276 * V_2 = NULL;
+	String_t* V_3 = NULL;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	VirtualGood_t840235038 * V_7 = NULL;
+	Enumerator_t4017944295  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	bool V_9 = false;
+	bool V_10 = false;
+	Exception_t1967233988 * V_11 = NULL;
+	String_t* V_12 = NULL;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	float V_15 = 0.0f;
+	float V_16 = 0.0f;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Rect__ctor_m3291325233(&L_2, (0.0f), (0.0f), (((float)((float)L_0))), (((float)((float)L_1))), /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_3 = __this->get_tWhitePixel_16();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Color_t1588175760  L_4 = GUI_get_color_m1489208189(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_4;
+		GUISkin_t2614611333 * L_5 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		GUIStyle_t1006925219 * L_6 = GUISkin_get_label_m3553254700(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		int32_t L_7 = GUIStyle_get_alignment_m1533628953(L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		GUISkin_t2614611333 * L_8 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		GUIStyle_t1006925219 * L_9 = GUISkin_get_label_m3553254700(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Font_t1525081276 * L_10 = GUIStyle_get_font_m1061814606(L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		Color_t1588175760  L_11 = Color_get_red_m4288945411(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_color_m2304110692(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_12 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		GUIStyle_t1006925219 * L_13 = GUISkin_get_label_m3553254700(L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		GUIStyle_set_alignment_m4252900834(L_13, 0, /*hidden argument*/NULL);
+		int32_t L_14 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_15 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_16;
+		memset(&L_16, 0, sizeof(L_16));
+		Rect__ctor_m3291325233(&L_16, (10.0f), (10.0f), (((float)((float)((int32_t)((int32_t)L_14-(int32_t)((int32_t)10)))))), (((float)((float)((int32_t)((int32_t)L_15-(int32_t)((int32_t)10)))))), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_16, _stringLiteral2660330554, /*hidden argument*/NULL);
+		Color_t1588175760  L_17 = Color_get_black_m1687201969(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_color_m2304110692(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_18 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		GUIStyle_t1006925219 * L_19 = GUISkin_get_label_m3553254700(L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		GUIStyle_set_alignment_m4252900834(L_19, 2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		List_1_t254888683 * L_20 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Currencies_6();
+		NullCheck(L_20);
+		VirtualCurrency_t3752897010 * L_21 = VirtFuncInvoker1< VirtualCurrency_t3752897010 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<Soomla.Store.VirtualCurrency>::get_Item(System.Int32) */, L_20, 0);
+		NullCheck(L_21);
+		String_t* L_22 = VirtualItem_get_ItemId_m947777429(L_21, /*hidden argument*/NULL);
+		V_3 = L_22;
+		int32_t L_23 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_24;
+		memset(&L_24, 0, sizeof(L_24));
+		Rect__ctor_m3291325233(&L_24, (10.0f), (10.0f), (((float)((float)((int32_t)((int32_t)L_23-(int32_t)((int32_t)40)))))), (20.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_25 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_26 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+		int32_t L_27 = StoreInventory_GetItemBalance_m2515193533(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		int32_t L_28 = L_27;
+		Il2CppObject * L_29 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_28);
+		String_t* L_30 = String_Concat_m389863537(NULL /*static, unused*/, L_25, L_29, /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_24, L_30, /*hidden argument*/NULL);
+		int32_t L_31 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_32;
+		memset(&L_32, 0, sizeof(L_32));
+		Rect__ctor_m3291325233(&L_32, (10.0f), (30.0f), (((float)((float)((int32_t)((int32_t)L_31-(int32_t)((int32_t)40)))))), (20.0f), /*hidden argument*/NULL);
+		bool L_33 = __this->get_checkAffordable_8();
+		bool L_34 = GUI_Toggle_m2749821408(NULL /*static, unused*/, L_32, L_33, _stringLiteral3114003826, /*hidden argument*/NULL);
+		__this->set_checkAffordable_8(L_34);
+		GUISkin_t2614611333 * L_35 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		GUIStyle_t1006925219 * L_36 = GUISkin_get_label_m3553254700(L_35, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		GUIStyle_set_alignment_m4252900834(L_36, 4, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_37 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		GUIStyle_t1006925219 * L_38 = GUISkin_get_label_m3553254700(L_37, /*hidden argument*/NULL);
+		Font_t1525081276 * L_39 = __this->get_fTitle_15();
+		NullCheck(L_38);
+		GUIStyle_set_font_m3587533075(L_38, L_39, /*hidden argument*/NULL);
+		int32_t L_40 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_41 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_42 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_43;
+		memset(&L_43, 0, sizeof(L_43));
+		Rect__ctor_m3291325233(&L_43, (0.0f), ((float)((float)(((float)((float)L_40)))/(float)(8.0f))), (((float)((float)L_41))), ((float)((float)(((float)((float)L_42)))/(float)(8.0f))), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_43, _stringLiteral4067513793, /*hidden argument*/NULL);
+		Color_t1588175760  L_44 = V_0;
+		GUI_set_color_m2304110692(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
+		int32_t L_45 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_46;
+		memset(&L_46, 0, sizeof(L_46));
+		Rect__ctor_m3291325233(&L_46, (((float)((float)((int32_t)((int32_t)L_45-(int32_t)((int32_t)30)))))), (10.0f), (30.0f), (30.0f), /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_47 = __this->get_tMuffins_17();
+		GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_46, L_47, /*hidden argument*/NULL);
+		int32_t L_48 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = ((float)((float)(((float)((float)L_48)))*(float)(0.3f)));
+		List_1_t1637194007 * L_49 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Goods_8();
+		NullCheck(L_49);
+		int32_t L_50 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Store.VirtualGood>::get_Count() */, L_49);
+		float L_51 = V_4;
+		V_5 = ((float)((float)(((float)((float)L_50)))*(float)L_51));
+		int32_t L_52 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_53 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_54 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_55;
+		memset(&L_55, 0, sizeof(L_55));
+		Rect__ctor_m3291325233(&L_55, (0.0f), ((float)((float)((float)((float)(((float)((float)L_52)))*(float)(2.0f)))/(float)(8.0f))), (((float)((float)L_53))), ((float)((float)((float)((float)(((float)((float)L_54)))*(float)(5.0f)))/(float)(8.0f))), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_56 = __this->get_goodsScrollPosition_4();
+		int32_t L_57 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_58 = V_5;
+		Rect_t1525428817  L_59;
+		memset(&L_59, 0, sizeof(L_59));
+		Rect__ctor_m3291325233(&L_59, (0.0f), (0.0f), (((float)((float)L_57))), L_58, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_60 = GUI_BeginScrollView_m2683764896(NULL /*static, unused*/, L_55, L_56, L_59, /*hidden argument*/NULL);
+		__this->set_goodsScrollPosition_4(L_60);
+		V_6 = (0.0f);
+		List_1_t1637194007 * L_61 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Goods_8();
+		NullCheck(L_61);
+		Enumerator_t4017944295  L_62 = List_1_GetEnumerator_m853266036(L_61, /*hidden argument*/List_1_GetEnumerator_m853266036_MethodInfo_var);
+		V_8 = L_62;
+	}
+
+IL_0238:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0604;
+		}
+
+IL_023d:
+		{
+			VirtualGood_t840235038 * L_63 = Enumerator_get_Current_m219462560((&V_8), /*hidden argument*/Enumerator_get_Current_m219462560_MethodInfo_var);
+			V_7 = L_63;
+			Color_t1588175760  L_64 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_set_color_m2304110692(NULL /*static, unused*/, L_64, /*hidden argument*/NULL);
+			V_9 = (bool)1;
+			bool L_65 = __this->get_checkAffordable_8();
+			if (!L_65)
+			{
+				goto IL_0277;
+			}
+		}
+
+IL_025a:
+		{
+			Dictionary_2_t1848703245 * L_66 = __this->get_itemsAffordability_25();
+			VirtualGood_t840235038 * L_67 = V_7;
+			NullCheck(L_67);
+			String_t* L_68 = SoomlaEntity_1_get_ID_m2032022732(L_67, /*hidden argument*/SoomlaEntity_1_get_ID_m2032022732_MethodInfo_var);
+			NullCheck(L_66);
+			bool L_69 = VirtFuncInvoker2< bool, String_t*, bool* >::Invoke(31 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::TryGetValue(!0,!1&) */, L_66, L_68, (&V_10));
+			if (!L_69)
+			{
+				goto IL_0277;
+			}
+		}
+
+IL_0273:
+		{
+			bool L_70 = V_10;
+			V_9 = L_70;
+		}
+
+IL_0277:
+		{
+			bool L_71 = V_9;
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_set_enabled_m262604887(NULL /*static, unused*/, L_71, /*hidden argument*/NULL);
+			float L_72 = V_6;
+			int32_t L_73 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_74 = V_4;
+			Rect_t1525428817  L_75;
+			memset(&L_75, 0, sizeof(L_75));
+			Rect__ctor_m3291325233(&L_75, (0.0f), L_72, (((float)((float)L_73))), L_74, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_76 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+			bool L_77 = GUI_Button_m885093907(NULL /*static, unused*/, L_75, L_76, /*hidden argument*/NULL);
+			if (!L_77)
+			{
+				goto IL_02f0;
+			}
+		}
+
+IL_02a1:
+		{
+			bool L_78 = __this->get_isDragging_6();
+			if (L_78)
+			{
+				goto IL_02f0;
+			}
+		}
+
+IL_02ac:
+		{
+			VirtualGood_t840235038 * L_79 = V_7;
+			NullCheck(L_79);
+			String_t* L_80 = ((SoomlaEntity_1_t520759857 *)L_79)->get_Name_1();
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_81 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2750316399, L_80, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+			Debug_Log_m1731103628(NULL /*static, unused*/, L_81, /*hidden argument*/NULL);
+		}
+
+IL_02c2:
+		try
+		{ // begin try (depth: 2)
+			VirtualGood_t840235038 * L_82 = V_7;
+			NullCheck(L_82);
+			String_t* L_83 = VirtualItem_get_ItemId_m947777429(L_82, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+			StoreInventory_BuyItem_m2087160039(NULL /*static, unused*/, L_83, /*hidden argument*/NULL);
+			goto IL_02f0;
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1967233988 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (Exception_t1967233988_il2cpp_TypeInfo_var, e.ex->object.klass))
+				goto CATCH_02d3;
+			throw e;
+		}
+
+CATCH_02d3:
+		{ // begin catch(System.Exception)
+			V_11 = ((Exception_t1967233988 *)__exception_local);
+			Exception_t1967233988 * L_84 = V_11;
+			NullCheck(L_84);
+			String_t* L_85 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_84);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_86 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3509786955, L_85, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+			Debug_LogError_m4127342994(NULL /*static, unused*/, L_86, /*hidden argument*/NULL);
+			goto IL_02f0;
+		} // end catch (depth: 2)
+
+IL_02f0:
+		{
+			float L_87 = V_6;
+			int32_t L_88 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_89 = V_4;
+			Rect_t1525428817  L_90;
+			memset(&L_90, 0, sizeof(L_90));
+			Rect__ctor_m3291325233(&L_90, (0.0f), L_87, (((float)((float)L_88))), L_89, /*hidden argument*/NULL);
+			Texture2D_t2509538522 * L_91 = __this->get_tWhitePixel_16();
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_90, L_91, /*hidden argument*/NULL);
+			Color_t1588175760  L_92 = V_0;
+			GUI_set_color_m2304110692(NULL /*static, unused*/, L_92, /*hidden argument*/NULL);
+			float L_93 = V_4;
+			float L_94 = V_6;
+			float L_95 = V_4;
+			float L_96 = V_4;
+			float L_97 = V_4;
+			Rect_t1525428817  L_98;
+			memset(&L_98, 0, sizeof(L_98));
+			Rect__ctor_m3291325233(&L_98, ((float)((float)(0.0f)+(float)((float)((float)L_93/(float)(8.0f))))), ((float)((float)L_94+(float)((float)((float)L_95/(float)(8.0f))))), ((float)((float)((float)((float)L_96*(float)(6.0f)))/(float)(8.0f))), ((float)((float)((float)((float)L_97*(float)(6.0f)))/(float)(8.0f))), /*hidden argument*/NULL);
+			Dictionary_2_t4147236426 * L_99 = __this->get_itemsTextures_24();
+			VirtualGood_t840235038 * L_100 = V_7;
+			NullCheck(L_100);
+			String_t* L_101 = VirtualItem_get_ItemId_m947777429(L_100, /*hidden argument*/NULL);
+			NullCheck(L_99);
+			Texture2D_t2509538522 * L_102 = VirtFuncInvoker1< Texture2D_t2509538522 *, String_t* >::Invoke(24 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture2D>::get_Item(!0) */, L_99, L_101);
+			GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_98, L_102, /*hidden argument*/NULL);
+			Color_t1588175760  L_103 = Color_get_black_m1687201969(NULL /*static, unused*/, /*hidden argument*/NULL);
+			GUI_set_color_m2304110692(NULL /*static, unused*/, L_103, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_104 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_104);
+			GUIStyle_t1006925219 * L_105 = GUISkin_get_label_m3553254700(L_104, /*hidden argument*/NULL);
+			Font_t1525081276 * L_106 = __this->get_fName_18();
+			NullCheck(L_105);
+			GUIStyle_set_font_m3587533075(L_105, L_106, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_107 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_107);
+			GUIStyle_t1006925219 * L_108 = GUISkin_get_label_m3553254700(L_107, /*hidden argument*/NULL);
+			NullCheck(L_108);
+			GUIStyle_set_alignment_m4252900834(L_108, 0, /*hidden argument*/NULL);
+			float L_109 = V_4;
+			float L_110 = V_6;
+			int32_t L_111 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_112 = V_4;
+			Rect_t1525428817  L_113;
+			memset(&L_113, 0, sizeof(L_113));
+			Rect__ctor_m3291325233(&L_113, L_109, L_110, (((float)((float)L_111))), ((float)((float)L_112/(float)(3.0f))), /*hidden argument*/NULL);
+			VirtualGood_t840235038 * L_114 = V_7;
+			NullCheck(L_114);
+			String_t* L_115 = ((SoomlaEntity_1_t520759857 *)L_114)->get_Name_1();
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_113, L_115, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_116 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_116);
+			GUIStyle_t1006925219 * L_117 = GUISkin_get_label_m3553254700(L_116, /*hidden argument*/NULL);
+			Font_t1525081276 * L_118 = __this->get_fDesc_19();
+			NullCheck(L_117);
+			GUIStyle_set_font_m3587533075(L_117, L_118, /*hidden argument*/NULL);
+			float L_119 = V_4;
+			float L_120 = V_6;
+			float L_121 = V_4;
+			int32_t L_122 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_123 = V_4;
+			float L_124 = V_4;
+			Rect_t1525428817  L_125;
+			memset(&L_125, 0, sizeof(L_125));
+			Rect__ctor_m3291325233(&L_125, ((float)((float)L_119+(float)(10.0f))), ((float)((float)L_120+(float)((float)((float)L_121/(float)(3.0f))))), ((float)((float)((float)((float)(((float)((float)L_122)))-(float)L_123))-(float)(15.0f))), ((float)((float)L_124/(float)(3.0f))), /*hidden argument*/NULL);
+			VirtualGood_t840235038 * L_126 = V_7;
+			NullCheck(L_126);
+			String_t* L_127 = ((SoomlaEntity_1_t520759857 *)L_126)->get_Description_2();
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_125, L_127, /*hidden argument*/NULL);
+			VirtualGood_t840235038 * L_128 = V_7;
+			NullCheck(L_128);
+			PurchaseType_t2779557329 * L_129 = ((PurchasableVirtualItem_t2555170966 *)L_128)->get_PurchaseType_6();
+			if (!((PurchaseWithVirtualItem_t2966680205 *)IsInstClass(L_129, PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var)))
+			{
+				goto IL_0473;
+			}
+		}
+
+IL_0419:
+		{
+			int32_t L_130 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_131 = V_6;
+			float L_132 = V_4;
+			int32_t L_133 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_134 = V_4;
+			Rect_t1525428817  L_135;
+			memset(&L_135, 0, sizeof(L_135));
+			Rect__ctor_m3291325233(&L_135, ((float)((float)(((float)((float)L_130)))/(float)(2.0f))), ((float)((float)L_131+(float)((float)((float)((float)((float)L_132*(float)(2.0f)))/(float)(3.0f))))), (((float)((float)L_133))), ((float)((float)L_134/(float)(3.0f))), /*hidden argument*/NULL);
+			VirtualGood_t840235038 * L_136 = V_7;
+			NullCheck(L_136);
+			PurchaseType_t2779557329 * L_137 = ((PurchasableVirtualItem_t2555170966 *)L_136)->get_PurchaseType_6();
+			NullCheck(((PurchaseWithVirtualItem_t2966680205 *)CastclassClass(L_137, PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var)));
+			int32_t L_138 = ((PurchaseWithVirtualItem_t2966680205 *)CastclassClass(L_137, PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var))->get_Amount_3();
+			int32_t L_139 = L_138;
+			Il2CppObject * L_140 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_139);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_141 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral3314972689, L_140, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_135, L_141, /*hidden argument*/NULL);
+			goto IL_04fa;
+		}
+
+IL_0473:
+		{
+			VirtualGood_t840235038 * L_142 = V_7;
+			NullCheck(L_142);
+			PurchaseType_t2779557329 * L_143 = ((PurchasableVirtualItem_t2555170966 *)L_142)->get_PurchaseType_6();
+			NullCheck(((PurchaseWithMarket_t3391409785 *)CastclassClass(L_143, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var)));
+			MarketItem_t3274808165 * L_144 = ((PurchaseWithMarket_t3391409785 *)CastclassClass(L_143, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var))->get_MarketItem_2();
+			NullCheck(L_144);
+			String_t* L_145 = L_144->get_MarketPriceAndCurrency_2();
+			V_12 = L_145;
+			String_t* L_146 = V_12;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			bool L_147 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_146, /*hidden argument*/NULL);
+			if (!L_147)
+			{
+				goto IL_04b9;
+			}
+		}
+
+IL_0497:
+		{
+			VirtualGood_t840235038 * L_148 = V_7;
+			NullCheck(L_148);
+			PurchaseType_t2779557329 * L_149 = ((PurchasableVirtualItem_t2555170966 *)L_148)->get_PurchaseType_6();
+			NullCheck(((PurchaseWithMarket_t3391409785 *)CastclassClass(L_149, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var)));
+			MarketItem_t3274808165 * L_150 = ((PurchaseWithMarket_t3391409785 *)CastclassClass(L_149, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var))->get_MarketItem_2();
+			NullCheck(L_150);
+			double* L_151 = L_150->get_address_of_Price_1();
+			String_t* L_152 = Double_ToString_m1570887993(L_151, _stringLiteral1475710, /*hidden argument*/NULL);
+			V_12 = L_152;
+		}
+
+IL_04b9:
+		{
+			int32_t L_153 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_154 = V_6;
+			float L_155 = V_4;
+			int32_t L_156 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_157 = V_4;
+			Rect_t1525428817  L_158;
+			memset(&L_158, 0, sizeof(L_158));
+			Rect__ctor_m3291325233(&L_158, ((float)((float)(((float)((float)L_153)))/(float)(2.0f))), ((float)((float)L_154+(float)((float)((float)((float)((float)L_155*(float)(2.0f)))/(float)(3.0f))))), (((float)((float)L_156))), ((float)((float)L_157/(float)(3.0f))), /*hidden argument*/NULL);
+			String_t* L_159 = V_12;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_160 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3979905583, L_159, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_158, L_160, /*hidden argument*/NULL);
+		}
+
+IL_04fa:
+		{
+			int32_t L_161 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_162 = V_6;
+			float L_163 = V_4;
+			int32_t L_164 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_165 = V_4;
+			Rect_t1525428817  L_166;
+			memset(&L_166, 0, sizeof(L_166));
+			Rect__ctor_m3291325233(&L_166, ((float)((float)(((float)((float)((int32_t)((int32_t)L_161*(int32_t)3)))))/(float)(4.0f))), ((float)((float)L_162+(float)((float)((float)((float)((float)L_163*(float)(2.0f)))/(float)(3.0f))))), (((float)((float)L_164))), ((float)((float)L_165/(float)(3.0f))), /*hidden argument*/NULL);
+			VirtualGood_t840235038 * L_167 = V_7;
+			NullCheck(L_167);
+			String_t* L_168 = VirtualItem_get_ItemId_m947777429(L_167, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+			int32_t L_169 = StoreInventory_GetItemBalance_m2515193533(NULL /*static, unused*/, L_168, /*hidden argument*/NULL);
+			int32_t L_170 = L_169;
+			Il2CppObject * L_171 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_170);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_172 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral2434781438, L_171, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_166, L_172, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_173 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_173);
+			GUIStyle_t1006925219 * L_174 = GUISkin_get_label_m3553254700(L_173, /*hidden argument*/NULL);
+			NullCheck(L_174);
+			GUIStyle_set_alignment_m4252900834(L_174, 2, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_175 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_175);
+			GUIStyle_t1006925219 * L_176 = GUISkin_get_label_m3553254700(L_175, /*hidden argument*/NULL);
+			Font_t1525081276 * L_177 = __this->get_fBuy_20();
+			NullCheck(L_176);
+			GUIStyle_set_font_m3587533075(L_176, L_177, /*hidden argument*/NULL);
+			bool L_178 = GUI_get_enabled_m3799739706(NULL /*static, unused*/, /*hidden argument*/NULL);
+			if (!L_178)
+			{
+				goto IL_05a1;
+			}
+		}
+
+IL_057b:
+		{
+			float L_179 = V_6;
+			int32_t L_180 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_181 = V_4;
+			Rect_t1525428817  L_182;
+			memset(&L_182, 0, sizeof(L_182));
+			Rect__ctor_m3291325233(&L_182, (0.0f), L_179, (((float)((float)((int32_t)((int32_t)L_180-(int32_t)((int32_t)10)))))), L_181, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_182, _stringLiteral814977305, /*hidden argument*/NULL);
+			goto IL_05c2;
+		}
+
+IL_05a1:
+		{
+			float L_183 = V_6;
+			int32_t L_184 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_185 = V_4;
+			Rect_t1525428817  L_186;
+			memset(&L_186, 0, sizeof(L_186));
+			Rect__ctor_m3291325233(&L_186, (0.0f), L_183, (((float)((float)((int32_t)((int32_t)L_184-(int32_t)((int32_t)10)))))), L_185, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_186, _stringLiteral3963429885, /*hidden argument*/NULL);
+		}
+
+IL_05c2:
+		{
+			Color_t1588175760  L_187 = Color_get_grey_m3805481615(NULL /*static, unused*/, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_set_color_m2304110692(NULL /*static, unused*/, L_187, /*hidden argument*/NULL);
+			float L_188 = V_6;
+			float L_189 = V_4;
+			int32_t L_190 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			Rect_t1525428817  L_191;
+			memset(&L_191, 0, sizeof(L_191));
+			Rect__ctor_m3291325233(&L_191, (0.0f), ((float)((float)((float)((float)L_188+(float)L_189))-(float)(1.0f))), (((float)((float)L_190))), (1.0f), /*hidden argument*/NULL);
+			Texture2D_t2509538522 * L_192 = __this->get_tWhitePixel_16();
+			GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_191, L_192, /*hidden argument*/NULL);
+			float L_193 = V_6;
+			float L_194 = V_4;
+			V_6 = ((float)((float)L_193+(float)L_194));
+			GUI_set_enabled_m262604887(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		}
+
+IL_0604:
+		{
+			bool L_195 = Enumerator_MoveNext_m3214302908((&V_8), /*hidden argument*/Enumerator_MoveNext_m3214302908_MethodInfo_var);
+			if (L_195)
+			{
+				goto IL_023d;
+			}
+		}
+
+IL_0610:
+		{
+			IL2CPP_LEAVE(0x622, FINALLY_0615);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0615;
+	}
+
+FINALLY_0615:
+	{ // begin finally (depth: 1)
+		Enumerator_t4017944295  L_196 = V_8;
+		Enumerator_t4017944295  L_197 = L_196;
+		Il2CppObject * L_198 = Box(Enumerator_t4017944295_il2cpp_TypeInfo_var, &L_197);
+		NullCheck((Il2CppObject *)L_198);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_198);
+		IL2CPP_END_FINALLY(1557)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(1557)
+	{
+		IL2CPP_JUMP_TBL(0x622, IL_0622)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0622:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_EndScrollView_m3280556969(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_199 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_199);
+		GUIStyle_t1006925219 * L_200 = GUISkin_get_label_m3553254700(L_199, /*hidden argument*/NULL);
+		int32_t L_201 = V_1;
+		NullCheck(L_200);
+		GUIStyle_set_alignment_m4252900834(L_200, L_201, /*hidden argument*/NULL);
+		Color_t1588175760  L_202 = V_0;
+		GUI_set_color_m2304110692(NULL /*static, unused*/, L_202, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_203 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_203);
+		GUIStyle_t1006925219 * L_204 = GUISkin_get_label_m3553254700(L_203, /*hidden argument*/NULL);
+		Font_t1525081276 * L_205 = V_2;
+		NullCheck(L_204);
+		GUIStyle_set_font_m3587533075(L_204, L_205, /*hidden argument*/NULL);
+		int32_t L_206 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_13 = ((float)((float)(((float)((float)L_206)))/(float)(8.0f)));
+		float L_207 = V_13;
+		V_14 = ((float)((float)L_207/(float)(8.0f)));
+		float L_208 = V_13;
+		float L_209 = V_14;
+		V_15 = ((float)((float)L_208-(float)((float)((float)(2.0f)*(float)L_209))));
+		float L_210 = V_15;
+		V_16 = ((float)((float)((float)((float)L_210*(float)(180.0f)))/(float)(95.0f)));
+		int32_t L_211 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_212 = V_16;
+		int32_t L_213 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_214 = V_14;
+		float L_215 = V_16;
+		float L_216 = V_15;
+		Rect_t1525428817  L_217;
+		memset(&L_217, 0, sizeof(L_217));
+		Rect__ctor_m3291325233(&L_217, ((float)((float)((float)((float)((float)((float)(((float)((float)L_211)))*(float)(2.0f)))/(float)(7.0f)))-(float)((float)((float)L_212/(float)(2.0f))))), ((float)((float)((float)((float)((float)((float)(((float)((float)L_213)))*(float)(7.0f)))/(float)(8.0f)))+(float)L_214)), L_215, L_216, /*hidden argument*/NULL);
+		bool L_218 = GUI_Button_m885093907(NULL /*static, unused*/, L_217, _stringLiteral3015911, /*hidden argument*/NULL);
+		if (!L_218)
+		{
+			goto IL_06d1;
+		}
+	}
+	{
+		__this->set_guiState_3(0);
+	}
+
+IL_06d1:
+	{
+		int32_t L_219 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_220 = V_16;
+		int32_t L_221 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_222 = V_14;
+		float L_223 = V_16;
+		float L_224 = V_15;
+		Rect_t1525428817  L_225;
+		memset(&L_225, 0, sizeof(L_225));
+		Rect__ctor_m3291325233(&L_225, ((float)((float)((float)((float)((float)((float)(((float)((float)L_219)))*(float)(2.0f)))/(float)(7.0f)))-(float)((float)((float)L_220/(float)(2.0f))))), ((float)((float)((float)((float)((float)((float)(((float)((float)L_221)))*(float)(7.0f)))/(float)(8.0f)))+(float)L_222)), L_223, L_224, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_226 = __this->get_tBack_21();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_225, L_226, /*hidden argument*/NULL);
+		float L_227 = V_15;
+		V_16 = ((float)((float)((float)((float)L_227*(float)(227.0f)))/(float)(94.0f)));
+		int32_t L_228 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_229 = V_16;
+		int32_t L_230 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_231 = V_14;
+		float L_232 = V_16;
+		float L_233 = V_15;
+		Rect_t1525428817  L_234;
+		memset(&L_234, 0, sizeof(L_234));
+		Rect__ctor_m3291325233(&L_234, ((float)((float)((float)((float)((float)((float)(((float)((float)L_228)))*(float)(5.0f)))/(float)(7.0f)))-(float)((float)((float)L_229/(float)(2.0f))))), ((float)((float)((float)((float)((float)((float)(((float)((float)L_230)))*(float)(7.0f)))/(float)(8.0f)))+(float)L_231)), L_232, L_233, /*hidden argument*/NULL);
+		bool L_235 = GUI_Button_m885093907(NULL /*static, unused*/, L_234, _stringLiteral3015911, /*hidden argument*/NULL);
+		if (!L_235)
+		{
+			goto IL_0774;
+		}
+	}
+	{
+		__this->set_guiState_3(1);
+	}
+
+IL_0774:
+	{
+		int32_t L_236 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_237 = V_16;
+		int32_t L_238 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_239 = V_14;
+		float L_240 = V_16;
+		float L_241 = V_15;
+		Rect_t1525428817  L_242;
+		memset(&L_242, 0, sizeof(L_242));
+		Rect__ctor_m3291325233(&L_242, ((float)((float)((float)((float)((float)((float)(((float)((float)L_236)))*(float)(5.0f)))/(float)(7.0f)))-(float)((float)((float)L_237/(float)(2.0f))))), ((float)((float)((float)((float)((float)((float)(((float)((float)L_238)))*(float)(7.0f)))/(float)(8.0f)))+(float)L_239)), L_240, L_241, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_243 = __this->get_tGetMore_22();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_242, L_243, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.ExampleWindow::currencyScreen()
+extern Il2CppClass* GUI_t1522956648_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInfo_t3860026085_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreInventory_t1542337393_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1967233988_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t726733044_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3434291265_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m4018611885_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1647915215_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2660330554;
+extern Il2CppCodeGenString* _stringLiteral3611831936;
+extern Il2CppCodeGenString* _stringLiteral1748323215;
+extern Il2CppCodeGenString* _stringLiteral3509786955;
+extern Il2CppCodeGenString* _stringLiteral1475710;
+extern Il2CppCodeGenString* _stringLiteral3314972689;
+extern Il2CppCodeGenString* _stringLiteral814977305;
+extern Il2CppCodeGenString* _stringLiteral3015911;
+extern const uint32_t ExampleWindow_currencyScreen_m1058060016_MetadataUsageId;
+extern "C"  void ExampleWindow_currencyScreen_m1058060016 (ExampleWindow_t2922717028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ExampleWindow_currencyScreen_m1058060016_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Color_t1588175760  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Font_t1525081276 * V_2 = NULL;
+	String_t* V_3 = NULL;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	VirtualCurrencyPack_t1843991083 * V_7 = NULL;
+	Enumerator_t726733044  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	Exception_t1967233988 * V_9 = NULL;
+	String_t* V_10 = NULL;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Rect__ctor_m3291325233(&L_2, (0.0f), (0.0f), (((float)((float)L_0))), (((float)((float)L_1))), /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_3 = __this->get_tWhitePixel_16();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Color_t1588175760  L_4 = GUI_get_color_m1489208189(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_4;
+		GUISkin_t2614611333 * L_5 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		GUIStyle_t1006925219 * L_6 = GUISkin_get_label_m3553254700(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		int32_t L_7 = GUIStyle_get_alignment_m1533628953(L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		GUISkin_t2614611333 * L_8 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		GUIStyle_t1006925219 * L_9 = GUISkin_get_label_m3553254700(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Font_t1525081276 * L_10 = GUIStyle_get_font_m1061814606(L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		Color_t1588175760  L_11 = Color_get_red_m4288945411(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_color_m2304110692(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_12 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		GUIStyle_t1006925219 * L_13 = GUISkin_get_label_m3553254700(L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		GUIStyle_set_alignment_m4252900834(L_13, 0, /*hidden argument*/NULL);
+		int32_t L_14 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_15 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_16;
+		memset(&L_16, 0, sizeof(L_16));
+		Rect__ctor_m3291325233(&L_16, (10.0f), (10.0f), (((float)((float)((int32_t)((int32_t)L_14-(int32_t)((int32_t)10)))))), (((float)((float)((int32_t)((int32_t)L_15-(int32_t)((int32_t)10)))))), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_16, _stringLiteral2660330554, /*hidden argument*/NULL);
+		Color_t1588175760  L_17 = Color_get_black_m1687201969(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_color_m2304110692(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_18 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		GUIStyle_t1006925219 * L_19 = GUISkin_get_label_m3553254700(L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		GUIStyle_set_alignment_m4252900834(L_19, 2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		List_1_t254888683 * L_20 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_Currencies_6();
+		NullCheck(L_20);
+		VirtualCurrency_t3752897010 * L_21 = VirtFuncInvoker1< VirtualCurrency_t3752897010 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<Soomla.Store.VirtualCurrency>::get_Item(System.Int32) */, L_20, 0);
+		NullCheck(L_21);
+		String_t* L_22 = VirtualItem_get_ItemId_m947777429(L_21, /*hidden argument*/NULL);
+		V_3 = L_22;
+		int32_t L_23 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_24 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_25;
+		memset(&L_25, 0, sizeof(L_25));
+		Rect__ctor_m3291325233(&L_25, (10.0f), (10.0f), (((float)((float)((int32_t)((int32_t)L_23-(int32_t)((int32_t)40)))))), (((float)((float)L_24))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_26 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_27 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+		int32_t L_28 = StoreInventory_GetItemBalance_m2515193533(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		int32_t L_29 = L_28;
+		Il2CppObject * L_30 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_29);
+		String_t* L_31 = String_Concat_m389863537(NULL /*static, unused*/, L_26, L_30, /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_25, L_31, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_32 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		GUIStyle_t1006925219 * L_33 = GUISkin_get_label_m3553254700(L_32, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		GUIStyle_set_alignment_m4252900834(L_33, 4, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_34 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		GUIStyle_t1006925219 * L_35 = GUISkin_get_label_m3553254700(L_34, /*hidden argument*/NULL);
+		Font_t1525081276 * L_36 = __this->get_tTitle_23();
+		NullCheck(L_35);
+		GUIStyle_set_font_m3587533075(L_35, L_36, /*hidden argument*/NULL);
+		int32_t L_37 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_38 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_39 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_40;
+		memset(&L_40, 0, sizeof(L_40));
+		Rect__ctor_m3291325233(&L_40, (0.0f), ((float)((float)(((float)((float)L_37)))/(float)(8.0f))), (((float)((float)L_38))), ((float)((float)(((float)((float)L_39)))/(float)(8.0f))), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_40, _stringLiteral3611831936, /*hidden argument*/NULL);
+		Color_t1588175760  L_41 = V_0;
+		GUI_set_color_m2304110692(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
+		int32_t L_42 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_43;
+		memset(&L_43, 0, sizeof(L_43));
+		Rect__ctor_m3291325233(&L_43, (((float)((float)((int32_t)((int32_t)L_42-(int32_t)((int32_t)30)))))), (10.0f), (30.0f), (30.0f), /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_44 = __this->get_tMuffins_17();
+		GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_43, L_44, /*hidden argument*/NULL);
+		int32_t L_45 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = ((float)((float)(((float)((float)L_45)))*(float)(0.3f)));
+		List_1_t2640950052 * L_46 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_CurrencyPacks_7();
+		NullCheck(L_46);
+		int32_t L_47 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Soomla.Store.VirtualCurrencyPack>::get_Count() */, L_46);
+		float L_48 = V_4;
+		V_5 = ((float)((float)(((float)((float)L_47)))*(float)L_48));
+		int32_t L_49 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_50 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_51 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_52;
+		memset(&L_52, 0, sizeof(L_52));
+		Rect__ctor_m3291325233(&L_52, (0.0f), ((float)((float)((float)((float)(((float)((float)L_49)))*(float)(2.0f)))/(float)(8.0f))), (((float)((float)L_50))), ((float)((float)((float)((float)(((float)((float)L_51)))*(float)(5.0f)))/(float)(8.0f))), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_53 = __this->get_productScrollPosition_5();
+		int32_t L_54 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_55 = V_5;
+		Rect_t1525428817  L_56;
+		memset(&L_56, 0, sizeof(L_56));
+		Rect__ctor_m3291325233(&L_56, (0.0f), (0.0f), (((float)((float)L_54))), L_55, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_57 = GUI_BeginScrollView_m2683764896(NULL /*static, unused*/, L_52, L_53, L_56, /*hidden argument*/NULL);
+		__this->set_productScrollPosition_5(L_57);
+		V_6 = (0.0f);
+		List_1_t2640950052 * L_58 = ((StoreInfo_t3860026085_StaticFields*)StoreInfo_t3860026085_il2cpp_TypeInfo_var->static_fields)->get_CurrencyPacks_7();
+		NullCheck(L_58);
+		Enumerator_t726733044  L_59 = List_1_GetEnumerator_m3434291265(L_58, /*hidden argument*/List_1_GetEnumerator_m3434291265_MethodInfo_var);
+		V_8 = L_59;
+	}
+
+IL_0206:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_04a9;
+		}
+
+IL_020b:
+		{
+			VirtualCurrencyPack_t1843991083 * L_60 = Enumerator_get_Current_m4018611885((&V_8), /*hidden argument*/Enumerator_get_Current_m4018611885_MethodInfo_var);
+			V_7 = L_60;
+			Color_t1588175760  L_61 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_set_color_m2304110692(NULL /*static, unused*/, L_61, /*hidden argument*/NULL);
+			float L_62 = V_6;
+			int32_t L_63 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_64 = V_4;
+			Rect_t1525428817  L_65;
+			memset(&L_65, 0, sizeof(L_65));
+			Rect__ctor_m3291325233(&L_65, (0.0f), L_62, (((float)((float)L_63))), L_64, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_66 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+			bool L_67 = GUI_Button_m885093907(NULL /*static, unused*/, L_65, L_66, /*hidden argument*/NULL);
+			if (!L_67)
+			{
+				goto IL_028c;
+			}
+		}
+
+IL_023d:
+		{
+			bool L_68 = __this->get_isDragging_6();
+			if (L_68)
+			{
+				goto IL_028c;
+			}
+		}
+
+IL_0248:
+		{
+			VirtualCurrencyPack_t1843991083 * L_69 = V_7;
+			NullCheck(L_69);
+			String_t* L_70 = ((SoomlaEntity_1_t520759857 *)L_69)->get_Name_1();
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_71 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1748323215, L_70, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+			Debug_Log_m1731103628(NULL /*static, unused*/, L_71, /*hidden argument*/NULL);
+		}
+
+IL_025e:
+		try
+		{ // begin try (depth: 2)
+			VirtualCurrencyPack_t1843991083 * L_72 = V_7;
+			NullCheck(L_72);
+			String_t* L_73 = VirtualItem_get_ItemId_m947777429(L_72, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+			StoreInventory_BuyItem_m2087160039(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
+			goto IL_028c;
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1967233988 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (Exception_t1967233988_il2cpp_TypeInfo_var, e.ex->object.klass))
+				goto CATCH_026f;
+			throw e;
+		}
+
+CATCH_026f:
+		{ // begin catch(System.Exception)
+			V_9 = ((Exception_t1967233988 *)__exception_local);
+			Exception_t1967233988 * L_74 = V_9;
+			NullCheck(L_74);
+			String_t* L_75 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_74);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_76 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3509786955, L_75, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+			Debug_Log_m1731103628(NULL /*static, unused*/, L_76, /*hidden argument*/NULL);
+			goto IL_028c;
+		} // end catch (depth: 2)
+
+IL_028c:
+		{
+			float L_77 = V_6;
+			int32_t L_78 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_79 = V_4;
+			Rect_t1525428817  L_80;
+			memset(&L_80, 0, sizeof(L_80));
+			Rect__ctor_m3291325233(&L_80, (0.0f), L_77, (((float)((float)L_78))), L_79, /*hidden argument*/NULL);
+			Texture2D_t2509538522 * L_81 = __this->get_tWhitePixel_16();
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_80, L_81, /*hidden argument*/NULL);
+			float L_82 = V_4;
+			float L_83 = V_6;
+			float L_84 = V_4;
+			float L_85 = V_4;
+			float L_86 = V_4;
+			Rect_t1525428817  L_87;
+			memset(&L_87, 0, sizeof(L_87));
+			Rect__ctor_m3291325233(&L_87, ((float)((float)(0.0f)+(float)((float)((float)L_82/(float)(8.0f))))), ((float)((float)L_83+(float)((float)((float)L_84/(float)(8.0f))))), ((float)((float)((float)((float)L_85*(float)(6.0f)))/(float)(8.0f))), ((float)((float)((float)((float)L_86*(float)(6.0f)))/(float)(8.0f))), /*hidden argument*/NULL);
+			Dictionary_2_t4147236426 * L_88 = __this->get_itemsTextures_24();
+			VirtualCurrencyPack_t1843991083 * L_89 = V_7;
+			NullCheck(L_89);
+			String_t* L_90 = VirtualItem_get_ItemId_m947777429(L_89, /*hidden argument*/NULL);
+			NullCheck(L_88);
+			Texture2D_t2509538522 * L_91 = VirtFuncInvoker1< Texture2D_t2509538522 *, String_t* >::Invoke(24 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture2D>::get_Item(!0) */, L_88, L_90);
+			GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_87, L_91, /*hidden argument*/NULL);
+			Color_t1588175760  L_92 = Color_get_black_m1687201969(NULL /*static, unused*/, /*hidden argument*/NULL);
+			GUI_set_color_m2304110692(NULL /*static, unused*/, L_92, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_93 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_93);
+			GUIStyle_t1006925219 * L_94 = GUISkin_get_label_m3553254700(L_93, /*hidden argument*/NULL);
+			Font_t1525081276 * L_95 = __this->get_fName_18();
+			NullCheck(L_94);
+			GUIStyle_set_font_m3587533075(L_94, L_95, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_96 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_96);
+			GUIStyle_t1006925219 * L_97 = GUISkin_get_label_m3553254700(L_96, /*hidden argument*/NULL);
+			NullCheck(L_97);
+			GUIStyle_set_alignment_m4252900834(L_97, 0, /*hidden argument*/NULL);
+			float L_98 = V_4;
+			float L_99 = V_6;
+			int32_t L_100 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_101 = V_4;
+			Rect_t1525428817  L_102;
+			memset(&L_102, 0, sizeof(L_102));
+			Rect__ctor_m3291325233(&L_102, L_98, L_99, (((float)((float)L_100))), ((float)((float)L_101/(float)(3.0f))), /*hidden argument*/NULL);
+			VirtualCurrencyPack_t1843991083 * L_103 = V_7;
+			NullCheck(L_103);
+			String_t* L_104 = ((SoomlaEntity_1_t520759857 *)L_103)->get_Name_1();
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_102, L_104, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_105 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_105);
+			GUIStyle_t1006925219 * L_106 = GUISkin_get_label_m3553254700(L_105, /*hidden argument*/NULL);
+			Font_t1525081276 * L_107 = __this->get_fDesc_19();
+			NullCheck(L_106);
+			GUIStyle_set_font_m3587533075(L_106, L_107, /*hidden argument*/NULL);
+			float L_108 = V_4;
+			float L_109 = V_6;
+			float L_110 = V_4;
+			int32_t L_111 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_112 = V_4;
+			float L_113 = V_4;
+			Rect_t1525428817  L_114;
+			memset(&L_114, 0, sizeof(L_114));
+			Rect__ctor_m3291325233(&L_114, ((float)((float)L_108+(float)(10.0f))), ((float)((float)L_109+(float)((float)((float)L_110/(float)(3.0f))))), ((float)((float)((float)((float)(((float)((float)L_111)))-(float)L_112))-(float)(15.0f))), ((float)((float)L_113/(float)(3.0f))), /*hidden argument*/NULL);
+			VirtualCurrencyPack_t1843991083 * L_115 = V_7;
+			NullCheck(L_115);
+			String_t* L_116 = ((SoomlaEntity_1_t520759857 *)L_115)->get_Description_2();
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_114, L_116, /*hidden argument*/NULL);
+			VirtualCurrencyPack_t1843991083 * L_117 = V_7;
+			NullCheck(L_117);
+			PurchaseType_t2779557329 * L_118 = ((PurchasableVirtualItem_t2555170966 *)L_117)->get_PurchaseType_6();
+			NullCheck(((PurchaseWithMarket_t3391409785 *)CastclassClass(L_118, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var)));
+			MarketItem_t3274808165 * L_119 = ((PurchaseWithMarket_t3391409785 *)CastclassClass(L_118, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var))->get_MarketItem_2();
+			NullCheck(L_119);
+			String_t* L_120 = L_119->get_MarketPriceAndCurrency_2();
+			V_10 = L_120;
+			String_t* L_121 = V_10;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			bool L_122 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_121, /*hidden argument*/NULL);
+			if (!L_122)
+			{
+				goto IL_03e4;
+			}
+		}
+
+IL_03c2:
+		{
+			VirtualCurrencyPack_t1843991083 * L_123 = V_7;
+			NullCheck(L_123);
+			PurchaseType_t2779557329 * L_124 = ((PurchasableVirtualItem_t2555170966 *)L_123)->get_PurchaseType_6();
+			NullCheck(((PurchaseWithMarket_t3391409785 *)CastclassClass(L_124, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var)));
+			MarketItem_t3274808165 * L_125 = ((PurchaseWithMarket_t3391409785 *)CastclassClass(L_124, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var))->get_MarketItem_2();
+			NullCheck(L_125);
+			double* L_126 = L_125->get_address_of_Price_1();
+			String_t* L_127 = Double_ToString_m1570887993(L_126, _stringLiteral1475710, /*hidden argument*/NULL);
+			V_10 = L_127;
+		}
+
+IL_03e4:
+		{
+			int32_t L_128 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_129 = V_6;
+			float L_130 = V_4;
+			int32_t L_131 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_132 = V_4;
+			Rect_t1525428817  L_133;
+			memset(&L_133, 0, sizeof(L_133));
+			Rect__ctor_m3291325233(&L_133, ((float)((float)(((float)((float)((int32_t)((int32_t)L_128*(int32_t)3)))))/(float)(4.0f))), ((float)((float)L_129+(float)((float)((float)((float)((float)L_130*(float)(2.0f)))/(float)(3.0f))))), (((float)((float)L_131))), ((float)((float)L_132/(float)(3.0f))), /*hidden argument*/NULL);
+			String_t* L_134 = V_10;
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_135 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3314972689, L_134, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_133, L_135, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_136 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_136);
+			GUIStyle_t1006925219 * L_137 = GUISkin_get_label_m3553254700(L_136, /*hidden argument*/NULL);
+			NullCheck(L_137);
+			GUIStyle_set_alignment_m4252900834(L_137, 2, /*hidden argument*/NULL);
+			GUISkin_t2614611333 * L_138 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_138);
+			GUIStyle_t1006925219 * L_139 = GUISkin_get_label_m3553254700(L_138, /*hidden argument*/NULL);
+			Font_t1525081276 * L_140 = __this->get_fBuy_20();
+			NullCheck(L_139);
+			GUIStyle_set_font_m3587533075(L_139, L_140, /*hidden argument*/NULL);
+			float L_141 = V_6;
+			int32_t L_142 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			float L_143 = V_4;
+			Rect_t1525428817  L_144;
+			memset(&L_144, 0, sizeof(L_144));
+			Rect__ctor_m3291325233(&L_144, (0.0f), L_141, (((float)((float)((int32_t)((int32_t)L_142-(int32_t)((int32_t)10)))))), L_143, /*hidden argument*/NULL);
+			GUI_Label_m1483857617(NULL /*static, unused*/, L_144, _stringLiteral814977305, /*hidden argument*/NULL);
+			Color_t1588175760  L_145 = Color_get_grey_m3805481615(NULL /*static, unused*/, /*hidden argument*/NULL);
+			GUI_set_color_m2304110692(NULL /*static, unused*/, L_145, /*hidden argument*/NULL);
+			float L_146 = V_6;
+			float L_147 = V_4;
+			int32_t L_148 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+			Rect_t1525428817  L_149;
+			memset(&L_149, 0, sizeof(L_149));
+			Rect__ctor_m3291325233(&L_149, (0.0f), ((float)((float)((float)((float)L_146+(float)L_147))-(float)(1.0f))), (((float)((float)L_148))), (1.0f), /*hidden argument*/NULL);
+			Texture2D_t2509538522 * L_150 = __this->get_tWhitePixel_16();
+			GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_149, L_150, /*hidden argument*/NULL);
+			float L_151 = V_6;
+			float L_152 = V_4;
+			V_6 = ((float)((float)L_151+(float)L_152));
+		}
+
+IL_04a9:
+		{
+			bool L_153 = Enumerator_MoveNext_m1647915215((&V_8), /*hidden argument*/Enumerator_MoveNext_m1647915215_MethodInfo_var);
+			if (L_153)
+			{
+				goto IL_020b;
+			}
+		}
+
+IL_04b5:
+		{
+			IL2CPP_LEAVE(0x4C7, FINALLY_04ba);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_04ba;
+	}
+
+FINALLY_04ba:
+	{ // begin finally (depth: 1)
+		Enumerator_t726733044  L_154 = V_8;
+		Enumerator_t726733044  L_155 = L_154;
+		Il2CppObject * L_156 = Box(Enumerator_t726733044_il2cpp_TypeInfo_var, &L_155);
+		NullCheck((Il2CppObject *)L_156);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Il2CppObject *)L_156);
+		IL2CPP_END_FINALLY(1210)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(1210)
+	{
+		IL2CPP_JUMP_TBL(0x4C7, IL_04c7)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_04c7:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_EndScrollView_m3280556969(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_157 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_157);
+		GUIStyle_t1006925219 * L_158 = GUISkin_get_label_m3553254700(L_157, /*hidden argument*/NULL);
+		int32_t L_159 = V_1;
+		NullCheck(L_158);
+		GUIStyle_set_alignment_m4252900834(L_158, L_159, /*hidden argument*/NULL);
+		Color_t1588175760  L_160 = V_0;
+		GUI_set_color_m2304110692(NULL /*static, unused*/, L_160, /*hidden argument*/NULL);
+		GUISkin_t2614611333 * L_161 = GUI_get_skin_m4001454842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_161);
+		GUIStyle_t1006925219 * L_162 = GUISkin_get_label_m3553254700(L_161, /*hidden argument*/NULL);
+		Font_t1525081276 * L_163 = V_2;
+		NullCheck(L_162);
+		GUIStyle_set_font_m3587533075(L_162, L_163, /*hidden argument*/NULL);
+		int32_t L_164 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_11 = ((float)((float)(((float)((float)L_164)))/(float)(8.0f)));
+		float L_165 = V_11;
+		V_12 = ((float)((float)L_165/(float)(8.0f)));
+		float L_166 = V_11;
+		float L_167 = V_12;
+		V_13 = ((float)((float)L_166-(float)((float)((float)(2.0f)*(float)L_167))));
+		float L_168 = V_13;
+		V_14 = ((float)((float)((float)((float)L_168*(float)(180.0f)))/(float)(95.0f)));
+		int32_t L_169 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_170 = V_14;
+		int32_t L_171 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_172 = V_12;
+		float L_173 = V_14;
+		float L_174 = V_13;
+		Rect_t1525428817  L_175;
+		memset(&L_175, 0, sizeof(L_175));
+		Rect__ctor_m3291325233(&L_175, ((float)((float)((float)((float)(((float)((float)L_169)))/(float)(2.0f)))-(float)((float)((float)L_170/(float)(2.0f))))), ((float)((float)((float)((float)((float)((float)(((float)((float)L_171)))*(float)(7.0f)))/(float)(8.0f)))+(float)L_172)), L_173, L_174, /*hidden argument*/NULL);
+		bool L_176 = GUI_Button_m885093907(NULL /*static, unused*/, L_175, _stringLiteral3015911, /*hidden argument*/NULL);
+		if (!L_176)
+		{
+			goto IL_0570;
+		}
+	}
+	{
+		__this->set_guiState_3(2);
+	}
+
+IL_0570:
+	{
+		int32_t L_177 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_178 = V_14;
+		int32_t L_179 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_180 = V_12;
+		float L_181 = V_14;
+		float L_182 = V_13;
+		Rect_t1525428817  L_183;
+		memset(&L_183, 0, sizeof(L_183));
+		Rect__ctor_m3291325233(&L_183, ((float)((float)((float)((float)(((float)((float)L_177)))/(float)(2.0f)))-(float)((float)((float)L_178/(float)(2.0f))))), ((float)((float)((float)((float)((float)((float)(((float)((float)L_179)))*(float)(7.0f)))/(float)(8.0f)))+(float)L_180)), L_181, L_182, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_184 = __this->get_tBack_21();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_DrawTexture_m418809280(NULL /*static, unused*/, L_183, L_184, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.MuffinRushAssets::.ctor()
+extern "C"  void MuffinRushAssets__ctor_m1374028083 (MuffinRushAssets_t3830037138 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.Example.MuffinRushAssets::.cctor()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualCurrency_t3752897010_il2cpp_TypeInfo_var;
+extern Il2CppClass* MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualCurrencyPack_t1843991083_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleUseVG_t91284678_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringU5BU5D_t2956870243_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualCategory_t3228006111_il2cpp_TypeInfo_var;
+extern Il2CppClass* LifetimeVG_t1847981616_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2301170921_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3065259622;
+extern Il2CppCodeGenString* _stringLiteral627764091;
+extern Il2CppCodeGenString* _stringLiteral1102920037;
+extern Il2CppCodeGenString* _stringLiteral3184027543;
+extern Il2CppCodeGenString* _stringLiteral4151314040;
+extern Il2CppCodeGenString* _stringLiteral2241962676;
+extern Il2CppCodeGenString* _stringLiteral316866017;
+extern Il2CppCodeGenString* _stringLiteral2322207660;
+extern Il2CppCodeGenString* _stringLiteral4151314164;
+extern Il2CppCodeGenString* _stringLiteral2826713398;
+extern Il2CppCodeGenString* _stringLiteral2347243386;
+extern Il2CppCodeGenString* _stringLiteral2865948142;
+extern Il2CppCodeGenString* _stringLiteral4136686587;
+extern Il2CppCodeGenString* _stringLiteral3755637382;
+extern Il2CppCodeGenString* _stringLiteral2975200165;
+extern Il2CppCodeGenString* _stringLiteral3305061489;
+extern Il2CppCodeGenString* _stringLiteral3683143288;
+extern Il2CppCodeGenString* _stringLiteral3112095061;
+extern Il2CppCodeGenString* _stringLiteral3334157060;
+extern Il2CppCodeGenString* _stringLiteral1524924078;
+extern Il2CppCodeGenString* _stringLiteral1399827331;
+extern Il2CppCodeGenString* _stringLiteral875181427;
+extern Il2CppCodeGenString* _stringLiteral2393430822;
+extern Il2CppCodeGenString* _stringLiteral3505495443;
+extern Il2CppCodeGenString* _stringLiteral1750486492;
+extern Il2CppCodeGenString* _stringLiteral3948001956;
+extern Il2CppCodeGenString* _stringLiteral2811614811;
+extern Il2CppCodeGenString* _stringLiteral2593789280;
+extern Il2CppCodeGenString* _stringLiteral3801787707;
+extern Il2CppCodeGenString* _stringLiteral591728897;
+extern Il2CppCodeGenString* _stringLiteral1584505032;
+extern Il2CppCodeGenString* _stringLiteral2336603601;
+extern Il2CppCodeGenString* _stringLiteral1349630941;
+extern Il2CppCodeGenString* _stringLiteral3254644018;
+extern const uint32_t MuffinRushAssets__cctor_m3458068698_MetadataUsageId;
+extern "C"  void MuffinRushAssets__cctor_m3458068698 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MuffinRushAssets__cctor_m3458068698_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		VirtualCurrency_t3752897010 * L_1 = (VirtualCurrency_t3752897010 *)il2cpp_codegen_object_new(VirtualCurrency_t3752897010_il2cpp_TypeInfo_var);
+		VirtualCurrency__ctor_m463475663(L_1, _stringLiteral3065259622, L_0, _stringLiteral627764091, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_MUFFIN_CURRENCY_10(L_1);
+		PurchaseWithMarket_t3391409785 * L_2 = (PurchaseWithMarket_t3391409785 *)il2cpp_codegen_object_new(PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var);
+		PurchaseWithMarket__ctor_m2914367970(L_2, _stringLiteral2241962676, (0.99), /*hidden argument*/NULL);
+		VirtualCurrencyPack_t1843991083 * L_3 = (VirtualCurrencyPack_t1843991083 *)il2cpp_codegen_object_new(VirtualCurrencyPack_t1843991083_il2cpp_TypeInfo_var);
+		VirtualCurrencyPack__ctor_m1983429008(L_3, _stringLiteral1102920037, _stringLiteral3184027543, _stringLiteral4151314040, ((int32_t)10), _stringLiteral627764091, L_2, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_TENMUFF_PACK_11(L_3);
+		PurchaseWithMarket_t3391409785 * L_4 = (PurchaseWithMarket_t3391409785 *)il2cpp_codegen_object_new(PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var);
+		PurchaseWithMarket__ctor_m2914367970(L_4, _stringLiteral2826713398, (1.99), /*hidden argument*/NULL);
+		VirtualCurrencyPack_t1843991083 * L_5 = (VirtualCurrencyPack_t1843991083 *)il2cpp_codegen_object_new(VirtualCurrencyPack_t1843991083_il2cpp_TypeInfo_var);
+		VirtualCurrencyPack__ctor_m1983429008(L_5, _stringLiteral316866017, _stringLiteral2322207660, _stringLiteral4151314164, ((int32_t)50), _stringLiteral627764091, L_4, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_FIFTYMUFF_PACK_12(L_5);
+		PurchaseWithMarket_t3391409785 * L_6 = (PurchaseWithMarket_t3391409785 *)il2cpp_codegen_object_new(PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var);
+		PurchaseWithMarket__ctor_m2914367970(L_6, _stringLiteral3755637382, (4.99), /*hidden argument*/NULL);
+		VirtualCurrencyPack_t1843991083 * L_7 = (VirtualCurrencyPack_t1843991083 *)il2cpp_codegen_object_new(VirtualCurrencyPack_t1843991083_il2cpp_TypeInfo_var);
+		VirtualCurrencyPack__ctor_m1983429008(L_7, _stringLiteral2347243386, _stringLiteral2865948142, _stringLiteral4136686587, ((int32_t)400), _stringLiteral627764091, L_6, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_FOURHUNDMUFF_PACK_13(L_7);
+		PurchaseWithMarket_t3391409785 * L_8 = (PurchaseWithMarket_t3391409785 *)il2cpp_codegen_object_new(PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var);
+		PurchaseWithMarket__ctor_m2914367970(L_8, _stringLiteral3112095061, (8.99), /*hidden argument*/NULL);
+		VirtualCurrencyPack_t1843991083 * L_9 = (VirtualCurrencyPack_t1843991083 *)il2cpp_codegen_object_new(VirtualCurrencyPack_t1843991083_il2cpp_TypeInfo_var);
+		VirtualCurrencyPack__ctor_m1983429008(L_9, _stringLiteral2975200165, _stringLiteral3305061489, _stringLiteral3683143288, ((int32_t)1000), _stringLiteral627764091, L_8, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_THOUSANDMUFF_PACK_14(L_9);
+		PurchaseWithVirtualItem_t2966680205 * L_10 = (PurchaseWithVirtualItem_t2966680205 *)il2cpp_codegen_object_new(PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var);
+		PurchaseWithVirtualItem__ctor_m2349298405(L_10, _stringLiteral627764091, ((int32_t)225), /*hidden argument*/NULL);
+		SingleUseVG_t91284678 * L_11 = (SingleUseVG_t91284678 *)il2cpp_codegen_object_new(SingleUseVG_t91284678_il2cpp_TypeInfo_var);
+		SingleUseVG__ctor_m4169913640(L_11, _stringLiteral3334157060, _stringLiteral1524924078, _stringLiteral1399827331, L_10, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_MUFFINCAKE_GOOD_15(L_11);
+		PurchaseWithVirtualItem_t2966680205 * L_12 = (PurchaseWithVirtualItem_t2966680205 *)il2cpp_codegen_object_new(PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var);
+		PurchaseWithVirtualItem__ctor_m2349298405(L_12, _stringLiteral627764091, ((int32_t)175), /*hidden argument*/NULL);
+		SingleUseVG_t91284678 * L_13 = (SingleUseVG_t91284678 *)il2cpp_codegen_object_new(SingleUseVG_t91284678_il2cpp_TypeInfo_var);
+		SingleUseVG__ctor_m4169913640(L_13, _stringLiteral875181427, _stringLiteral2393430822, _stringLiteral3505495443, L_12, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_PAVLOVA_GOOD_16(L_13);
+		PurchaseWithVirtualItem_t2966680205 * L_14 = (PurchaseWithVirtualItem_t2966680205 *)il2cpp_codegen_object_new(PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var);
+		PurchaseWithVirtualItem__ctor_m2349298405(L_14, _stringLiteral627764091, ((int32_t)250), /*hidden argument*/NULL);
+		SingleUseVG_t91284678 * L_15 = (SingleUseVG_t91284678 *)il2cpp_codegen_object_new(SingleUseVG_t91284678_il2cpp_TypeInfo_var);
+		SingleUseVG__ctor_m4169913640(L_15, _stringLiteral1750486492, _stringLiteral3948001956, _stringLiteral2811614811, L_14, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_CHOCLATECAKE_GOOD_17(L_15);
+		PurchaseWithVirtualItem_t2966680205 * L_16 = (PurchaseWithVirtualItem_t2966680205 *)il2cpp_codegen_object_new(PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var);
+		PurchaseWithVirtualItem__ctor_m2349298405(L_16, _stringLiteral627764091, ((int32_t)50), /*hidden argument*/NULL);
+		SingleUseVG_t91284678 * L_17 = (SingleUseVG_t91284678 *)il2cpp_codegen_object_new(SingleUseVG_t91284678_il2cpp_TypeInfo_var);
+		SingleUseVG__ctor_m4169913640(L_17, _stringLiteral2593789280, _stringLiteral3801787707, _stringLiteral591728897, L_16, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_CREAMCUP_GOOD_18(L_17);
+		StringU5BU5D_t2956870243* L_18 = ((StringU5BU5D_t2956870243*)SZArrayNew(StringU5BU5D_t2956870243_il2cpp_TypeInfo_var, (uint32_t)4));
+		NullCheck(L_18);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, 0);
+		ArrayElementTypeCheck (L_18, _stringLiteral1399827331);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral1399827331);
+		StringU5BU5D_t2956870243* L_19 = L_18;
+		NullCheck(L_19);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, 1);
+		ArrayElementTypeCheck (L_19, _stringLiteral3505495443);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral3505495443);
+		StringU5BU5D_t2956870243* L_20 = L_19;
+		NullCheck(L_20);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, 2);
+		ArrayElementTypeCheck (L_20, _stringLiteral2811614811);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral2811614811);
+		StringU5BU5D_t2956870243* L_21 = L_20;
+		NullCheck(L_21);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_21, 3);
+		ArrayElementTypeCheck (L_21, _stringLiteral591728897);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral591728897);
+		List_1_t1765447871 * L_22 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m2301170921(L_22, (Il2CppObject*)(Il2CppObject*)L_21, /*hidden argument*/List_1__ctor_m2301170921_MethodInfo_var);
+		VirtualCategory_t3228006111 * L_23 = (VirtualCategory_t3228006111 *)il2cpp_codegen_object_new(VirtualCategory_t3228006111_il2cpp_TypeInfo_var);
+		VirtualCategory__ctor_m2823381814(L_23, _stringLiteral1584505032, L_22, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_GENERAL_CATEGORY_19(L_23);
+		PurchaseWithMarket_t3391409785 * L_24 = (PurchaseWithMarket_t3391409785 *)il2cpp_codegen_object_new(PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var);
+		PurchaseWithMarket__ctor_m2914367970(L_24, _stringLiteral3254644018, (0.99), /*hidden argument*/NULL);
+		LifetimeVG_t1847981616 * L_25 = (LifetimeVG_t1847981616 *)il2cpp_codegen_object_new(LifetimeVG_t1847981616_il2cpp_TypeInfo_var);
+		LifetimeVG__ctor_m3699772762(L_25, _stringLiteral2336603601, _stringLiteral1349630941, _stringLiteral3254644018, L_24, /*hidden argument*/NULL);
+		((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->set_NO_ADS_LTVG_20(L_25);
+		return;
+	}
+}
+// System.Int32 Soomla.Store.Example.MuffinRushAssets::GetVersion()
+extern "C"  int32_t MuffinRushAssets_GetVersion_m2802040069 (MuffinRushAssets_t3830037138 * __this, const MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+// Soomla.Store.VirtualCurrency[] Soomla.Store.Example.MuffinRushAssets::GetCurrencies()
+extern Il2CppClass* VirtualCurrencyU5BU5D_t2516616711_il2cpp_TypeInfo_var;
+extern Il2CppClass* MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var;
+extern const uint32_t MuffinRushAssets_GetCurrencies_m2733298817_MetadataUsageId;
+extern "C"  VirtualCurrencyU5BU5D_t2516616711* MuffinRushAssets_GetCurrencies_m2733298817 (MuffinRushAssets_t3830037138 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MuffinRushAssets_GetCurrencies_m2733298817_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		VirtualCurrencyU5BU5D_t2516616711* L_0 = ((VirtualCurrencyU5BU5D_t2516616711*)SZArrayNew(VirtualCurrencyU5BU5D_t2516616711_il2cpp_TypeInfo_var, (uint32_t)1));
+		IL2CPP_RUNTIME_CLASS_INIT(MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var);
+		VirtualCurrency_t3752897010 * L_1 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_MUFFIN_CURRENCY_10();
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (VirtualCurrency_t3752897010 *)L_1);
+		return L_0;
+	}
+}
+// Soomla.Store.VirtualGood[] Soomla.Store.Example.MuffinRushAssets::GetGoods()
+extern Il2CppClass* VirtualGoodU5BU5D_t2990489003_il2cpp_TypeInfo_var;
+extern Il2CppClass* MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var;
+extern const uint32_t MuffinRushAssets_GetGoods_m2614755602_MetadataUsageId;
+extern "C"  VirtualGoodU5BU5D_t2990489003* MuffinRushAssets_GetGoods_m2614755602 (MuffinRushAssets_t3830037138 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MuffinRushAssets_GetGoods_m2614755602_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		VirtualGoodU5BU5D_t2990489003* L_0 = ((VirtualGoodU5BU5D_t2990489003*)SZArrayNew(VirtualGoodU5BU5D_t2990489003_il2cpp_TypeInfo_var, (uint32_t)5));
+		IL2CPP_RUNTIME_CLASS_INIT(MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var);
+		VirtualGood_t840235038 * L_1 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_MUFFINCAKE_GOOD_15();
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (VirtualGood_t840235038 *)L_1);
+		VirtualGoodU5BU5D_t2990489003* L_2 = L_0;
+		VirtualGood_t840235038 * L_3 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_PAVLOVA_GOOD_16();
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (VirtualGood_t840235038 *)L_3);
+		VirtualGoodU5BU5D_t2990489003* L_4 = L_2;
+		VirtualGood_t840235038 * L_5 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_CHOCLATECAKE_GOOD_17();
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 2);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (VirtualGood_t840235038 *)L_5);
+		VirtualGoodU5BU5D_t2990489003* L_6 = L_4;
+		VirtualGood_t840235038 * L_7 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_CREAMCUP_GOOD_18();
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 3);
+		ArrayElementTypeCheck (L_6, L_7);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(3), (VirtualGood_t840235038 *)L_7);
+		VirtualGoodU5BU5D_t2990489003* L_8 = L_6;
+		VirtualGood_t840235038 * L_9 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_NO_ADS_LTVG_20();
+		NullCheck(L_8);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 4);
+		ArrayElementTypeCheck (L_8, L_9);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(4), (VirtualGood_t840235038 *)L_9);
+		return L_8;
+	}
+}
+// Soomla.Store.VirtualCurrencyPack[] Soomla.Store.Example.MuffinRushAssets::GetCurrencyPacks()
+extern Il2CppClass* VirtualCurrencyPackU5BU5D_t4125081802_il2cpp_TypeInfo_var;
+extern Il2CppClass* MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var;
+extern const uint32_t MuffinRushAssets_GetCurrencyPacks_m3443231602_MetadataUsageId;
+extern "C"  VirtualCurrencyPackU5BU5D_t4125081802* MuffinRushAssets_GetCurrencyPacks_m3443231602 (MuffinRushAssets_t3830037138 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MuffinRushAssets_GetCurrencyPacks_m3443231602_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		VirtualCurrencyPackU5BU5D_t4125081802* L_0 = ((VirtualCurrencyPackU5BU5D_t4125081802*)SZArrayNew(VirtualCurrencyPackU5BU5D_t4125081802_il2cpp_TypeInfo_var, (uint32_t)4));
+		IL2CPP_RUNTIME_CLASS_INIT(MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var);
+		VirtualCurrencyPack_t1843991083 * L_1 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_TENMUFF_PACK_11();
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (VirtualCurrencyPack_t1843991083 *)L_1);
+		VirtualCurrencyPackU5BU5D_t4125081802* L_2 = L_0;
+		VirtualCurrencyPack_t1843991083 * L_3 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_FIFTYMUFF_PACK_12();
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (VirtualCurrencyPack_t1843991083 *)L_3);
+		VirtualCurrencyPackU5BU5D_t4125081802* L_4 = L_2;
+		VirtualCurrencyPack_t1843991083 * L_5 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_FOURHUNDMUFF_PACK_13();
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 2);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (VirtualCurrencyPack_t1843991083 *)L_5);
+		VirtualCurrencyPackU5BU5D_t4125081802* L_6 = L_4;
+		VirtualCurrencyPack_t1843991083 * L_7 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_THOUSANDMUFF_PACK_14();
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 3);
+		ArrayElementTypeCheck (L_6, L_7);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(3), (VirtualCurrencyPack_t1843991083 *)L_7);
+		return L_6;
+	}
+}
+// Soomla.Store.VirtualCategory[] Soomla.Store.Example.MuffinRushAssets::GetCategories()
+extern Il2CppClass* VirtualCategoryU5BU5D_t2340540102_il2cpp_TypeInfo_var;
+extern Il2CppClass* MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var;
+extern const uint32_t MuffinRushAssets_GetCategories_m1985773217_MetadataUsageId;
+extern "C"  VirtualCategoryU5BU5D_t2340540102* MuffinRushAssets_GetCategories_m1985773217 (MuffinRushAssets_t3830037138 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MuffinRushAssets_GetCategories_m1985773217_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		VirtualCategoryU5BU5D_t2340540102* L_0 = ((VirtualCategoryU5BU5D_t2340540102*)SZArrayNew(VirtualCategoryU5BU5D_t2340540102_il2cpp_TypeInfo_var, (uint32_t)1));
+		IL2CPP_RUNTIME_CLASS_INIT(MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var);
+		VirtualCategory_t3228006111 * L_1 = ((MuffinRushAssets_t3830037138_StaticFields*)MuffinRushAssets_t3830037138_il2cpp_TypeInfo_var->static_fields)->get_GENERAL_CATEGORY_19();
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (VirtualCategory_t3228006111 *)L_1);
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.GoodBalanceChangedEvent::.ctor(Soomla.Store.VirtualGood,System.Int32,System.Int32)
+extern "C"  void GoodBalanceChangedEvent__ctor_m471020230 (GoodBalanceChangedEvent_t296625915 * __this, VirtualGood_t840235038 * ___item0, int32_t ___balance1, int32_t ___amountAdded2, const MethodInfo* method)
+{
+	{
+		VirtualGood_t840235038 * L_0 = ___item0;
+		int32_t L_1 = ___balance1;
+		int32_t L_2 = ___amountAdded2;
+		GoodBalanceChangedEvent__ctor_m1996368660(__this, L_0, L_1, L_2, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.GoodBalanceChangedEvent::.ctor(Soomla.Store.VirtualGood,System.Int32,System.Int32,System.Object)
+extern "C"  void GoodBalanceChangedEvent__ctor_m1996368660 (GoodBalanceChangedEvent_t296625915 * __this, VirtualGood_t840235038 * ___item0, int32_t ___balance1, int32_t ___amountAdded2, Il2CppObject * ___sender3, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender3;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		VirtualGood_t840235038 * L_1 = ___item0;
+		__this->set_mItem_2(L_1);
+		int32_t L_2 = ___balance1;
+		__this->set_mBalance_3(L_2);
+		int32_t L_3 = ___amountAdded2;
+		__this->set_mAmountAdded_4(L_3);
+		return;
+	}
+}
+// Soomla.Store.VirtualGood Soomla.Store.GoodBalanceChangedEvent::getGoodItemId()
+extern "C"  VirtualGood_t840235038 * GoodBalanceChangedEvent_getGoodItemId_m2215961312 (GoodBalanceChangedEvent_t296625915 * __this, const MethodInfo* method)
+{
+	{
+		VirtualGood_t840235038 * L_0 = __this->get_mItem_2();
+		return L_0;
+	}
+}
+// System.Int32 Soomla.Store.GoodBalanceChangedEvent::getBalance()
+extern "C"  int32_t GoodBalanceChangedEvent_getBalance_m2384531126 (GoodBalanceChangedEvent_t296625915 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_mBalance_3();
+		return L_0;
+	}
+}
+// System.Int32 Soomla.Store.GoodBalanceChangedEvent::getAmountAdded()
+extern "C"  int32_t GoodBalanceChangedEvent_getAmountAdded_m2257561570 (GoodBalanceChangedEvent_t296625915 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_mAmountAdded_4();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.GoodEquippedEvent::.ctor(Soomla.Store.EquippableVG)
+extern "C"  void GoodEquippedEvent__ctor_m56849138 (GoodEquippedEvent_t859823860 * __this, EquippableVG_t2375986625 * ___item0, const MethodInfo* method)
+{
+	{
+		EquippableVG_t2375986625 * L_0 = ___item0;
+		GoodEquippedEvent__ctor_m2660544064(__this, L_0, NULL, /*hidden argument*/NULL);
+		EquippableVG_t2375986625 * L_1 = ___item0;
+		__this->set_mItem_2(L_1);
+		return;
+	}
+}
+// System.Void Soomla.Store.GoodEquippedEvent::.ctor(Soomla.Store.EquippableVG,System.Object)
+extern "C"  void GoodEquippedEvent__ctor_m2660544064 (GoodEquippedEvent_t859823860 * __this, EquippableVG_t2375986625 * ___item0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		EquippableVG_t2375986625 * L_1 = ___item0;
+		__this->set_mItem_2(L_1);
+		return;
+	}
+}
+// Soomla.Store.EquippableVG Soomla.Store.GoodEquippedEvent::getGoodItem()
+extern "C"  EquippableVG_t2375986625 * GoodEquippedEvent_getGoodItem_m3330668721 (GoodEquippedEvent_t859823860 * __this, const MethodInfo* method)
+{
+	{
+		EquippableVG_t2375986625 * L_0 = __this->get_mItem_2();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.GoodUnEquippedEvent::.ctor(Soomla.Store.EquippableVG)
+extern "C"  void GoodUnEquippedEvent__ctor_m1157818201 (GoodUnEquippedEvent_t342443035 * __this, EquippableVG_t2375986625 * ___item0, const MethodInfo* method)
+{
+	{
+		EquippableVG_t2375986625 * L_0 = ___item0;
+		GoodUnEquippedEvent__ctor_m2975916647(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.GoodUnEquippedEvent::.ctor(Soomla.Store.EquippableVG,System.Object)
+extern "C"  void GoodUnEquippedEvent__ctor_m2975916647 (GoodUnEquippedEvent_t342443035 * __this, EquippableVG_t2375986625 * ___item0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		EquippableVG_t2375986625 * L_1 = ___item0;
+		__this->set_mItem_2(L_1);
+		return;
+	}
+}
+// Soomla.Store.EquippableVG Soomla.Store.GoodUnEquippedEvent::getGoodItem()
+extern "C"  EquippableVG_t2375986625 * GoodUnEquippedEvent_getGoodItem_m2709767850 (GoodUnEquippedEvent_t342443035 * __this, const MethodInfo* method)
+{
+	{
+		EquippableVG_t2375986625 * L_0 = __this->get_mItem_2();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.GoodUpgradeEvent::.ctor(Soomla.Store.VirtualGood,Soomla.Store.UpgradeVG)
+extern "C"  void GoodUpgradeEvent__ctor_m4160493853 (GoodUpgradeEvent_t1651210545 * __this, VirtualGood_t840235038 * ___item0, UpgradeVG_t3350816643 * ___upgradeVGItem1, const MethodInfo* method)
+{
+	{
+		VirtualGood_t840235038 * L_0 = ___item0;
+		UpgradeVG_t3350816643 * L_1 = ___upgradeVGItem1;
+		GoodUpgradeEvent__ctor_m133016875(__this, L_0, L_1, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.GoodUpgradeEvent::.ctor(Soomla.Store.VirtualGood,Soomla.Store.UpgradeVG,System.Object)
+extern "C"  void GoodUpgradeEvent__ctor_m133016875 (GoodUpgradeEvent_t1651210545 * __this, VirtualGood_t840235038 * ___item0, UpgradeVG_t3350816643 * ___upgradeVGItem1, Il2CppObject * ___sender2, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender2;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		VirtualGood_t840235038 * L_1 = ___item0;
+		__this->set_mItem_2(L_1);
+		UpgradeVG_t3350816643 * L_2 = ___upgradeVGItem1;
+		__this->set_mCurrentUpgradeItem_3(L_2);
+		return;
+	}
+}
+// Soomla.Store.VirtualGood Soomla.Store.GoodUpgradeEvent::getGoodItem()
+extern "C"  VirtualGood_t840235038 * GoodUpgradeEvent_getGoodItem_m3760669129 (GoodUpgradeEvent_t1651210545 * __this, const MethodInfo* method)
+{
+	{
+		VirtualGood_t840235038 * L_0 = __this->get_mItem_2();
+		return L_0;
+	}
+}
+// Soomla.Store.UpgradeVG Soomla.Store.GoodUpgradeEvent::getCurrentUpgrade()
+extern "C"  UpgradeVG_t3350816643 * GoodUpgradeEvent_getCurrentUpgrade_m4116048055 (GoodUpgradeEvent_t1651210545 * __this, const MethodInfo* method)
+{
+	{
+		UpgradeVG_t3350816643 * L_0 = __this->get_mCurrentUpgradeItem_3();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.IabServiceStartedEvent::.ctor()
+extern "C"  void IabServiceStartedEvent__ctor_m3756251387 (IabServiceStartedEvent_t1913056570 * __this, const MethodInfo* method)
+{
+	{
+		IabServiceStartedEvent__ctor_m3274610809(__this, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.IabServiceStartedEvent::.ctor(System.Object)
+extern "C"  void IabServiceStartedEvent__ctor_m3274610809 (IabServiceStartedEvent_t1913056570 * __this, Il2CppObject * ___sender0, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender0;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.IabServiceStoppedEvent::.ctor()
+extern "C"  void IabServiceStoppedEvent__ctor_m1399452999 (IabServiceStoppedEvent_t100502382 * __this, const MethodInfo* method)
+{
+	{
+		IabServiceStoppedEvent__ctor_m156096429(__this, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.IabServiceStoppedEvent::.ctor(System.Object)
+extern "C"  void IabServiceStoppedEvent__ctor_m156096429 (IabServiceStoppedEvent_t100502382 * __this, Il2CppObject * ___sender0, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender0;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.InsufficientFundsException::.ctor()
+extern Il2CppCodeGenString* _stringLiteral4089519116;
+extern const uint32_t InsufficientFundsException__ctor_m395996603_MetadataUsageId;
+extern "C"  void InsufficientFundsException__ctor_m395996603 (InsufficientFundsException_t2202612346 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (InsufficientFundsException__ctor_m395996603_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Exception__ctor_m3870771296(__this, _stringLiteral4089519116, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.InsufficientFundsException::.ctor(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3244850790;
+extern Il2CppCodeGenString* _stringLiteral3762970846;
+extern const uint32_t InsufficientFundsException__ctor_m3571620135_MetadataUsageId;
+extern "C"  void InsufficientFundsException__ctor_m3571620135 (InsufficientFundsException_t2202612346 * __this, String_t* ___itemId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (InsufficientFundsException__ctor_m3571620135_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___itemId0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m1825781833(NULL /*static, unused*/, _stringLiteral3244850790, L_0, _stringLiteral3762970846, /*hidden argument*/NULL);
+		Exception__ctor_m3870771296(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.IOS_ErrorCodes::.cctor()
+extern Il2CppClass* IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var;
+extern const uint32_t IOS_ErrorCodes__cctor_m1186149982_MetadataUsageId;
+extern "C"  void IOS_ErrorCodes__cctor_m1186149982 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOS_ErrorCodes__cctor_m1186149982_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((IOS_ErrorCodes_t2730253446_StaticFields*)IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var->static_fields)->set_EXCEPTION_ITEM_NOT_FOUND_1(((int32_t)-101));
+		((IOS_ErrorCodes_t2730253446_StaticFields*)IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var->static_fields)->set_EXCEPTION_INSUFFICIENT_FUNDS_2(((int32_t)-102));
+		((IOS_ErrorCodes_t2730253446_StaticFields*)IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var->static_fields)->set_EXCEPTION_NOT_ENOUGH_GOODS_3(((int32_t)-103));
+		return;
+	}
+}
+// System.Void Soomla.Store.IOS_ErrorCodes::CheckAndThrowException(System.Int32)
+extern Il2CppClass* IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var;
+extern Il2CppClass* InsufficientFundsException_t2202612346_il2cpp_TypeInfo_var;
+extern Il2CppClass* NotEnoughGoodsException_t4079965266_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1126268323;
+extern Il2CppCodeGenString* _stringLiteral3535990757;
+extern Il2CppCodeGenString* _stringLiteral3361783071;
+extern const uint32_t IOS_ErrorCodes_CheckAndThrowException_m1450412190_MetadataUsageId;
+extern "C"  void IOS_ErrorCodes_CheckAndThrowException_m1450412190 (Il2CppObject * __this /* static, unused */, int32_t ___error0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOS_ErrorCodes_CheckAndThrowException_m1450412190_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = ___error0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var);
+		int32_t L_1 = ((IOS_ErrorCodes_t2730253446_StaticFields*)IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var->static_fields)->get_EXCEPTION_ITEM_NOT_FOUND_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1126268323, /*hidden argument*/NULL);
+		VirtualItemNotFoundException_t2582480248 * L_2 = (VirtualItemNotFoundException_t2582480248 *)il2cpp_codegen_object_new(VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var);
+		VirtualItemNotFoundException__ctor_m2112663933(L_2, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_001b:
+	{
+		int32_t L_3 = ___error0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var);
+		int32_t L_4 = ((IOS_ErrorCodes_t2730253446_StaticFields*)IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var->static_fields)->get_EXCEPTION_INSUFFICIENT_FUNDS_2();
+		if ((!(((uint32_t)L_3) == ((uint32_t)L_4))))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3535990757, /*hidden argument*/NULL);
+		InsufficientFundsException_t2202612346 * L_5 = (InsufficientFundsException_t2202612346 *)il2cpp_codegen_object_new(InsufficientFundsException_t2202612346_il2cpp_TypeInfo_var);
+		InsufficientFundsException__ctor_m395996603(L_5, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
+	}
+
+IL_0036:
+	{
+		int32_t L_6 = ___error0;
+		IL2CPP_RUNTIME_CLASS_INIT(IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var);
+		int32_t L_7 = ((IOS_ErrorCodes_t2730253446_StaticFields*)IOS_ErrorCodes_t2730253446_il2cpp_TypeInfo_var->static_fields)->get_EXCEPTION_NOT_ENOUGH_GOODS_3();
+		if ((!(((uint32_t)L_6) == ((uint32_t)L_7))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3361783071, /*hidden argument*/NULL);
+		NotEnoughGoodsException_t4079965266 * L_8 = (NotEnoughGoodsException_t4079965266 *)il2cpp_codegen_object_new(NotEnoughGoodsException_t4079965266_il2cpp_TypeInfo_var);
+		NotEnoughGoodsException__ctor_m4159467947(L_8, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.ItemPurchasedEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.String)
+extern "C"  void ItemPurchasedEvent__ctor_m1982361293 (ItemPurchasedEvent_t561905856 * __this, PurchasableVirtualItem_t2555170966 * ___item0, String_t* ___payload1, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = ___item0;
+		String_t* L_1 = ___payload1;
+		ItemPurchasedEvent__ctor_m3929689819(__this, L_0, L_1, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.ItemPurchasedEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.String,System.Object)
+extern "C"  void ItemPurchasedEvent__ctor_m3929689819 (ItemPurchasedEvent_t561905856 * __this, PurchasableVirtualItem_t2555170966 * ___item0, String_t* ___payload1, Il2CppObject * ___sender2, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender2;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		PurchasableVirtualItem_t2555170966 * L_1 = ___item0;
+		__this->set_mItem_2(L_1);
+		String_t* L_2 = ___payload1;
+		__this->set_mPayload_3(L_2);
+		return;
+	}
+}
+// Soomla.Store.PurchasableVirtualItem Soomla.Store.ItemPurchasedEvent::getItem()
+extern "C"  PurchasableVirtualItem_t2555170966 * ItemPurchasedEvent_getItem_m3172091843 (ItemPurchasedEvent_t561905856 * __this, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = __this->get_mItem_2();
+		return L_0;
+	}
+}
+// System.String Soomla.Store.ItemPurchasedEvent::getPayload()
+extern "C"  String_t* ItemPurchasedEvent_getPayload_m3139539940 (ItemPurchasedEvent_t561905856 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_mPayload_3();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.ItemPurchaseStartedEvent::.ctor(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void ItemPurchaseStartedEvent__ctor_m1405608948 (ItemPurchaseStartedEvent_t2088341475 * __this, PurchasableVirtualItem_t2555170966 * ___item0, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = ___item0;
+		ItemPurchaseStartedEvent__ctor_m4254479298(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.ItemPurchaseStartedEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.Object)
+extern "C"  void ItemPurchaseStartedEvent__ctor_m4254479298 (ItemPurchaseStartedEvent_t2088341475 * __this, PurchasableVirtualItem_t2555170966 * ___item0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		PurchasableVirtualItem_t2555170966 * L_1 = ___item0;
+		__this->set_mItem_2(L_1);
+		return;
+	}
+}
+// Soomla.Store.PurchasableVirtualItem Soomla.Store.ItemPurchaseStartedEvent::getItem()
+extern "C"  PurchasableVirtualItem_t2555170966 * ItemPurchaseStartedEvent_getItem_m2231418496 (ItemPurchaseStartedEvent_t2088341475 * __this, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = __this->get_mItem_2();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.LifetimeVG::.ctor(System.String,System.String,System.String,Soomla.Store.PurchaseType)
+extern "C"  void LifetimeVG__ctor_m3699772762 (LifetimeVG_t1847981616 * __this, String_t* ___name0, String_t* ___description1, String_t* ___itemId2, PurchaseType_t2779557329 * ___purchaseType3, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		String_t* L_1 = ___description1;
+		String_t* L_2 = ___itemId2;
+		PurchaseType_t2779557329 * L_3 = ___purchaseType3;
+		VirtualGood__ctor_m3381585024(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.LifetimeVG::.ctor(JSONObject)
+extern "C"  void LifetimeVG__ctor_m2734341726 (LifetimeVG_t1847981616 * __this, JSONObject_t1752376903 * ___jsonVg0, const MethodInfo* method)
+{
+	{
+		JSONObject_t1752376903 * L_0 = ___jsonVg0;
+		VirtualGood__ctor_m246186104(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.LifetimeVG::.cctor()
+extern Il2CppClass* LifetimeVG_t1847981616_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral829579499;
+extern const uint32_t LifetimeVG__cctor_m3163288968_MetadataUsageId;
+extern "C"  void LifetimeVG__cctor_m3163288968 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LifetimeVG__cctor_m3163288968_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((LifetimeVG_t1847981616_StaticFields*)LifetimeVG_t1847981616_il2cpp_TypeInfo_var->static_fields)->set_TAG_7(_stringLiteral829579499);
+		return;
+	}
+}
+// JSONObject Soomla.Store.LifetimeVG::toJSONObject()
+extern "C"  JSONObject_t1752376903 * LifetimeVG_toJSONObject_m3133462379 (LifetimeVG_t1847981616 * __this, const MethodInfo* method)
+{
+	{
+		JSONObject_t1752376903 * L_0 = VirtualGood_toJSONObject_m1589255805(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 Soomla.Store.LifetimeVG::Give(System.Int32,System.Boolean)
+extern Il2CppClass* LifetimeVG_t1847981616_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1502282169;
+extern const uint32_t LifetimeVG_Give_m980687850_MetadataUsageId;
+extern "C"  int32_t LifetimeVG_Give_m980687850 (LifetimeVG_t1847981616 * __this, int32_t ___amount0, bool ___notify1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LifetimeVG_Give_m980687850_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___amount0;
+		if ((((int32_t)L_0) <= ((int32_t)1)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LifetimeVG_t1847981616_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((LifetimeVG_t1847981616_StaticFields*)LifetimeVG_t1847981616_il2cpp_TypeInfo_var->static_fields)->get_TAG_7();
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, L_1, _stringLiteral1502282169, /*hidden argument*/NULL);
+		___amount0 = 1;
+	}
+
+IL_0019:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var);
+		int32_t L_2 = VirtualGoodsStorage_GetBalance_m2727580527(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) >= ((int32_t)1)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		int32_t L_4 = ___amount0;
+		bool L_5 = ___notify1;
+		IL2CPP_RUNTIME_CLASS_INIT(VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var);
+		int32_t L_6 = VirtualGoodsStorage_Add_m833017724(NULL /*static, unused*/, __this, L_4, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+
+IL_0030:
+	{
+		return 1;
+	}
+}
+// System.Int32 Soomla.Store.LifetimeVG::Take(System.Int32,System.Boolean)
+extern Il2CppClass* VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var;
+extern const uint32_t LifetimeVG_Take_m1994788404_MetadataUsageId;
+extern "C"  int32_t LifetimeVG_Take_m1994788404 (LifetimeVG_t1847981616 * __this, int32_t ___amount0, bool ___notify1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LifetimeVG_Take_m1994788404_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___amount0;
+		if ((((int32_t)L_0) <= ((int32_t)1)))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		___amount0 = 1;
+	}
+
+IL_000a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var);
+		int32_t L_1 = VirtualGoodsStorage_GetBalance_m2727580527(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		int32_t L_3 = ___amount0;
+		bool L_4 = ___notify1;
+		IL2CPP_RUNTIME_CLASS_INIT(VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var);
+		int32_t L_5 = VirtualGoodsStorage_Remove_m2686864659(NULL /*static, unused*/, __this, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_0021:
+	{
+		return 0;
+	}
+}
+// System.Boolean Soomla.Store.LifetimeVG::canBuy()
+extern Il2CppClass* VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var;
+extern const uint32_t LifetimeVG_canBuy_m3581873441_MetadataUsageId;
+extern "C"  bool LifetimeVG_canBuy_m3581873441 (LifetimeVG_t1847981616 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LifetimeVG_canBuy_m3581873441_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VirtualGoodsStorage_t1296446118_il2cpp_TypeInfo_var);
+		int32_t L_0 = VirtualGoodsStorage_GetBalance_m2727580527(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		return (bool)((((int32_t)L_1) < ((int32_t)1))? 1 : 0);
+	}
+}
+// System.Void Soomla.Store.MarketItem::.ctor(System.String,System.Double)
+extern "C"  void MarketItem__ctor_m4259112142 (MarketItem_t3274808165 * __this, String_t* ___productId0, double ___price1, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___productId0;
+		__this->set_ProductId_0(L_0);
+		double L_1 = ___price1;
+		__this->set_Price_1(L_1);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketItem::.ctor(JSONObject)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral100389384;
+extern Il2CppCodeGenString* _stringLiteral3243136618;
+extern Il2CppCodeGenString* _stringLiteral106934601;
+extern Il2CppCodeGenString* _stringLiteral271544941;
+extern Il2CppCodeGenString* _stringLiteral274981756;
+extern Il2CppCodeGenString* _stringLiteral1116768493;
+extern Il2CppCodeGenString* _stringLiteral3115519994;
+extern Il2CppCodeGenString* _stringLiteral2259989244;
+extern const uint32_t MarketItem__ctor_m2814139145_MetadataUsageId;
+extern "C"  void MarketItem__ctor_m2814139145 (MarketItem_t3274808165 * __this, JSONObject_t1752376903 * ___jsonObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MarketItem__ctor_m2814139145_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_0;
+		V_0 = _stringLiteral100389384;
+		String_t* L_1 = V_0;
+		bool L_2 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_3 = ___jsonObject0;
+		String_t* L_4 = V_0;
+		NullCheck(L_3);
+		bool L_5 = JSONObject_HasField_m1466444350(L_3, L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_6 = ___jsonObject0;
+		String_t* L_7 = V_0;
+		NullCheck(L_6);
+		JSONObject_t1752376903 * L_8 = JSONObject_get_Item_m3957353536(L_6, L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		String_t* L_9 = L_8->get_str_9();
+		__this->set_ProductId_0(L_9);
+		goto IL_0056;
+	}
+
+IL_0040:
+	{
+		JSONObject_t1752376903 * L_10 = ___jsonObject0;
+		NullCheck(L_10);
+		JSONObject_t1752376903 * L_11 = JSONObject_get_Item_m3957353536(L_10, _stringLiteral3243136618, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		String_t* L_12 = L_11->get_str_9();
+		__this->set_ProductId_0(L_12);
+	}
+
+IL_0056:
+	{
+		JSONObject_t1752376903 * L_13 = ___jsonObject0;
+		NullCheck(L_13);
+		JSONObject_t1752376903 * L_14 = JSONObject_get_Item_m3957353536(L_13, _stringLiteral106934601, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		double L_15 = L_14->get_n_10();
+		__this->set_Price_1(L_15);
+		JSONObject_t1752376903 * L_16 = ___jsonObject0;
+		NullCheck(L_16);
+		JSONObject_t1752376903 * L_17 = JSONObject_get_Item_m3957353536(L_16, _stringLiteral271544941, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		bool L_18 = JSONObject_op_Implicit_m2520452346(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_19 = ___jsonObject0;
+		NullCheck(L_19);
+		JSONObject_t1752376903 * L_20 = JSONObject_get_Item_m3957353536(L_19, _stringLiteral271544941, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		String_t* L_21 = L_20->get_str_9();
+		__this->set_MarketPriceAndCurrency_2(L_21);
+		goto IL_00a7;
+	}
+
+IL_009c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_MarketPriceAndCurrency_2(L_22);
+	}
+
+IL_00a7:
+	{
+		JSONObject_t1752376903 * L_23 = ___jsonObject0;
+		NullCheck(L_23);
+		JSONObject_t1752376903 * L_24 = JSONObject_get_Item_m3957353536(L_23, _stringLiteral274981756, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		bool L_25 = JSONObject_op_Implicit_m2520452346(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		if (!L_25)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_26 = ___jsonObject0;
+		NullCheck(L_26);
+		JSONObject_t1752376903 * L_27 = JSONObject_get_Item_m3957353536(L_26, _stringLiteral274981756, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		String_t* L_28 = L_27->get_str_9();
+		__this->set_MarketTitle_3(L_28);
+		goto IL_00e2;
+	}
+
+IL_00d7:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_29 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_MarketTitle_3(L_29);
+	}
+
+IL_00e2:
+	{
+		JSONObject_t1752376903 * L_30 = ___jsonObject0;
+		NullCheck(L_30);
+		JSONObject_t1752376903 * L_31 = JSONObject_get_Item_m3957353536(L_30, _stringLiteral1116768493, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		bool L_32 = JSONObject_op_Implicit_m2520452346(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_0112;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_33 = ___jsonObject0;
+		NullCheck(L_33);
+		JSONObject_t1752376903 * L_34 = JSONObject_get_Item_m3957353536(L_33, _stringLiteral1116768493, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		String_t* L_35 = L_34->get_str_9();
+		__this->set_MarketDescription_4(L_35);
+		goto IL_011d;
+	}
+
+IL_0112:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_36 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_MarketDescription_4(L_36);
+	}
+
+IL_011d:
+	{
+		JSONObject_t1752376903 * L_37 = ___jsonObject0;
+		NullCheck(L_37);
+		JSONObject_t1752376903 * L_38 = JSONObject_get_Item_m3957353536(L_37, _stringLiteral3115519994, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		bool L_39 = JSONObject_op_Implicit_m2520452346(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+		if (!L_39)
+		{
+			goto IL_014d;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_40 = ___jsonObject0;
+		NullCheck(L_40);
+		JSONObject_t1752376903 * L_41 = JSONObject_get_Item_m3957353536(L_40, _stringLiteral3115519994, /*hidden argument*/NULL);
+		NullCheck(L_41);
+		String_t* L_42 = L_41->get_str_9();
+		__this->set_MarketCurrencyCode_5(L_42);
+		goto IL_0158;
+	}
+
+IL_014d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_43 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_MarketCurrencyCode_5(L_43);
+	}
+
+IL_0158:
+	{
+		JSONObject_t1752376903 * L_44 = ___jsonObject0;
+		NullCheck(L_44);
+		JSONObject_t1752376903 * L_45 = JSONObject_get_Item_m3957353536(L_44, _stringLiteral2259989244, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		bool L_46 = JSONObject_op_Implicit_m2520452346(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
+		if (!L_46)
+		{
+			goto IL_018d;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_47 = ___jsonObject0;
+		NullCheck(L_47);
+		JSONObject_t1752376903 * L_48 = JSONObject_get_Item_m3957353536(L_47, _stringLiteral2259989244, /*hidden argument*/NULL);
+		NullCheck(L_48);
+		double L_49 = L_48->get_n_10();
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		int64_t L_50 = Convert_ToInt64_m3672181841(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
+		__this->set_MarketPriceMicros_6(L_50);
+		goto IL_0195;
+	}
+
+IL_018d:
+	{
+		__this->set_MarketPriceMicros_6((((int64_t)((int64_t)0))));
+	}
+
+IL_0195:
+	{
+		return;
+	}
+}
+// JSONObject Soomla.Store.MarketItem::toJSONObject()
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4285078563;
+extern Il2CppCodeGenString* _stringLiteral3243136618;
+extern Il2CppCodeGenString* _stringLiteral106934601;
+extern Il2CppCodeGenString* _stringLiteral271544941;
+extern Il2CppCodeGenString* _stringLiteral274981756;
+extern Il2CppCodeGenString* _stringLiteral1116768493;
+extern Il2CppCodeGenString* _stringLiteral3115519994;
+extern Il2CppCodeGenString* _stringLiteral2259989244;
+extern const uint32_t MarketItem_toJSONObject_m3373363872_MetadataUsageId;
+extern "C"  JSONObject_t1752376903 * MarketItem_toJSONObject_m3373363872 (MarketItem_t3274808165 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MarketItem_toJSONObject_m3373363872_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	{
+		JSONObject_t1752376903 * L_0 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m196212956(L_0, 3, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1752376903 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		String_t* L_2 = SoomlaUtils_GetClassName_m3482668472(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		JSONObject_AddField_m2361299573(L_1, _stringLiteral4285078563, L_2, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_3 = V_0;
+		String_t* L_4 = __this->get_ProductId_0();
+		NullCheck(L_3);
+		JSONObject_AddField_m2361299573(L_3, _stringLiteral3243136618, L_4, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_5 = V_0;
+		double L_6 = __this->get_Price_1();
+		NullCheck(L_5);
+		JSONObject_AddField_m2042623262(L_5, _stringLiteral106934601, (((float)((float)L_6))), /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_7 = V_0;
+		String_t* L_8 = __this->get_MarketPriceAndCurrency_2();
+		NullCheck(L_7);
+		JSONObject_AddField_m2361299573(L_7, _stringLiteral271544941, L_8, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_9 = V_0;
+		String_t* L_10 = __this->get_MarketTitle_3();
+		NullCheck(L_9);
+		JSONObject_AddField_m2361299573(L_9, _stringLiteral274981756, L_10, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_11 = V_0;
+		String_t* L_12 = __this->get_MarketDescription_4();
+		NullCheck(L_11);
+		JSONObject_AddField_m2361299573(L_11, _stringLiteral1116768493, L_12, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_13 = V_0;
+		String_t* L_14 = __this->get_MarketCurrencyCode_5();
+		NullCheck(L_13);
+		JSONObject_AddField_m2361299573(L_13, _stringLiteral3115519994, L_14, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_15 = V_0;
+		int64_t L_16 = __this->get_MarketPriceMicros_6();
+		NullCheck(L_15);
+		JSONObject_AddField_m2042623262(L_15, _stringLiteral2259989244, (((float)((float)L_16))), /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_17 = V_0;
+		return L_17;
+	}
+}
+// System.Void Soomla.Store.MarketItemsRefreshFinishedEvent::.ctor(System.Collections.Generic.List`1<Soomla.Store.MarketItem>)
+extern "C"  void MarketItemsRefreshFinishedEvent__ctor_m1770120533 (MarketItemsRefreshFinishedEvent_t3341666023 * __this, List_1_t4071767134 * ___marketItems0, const MethodInfo* method)
+{
+	{
+		List_1_t4071767134 * L_0 = ___marketItems0;
+		MarketItemsRefreshFinishedEvent__ctor_m1834858339(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketItemsRefreshFinishedEvent::.ctor(System.Collections.Generic.List`1<Soomla.Store.MarketItem>,System.Object)
+extern "C"  void MarketItemsRefreshFinishedEvent__ctor_m1834858339 (MarketItemsRefreshFinishedEvent_t3341666023 * __this, List_1_t4071767134 * ___marketItems0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		List_1_t4071767134 * L_1 = ___marketItems0;
+		__this->set_mMarketItems_2(L_1);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<Soomla.Store.MarketItem> Soomla.Store.MarketItemsRefreshFinishedEvent::getMarketItems()
+extern "C"  List_1_t4071767134 * MarketItemsRefreshFinishedEvent_getMarketItems_m554450168 (MarketItemsRefreshFinishedEvent_t3341666023 * __this, const MethodInfo* method)
+{
+	{
+		List_1_t4071767134 * L_0 = __this->get_mMarketItems_2();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.MarketItemsRefreshStartedEvent::.ctor()
+extern "C"  void MarketItemsRefreshStartedEvent__ctor_m2661403695 (MarketItemsRefreshStartedEvent_t2958701446 * __this, const MethodInfo* method)
+{
+	{
+		MarketItemsRefreshStartedEvent__ctor_m117471685(__this, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketItemsRefreshStartedEvent::.ctor(System.Object)
+extern "C"  void MarketItemsRefreshStartedEvent__ctor_m117471685 (MarketItemsRefreshStartedEvent_t2958701446 * __this, Il2CppObject * ___sender0, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender0;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketPurchaseCancelledEvent::.ctor(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void MarketPurchaseCancelledEvent__ctor_m1593104653 (MarketPurchaseCancelledEvent_t2862479484 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = ___purchasableVirtualItem0;
+		MarketPurchaseCancelledEvent__ctor_m3470772507(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketPurchaseCancelledEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.Object)
+extern "C"  void MarketPurchaseCancelledEvent__ctor_m3470772507 (MarketPurchaseCancelledEvent_t2862479484 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		PurchasableVirtualItem_t2555170966 * L_1 = ___purchasableVirtualItem0;
+		__this->set_mPurchasableVirtualItem_2(L_1);
+		return;
+	}
+}
+// Soomla.Store.PurchasableVirtualItem Soomla.Store.MarketPurchaseCancelledEvent::getPurchasableVirtualItem()
+extern "C"  PurchasableVirtualItem_t2555170966 * MarketPurchaseCancelledEvent_getPurchasableVirtualItem_m224922708 (MarketPurchaseCancelledEvent_t2862479484 * __this, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = __this->get_mPurchasableVirtualItem_2();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.MarketPurchaseEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  void MarketPurchaseEvent__ctor_m160439871 (MarketPurchaseEvent_t1078547699 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, String_t* ___payload1, Dictionary_2_t2606186806 * ___extraInfo2, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = ___purchasableVirtualItem0;
+		String_t* L_1 = ___payload1;
+		Dictionary_2_t2606186806 * L_2 = ___extraInfo2;
+		MarketPurchaseEvent__ctor_m4273540813(__this, L_0, L_1, L_2, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketPurchaseEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Object)
+extern "C"  void MarketPurchaseEvent__ctor_m4273540813 (MarketPurchaseEvent_t1078547699 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, String_t* ___payload1, Dictionary_2_t2606186806 * ___extraInfo2, Il2CppObject * ___sender3, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender3;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		PurchasableVirtualItem_t2555170966 * L_1 = ___purchasableVirtualItem0;
+		__this->set_PurchasableVirtualItem_2(L_1);
+		String_t* L_2 = ___payload1;
+		__this->set_Payload_3(L_2);
+		Dictionary_2_t2606186806 * L_3 = ___extraInfo2;
+		__this->set_ExtraInfo_4(L_3);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketPurchaseStartedEvent::.ctor(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void MarketPurchaseStartedEvent__ctor_m730051613 (MarketPurchaseStartedEvent_t970257036 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = ___purchasableVirtualItem0;
+		MarketPurchaseStartedEvent__ctor_m2149874830(__this, L_0, (bool)0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketPurchaseStartedEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.Boolean)
+extern "C"  void MarketPurchaseStartedEvent__ctor_m652493248 (MarketPurchaseStartedEvent_t970257036 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, bool ___fraudProtection1, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = ___purchasableVirtualItem0;
+		bool L_1 = ___fraudProtection1;
+		MarketPurchaseStartedEvent__ctor_m2149874830(__this, L_0, L_1, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketPurchaseStartedEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.Object)
+extern "C"  void MarketPurchaseStartedEvent__ctor_m3700033579 (MarketPurchaseStartedEvent_t970257036 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = ___purchasableVirtualItem0;
+		Il2CppObject * L_1 = ___sender1;
+		MarketPurchaseStartedEvent__ctor_m2149874830(__this, L_0, (bool)0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketPurchaseStartedEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.Boolean,System.Object)
+extern "C"  void MarketPurchaseStartedEvent__ctor_m2149874830 (MarketPurchaseStartedEvent_t970257036 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, bool ___fraudProtection1, Il2CppObject * ___sender2, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender2;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		PurchasableVirtualItem_t2555170966 * L_1 = ___purchasableVirtualItem0;
+		__this->set_mPurchasableVirtualItem_2(L_1);
+		bool L_2 = ___fraudProtection1;
+		__this->set_mFraudProtection_3(L_2);
+		return;
+	}
+}
+// Soomla.Store.PurchasableVirtualItem Soomla.Store.MarketPurchaseStartedEvent::getPurchasableVirtualItem()
+extern "C"  PurchasableVirtualItem_t2555170966 * MarketPurchaseStartedEvent_getPurchasableVirtualItem_m1604487428 (MarketPurchaseStartedEvent_t970257036 * __this, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = __this->get_mPurchasableVirtualItem_2();
+		return L_0;
+	}
+}
+// System.Boolean Soomla.Store.MarketPurchaseStartedEvent::isFraudProtection()
+extern "C"  bool MarketPurchaseStartedEvent_isFraudProtection_m4040256494 (MarketPurchaseStartedEvent_t970257036 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_mFraudProtection_3();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.MarketRefundEvent::.ctor(Soomla.Store.PurchasableVirtualItem)
+extern "C"  void MarketRefundEvent__ctor_m2481018021 (MarketRefundEvent_t3485523420 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = ___purchasableVirtualItem0;
+		MarketRefundEvent__ctor_m3172997811(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.MarketRefundEvent::.ctor(Soomla.Store.PurchasableVirtualItem,System.Object)
+extern "C"  void MarketRefundEvent__ctor_m3172997811 (MarketRefundEvent_t3485523420 * __this, PurchasableVirtualItem_t2555170966 * ___purchasableVirtualItem0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		PurchasableVirtualItem_t2555170966 * L_1 = ___purchasableVirtualItem0;
+		__this->set_mPurchasableVirtualItem_2(L_1);
+		return;
+	}
+}
+// Soomla.Store.PurchasableVirtualItem Soomla.Store.MarketRefundEvent::getPurchasableVirtualItem()
+extern "C"  PurchasableVirtualItem_t2555170966 * MarketRefundEvent_getPurchasableVirtualItem_m2594993166 (MarketRefundEvent_t3485523420 * __this, const MethodInfo* method)
+{
+	{
+		PurchasableVirtualItem_t2555170966 * L_0 = __this->get_mPurchasableVirtualItem_2();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.NotEnoughGoodsException::.ctor()
+extern Il2CppCodeGenString* _stringLiteral621449222;
+extern const uint32_t NotEnoughGoodsException__ctor_m4159467947_MetadataUsageId;
+extern "C"  void NotEnoughGoodsException__ctor_m4159467947 (NotEnoughGoodsException_t4079965266 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (NotEnoughGoodsException__ctor_m4159467947_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Exception__ctor_m3870771296(__this, _stringLiteral621449222, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.NotEnoughGoodsException::.ctor(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1931073758;
+extern Il2CppCodeGenString* _stringLiteral2027118678;
+extern const uint32_t NotEnoughGoodsException__ctor_m3810163511_MetadataUsageId;
+extern "C"  void NotEnoughGoodsException__ctor_m3810163511 (NotEnoughGoodsException_t4079965266 * __this, String_t* ___itemId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (NotEnoughGoodsException__ctor_m3810163511_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___itemId0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m1825781833(NULL /*static, unused*/, _stringLiteral1931073758, L_0, _stringLiteral2027118678, /*hidden argument*/NULL);
+		Exception__ctor_m3870771296(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.PurchasableVirtualItem::.ctor(System.String,System.String,System.String,Soomla.Store.PurchaseType)
+extern "C"  void PurchasableVirtualItem__ctor_m3541153984 (PurchasableVirtualItem_t2555170966 * __this, String_t* ___name0, String_t* ___description1, String_t* ___itemId2, PurchaseType_t2779557329 * ___purchaseType3, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		String_t* L_1 = ___description1;
+		String_t* L_2 = ___itemId2;
+		VirtualItem__ctor_m1109198289(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		PurchaseType_t2779557329 * L_3 = ___purchaseType3;
+		__this->set_PurchaseType_6(L_3);
+		PurchaseType_t2779557329 * L_4 = __this->get_PurchaseType_6();
+		if (!L_4)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		PurchaseType_t2779557329 * L_5 = __this->get_PurchaseType_6();
+		NullCheck(L_5);
+		L_5->set_AssociatedItem_0(__this);
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+// System.Void Soomla.Store.PurchasableVirtualItem::.ctor(JSONObject)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* MarketItem_t3274808165_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3159628657;
+extern Il2CppCodeGenString* _stringLiteral2450825179;
+extern Il2CppCodeGenString* _stringLiteral3213661244;
+extern Il2CppCodeGenString* _stringLiteral1116931439;
+extern Il2CppCodeGenString* _stringLiteral3302985918;
+extern Il2CppCodeGenString* _stringLiteral775362602;
+extern Il2CppCodeGenString* _stringLiteral540171508;
+extern Il2CppCodeGenString* _stringLiteral54127057;
+extern Il2CppCodeGenString* _stringLiteral1689772191;
+extern const uint32_t PurchasableVirtualItem__ctor_m22832184_MetadataUsageId;
+extern "C"  void PurchasableVirtualItem__ctor_m22832184 (PurchasableVirtualItem_t2555170966 * __this, JSONObject_t1752376903 * ___jsonItem0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PurchasableVirtualItem__ctor_m22832184_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	JSONObject_t1752376903 * V_2 = NULL;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		JSONObject_t1752376903 * L_0 = ___jsonItem0;
+		VirtualItem__ctor_m3932375650(__this, L_0, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_1 = ___jsonItem0;
+		NullCheck(L_1);
+		JSONObject_t1752376903 * L_2 = JSONObject_get_Item_m3957353536(L_1, _stringLiteral3159628657, /*hidden argument*/NULL);
+		V_0 = L_2;
+		JSONObject_t1752376903 * L_3 = V_0;
+		NullCheck(L_3);
+		JSONObject_t1752376903 * L_4 = JSONObject_get_Item_m3957353536(L_3, _stringLiteral2450825179, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		String_t* L_5 = L_4->get_str_9();
+		V_1 = L_5;
+		String_t* L_6 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_6, _stringLiteral3213661244, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_8 = V_0;
+		NullCheck(L_8);
+		JSONObject_t1752376903 * L_9 = JSONObject_get_Item_m3957353536(L_8, _stringLiteral1116931439, /*hidden argument*/NULL);
+		V_2 = L_9;
+		JSONObject_t1752376903 * L_10 = V_2;
+		MarketItem_t3274808165 * L_11 = (MarketItem_t3274808165 *)il2cpp_codegen_object_new(MarketItem_t3274808165_il2cpp_TypeInfo_var);
+		MarketItem__ctor_m2814139145(L_11, L_10, /*hidden argument*/NULL);
+		PurchaseWithMarket_t3391409785 * L_12 = (PurchaseWithMarket_t3391409785 *)il2cpp_codegen_object_new(PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var);
+		PurchaseWithMarket__ctor_m3490446619(L_12, L_11, /*hidden argument*/NULL);
+		__this->set_PurchaseType_6(L_12);
+		goto IL_00b0;
+	}
+
+IL_0056:
+	{
+		String_t* L_13 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_14 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_13, _stringLiteral3302985918, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		JSONObject_t1752376903 * L_15 = V_0;
+		NullCheck(L_15);
+		JSONObject_t1752376903 * L_16 = JSONObject_get_Item_m3957353536(L_15, _stringLiteral775362602, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		String_t* L_17 = L_16->get_str_9();
+		V_3 = L_17;
+		JSONObject_t1752376903 * L_18 = V_0;
+		NullCheck(L_18);
+		JSONObject_t1752376903 * L_19 = JSONObject_get_Item_m3957353536(L_18, _stringLiteral540171508, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		double L_20 = L_19->get_n_10();
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		int32_t L_21 = Convert_ToInt32_m3517141967(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		V_4 = L_21;
+		String_t* L_22 = V_3;
+		int32_t L_23 = V_4;
+		PurchaseWithVirtualItem_t2966680205 * L_24 = (PurchaseWithVirtualItem_t2966680205 *)il2cpp_codegen_object_new(PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var);
+		PurchaseWithVirtualItem__ctor_m2349298405(L_24, L_22, L_23, /*hidden argument*/NULL);
+		__this->set_PurchaseType_6(L_24);
+		goto IL_00b0;
+	}
+
+IL_00a1:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, _stringLiteral54127057, _stringLiteral1689772191, /*hidden argument*/NULL);
+	}
+
+IL_00b0:
+	{
+		PurchaseType_t2779557329 * L_25 = __this->get_PurchaseType_6();
+		if (!L_25)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		PurchaseType_t2779557329 * L_26 = __this->get_PurchaseType_6();
+		NullCheck(L_26);
+		L_26->set_AssociatedItem_0(__this);
+	}
+
+IL_00c7:
+	{
+		return;
+	}
+}
+// System.Boolean Soomla.Store.PurchasableVirtualItem::CanAfford()
+extern "C"  bool PurchasableVirtualItem_CanAfford_m2888766785 (PurchasableVirtualItem_t2555170966 * __this, const MethodInfo* method)
+{
+	{
+		PurchaseType_t2779557329 * L_0 = __this->get_PurchaseType_6();
+		NullCheck(L_0);
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(5 /* System.Boolean Soomla.Store.PurchaseType::CanAfford() */, L_0);
+		return L_1;
+	}
+}
+// System.Void Soomla.Store.PurchasableVirtualItem::Buy(System.String)
+extern "C"  void PurchasableVirtualItem_Buy_m3203247519 (PurchasableVirtualItem_t2555170966 * __this, String_t* ___payload0, const MethodInfo* method)
+{
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean Soomla.Store.PurchasableVirtualItem::canBuy() */, __this);
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		PurchaseType_t2779557329 * L_1 = __this->get_PurchaseType_6();
+		String_t* L_2 = ___payload0;
+		NullCheck(L_1);
+		VirtActionInvoker1< String_t* >::Invoke(4 /* System.Void Soomla.Store.PurchaseType::Buy(System.String) */, L_1, L_2);
+		return;
+	}
+}
+// JSONObject Soomla.Store.PurchasableVirtualItem::toJSONObject()
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var;
+extern Il2CppClass* PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1967233988_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1_toJSONObject_m1411392023_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2450825179;
+extern Il2CppCodeGenString* _stringLiteral3213661244;
+extern Il2CppCodeGenString* _stringLiteral1116931439;
+extern Il2CppCodeGenString* _stringLiteral3302985918;
+extern Il2CppCodeGenString* _stringLiteral775362602;
+extern Il2CppCodeGenString* _stringLiteral540171508;
+extern Il2CppCodeGenString* _stringLiteral3159628657;
+extern Il2CppCodeGenString* _stringLiteral54127057;
+extern Il2CppCodeGenString* _stringLiteral2608003706;
+extern const uint32_t PurchasableVirtualItem_toJSONObject_m2201231569_MetadataUsageId;
+extern "C"  JSONObject_t1752376903 * PurchasableVirtualItem_toJSONObject_m2201231569 (PurchasableVirtualItem_t2555170966 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PurchasableVirtualItem_toJSONObject_m2201231569_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	JSONObject_t1752376903 * V_1 = NULL;
+	MarketItem_t3274808165 * V_2 = NULL;
+	Exception_t1967233988 * V_3 = NULL;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		JSONObject_t1752376903 * L_0 = SoomlaEntity_1_toJSONObject_m1411392023(__this, /*hidden argument*/SoomlaEntity_1_toJSONObject_m1411392023_MethodInfo_var);
+		V_0 = L_0;
+	}
+
+IL_0007:
+	try
+	{ // begin try (depth: 1)
+		{
+			JSONObject_t1752376903 * L_1 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+			JSONObject__ctor_m196212956(L_1, 3, /*hidden argument*/NULL);
+			V_1 = L_1;
+			PurchaseType_t2779557329 * L_2 = __this->get_PurchaseType_6();
+			if (!((PurchaseWithMarket_t3391409785 *)IsInstClass(L_2, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var)))
+			{
+				goto IL_0055;
+			}
+		}
+
+IL_001e:
+		{
+			JSONObject_t1752376903 * L_3 = V_1;
+			NullCheck(L_3);
+			JSONObject_AddField_m2361299573(L_3, _stringLiteral2450825179, _stringLiteral3213661244, /*hidden argument*/NULL);
+			PurchaseType_t2779557329 * L_4 = __this->get_PurchaseType_6();
+			NullCheck(((PurchaseWithMarket_t3391409785 *)CastclassClass(L_4, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var)));
+			MarketItem_t3274808165 * L_5 = ((PurchaseWithMarket_t3391409785 *)CastclassClass(L_4, PurchaseWithMarket_t3391409785_il2cpp_TypeInfo_var))->get_MarketItem_2();
+			V_2 = L_5;
+			JSONObject_t1752376903 * L_6 = V_1;
+			MarketItem_t3274808165 * L_7 = V_2;
+			NullCheck(L_7);
+			JSONObject_t1752376903 * L_8 = MarketItem_toJSONObject_m3373363872(L_7, /*hidden argument*/NULL);
+			NullCheck(L_6);
+			JSONObject_AddField_m574028614(L_6, _stringLiteral1116931439, L_8, /*hidden argument*/NULL);
+			goto IL_00ab;
+		}
+
+IL_0055:
+		{
+			PurchaseType_t2779557329 * L_9 = __this->get_PurchaseType_6();
+			if (!((PurchaseWithVirtualItem_t2966680205 *)IsInstClass(L_9, PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var)))
+			{
+				goto IL_00ab;
+			}
+		}
+
+IL_0065:
+		{
+			JSONObject_t1752376903 * L_10 = V_1;
+			NullCheck(L_10);
+			JSONObject_AddField_m2361299573(L_10, _stringLiteral2450825179, _stringLiteral3302985918, /*hidden argument*/NULL);
+			JSONObject_t1752376903 * L_11 = V_1;
+			PurchaseType_t2779557329 * L_12 = __this->get_PurchaseType_6();
+			NullCheck(((PurchaseWithVirtualItem_t2966680205 *)CastclassClass(L_12, PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var)));
+			String_t* L_13 = ((PurchaseWithVirtualItem_t2966680205 *)CastclassClass(L_12, PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var))->get_TargetItemId_2();
+			NullCheck(L_11);
+			JSONObject_AddField_m2361299573(L_11, _stringLiteral775362602, L_13, /*hidden argument*/NULL);
+			JSONObject_t1752376903 * L_14 = V_1;
+			PurchaseType_t2779557329 * L_15 = __this->get_PurchaseType_6();
+			NullCheck(((PurchaseWithVirtualItem_t2966680205 *)CastclassClass(L_15, PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var)));
+			int32_t L_16 = ((PurchaseWithVirtualItem_t2966680205 *)CastclassClass(L_15, PurchaseWithVirtualItem_t2966680205_il2cpp_TypeInfo_var))->get_Amount_3();
+			NullCheck(L_14);
+			JSONObject_AddField_m3386574718(L_14, _stringLiteral540171508, L_16, /*hidden argument*/NULL);
+		}
+
+IL_00ab:
+		{
+			JSONObject_t1752376903 * L_17 = V_0;
+			JSONObject_t1752376903 * L_18 = V_1;
+			NullCheck(L_17);
+			JSONObject_AddField_m574028614(L_17, _stringLiteral3159628657, L_18, /*hidden argument*/NULL);
+			goto IL_00dc;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1967233988 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t1967233988_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_00bc;
+		throw e;
+	}
+
+CATCH_00bc:
+	{ // begin catch(System.Exception)
+		V_3 = ((Exception_t1967233988 *)__exception_local);
+		Exception_t1967233988 * L_19 = V_3;
+		NullCheck(L_19);
+		String_t* L_20 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_19);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_21 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2608003706, L_20, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, _stringLiteral54127057, L_21, /*hidden argument*/NULL);
+		goto IL_00dc;
+	} // end catch (depth: 1)
+
+IL_00dc:
+	{
+		JSONObject_t1752376903 * L_22 = V_0;
+		return L_22;
+	}
+}
+// System.Void Soomla.Store.PurchaseType::.ctor()
+extern "C"  void PurchaseType__ctor_m2556630340 (PurchaseType_t2779557329 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.PurchaseWithMarket::.ctor(System.String,System.Double)
+extern Il2CppClass* MarketItem_t3274808165_il2cpp_TypeInfo_var;
+extern const uint32_t PurchaseWithMarket__ctor_m2914367970_MetadataUsageId;
+extern "C"  void PurchaseWithMarket__ctor_m2914367970 (PurchaseWithMarket_t3391409785 * __this, String_t* ___productId0, double ___price1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PurchaseWithMarket__ctor_m2914367970_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		PurchaseType__ctor_m2556630340(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___productId0;
+		double L_1 = ___price1;
+		MarketItem_t3274808165 * L_2 = (MarketItem_t3274808165 *)il2cpp_codegen_object_new(MarketItem_t3274808165_il2cpp_TypeInfo_var);
+		MarketItem__ctor_m4259112142(L_2, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_MarketItem_2(L_2);
+		return;
+	}
+}
+// System.Void Soomla.Store.PurchaseWithMarket::.ctor(Soomla.Store.MarketItem)
+extern "C"  void PurchaseWithMarket__ctor_m3490446619 (PurchaseWithMarket_t3391409785 * __this, MarketItem_t3274808165 * ___marketItem0, const MethodInfo* method)
+{
+	{
+		PurchaseType__ctor_m2556630340(__this, /*hidden argument*/NULL);
+		MarketItem_t3274808165 * L_0 = ___marketItem0;
+		__this->set_MarketItem_2(L_0);
+		return;
+	}
+}
+// System.Void Soomla.Store.PurchaseWithMarket::Buy(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreEvents_t3899538192_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaStore_t3150320552_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4275050548;
+extern Il2CppCodeGenString* _stringLiteral1578190369;
+extern Il2CppCodeGenString* _stringLiteral3116305294;
+extern const uint32_t PurchaseWithMarket_Buy_m1337593346_MetadataUsageId;
+extern "C"  void PurchaseWithMarket_Buy_m1337593346 (PurchaseWithMarket_t3391409785 * __this, String_t* ___payload0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PurchaseWithMarket_Buy_m1337593346_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JSONObject_t1752376903 * V_0 = NULL;
+	{
+		MarketItem_t3274808165 * L_0 = __this->get_MarketItem_2();
+		NullCheck(L_0);
+		String_t* L_1 = L_0->get_ProductId_0();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1578190369, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral4275050548, L_2, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_3 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m2883686964(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		JSONObject_t1752376903 * L_4 = V_0;
+		PurchasableVirtualItem_t2555170966 * L_5 = ((PurchaseType_t2779557329 *)__this)->get_AssociatedItem_0();
+		NullCheck(L_5);
+		String_t* L_6 = VirtualItem_get_ItemId_m947777429(L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		JSONObject_AddField_m2361299573(L_4, _stringLiteral3116305294, L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreEvents_t3899538192_il2cpp_TypeInfo_var);
+		StoreEvents_t3899538192 * L_7 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_Instance_7();
+		JSONObject_t1752376903 * L_8 = V_0;
+		NullCheck(L_8);
+		String_t* L_9 = JSONObject_print_m2561553491(L_8, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		StoreEvents_onItemPurchaseStarted_m2160390516(L_7, L_9, (bool)1, /*hidden argument*/NULL);
+		MarketItem_t3274808165 * L_10 = __this->get_MarketItem_2();
+		NullCheck(L_10);
+		String_t* L_11 = L_10->get_ProductId_0();
+		String_t* L_12 = ___payload0;
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaStore_t3150320552_il2cpp_TypeInfo_var);
+		SoomlaStore_BuyMarketItem_m363137846(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Soomla.Store.PurchaseWithMarket::CanAfford()
+extern "C"  bool PurchaseWithMarket_CanAfford_m3677653054 (PurchaseWithMarket_t3391409785 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.String Soomla.Store.PurchaseWithMarket::GetPrice()
+extern "C"  String_t* PurchaseWithMarket_GetPrice_m2053598840 (PurchaseWithMarket_t3391409785 * __this, const MethodInfo* method)
+{
+	{
+		MarketItem_t3274808165 * L_0 = __this->get_MarketItem_2();
+		NullCheck(L_0);
+		double* L_1 = L_0->get_address_of_Price_1();
+		String_t* L_2 = Double_ToString_m3380246633(L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Void Soomla.Store.PurchaseWithVirtualItem::.ctor(System.String,System.Int32)
+extern "C"  void PurchaseWithVirtualItem__ctor_m2349298405 (PurchaseWithVirtualItem_t2966680205 * __this, String_t* ___targetItemId0, int32_t ___amount1, const MethodInfo* method)
+{
+	{
+		PurchaseType__ctor_m2556630340(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___targetItemId0;
+		__this->set_TargetItemId_2(L_0);
+		int32_t L_1 = ___amount1;
+		__this->set_Amount_3(L_1);
+		return;
+	}
+}
+// System.Void Soomla.Store.PurchaseWithVirtualItem::Buy(System.String)
+extern Il2CppClass* U3CBuyU3Ec__AnonStorey19_t4123054747_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreEvents_t3899538192_il2cpp_TypeInfo_var;
+extern Il2CppClass* InsufficientFundsException_t2202612346_il2cpp_TypeInfo_var;
+extern Il2CppClass* RunLaterDelegate_t742861702_il2cpp_TypeInfo_var;
+extern const MethodInfo* SoomlaEntity_1_op_Equality_m1144332451_MethodInfo_var;
+extern const MethodInfo* U3CBuyU3Ec__AnonStorey19_U3CU3Em__4A_m937163362_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3381118918;
+extern Il2CppCodeGenString* _stringLiteral3774516357;
+extern Il2CppCodeGenString* _stringLiteral1029274618;
+extern Il2CppCodeGenString* _stringLiteral1885813230;
+extern Il2CppCodeGenString* _stringLiteral3116305294;
+extern const uint32_t PurchaseWithVirtualItem_Buy_m3996343374_MetadataUsageId;
+extern "C"  void PurchaseWithVirtualItem_Buy_m3996343374 (PurchaseWithVirtualItem_t2966680205 * __this, String_t* ___payload0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PurchaseWithVirtualItem_Buy_m3996343374_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	VirtualItem_t840299124 * V_0 = NULL;
+	U3CBuyU3Ec__AnonStorey19_t4123054747 * V_1 = NULL;
+	{
+		U3CBuyU3Ec__AnonStorey19_t4123054747 * L_0 = (U3CBuyU3Ec__AnonStorey19_t4123054747 *)il2cpp_codegen_object_new(U3CBuyU3Ec__AnonStorey19_t4123054747_il2cpp_TypeInfo_var);
+		U3CBuyU3Ec__AnonStorey19__ctor_m3194100556(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CBuyU3Ec__AnonStorey19_t4123054747 * L_1 = V_1;
+		String_t* L_2 = ___payload0;
+		NullCheck(L_1);
+		L_1->set_payload_1(L_2);
+		U3CBuyU3Ec__AnonStorey19_t4123054747 * L_3 = V_1;
+		NullCheck(L_3);
+		L_3->set_U3CU3Ef__this_2(__this);
+		ObjectU5BU5D_t11523773* L_4 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)6));
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
+		ArrayElementTypeCheck (L_4, _stringLiteral3774516357);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral3774516357);
+		ObjectU5BU5D_t11523773* L_5 = L_4;
+		PurchasableVirtualItem_t2555170966 * L_6 = ((PurchaseType_t2779557329 *)__this)->get_AssociatedItem_0();
+		NullCheck(L_6);
+		String_t* L_7 = ((SoomlaEntity_1_t520759857 *)L_6)->get_Name_1();
+		NullCheck(L_5);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 1);
+		ArrayElementTypeCheck (L_5, L_7);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_7);
+		ObjectU5BU5D_t11523773* L_8 = L_5;
+		NullCheck(L_8);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 2);
+		ArrayElementTypeCheck (L_8, _stringLiteral1029274618);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)_stringLiteral1029274618);
+		ObjectU5BU5D_t11523773* L_9 = L_8;
+		int32_t L_10 = __this->get_Amount_3();
+		int32_t L_11 = L_10;
+		Il2CppObject * L_12 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_11);
+		NullCheck(L_9);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, 3);
+		ArrayElementTypeCheck (L_9, L_12);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_12);
+		ObjectU5BU5D_t11523773* L_13 = L_9;
+		NullCheck(L_13);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 4);
+		ArrayElementTypeCheck (L_13, _stringLiteral1885813230);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(4), (Il2CppObject *)_stringLiteral1885813230);
+		ObjectU5BU5D_t11523773* L_14 = L_13;
+		String_t* L_15 = __this->get_TargetItemId_2();
+		NullCheck(L_14);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, 5);
+		ArrayElementTypeCheck (L_14, L_15);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(5), (Il2CppObject *)L_15);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_16 = String_Concat_m3016520001(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral3381118918, L_16, /*hidden argument*/NULL);
+		VirtualItem_t840299124 * L_17 = PurchaseWithVirtualItem_getTargetVirtualItem_m2852842166(__this, /*hidden argument*/NULL);
+		V_0 = L_17;
+		VirtualItem_t840299124 * L_18 = V_0;
+		bool L_19 = SoomlaEntity_1_op_Equality_m1144332451(NULL /*static, unused*/, L_18, (SoomlaEntity_1_t520759857 *)NULL, /*hidden argument*/SoomlaEntity_1_op_Equality_m1144332451_MethodInfo_var);
+		if (!L_19)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_007a:
+	{
+		U3CBuyU3Ec__AnonStorey19_t4123054747 * L_20 = V_1;
+		JSONObject_t1752376903 * L_21 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m2883686964(L_21, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		L_20->set_eventJSON_0(L_21);
+		U3CBuyU3Ec__AnonStorey19_t4123054747 * L_22 = V_1;
+		NullCheck(L_22);
+		JSONObject_t1752376903 * L_23 = L_22->get_eventJSON_0();
+		PurchasableVirtualItem_t2555170966 * L_24 = ((PurchaseType_t2779557329 *)__this)->get_AssociatedItem_0();
+		NullCheck(L_24);
+		String_t* L_25 = VirtualItem_get_ItemId_m947777429(L_24, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		JSONObject_AddField_m2361299573(L_23, _stringLiteral3116305294, L_25, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreEvents_t3899538192_il2cpp_TypeInfo_var);
+		StoreEvents_t3899538192 * L_26 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_Instance_7();
+		U3CBuyU3Ec__AnonStorey19_t4123054747 * L_27 = V_1;
+		NullCheck(L_27);
+		JSONObject_t1752376903 * L_28 = L_27->get_eventJSON_0();
+		NullCheck(L_28);
+		String_t* L_29 = JSONObject_print_m2561553491(L_28, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		StoreEvents_onItemPurchaseStarted_m2160390516(L_26, L_29, (bool)1, /*hidden argument*/NULL);
+		VirtualItem_t840299124 * L_30 = V_0;
+		bool L_31 = PurchaseWithVirtualItem_checkTargetBalance_m26258969(__this, L_30, /*hidden argument*/NULL);
+		if (L_31)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		String_t* L_32 = __this->get_TargetItemId_2();
+		InsufficientFundsException_t2202612346 * L_33 = (InsufficientFundsException_t2202612346 *)il2cpp_codegen_object_new(InsufficientFundsException_t2202612346_il2cpp_TypeInfo_var);
+		InsufficientFundsException__ctor_m3571620135(L_33, L_32, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_33);
+	}
+
+IL_00cf:
+	{
+		VirtualItem_t840299124 * L_34 = V_0;
+		int32_t L_35 = __this->get_Amount_3();
+		NullCheck(L_34);
+		VirtualItem_Take_m2524669569(L_34, L_35, /*hidden argument*/NULL);
+		PurchasableVirtualItem_t2555170966 * L_36 = ((PurchaseType_t2779557329 *)__this)->get_AssociatedItem_0();
+		NullCheck(L_36);
+		VirtualItem_Give_m3517342603(L_36, 1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreEvents_t3899538192_il2cpp_TypeInfo_var);
+		StoreEvents_t3899538192 * L_37 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_Instance_7();
+		U3CBuyU3Ec__AnonStorey19_t4123054747 * L_38 = V_1;
+		IntPtr_t L_39;
+		L_39.set_m_value_0((void*)(void*)U3CBuyU3Ec__AnonStorey19_U3CU3Em__4A_m937163362_MethodInfo_var);
+		RunLaterDelegate_t742861702 * L_40 = (RunLaterDelegate_t742861702 *)il2cpp_codegen_object_new(RunLaterDelegate_t742861702_il2cpp_TypeInfo_var);
+		RunLaterDelegate__ctor_m3590850590(L_40, L_38, L_39, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		StoreEvents_RunLater_m3310169555(L_37, L_40, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Soomla.Store.PurchaseWithVirtualItem::CanAfford()
+extern Il2CppClass* ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3381118918;
+extern Il2CppCodeGenString* _stringLiteral16785965;
+extern Il2CppCodeGenString* _stringLiteral1029274618;
+extern Il2CppCodeGenString* _stringLiteral1885813230;
+extern const uint32_t PurchaseWithVirtualItem_CanAfford_m1383622282_MetadataUsageId;
+extern "C"  bool PurchaseWithVirtualItem_CanAfford_m1383622282 (PurchaseWithVirtualItem_t2966680205 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PurchaseWithVirtualItem_CanAfford_m1383622282_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	VirtualItem_t840299124 * V_0 = NULL;
+	{
+		ObjectU5BU5D_t11523773* L_0 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)6));
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, _stringLiteral16785965);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral16785965);
+		ObjectU5BU5D_t11523773* L_1 = L_0;
+		PurchasableVirtualItem_t2555170966 * L_2 = ((PurchaseType_t2779557329 *)__this)->get_AssociatedItem_0();
+		NullCheck(L_2);
+		String_t* L_3 = ((SoomlaEntity_1_t520759857 *)L_2)->get_Name_1();
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 1);
+		ArrayElementTypeCheck (L_1, L_3);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t11523773* L_4 = L_1;
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 2);
+		ArrayElementTypeCheck (L_4, _stringLiteral1029274618);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)_stringLiteral1029274618);
+		ObjectU5BU5D_t11523773* L_5 = L_4;
+		int32_t L_6 = __this->get_Amount_3();
+		int32_t L_7 = L_6;
+		Il2CppObject * L_8 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_7);
+		NullCheck(L_5);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 3);
+		ArrayElementTypeCheck (L_5, L_8);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t11523773* L_9 = L_5;
+		NullCheck(L_9);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, 4);
+		ArrayElementTypeCheck (L_9, _stringLiteral1885813230);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(4), (Il2CppObject *)_stringLiteral1885813230);
+		ObjectU5BU5D_t11523773* L_10 = L_9;
+		String_t* L_11 = __this->get_TargetItemId_2();
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 5);
+		ArrayElementTypeCheck (L_10, L_11);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(5), (Il2CppObject *)L_11);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_12 = String_Concat_m3016520001(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogDebug_m392952291(NULL /*static, unused*/, _stringLiteral3381118918, L_12, /*hidden argument*/NULL);
+		VirtualItem_t840299124 * L_13 = PurchaseWithVirtualItem_getTargetVirtualItem_m2852842166(__this, /*hidden argument*/NULL);
+		V_0 = L_13;
+		VirtualItem_t840299124 * L_14 = V_0;
+		bool L_15 = PurchaseWithVirtualItem_checkTargetBalance_m26258969(__this, L_14, /*hidden argument*/NULL);
+		return L_15;
+	}
+}
+// System.String Soomla.Store.PurchaseWithVirtualItem::GetPrice()
+extern "C"  String_t* PurchaseWithVirtualItem_GetPrice_m1059529450 (PurchaseWithVirtualItem_t2966680205 * __this, const MethodInfo* method)
+{
+	{
+		int32_t* L_0 = __this->get_address_of_Amount_3();
+		String_t* L_1 = Int32_ToString_m1286526384(L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// Soomla.Store.VirtualItem Soomla.Store.PurchaseWithVirtualItem::getTargetVirtualItem()
+extern Il2CppClass* StoreInfo_t3860026085_il2cpp_TypeInfo_var;
+extern Il2CppClass* VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var;
+extern Il2CppClass* SoomlaUtils_t2113407799_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3381118918;
+extern Il2CppCodeGenString* _stringLiteral1045031697;
+extern const uint32_t PurchaseWithVirtualItem_getTargetVirtualItem_m2852842166_MetadataUsageId;
+extern "C"  VirtualItem_t840299124 * PurchaseWithVirtualItem_getTargetVirtualItem_m2852842166 (PurchaseWithVirtualItem_t2966680205 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PurchaseWithVirtualItem_getTargetVirtualItem_m2852842166_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	VirtualItem_t840299124 * V_0 = NULL;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = (VirtualItem_t840299124 *)NULL;
+	}
+
+IL_0002:
+	try
+	{ // begin try (depth: 1)
+		String_t* L_0 = __this->get_TargetItemId_2();
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInfo_t3860026085_il2cpp_TypeInfo_var);
+		VirtualItem_t840299124 * L_1 = StoreInfo_GetItemByItemId_m3707996393(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_0028;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1967233988 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (VirtualItemNotFoundException_t2582480248_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0013;
+		throw e;
+	}
+
+CATCH_0013:
+	{ // begin catch(Soomla.Store.VirtualItemNotFoundException)
+		IL2CPP_RUNTIME_CLASS_INIT(SoomlaUtils_t2113407799_il2cpp_TypeInfo_var);
+		SoomlaUtils_LogError_m3313169998(NULL /*static, unused*/, _stringLiteral3381118918, _stringLiteral1045031697, /*hidden argument*/NULL);
+		goto IL_0028;
+	} // end catch (depth: 1)
+
+IL_0028:
+	{
+		VirtualItem_t840299124 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean Soomla.Store.PurchaseWithVirtualItem::checkTargetBalance(Soomla.Store.VirtualItem)
+extern Il2CppClass* StoreInventory_t1542337393_il2cpp_TypeInfo_var;
+extern const uint32_t PurchaseWithVirtualItem_checkTargetBalance_m26258969_MetadataUsageId;
+extern "C"  bool PurchaseWithVirtualItem_checkTargetBalance_m26258969 (PurchaseWithVirtualItem_t2966680205 * __this, VirtualItem_t840299124 * ___item0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PurchaseWithVirtualItem_checkTargetBalance_m26258969_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		VirtualItem_t840299124 * L_0 = ___item0;
+		NullCheck(L_0);
+		String_t* L_1 = VirtualItem_get_ItemId_m947777429(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreInventory_t1542337393_il2cpp_TypeInfo_var);
+		int32_t L_2 = StoreInventory_GetItemBalance_m2515193533(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		int32_t L_4 = __this->get_Amount_3();
+		return (bool)((((int32_t)((((int32_t)L_3) < ((int32_t)L_4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Void Soomla.Store.PurchaseWithVirtualItem/<Buy>c__AnonStorey19::.ctor()
+extern "C"  void U3CBuyU3Ec__AnonStorey19__ctor_m3194100556 (U3CBuyU3Ec__AnonStorey19_t4123054747 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.PurchaseWithVirtualItem/<Buy>c__AnonStorey19::<>m__4A()
+extern Il2CppClass* JSONObject_t1752376903_il2cpp_TypeInfo_var;
+extern Il2CppClass* StoreEvents_t3899538192_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3116305294;
+extern Il2CppCodeGenString* _stringLiteral3508265358;
+extern const uint32_t U3CBuyU3Ec__AnonStorey19_U3CU3Em__4A_m937163362_MetadataUsageId;
+extern "C"  void U3CBuyU3Ec__AnonStorey19_U3CU3Em__4A_m937163362 (U3CBuyU3Ec__AnonStorey19_t4123054747 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CBuyU3Ec__AnonStorey19_U3CU3Em__4A_m937163362_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		JSONObject_t1752376903 * L_0 = (JSONObject_t1752376903 *)il2cpp_codegen_object_new(JSONObject_t1752376903_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m2883686964(L_0, /*hidden argument*/NULL);
+		__this->set_eventJSON_0(L_0);
+		JSONObject_t1752376903 * L_1 = __this->get_eventJSON_0();
+		PurchaseWithVirtualItem_t2966680205 * L_2 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_2);
+		PurchasableVirtualItem_t2555170966 * L_3 = ((PurchaseType_t2779557329 *)L_2)->get_AssociatedItem_0();
+		NullCheck(L_3);
+		String_t* L_4 = VirtualItem_get_ItemId_m947777429(L_3, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		JSONObject_AddField_m2361299573(L_1, _stringLiteral3116305294, L_4, /*hidden argument*/NULL);
+		JSONObject_t1752376903 * L_5 = __this->get_eventJSON_0();
+		String_t* L_6 = __this->get_payload_1();
+		NullCheck(L_5);
+		JSONObject_AddField_m2361299573(L_5, _stringLiteral3508265358, L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(StoreEvents_t3899538192_il2cpp_TypeInfo_var);
+		StoreEvents_t3899538192 * L_7 = ((StoreEvents_t3899538192_StaticFields*)StoreEvents_t3899538192_il2cpp_TypeInfo_var->static_fields)->get_Instance_7();
+		JSONObject_t1752376903 * L_8 = __this->get_eventJSON_0();
+		NullCheck(L_8);
+		String_t* L_9 = JSONObject_print_m2561553491(L_8, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		StoreEvents_onItemPurchased_m204230519(L_7, L_9, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.RestoreTransactionsFinishedEvent::.ctor(System.Boolean)
+extern "C"  void RestoreTransactionsFinishedEvent__ctor_m3768230737 (RestoreTransactionsFinishedEvent_t63445243 * __this, bool ___success0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___success0;
+		RestoreTransactionsFinishedEvent__ctor_m199511135(__this, L_0, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.RestoreTransactionsFinishedEvent::.ctor(System.Boolean,System.Object)
+extern "C"  void RestoreTransactionsFinishedEvent__ctor_m199511135 (RestoreTransactionsFinishedEvent_t63445243 * __this, bool ___success0, Il2CppObject * ___sender1, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender1;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		bool L_1 = ___success0;
+		__this->set_mSuccess_2(L_1);
+		return;
+	}
+}
+// System.Boolean Soomla.Store.RestoreTransactionsFinishedEvent::isSuccess()
+extern "C"  bool RestoreTransactionsFinishedEvent_isSuccess_m4029018117 (RestoreTransactionsFinishedEvent_t63445243 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_mSuccess_2();
+		return L_0;
+	}
+}
+// System.Void Soomla.Store.RestoreTransactionsStartedEvent::.ctor()
+extern "C"  void RestoreTransactionsStartedEvent__ctor_m799016715 (RestoreTransactionsStartedEvent_t82005746 * __this, const MethodInfo* method)
+{
+	{
+		RestoreTransactionsStartedEvent__ctor_m3708404841(__this, NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Soomla.Store.RestoreTransactionsStartedEvent::.ctor(System.Object)
+extern "C"  void RestoreTransactionsStartedEvent__ctor_m3708404841 (RestoreTransactionsStartedEvent_t82005746 * __this, Il2CppObject * ___sender0, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = ___sender0;
+		SoomlaEvent__ctor_m3973943365(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
